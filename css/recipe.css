@@ -1,0 +1,93 @@
+#super {
+    height: 10%;
+}
+
+#super > img {
+    height: 90%;
+}
+
+#recipe {
+    text-align: center;
+    /* width: 100%; */
+    height: 45%;
+}
+
+#final {
+    position: absolute;
+    width: 20%;
+    top: 5%;
+    left: 40%;
+}
+
+#ingre11 {
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 20%;
+}
+
+#ingre12 {
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 65%;
+}
+
+#ingre21 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 10%;
+}
+
+#ingre22 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 20%;
+}
+
+#ingre23 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 60%;
+}
+
+#ingre24 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 70%;
+}
+
+#amount1 {
+    position: absolute;
+    width: 5%;
+    top: 40%;
+    left: 47.5%;
+    border-style: solid;
+    font-size: 80%;
+}
+
+#amount2 {
+    position: absolute;
+    width: 5%;
+    top: 90%;
+    left: 27.5%;
+    border-style: solid;
+}
+
+#amount3 {
+    position: absolute;
+    width: 5%;
+    top: 90%;
+    left: 87.5%;
+    border-style: solid;
+}
+
+@media screen and (max-width: 800px) {
+    #recipe {
+        height: 320px;
+    }
+}

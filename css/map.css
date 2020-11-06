@@ -1,0 +1,27 @@
+#mapImg {
+    z-index: -1;
+}
+/*
+#mapCanvas {
+    /*이걸 지역별로 한개씩
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    width: 20%;
+}*/
+
+#map {
+    position: relative;
+    height: 100%;
+}
+
+.itemSpot {
+    position: absolute;
+    width: 15%;
+    background-color: lightgrey;
+}
+
+#forest {
+    top: 33%;
+    left: 33%;
+}

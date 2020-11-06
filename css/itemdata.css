@@ -1,0 +1,85 @@
+html {
+    background-color: #222222;
+    color: white;
+    height: 70%;
+}
+
+body {
+    height: 100%;
+}
+
+#content {
+    height: 100%;
+    /* border-style: solid; */
+}
+
+#itemType {
+    height: 10%;
+}
+
+#itemType > img {
+    height: 80%;
+    cursor: pointer;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.column {
+    vertical-align: top;
+    width: 32%;
+    height: 100%;
+    display: inline-block;
+    /* border-style: dotted; */
+}
+
+.cell {
+    border-style: inset;
+    position: relative;
+    margin: 2px;
+    display: block;
+}
+
+#itemList {
+    height: 100%;
+    overflow: auto;
+}
+
+.listItemIcon {
+    width: 22%;
+    cursor: pointer;
+}
+
+.itemIcon {
+    width: 100%;
+    cursor: pointer;
+}
+
+#stat {
+    height: 42.8%;
+}
+
+@media screen and (max-width: 800px) {
+    #content {
+        height: auto;
+    }
+
+    #itemType {
+        height: auto;
+    }
+
+    #itemType > img {
+        height: 55px;
+    }
+
+    #itemList {
+        height: 320px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    #stat {
+        height: auto;
+    }
+}
