@@ -161,7 +161,7 @@ function showMap(code)
         $(this).css('display', 'none')
     })
 
-    if (code in map)
+    if (code in drop)
     {
         singleDrop = drop[code]
         for (let place of singleDrop)
