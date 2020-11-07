@@ -28,6 +28,9 @@ for n, row in enumerate(datac):
     try:
         _, name, code, ty, rarity, recipe, drop, stat, img = row
 
+        if ty == 'Deleted':
+            continue
+
 
         dname[code] = name
 
