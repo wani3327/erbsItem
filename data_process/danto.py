@@ -5,7 +5,7 @@ datac = csv.reader(data)
 resD = open('src/database.js', 'w', encoding='utf8')
 resT = None
 
-shouldWeMakeImageTags = False
+shouldWeMakeImageTags = True
 
 if shouldWeMakeImageTags:
     resT = open('data_process/imgtags.txt', 'w')

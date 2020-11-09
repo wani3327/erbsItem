@@ -70,7 +70,7 @@
 					<img id='POL' class='listItemIcon' title='폴라리스' src='image/item/Polaris.png' onclick='showItem("POL")'/>
 					<img id='TRA' class='listItemIcon' title='사사성광' src='image/item/The Deadly Ray.png' onclick='showItem("TRA")'/>
 					<img id='NEE' class='listItemIcon' title='바늘' src='image/item/Needle.png' onclick='showItem("NEE")'/>
-					<img id='FER' class='listItemIcon' title='레이피어' src='image/item/Fencing Rapier.png' onclick='showItem("FER")'/>
+					<img id='RAP' class='listItemIcon' title='레이피어' src='image/item/Rapier.png' onclick='showItem("RAP")'/>
 					<img id='ASW' class='listItemIcon' title='매화검' src='image/item/Apricot Sword.png' onclick='showItem("ASW")'/>
 					<img id='SJU' class='listItemIcon' title='활빈검' src='image/item/Sword of Justice.png' onclick='showItem("SJU")'/>
 					<img id='DMK' class='listItemIcon' title='듀랜달 Mk2' src='image/item/Durendal Mk2.png' onclick='showItem("DMK")'/>
@@ -121,7 +121,7 @@
 					<img id='BLI' class='listItemIcon' title='볼 라이트닝' src='image/item/Ball Lightning.png' onclick='showItem("BLI")'/>
 					<img id='FLU' class='listItemIcon' title='플러버' src='image/item/Flubber.png' onclick='showItem("FLU")'/>
 					<img id='SBB' class='listItemIcon' title='가시 탱탱볼' src='image/item/Spiky Bouncy Ball.png' onclick='showItem("SBB")'/>
-					<img id='HEG' class='listItemIcon' title='소이탄' src='image/item/Highly Explosive Grenade.png' onclick='showItem("HEG")'/>
+					<img id='HEG' class='listItemIcon' title='소이탄' src='image/item/High Explosive Grenade.png' onclick='showItem("HEG")'/>
 					<img id='IBO' class='listItemIcon' title='고폭 수류탄' src='image/item/Incendiary Bomb.png' onclick='showItem("IBO")'/>
 					<img id='GAN' class='listItemIcon' title='안티오크의 수류탄' src='image/item/Grenade of Antioch.png' onclick='showItem("GAN")'/>
 					<img id='DSL' class='listItemIcon' title='다비드슬링' src='image/item/David_s Sling.png' onclick='showItem("DSL")'/>
@@ -178,12 +178,12 @@
 					<img id='TGH' class='listItemIcon' title='영광금귀신기노' src='image/item/The Golden Ghost.png' onclick='showItem("TGH")'/>
 					<img id='SHR' class='listItemIcon' title='샤릉가' src='image/item/Sharanga.png' onclick='showItem("SHR")'/>
 					<img id='BKN' class='listItemIcon' title='너클' src='image/item/Brass Knuckles.png' onclick='showItem("BKN")'/>
-					<img id='CGL' class='listItemIcon' title='목장갑' src='image/item/Cotton Gloves.png' onclick='showItem("CGL")'/>
-					<img id='LGL' class='listItemIcon' title='글러브' src='image/item/Leather Gloves.png' onclick='showItem("LGL")'/>
+					<img id='CGL' class='listItemIcon' title='목장갑' src='image/item/Cotton Glove.png' onclick='showItem("CGL")'/>
+					<img id='LGL' class='listItemIcon' title='글러브' src='image/item/Leather Glove.png' onclick='showItem("LGL")'/>
 					<img id='IKN' class='listItemIcon' title='아이언 너클' src='image/item/Iron Knuckles.png' onclick='showItem("IKN")'/>
 					<img id='GAU' class='listItemIcon' title='건틀릿' src='image/item/Gauntlet.png' onclick='showItem("GAU")'/>
 					<img id='WKN' class='listItemIcon' title='윙 너클' src='image/item/Wing Knuckles.png' onclick='showItem("WKN")'/>
-					<img id='BGU' class='listItemIcon' title='귀골 장갑' src='image/item/Bone Guantlet.png' onclick='showItem("BGU")'/>
+					<img id='BGU' class='listItemIcon' title='귀골 장갑' src='image/item/Bone Gauntlet.png' onclick='showItem("BGU")'/>
 					<img id='SGA' class='listItemIcon' title='벽력귀투' src='image/item/Shatter Shell Gauntlet.png' onclick='showItem("SGA")'/>
 					<img id='GKN' class='listItemIcon' title='유리 너클' src='image/item/Glass Knuckles.png' onclick='showItem("GKN")'/>
 					<img id='PGL' class='listItemIcon' title='회단 장갑' src='image/item/Phoenix Gloves.png' onclick='showItem("PGL")'/>
@@ -196,7 +196,7 @@
 					<img id='WPU' class='listItemIcon' title='소수' src='image/item/White Claw Punch.png' onclick='showItem("WPU")'/>
 					<img id='IGL' class='listItemIcon' title='천잠장갑' src='image/item/Imperial Silk Glove.png' onclick='showItem("IGL")'/>
 					<img id='BAM' class='listItemIcon' title='대나무' src='image/item/Bamboo.png' onclick='showItem("BAM")'/>
-					<img id='WTF' class='listItemIcon' title='톤파' src='image/item/Wooden Tonfa.png' onclick='showItem("WTF")'/>
+					<img id='TNF' class='listItemIcon' title='톤파' src='image/item/Tonfa.png' onclick='showItem("TNF")'/>
 					<img id='PBA' class='listItemIcon' title='경찰봉' src='image/item/Police Baton.png' onclick='showItem("PBA")'/>
 					<img id='RTF' class='listItemIcon' title='류큐톤파' src='image/item/Ryukyu Tonfa.png' onclick='showItem("RTF")'/>
 					<img id='TTF' class='listItemIcon' title='택티컬 톤파' src='image/item/Tactical Tonfa.png' onclick='showItem("TTF")'/>
@@ -336,7 +336,7 @@
 					<img id='FFA' class='listItemIcon' title='운명의 꽃' src='image/item/Flower of Fate.png' onclick='showItem("FFA")'/>
 					<img id='GPI' class='listItemIcon' title='유리 조각' src='image/item/Glass Pieces.png' onclick='showItem("GPI")'/>
 					<img id='DOL' class='listItemIcon' title='인형' src='image/item/Doll.png' onclick='showItem("DOL")'/>
-					<img id='SSC' class='listItemIcon' title='저격 스코프' src='image/item/Sniper Scope.png' onclick='showItem("SSC")'/>
+					<img id='SSC' class='listItemIcon' title='저격 스코프' src='image/item/Sniping Scope.png' onclick='showItem("SSC")'/>
 					<img id='BSA' class='listItemIcon' title='진신사리' src='image/item/Buddha Sarira.png' onclick='showItem("BSA")'/>
 					<img id='QUI' class='listItemIcon' title='화살통' src='image/item/Quiver.png' onclick='showItem("QUI")'/>
 					<img id='FDU' class='listItemIcon' title='먼지털이개' src='image/item/Feather Duster.png' onclick='showItem("FDU")'/>
@@ -345,7 +345,7 @@
 					<img id='PLI' class='listItemIcon' title='생명의 가루' src='image/item/Powder of Life.png' onclick='showItem("PLI")'/>
 					<img id='UCH' class='listItemIcon' title='우치와' src='image/item/Uchiwa.png' onclick='showItem("UCH")'/>
 					<img id='MAG' class='listItemIcon' title='탄창' src='image/item/Magazine.png' onclick='showItem("MAG")'/>
-					<img id='LQU' class='listItemIcon' title='궁기병의 화살통' src='image/item/No Image' onclick='showItem("LQU")'/>
+					<img id='LQU' class='listItemIcon' title='궁기병의 화살통' src='image/item/Laced Quiver.png' onclick='showItem("LQU")'/>
 					<img id='MPE' class='listItemIcon' title='달빛 펜던트' src='image/item/Moonlight Pendant.png' onclick='showItem("MPE")'/>
 					<img id='SCH' class='listItemIcon' title='슈뢰딩거의 상자' src='image/item/Schrodinger_s Box.png' onclick='showItem("SCH")'/>
 					<img id='VME' class='listItemIcon' title='진리는 나의 빛' src='image/item/Veritas Lux Mea.png' onclick='showItem("VME")'/>
@@ -361,7 +361,7 @@
 					<img id='SCM' class='listItemIcon' title='고철' src='image/item/Scrap Metal.png' onclick='showItem("SCM")'/>
 					<img id='LIG' class='listItemIcon' title='라이터' src='image/item/Lighter.png' onclick='showItem("LIG")'/>
 					<img id='LAS' class='listItemIcon' title='레이저 포인터' src='image/item/Laser Pointer.png' onclick='showItem("LAS")'/>
-					<img id='STM' class='listItemIcon' title='마패' src='image/item/Stallion Medal.png' onclick='showItem("STM")'/>
+					<img id='STM' class='listItemIcon' title='숲 4,공 4' src='image/item/Stallion Medal.png' onclick='showItem("STM")'/>
 					<img id='BAT' class='listItemIcon' title='배터리' src='image/item/Battery.png' onclick='showItem("BAT")'/>
 					<img id='ALC' class='listItemIcon' title='알코올' src='image/item/Alcohol.png' onclick='showItem("ALC")'/>
 					<img id='OIL' class='listItemIcon' title='오일' src='image/item/Oil.png' onclick='showItem("OIL")'/>
@@ -371,7 +371,7 @@
 					<img id='PAP' class='listItemIcon' title='종이' src='image/item/Paper.png' onclick='showItem("PAP")'/>
 					<img id='IRO' class='listItemIcon' title='철광석' src='image/item/Iron Ore.png' onclick='showItem("IRO")'/>
 					<img id='CAN' class='listItemIcon' title='캔' src='image/item/Can.png' onclick='showItem("CAN")'/>
-					<img id='GUN' class='listItemIcon' title='화약' src='image/item/Gunpower.png' onclick='showItem("GUN")'/>
+					<img id='GUN' class='listItemIcon' title='화약' src='image/item/Gunpowder.png' onclick='showItem("GUN")'/>
 					<img id='STE' class='listItemIcon' title='강철' src='image/item/Steel.png' onclick='showItem("STE")'/>
 					<img id='OLC' class='listItemIcon' title='기름먹인 천' src='image/item/Oilcloth.png' onclick='showItem("OLC")'/>
 					<img id='HOL' class='listItemIcon' title='뜨거운 오일' src='image/item/Heated Oil.png' onclick='showItem("HOL")'/>
@@ -420,7 +420,7 @@
 					<img id='ACN' class='listItemIcon' title='한방침' src='image/item/Acupuncture Needle.png' onclick='showItem("ACN")'/>
 					<img id='ORC' class='listItemIcon' title='난초' src='image/item/Orchid.png' onclick='showItem("ORC")'/>
 					<img id='TCH' class='listItemIcon' title='탄두리' src='image/item/Tandoori Chicken.png' onclick='showItem("TCH")'/>
-					<img id='BGS' class='listItemIcon' title='마늘 베이컨 말이' src='image/item/Bacon and Garlic Stick.png' onclick='showItem("BGS")'/>
+					<img id='BGS' class='listItemIcon' title='마늘 베이컨 말이' src='image/item/Bacon and Garlic Sticks.png' onclick='showItem("BGS")'/>
 					<img id='BUN' class='listItemIcon' title='번' src='image/item/Bun.png' onclick='showItem("BUN")'/>
 					<img id='HBG' class='listItemIcon' title='햄버거' src='image/item/Hamburger.png' onclick='showItem("HBG")'/>
 					<img id='PBR' class='listItemIcon' title='감자빵' src='image/item/Potato Bread.png' onclick='showItem("PBR")'/>
@@ -476,7 +476,7 @@
 					<img id='ICF' class='listItemIcon' title='아이스 커피' src='image/item/Ice Coffee.png' onclick='showItem("ICF")'/>
 					<img id='CTL' class='listItemIcon' title='칵테일' src='image/item/Cocktail.png' onclick='showItem("CTL")'/>
 					<img id='CFL' class='listItemIcon' title='커피 리큐르' src='image/item/Coffee Liqueur.png' onclick='showItem("CFL")'/>
-					<img id='COL' class='listItemIcon' title='콜라' src='image/item/Cola.png' onclick='showItem("COL")'/>
+					<img id='COL' class='listItemIcon' title='콜라' src='image/item/Coke.png' onclick='showItem("COL")'/>
 					<img id='CLA' class='listItemIcon' title='카페라테' src='image/item/Latte.png' onclick='showItem("CLA")'/>
 					<img id='HMI' class='listItemIcon' title='꿀탄 우유' src='image/item/Honey Milk.png' onclick='showItem("HMI")'/>
 					<img id='HBL' class='listItemIcon' title='하이볼' src='image/item/Highball.png' onclick='showItem("HBL")'/>
@@ -492,530 +492,9 @@
 					<img id='HLQ' class='listItemIcon' title='약주' src='image/item/Herbal Liquor.png' onclick='showItem("HLQ")'/>
 					<img id='WCT' class='listItemIcon' title='위스키 콕' src='image/item/Whiskey Cocktail.png' onclick='showItem("WCT")'/>
 					<img id='PWA' class='listItemIcon' title='정화수' src='image/item/Purified Water.png' onclick='showItem("PWA")'/>
-					<img id='COC' class='listItemIcon' title='캔 콜라' src='image/item/Can of Cola.png' onclick='showItem("COC")'/>
+					<img id='COC' class='listItemIcon' title='캔 콜라' src='image/item/Canned Coke.png' onclick='showItem("COC")'/>
 					<img id='HOC' class='listItemIcon' title='핫초코' src='image/item/Hot Chocolate.png' onclick='showItem("HOC")'/>
-					<img id='WRS' class='listItemIcon' title='깔루아 밀크' src='image/item/White Russian.png' onclick='showItem("WRS")'/>
-					<img id='CAM' class='listItemIcon' title='감시 카메라' src='image/item/Surveillance Camera.png' onclick='showItem("CAM")'/>
-					<img id='SNR' class='listItemIcon' title='올가미' src='image/item/Snare.png' onclick='showItem("SNR")'/>
-					<img id='MTR' class='listItemIcon' title='쥐덫' src='image/item/Mouse Trap.png' onclick='showItem("MTR")'/>
-					<img id='PWR' class='listItemIcon' title='피아노선' src='image/item/Piano Wire.png' onclick='showItem("PWR")'/>
-					<img id='SPL' class='listItemIcon' title='가시 발판' src='image/item/Spiked Plank.png' onclick='showItem("SPL")'/>
-					<img id='EMT' class='listItemIcon' title='개량형 쥐덫' src='image/item/Enhanced Mouse Trap.png' onclick='showItem("EMT")'/>
-					<img id='DYN' class='listItemIcon' title='다이너마이트' src='image/item/Dynamite.png' onclick='showItem("DYN")'/>
-					<img id='BBT' class='listItemIcon' title='대나무 트랩' src='image/item/Bamboo Trap.png' onclick='showItem("BBT")'/>
-					<img id='BYT' class='listItemIcon' title='부비트랩' src='image/item/Booby Trap.png' onclick='showItem("BYT")'/>
-					<img id='CCR' class='listItemIcon' title='소란 발생기' src='image/item/Clang Clatter.png' onclick='showItem("CCR")'/>
-					<img id='TCA' class='listItemIcon' title='망원 카메라' src='image/item/Telephoto Camera.png' onclick='showItem("TCA")'/>
-					<img id='JGU' class='listItemIcon' title='정글 기요틴' src='image/item/Jungle Guillotine.png' onclick='showItem("JGU")'/>
-					<img id='EPT' class='listItemIcon' title='폭발 트랩' src='image/item/Explosive Trap.png' onclick='showItem("EPT")'/>
-					<img id='MIN' class='listItemIcon' title='지뢰' src='image/item/Mine.png' onclick='showItem("MIN")'/>
-					<img id='PAX' class='listItemIcon' title='펜듈럼 도끼' src='image/item/Pendulum Axe.png' onclick='showItem("PAX")'/>
-					<img id='RDX' class='listItemIcon' title='RDX' src='image/item/RDX.png' onclick='showItem("RDX")'/>
-					<img id='MIS' class='listItemIcon' title='미스릴 실' src='image/item/Mithril String.png' onclick='showItem("MIS")'/>
-					<img id='FIT' class='listItemIcon' title='화염 트랩' src='image/item/Fire Trap.png' onclick='showItem("FIT")'/>
-					<img id='HMA' class='listItemIcon' title='히든 메이든' src='image/item/Hidden Maiden.png' onclick='showItem("HMA")'/>
-					<img id='C-4' class='listItemIcon' title='C-4' src='image/item/C-4.png' onclick='showItem("C-4")'/>
-					<img id='DGU' class='listItemIcon' title='더블 기요틴' src='image/item/Double Guillotine.png' onclick='showItem("DGU")'/>
-					<img id='CLM' class='listItemIcon' title='크레모어' src='image/item/Claymore.png' onclick='showItem("CLM")'/>
-					<img id='SBT' class='listItemIcon' title='폭뢰침' src='image/item/Stingburst.png' onclick='showItem("SBT")'/>
-					<img id='RMN' class='listItemIcon' title='리모트 마인' src='image/item/Remote Mine.png' onclick='showItem("RMN")'/>
-					<img id='PIC' class='listItemIcon' title='곡괭이' src='image/item/Pickaxe.png' onclick='showItem("PIC")'/>
-					<img id='HCH' class='listItemIcon' title='손도끼' src='image/item/Hatchet.png' onclick='showItem("HCH")'/>
-					<img id='CSC' class='listItemIcon' title='사슬 낫' src='image/item/Chain Scythe.png' onclick='showItem("CSC")'/>
-					<img id='BAX' class='listItemIcon' title='전투 도끼' src='image/item/Battle Axe.png' onclick='showItem("BAX")'/>
-					<img id='LHA' class='listItemIcon' title='경량화 도끼' src='image/item/Light Hatchet.png' onclick='showItem("LHA")'/>
-					<img id='RSC' class='listItemIcon' title='사신의 낫' src='image/item/Reaper_s Scythe.png' onclick='showItem("RSC")'/>
-					<img id='GAX' class='listItemIcon' title='대부' src='image/item/Gigantic Axe.png' onclick='showItem("GAX")'/>
-					<img id='BEX' class='listItemIcon' title='빔 엑스' src='image/item/Beam Axe.png' onclick='showItem("BEX")'/>
-					<img id='SMU' class='listItemIcon' title='산타 무에르테' src='image/item/Santa Muerte.png' onclick='showItem("SMU")'/>
-					<img id='SCY' class='listItemIcon' title='스퀴테' src='image/item/Scythe.png' onclick='showItem("SCY")'/>
-					<img id='PAR' class='listItemIcon' title='파라슈' src='image/item/Parashu.png' onclick='showItem("PAR")'/>
-					<img id='HAR' class='listItemIcon' title='하르페' src='image/item/Harpe.png' onclick='showItem("HAR")'/>
-					<img id='SCI' class='listItemIcon' title='가위' src='image/item/Scissors.png' onclick='showItem("SCI")'/>
-					<img id='FPE' class='listItemIcon' title='만년필' src='image/item/Fountain Pen.png' onclick='showItem("FPE")'/>
-					<img id='KKN' class='listItemIcon' title='식칼' src='image/item/Kitchen Knife.png' onclick='showItem("KKN")'/>
-					<img id='AKN' class='listItemIcon' title='군용 나이프' src='image/item/Army Knife.png' onclick='showItem("AKN")'/>
-					<img id='RKN' class='listItemIcon' title='장미칼' src='image/item/Rose Knife.png' onclick='showItem("RKN")'/>
-					<img id='CWN' class='listItemIcon' title='카른웬난' src='image/item/Carnwennan.png' onclick='showItem("CWN")'/>
-					<img id='MSL' class='listItemIcon' title='파산검' src='image/item/Mount Slicer.png' onclick='showItem("MSL")'/>
-					<img id='VIB' class='listItemIcon' title='초진동나이프' src='image/item/Vibroblade.png' onclick='showItem("VIB")'/>
-					<img id='FRA' class='listItemIcon' title='프라가라흐' src='image/item/Fragarach.png' onclick='showItem("FRA")'/>
-					<img id='RSW' class='listItemIcon' title='녹슨 검' src='image/item/Rusty Sword.png' onclick='showItem("RSW")'/>
-					<img id='SHA' class='listItemIcon' title='샴쉬르' src='image/item/Shamshir.png' onclick='showItem("SHA")'/>
-					<img id='KAT' class='listItemIcon' title='일본도' src='image/item/Katana.png' onclick='showItem("KAT")'/>
-					<img id='MAS' class='listItemIcon' title='마사무네' src='image/item/Masamune.png' onclick='showItem("MAS")'/>
-					<img id='MUR' class='listItemIcon' title='무라마사' src='image/item/Muramasa.png' onclick='showItem("MUR")'/>
-					<img id='BSW' class='listItemIcon' title='바스타드 소드' src='image/item/Bastard Sword.png' onclick='showItem("BSW")'/>
-					<img id='JSW' class='listItemIcon' title='보검' src='image/item/Jewel Sword.png' onclick='showItem("JSW")'/>
-					<img id='TTH' class='listItemIcon' title='뚜언 띠엔' src='image/item/Thuan Thien.png' onclick='showItem("TTH")'/>
-					<img id='PSW' class='listItemIcon' title='플라즈마 소드' src='image/item/Plasma Sword.png' onclick='showItem("PSW")'/>
-					<img id='ARO' class='listItemIcon' title='아론다이트' src='image/item/Arondight.png' onclick='showItem("ARO")'/>
-					<img id='EXC' class='listItemIcon' title='엑스칼리버' src='image/item/Excalibur.png' onclick='showItem("EXC")'/>
-					<img id='MON' class='listItemIcon' title='모노호시자오' src='image/item/Monohoshizao.png' onclick='showItem("MON")'/>
-					<img id='HOV' class='listItemIcon' title='호푸어드' src='image/item/Hovud.png' onclick='showItem("HOV")'/>
-					<img id='LAE' class='listItemIcon' title='레바테인' src='image/item/Laevateinn.png' onclick='showItem("LAE")'/>
-					<img id='DAI' class='listItemIcon' title='다인슬라이프' src='image/item/Dainsleif.png' onclick='showItem("DAI")'/>
-					<img id='TSW' class='listItemIcon' title='쌍칼' src='image/item/Twin Swords.png' onclick='showItem("TSW")'/>
-					<img id='FRT' class='listItemIcon' title='피렌체식 쌍검' src='image/item/Florentine.png' onclick='showItem("FRT")'/>
-					<img id='DSW' class='listItemIcon' title='이천일류' src='image/item/Divine Dual Swords.png' onclick='showItem("DSW")'/>
-					<img id='SSW' class='listItemIcon' title='자웅일대검' src='image/item/Starsteel Twin Swords.png' onclick='showItem("SSW")'/>
-					<img id='DIO' class='listItemIcon' title='디오스쿠로이' src='image/item/Dioscuri.png' onclick='showItem("DIO")'/>
-					<img id='LZA' class='listItemIcon' title='로이거차르' src='image/item/Lloigor _ Zahr.png' onclick='showItem("LZA")'/>
-					<img id='WPP' class='listItemIcon' title='발터 PPK' src='image/item/Walther PPK.png' onclick='showItem("WPP")'/>
-					<img id='MPY' class='listItemIcon' title='매그넘-파이선' src='image/item/Magnum-Python.png' onclick='showItem("MPY")'/>
-					<img id='BRM' class='listItemIcon' title='베레타 M92F' src='image/item/Beretta M92F.png' onclick='showItem("BRM")'/>
-					<img id='FN5' class='listItemIcon' title='FN57' src='image/item/FN57.png' onclick='showItem("FN5")'/>
-					<img id='DSP' class='listItemIcon' title='더블 리볼버 SP' src='image/item/Double Revolver SP.png' onclick='showItem("DSP")'/>
-					<img id='MAN' class='listItemIcon' title='매그넘-아나콘다' src='image/item/Magnum-Anaconda.png' onclick='showItem("MAN")'/>
-					<img id='DMA' class='listItemIcon' title='마탄의 사수' src='image/item/Devil_s Marksman.png' onclick='showItem("DMA")'/>
-					<img id='ELE' class='listItemIcon' title='엘레강스' src='image/item/Elegance.png' onclick='showItem("ELE")'/>
-					<img id='EBL' class='listItemIcon' title='일렉트론 블라스터' src='image/item/Electron Blaster.png' onclick='showItem("EBL")'/>
-					<img id='MAB' class='listItemIcon' title='매그넘-보아' src='image/item/Magnum-Boa.png' onclick='showItem("MAB")'/>
-					<img id='KEL' class='listItemIcon' title='악켈테' src='image/item/Kelte.png' onclick='showItem("KEL")'/>
-					<img id='FED' class='listItemIcon' title='페도로프 자동소총' src='image/item/Fedorova (1).png' onclick='showItem("FED")'/>
-					<img id='STG' class='listItemIcon' title='STG-44' src='image/item/STG-44.png' onclick='showItem("STG")'/>
-					<img id='AK4' class='listItemIcon' title='AK-47' src='image/item/AK-47.png' onclick='showItem("AK4")'/>
-					<img id='M16' class='listItemIcon' title='M16A1' src='image/item/M16A1.png' onclick='showItem("M16")'/>
-					<img id='MGU' class='listItemIcon' title='기관총' src='image/item/Machine Gun.png' onclick='showItem("MGU")'/>
-					<img id='GGU' class='listItemIcon' title='개틀링건' src='image/item/Gatling Gun.png' onclick='showItem("GGU")'/>
-					<img id='AK1' class='listItemIcon' title='AK-12' src='image/item/AK-12.png' onclick='showItem("AK1")'/>
-					<img id='XCR' class='listItemIcon' title='XCR' src='image/item/XCR.png' onclick='showItem("XCR")'/>
-					<img id='LRI' class='listItemIcon' title='화승총' src='image/item/Long Rifle.png' onclick='showItem("LRI")'/>
-					<img id='SPR' class='listItemIcon' title='스프링필드' src='image/item/Springfield.png' onclick='showItem("SPR")'/>
-					<img id='HGU' class='listItemIcon' title='하푼건' src='image/item/Harpoon Gun.png' onclick='showItem("HGU")'/>
-					<img id='GRI' class='listItemIcon' title='금교전' src='image/item/Golden Rifle.png' onclick='showItem("GRI")'/>
-					<img id='RAI' class='listItemIcon' title='레일건' src='image/item/Railgun.png' onclick='showItem("RAI")'/>
-					<img id='TAC' class='listItemIcon' title='Tac-50' src='image/item/Tac-50.png' onclick='showItem("TAC")'/>
-					<img id='INT' class='listItemIcon' title='인터벤션' src='image/item/Intervention.png' onclick='showItem("INT")'/>
-					<img id='NTW' class='listItemIcon' title='NTW-20' src='image/item/NTW-20.png' onclick='showItem("NTW")'/>
-					<img id='POL' class='listItemIcon' title='폴라리스' src='image/item/Polaris.png' onclick='showItem("POL")'/>
-					<img id='TRA' class='listItemIcon' title='사사성광' src='image/item/The Deadly Ray.png' onclick='showItem("TRA")'/>
-					<img id='NEE' class='listItemIcon' title='바늘' src='image/item/Needle.png' onclick='showItem("NEE")'/>
-					<img id='FER' class='listItemIcon' title='레이피어' src='image/item/Fencing Rapier.png' onclick='showItem("FER")'/>
-					<img id='ASW' class='listItemIcon' title='매화검' src='image/item/Apricot Sword.png' onclick='showItem("ASW")'/>
-					<img id='SJU' class='listItemIcon' title='활빈검' src='image/item/Sword of Justice.png' onclick='showItem("SJU")'/>
-					<img id='DMK' class='listItemIcon' title='듀랜달 Mk2' src='image/item/Durendal Mk2.png' onclick='showItem("DMK")'/>
-					<img id='VOL' class='listItemIcon' title='볼틱레토' src='image/item/Volticletto.png' onclick='showItem("VOL")'/>
-					<img id='MCL' class='listItemIcon' title='유성검' src='image/item/Meteor Claymore.png' onclick='showItem("MCL")'/>
-					<img id='JOY' class='listItemIcon' title='주와이외즈' src='image/item/Joyeuse.png' onclick='showItem("JOY")'/>
-					<img id='MTT' class='listItemIcon' title='미스틸테인' src='image/item/Mistilteinn.png' onclick='showItem("MTT")'/>
-					<img id='SSP' class='listItemIcon' title='단창' src='image/item/Short Spear.png' onclick='showItem("SSP")'/>
-					<img id='BSP' class='listItemIcon' title='죽창' src='image/item/Bamboo Spear.png' onclick='showItem("BSP")'/>
-					<img id='BID' class='listItemIcon' title='바이던트' src='image/item/Bident.png' onclick='showItem("BID")'/>
-					<img id='PIK' class='listItemIcon' title='파이크' src='image/item/Pike.png' onclick='showItem("PIK")'/>
-					<img id='HAX' class='listItemIcon' title='도끼창' src='image/item/Halberd Axe.png' onclick='showItem("HAX")'/>
-					<img id='SHS' class='listItemIcon' title='강창' src='image/item/Sharpened Spear.png' onclick='showItem("SHS")'/>
-					<img id='GSG' class='listItemIcon' title='애각창' src='image/item/Gentian Silver Gun.png' onclick='showItem("GSG")'/>
-					<img id='ESP' class='listItemIcon' title='장팔사모' src='image/item/Eighteen Foot Spear.png' onclick='showItem("ESP")'/>
-					<img id='CBI' class='listItemIcon' title='코스믹 바이던트' src='image/item/Cosmic Bident.png' onclick='showItem("CBI")'/>
-					<img id='LPO' class='listItemIcon' title='트리아이나' src='image/item/Lance of Poseidon.png' onclick='showItem("LPO")'/>
-					<img id='FHU' class='listItemIcon' title='방천화극' src='image/item/Fangtian Huaji.png' onclick='showItem("FHU")'/>
-					<img id='DGD' class='listItemIcon' title='청룡언월도' src='image/item/Dragon Guandao.png' onclick='showItem("DGD")'/>
-					<img id='BLA' class='listItemIcon' title='화첨창' src='image/item/Blazing Lance.png' onclick='showItem("BLA")'/>
-					<img id='SLO' class='listItemIcon' title='롱기누스의 창' src='image/item/Spear of Longinus.png' onclick='showItem("SLO")'/>
-					<img id='HAM' class='listItemIcon' title='망치' src='image/item/Hammer.png' onclick='showItem("HAM")'/>
-					<img id='WAR' class='listItemIcon' title='워해머' src='image/item/Warhammer.png' onclick='showItem("WAR")'/>
-					<img id='MNS' class='listItemIcon' title='모닝 스타' src='image/item/Morning Star.png' onclick='showItem("MNS")'/>
-					<img id='BHA' class='listItemIcon' title='사슴 망치' src='image/item/Black Stag Hammer.png' onclick='showItem("BHA")'/>
-					<img id='FMA' class='listItemIcon' title='낭아봉' src='image/item/Fang Mace.png' onclick='showItem("FMA")'/>
-					<img id='HDA' class='listItemIcon' title='다그다의 망치' src='image/item/Hammer of Dagda.png' onclick='showItem("HDA")'/>
-					<img id='HTH' class='listItemIcon' title='토르의 망치' src='image/item/Hammer of Thor.png' onclick='showItem("HTH")'/>
-					<img id='EST' class='listItemIcon' title='개밥바라기' src='image/item/Evening Star.png' onclick='showItem("EST")'/>
-					<img id='MGS' class='listItemIcon' title='마법봉' src='image/item/Magic Stick.png' onclick='showItem("MGS")'/>
-					<img id='BRA' class='listItemIcon' title='나뭇가지' src='image/item/Branch.png' onclick='showItem("BRA")'/>
-					<img id='SRO' class='listItemIcon' title='단봉' src='image/item/Short Rod.png' onclick='showItem("SRO")'/>
-					<img id='LRO' class='listItemIcon' title='장봉' src='image/item/Long Rod.png' onclick='showItem("LRO")'/>
-					<img id='GBA' class='listItemIcon' title='도깨비 방망이' src='image/item/Goblin Bat.png' onclick='showItem("GBA")'/>
-					<img id='UMB' class='listItemIcon' title='우산' src='image/item/Umbrella.png' onclick='showItem("UMB")'/>
-					<img id='TOR' class='listItemIcon' title='횃불' src='image/item/Torch.png' onclick='showItem("TOR")'/>
-					<img id='SSO' class='listItemIcon' title='구원의 여신상' src='image/item/Statue of Soteria.png' onclick='showItem("SSO")'/>
-					<img id='MAL' class='listItemIcon' title='타구봉' src='image/item/Mallet.png' onclick='showItem("MAL")'/>
-					<img id='SUM' class='listItemIcon' title='스파이의 우산' src='image/item/Spy Umbrella.png' onclick='showItem("SUM")'/>
-					<img id='MBA' class='listItemIcon' title='여의봉' src='image/item/Monkey King Bar.png' onclick='showItem("MBA")'/>
-					<img id='BAS' class='listItemIcon' title='야구공' src='image/item/Signed Ball.png' onclick='showItem("BAS")'/>
-					<img id='IBA' class='listItemIcon' title='쇠구슬' src='image/item/Iron Ball.png' onclick='showItem("IBA")'/>
-					<img id='GRE' class='listItemIcon' title='수류탄' src='image/item/Grenade.png' onclick='showItem("GRE")'/>
-					<img id='MCO' class='listItemIcon' title='화염병' src='image/item/Molotov Cocktail.png' onclick='showItem("MCO")'/>
-					<img id='SBA' class='listItemIcon' title='싸인볼' src='image/item/Signed Ball.png' onclick='showItem("SBA")'/>
-					<img id='SLI' class='listItemIcon' title='슬링' src='image/item/Sling.png' onclick='showItem("SLI")'/>
-					<img id='FBO' class='listItemIcon' title='밀가루폭탄' src='image/item/Flour Bomb.png' onclick='showItem("FBO")'/>
-					<img id='BLI' class='listItemIcon' title='볼 라이트닝' src='image/item/Ball Lightning.png' onclick='showItem("BLI")'/>
-					<img id='FLU' class='listItemIcon' title='플러버' src='image/item/Flubber.png' onclick='showItem("FLU")'/>
-					<img id='SBB' class='listItemIcon' title='가시 탱탱볼' src='image/item/Spiky Bouncy Ball.png' onclick='showItem("SBB")'/>
-					<img id='HEG' class='listItemIcon' title='소이탄' src='image/item/Highly Explosive Grenade.png' onclick='showItem("HEG")'/>
-					<img id='IBO' class='listItemIcon' title='고폭 수류탄' src='image/item/Incendiary Bomb.png' onclick='showItem("IBO")'/>
-					<img id='GAN' class='listItemIcon' title='안티오크의 수류탄' src='image/item/Grenade of Antioch.png' onclick='showItem("GAN")'/>
-					<img id='DSL' class='listItemIcon' title='다비드슬링' src='image/item/David_s Sling.png' onclick='showItem("DSL")'/>
-					<img id='SMB' class='listItemIcon' title='연막탄' src='image/item/Smoke Bomb.png' onclick='showItem("SMB")'/>
-					<img id='RMA' class='listItemIcon' title='루테늄 구슬' src='image/item/Ruthenium Marble.png' onclick='showItem("RMA")'/>
-					<img id='RAZ' class='listItemIcon' title='면도칼' src='image/item/Razor.png' onclick='showItem("RAZ")'/>
-					<img id='PCA' class='listItemIcon' title='트럼프 카드' src='image/item/Playing Cards.png' onclick='showItem("PCA")'/>
-					<img id='CHL' class='listItemIcon' title='분필' src='image/item/Chalk.png' onclick='showItem("CHL")'/>
-					<img id='DAR' class='listItemIcon' title='다트' src='image/item/Dart.png' onclick='showItem("DAR")'/>
-					<img id='VCA' class='listItemIcon' title='빈티지 카드' src='image/item/Vintage Cards.png' onclick='showItem("VCA")'/>
-					<img id='TST' class='listItemIcon' title='표창' src='image/item/Throwing Stars.png' onclick='showItem("TST")'/>
-					<img id='ODA' class='listItemIcon' title='흑건' src='image/item/Onyx Dagger.png' onclick='showItem("ODA")'/>
-					<img id='CHM' class='listItemIcon' title='부적' src='image/item/Charm.png' onclick='showItem("CHM")'/>
-					<img id='WSP' class='listItemIcon' title='유엽비도' src='image/item/Willow Leaf Spike.png' onclick='showItem("WSP")'/>
-					<img id='CHK' class='listItemIcon' title='챠크람' src='image/item/Chakram.png' onclick='showItem("CHK")'/>
-					<img id='ATA' class='listItemIcon' title='매화비표' src='image/item/Apricot Flower Tag.png' onclick='showItem("ATA")'/>
-					<img id='VDA' class='listItemIcon' title='독침' src='image/item/Venom Dart.png' onclick='showItem("VDA")'/>
-					<img id='DCH' class='listItemIcon' title='법륜' src='image/item/Dharma Chakram.png' onclick='showItem("DCH")'/>
-					<img id='PLU' class='listItemIcon' title='플럼바타' src='image/item/Plumbata.png' onclick='showItem("PLU")'/>
-					<img id='CTY' class='listItemIcon' title='미치광이왕의 카드' src='image/item/Cards of Tyranny.png' onclick='showItem("CTY")'/>
-					<img id='MCH' class='listItemIcon' title='옥전결' src='image/item/Mystic Jade Charm.png' onclick='showItem("MCH")'/>
-					<img id='FSH' class='listItemIcon' title='풍마 수리검' src='image/item/Fuhma Shuriken.png' onclick='showItem("FSH")'/>
-					<img id='FVD' class='listItemIcon' title='빙백은침' src='image/item/Frost Venom Dart.png' onclick='showItem("FVD")'/>
-					<img id='ADA' class='listItemIcon' title='푸른색 단도' src='image/item/Azure Dagger.png' onclick='showItem("ADA")'/>
-					<img id='FLE' class='listItemIcon' title='플레셋' src='image/item/Flechette.png' onclick='showItem("FLE")'/>
-					<img id='WWH' class='listItemIcon' title='건곤권' src='image/item/Wind and Fire Wheels.png' onclick='showItem("WWH")'/>
-					<img id='DRU' class='listItemIcon' title='생사부' src='image/item/Death Rune.png' onclick='showItem("DRU")'/>
-					<img id='SUD' class='listItemIcon' title='수다르사나' src='image/item/Sudarsana.png' onclick='showItem("SUD")'/>
-					<img id='PTR' class='listItemIcon' title='만천화우' src='image/item/Petal Torrent.png' onclick='showItem("PTR")'/>
-					<img id='BOW' class='listItemIcon' title='양궁' src='image/item/Bow.png' onclick='showItem("BOW")'/>
-					<img id='WBO' class='listItemIcon' title='목궁' src='image/item/Wooden Bow.png' onclick='showItem("WBO")'/>
-					<img id='LON' class='listItemIcon' title='장궁' src='image/item/Longbow.png' onclick='showItem("LON")'/>
-					<img id='CBO' class='listItemIcon' title='컴포지트 보우' src='image/item/Composite Bow.png' onclick='showItem("CBO")'/>
-					<img id='STO' class='listItemIcon' title='강궁' src='image/item/Strong Bow.png' onclick='showItem("STO")'/>
-					<img id='SAO' class='listItemIcon' title='국궁' src='image/item/Stallion Bow.png' onclick='showItem("SAO")'/>
-					<img id='MBO' class='listItemIcon' title='벽력궁' src='image/item/Mighty Bow.png' onclick='showItem("MBO")'/>
-					<img id='PBO' class='listItemIcon' title='탄궁' src='image/item/Pellet Bow.png' onclick='showItem("PBO")'/>
-					<img id='SCO' class='listItemIcon' title='화전' src='image/item/Scorchbow.png' onclick='showItem("SCO")'/>
-					<img id='ABO' class='listItemIcon' title='편전' src='image/item/Ancient Bolt.png' onclick='showItem("ABO")'/>
-					<img id='GBO' class='listItemIcon' title='골든래쇼 보우' src='image/item/Golden-Ratio Bow.png' onclick='showItem("GBO")'/>
-					<img id='TWI' class='listItemIcon' title='트윈보우' src='image/item/Twinbow.png' onclick='showItem("TWI")'/>
-					<img id='EBO' class='listItemIcon' title='엘리멘탈보우' src='image/item/Elemental Bow.png' onclick='showItem("EBO")'/>
-					<img id='FAI' class='listItemIcon' title='페일노트' src='image/item/Failnaught.png' onclick='showItem("FAI")'/>
-					<img id='SCR' class='listItemIcon' title='석궁' src='image/item/Short Crossbow.png' onclick='showItem("SCR")'/>
-					<img id='LOC' class='listItemIcon' title='쇠뇌' src='image/item/Long Crossbow.png' onclick='showItem("LOC")'/>
-					<img id='CRB' class='listItemIcon' title='크로스보우' src='image/item/Crossbow.png' onclick='showItem("CRB")'/>
-					<img id='PCR' class='listItemIcon' title='노' src='image/item/Power Crossbow.png' onclick='showItem("PCR")'/>
-					<img id='LAC' class='listItemIcon' title='저격궁' src='image/item/Laser Crossbow.png' onclick='showItem("LAC")'/>
-					<img id='HCR' class='listItemIcon' title='헤비 크로스보우' src='image/item/Heavy Crossbow.png' onclick='showItem("HCR")'/>
-					<img id='SBO' class='listItemIcon' title='철궁' src='image/item/Steel Bow.png' onclick='showItem("SBO")'/>
-					<img id='TGE' class='listItemIcon' title='대황' src='image/item/The Legend of the General.png' onclick='showItem("TGE")'/>
-					<img id='BAL' class='listItemIcon' title='발리스타' src='image/item/Ballista.png' onclick='showItem("BAL")'/>
-					<img id='SNC' class='listItemIcon' title='저격 크로스보우' src='image/item/Sniper Crossbow.png' onclick='showItem("SNC")'/>
-					<img id='TGH' class='listItemIcon' title='영광금귀신기노' src='image/item/The Golden Ghost.png' onclick='showItem("TGH")'/>
-					<img id='SHR' class='listItemIcon' title='샤릉가' src='image/item/Sharanga.png' onclick='showItem("SHR")'/>
-					<img id='BKN' class='listItemIcon' title='너클' src='image/item/Brass Knuckles.png' onclick='showItem("BKN")'/>
-					<img id='CGL' class='listItemIcon' title='목장갑' src='image/item/Cotton Gloves.png' onclick='showItem("CGL")'/>
-					<img id='LGL' class='listItemIcon' title='글러브' src='image/item/Leather Gloves.png' onclick='showItem("LGL")'/>
-					<img id='IKN' class='listItemIcon' title='아이언 너클' src='image/item/Iron Knuckles.png' onclick='showItem("IKN")'/>
-					<img id='GAU' class='listItemIcon' title='건틀릿' src='image/item/Gauntlet.png' onclick='showItem("GAU")'/>
-					<img id='WKN' class='listItemIcon' title='윙 너클' src='image/item/Wing Knuckles.png' onclick='showItem("WKN")'/>
-					<img id='BGU' class='listItemIcon' title='귀골 장갑' src='image/item/Bone Guantlet.png' onclick='showItem("BGU")'/>
-					<img id='SGA' class='listItemIcon' title='벽력귀투' src='image/item/Shatter Shell Gauntlet.png' onclick='showItem("SGA")'/>
-					<img id='GKN' class='listItemIcon' title='유리 너클' src='image/item/Glass Knuckles.png' onclick='showItem("GKN")'/>
-					<img id='PGL' class='listItemIcon' title='회단 장갑' src='image/item/Phoenix Gloves.png' onclick='showItem("PGL")'/>
-					<img id='OPU' class='listItemIcon' title='단영촌천투' src='image/item/One Inch Punch.png' onclick='showItem("OPU")'/>
-					<img id='DFI' class='listItemIcon' title='디바인 피스트' src='image/item/Divine Fist.png' onclick='showItem("DFI")'/>
-					<img id='BWK' class='listItemIcon' title='블러드윙 너클' src='image/item/Bloodwing Knuckles.png' onclick='showItem("BWK")'/>
-					<img id='FHA' class='listItemIcon' title='빙화현옥수' src='image/item/Frost Petal Hand.png' onclick='showItem("FHA")'/>
-					<img id='BPA' class='listItemIcon' title='여래수투' src='image/item/Buddha_s Palm.png' onclick='showItem("BPA")'/>
-					<img id='BGA' class='listItemIcon' title='브레이질 건틀릿' src='image/item/Brasil Gauntlet.png' onclick='showItem("BGA")'/>
-					<img id='WPU' class='listItemIcon' title='소수' src='image/item/White Claw Punch.png' onclick='showItem("WPU")'/>
-					<img id='IGL' class='listItemIcon' title='천잠장갑' src='image/item/Imperial Silk Glove.png' onclick='showItem("IGL")'/>
-					<img id='BAM' class='listItemIcon' title='대나무' src='image/item/Bamboo.png' onclick='showItem("BAM")'/>
-					<img id='WTF' class='listItemIcon' title='톤파' src='image/item/Wooden Tonfa.png' onclick='showItem("WTF")'/>
-					<img id='PBA' class='listItemIcon' title='경찰봉' src='image/item/Police Baton.png' onclick='showItem("PBA")'/>
-					<img id='RTF' class='listItemIcon' title='류큐톤파' src='image/item/Ryukyu Tonfa.png' onclick='showItem("RTF")'/>
-					<img id='TTF' class='listItemIcon' title='택티컬 톤파' src='image/item/Tactical Tonfa.png' onclick='showItem("TTF")'/>
-					<img id='MSO' class='listItemIcon' title='마이쏙' src='image/item/Mai Sok.png' onclick='showItem("MSO")'/>
-					<img id='PTF' class='listItemIcon' title='플라즈마 톤파' src='image/item/Plasma Tonfa.png' onclick='showItem("PTF")'/>
-					<img id='SGU' class='listItemIcon' title='보급형 기타' src='image/item/Starter Guitar.png' onclick='showItem("SGU")'/>
-					<img id='GBG' class='listItemIcon' title='골든 브릿지' src='image/item/Golden Bridge.png' onclick='showItem("GBG")'/>
-					<img id='SPI' class='listItemIcon' title='싱글 픽업' src='image/item/Single Coil Pickup.png' onclick='showItem("SPI")'/>
-					<img id='RSP' class='listItemIcon' title='루비 스페셜' src='image/item/Ruby Special.png' onclick='showItem("RSP")'/>
-					<img id='HPI' class='listItemIcon' title='험버커 픽업' src='image/item/Humbucker Pickup.png' onclick='showItem("HPI")'/>
-					<img id='KIV' class='listItemIcon' title='King-V' src='image/item/King-V.png' onclick='showItem("KIV")'/>
-					<img id='NOC' class='listItemIcon' title='노캐스터' src='image/item/Nocaster.png' onclick='showItem("NOC")'/>
-					<img id='SUP' class='listItemIcon' title='슈퍼스트랫' src='image/item/Superstrat.png' onclick='showItem("SUP")'/>
-					<img id='WHO' class='listItemIcon' title='야생마' src='image/item/Wild Horse.png' onclick='showItem("WHO")'/>
-					<img id='BHM' class='listItemIcon' title='보헤미안' src='image/item/Bohemian.png' onclick='showItem("BHM")'/>
-					<img id='STH' class='listItemIcon' title='천국의 계단' src='image/item/Stairway to Heaven.png' onclick='showItem("STH")'/>
-					<img id='PHA' class='listItemIcon' title='퍼플 헤이즈' src='image/item/Purple Haze.png' onclick='showItem("PHA")'/>
-					<img id='SAT' class='listItemIcon' title='새티스팩션' src='image/item/Satisfaction.png' onclick='showItem("SAT")'/>
-					<img id='WTO' class='listItemIcon' title='원더풀 투나잇' src='image/item/Wonderful Tonight.png' onclick='showItem("WTO")'/>
-					<img id='TWA' class='listItemIcon' title='더 월' src='image/item/The Wall.png' onclick='showItem("TWA")'/>
-					<img id='TSP' class='listItemIcon' title='틴 스피릿' src='image/item/Teen Spirit.png' onclick='showItem("TSP")'/>
-					<img id='STC' class='listItemIcon' title='쇠사슬' src='image/item/Steel Chain.png' onclick='showItem("STC")'/>
-					<img id='NUN' class='listItemIcon' title='눈차크' src='image/item/Nunchaku.png' onclick='showItem("NUN")'/>
-					<img id='SHP' class='listItemIcon' title='샤퍼' src='image/item/Sharper.png' onclick='showItem("SHP")'/>
-					<img id='BLE' class='listItemIcon' title='블리더' src='image/item/Bleeder.png' onclick='showItem("BLE")'/>
-					<img id='TDR' class='listItemIcon' title='대소반룡곤' src='image/item/The Smiting Dragon.png' onclick='showItem("TDR")'/>
-					<img id='VNU' class='listItemIcon' title='초진동눈차크' src='image/item/Vibro Nunchaku.png' onclick='showItem("VNU")'/>
-					<img id='WIN' class='listItemIcon' title='바람막이' src='image/item/Windbreaker.png' onclick='showItem("WIN")'/>
-					<img id='MRO' class='listItemIcon' title='승복' src='image/item/Monk_s Robe.png' onclick='showItem("MRO")'/>
-					<img id='WET' class='listItemIcon' title='전신 수영복' src='image/item/Wetsuit.png' onclick='showItem("WET")'/>
-					<img id='FAR' class='listItemIcon' title='천 갑옷' src='image/item/Fabric Armor.png' onclick='showItem("FAR")'/>
-					<img id='LAR' class='listItemIcon' title='가죽 갑옷' src='image/item/Leather Armor.png' onclick='showItem("LAR")'/>
-					<img id='LJA' class='listItemIcon' title='가죽 자켓' src='image/item/Leather Jacket.png' onclick='showItem("LJA")'/>
-					<img id='TDO' class='listItemIcon' title='거북 도복' src='image/item/Turtle Dobok.png' onclick='showItem("TDO")'/>
-					<img id='MSU' class='listItemIcon' title='군복' src='image/item/Military Suit.png' onclick='showItem("MSU")'/>
-					<img id='PRO' class='listItemIcon' title='덧댄 로브' src='image/item/Patched Robe.png' onclick='showItem("PRO")'/>
-					<img id='DRE' class='listItemIcon' title='드레스' src='image/item/Dress.png' onclick='showItem("DRE")'/>
-					<img id='BIK' class='listItemIcon' title='비키니' src='image/item/Bikini.png' onclick='showItem("BIK")'/>
-					<img id='DSU' class='listItemIcon' title='잠수복' src='image/item/Diving Suit.png' onclick='showItem("DSU")'/>
-					<img id='RDJ' class='listItemIcon' title='라이더 자켓' src='image/item/Rider Jacket.png' onclick='showItem("RDJ")'/>
-					<img id='CNA' class='listItemIcon' title='사슬 갑옷' src='image/item/Chain Armor.png' onclick='showItem("CNA")'/>
-					<img id='SUI' class='listItemIcon' title='정장' src='image/item/Suit.png' onclick='showItem("SUI")'/>
-					<img id='QIP' class='listItemIcon' title='치파오' src='image/item/Qipao.png' onclick='showItem("QIP")'/>
-					<img id='SMA' class='listItemIcon' title='판금 갑옷' src='image/item/Sheet Metal Armor.png' onclick='showItem("SMA")'/>
-					<img id='HAN' class='listItemIcon' title='한복' src='image/item/Hanbok.png' onclick='showItem("HAN")'/>
-					<img id='BVE' class='listItemIcon' title='방탄조끼' src='image/item/Bulletproof Vest.png' onclick='showItem("BVE")'/>
-					<img id='SSA' class='listItemIcon' title='석양의 갑옷' src='image/item/Sunset Armor.png' onclick='showItem("SSA")'/>
-					<img id='CUN' class='listItemIcon' title='어사의' src='image/item/Covert Agent Uniform.png' onclick='showItem("CUN")'/>
-					<img id='OSU' class='listItemIcon' title='광학미채 슈트' src='image/item/Optical Camouflage Suit.png' onclick='showItem("OSU")'/>
-					<img id='RKJ' class='listItemIcon' title='락커의 자켓' src='image/item/Rocker_s Jacket.png' onclick='showItem("RKJ")'/>
-					<img id='MAR' class='listItemIcon' title='미스릴 갑옷' src='image/item/Mithril Armor.png' onclick='showItem("MAR")'/>
-					<img id='CRA' class='listItemIcon' title='성기사의 갑옷' src='image/item/Crusader Armor.png' onclick='showItem("CRA")'/>
-					<img id='AZA' class='listItemIcon' title='아마조네스 아머' src='image/item/Amazoness Armor.png' onclick='showItem("AZA")'/>
-					<img id='DDO' class='listItemIcon' title='용의 도복' src='image/item/Dragon Dobok.png' onclick='showItem("DDO")'/>
-					<img id='CMA' class='listItemIcon' title='지휘관의 갑옷' src='image/item/Commander_s Armor.png' onclick='showItem("CMA")'/>
-					<img id='BLS' class='listItemIcon' title='집사복' src='image/item/Butler_s Suit.png' onclick='showItem("BLS")'/>
-					<img id='BTS' class='listItemIcon' title='배틀 슈트' src='image/item/Battle Suit.png' onclick='showItem("BTS")'/>
-					<img id='EOS' class='listItemIcon' title='EOD 슈트' src='image/item/EOD Suit.png' onclick='showItem("EOS")'/>
-					<img id='BDR' class='listItemIcon' title='불꽃 드레스' src='image/item/Blazing Dress.png' onclick='showItem("BDR")'/>
-					<img id='KAB' class='listItemIcon' title='카바나' src='image/item/Kabana.png' onclick='showItem("KAB")'/>
-					<img id='QOH' class='listItemIcon' title='퀸 오브 하트' src='image/item/Queen of Hearts.png' onclick='showItem("QOH")'/>
-					<img id='HAI' class='listItemIcon' title='머리띠' src='image/item/Hairband.png' onclick='showItem("HAI")'/>
-					<img id='HAT' class='listItemIcon' title='모자' src='image/item/Hat.png' onclick='showItem("HAT")'/>
-					<img id='BKH' class='listItemIcon' title='자전거 헬멧' src='image/item/Bike Helmet.png' onclick='showItem("BKH")'/>
-					<img id='MSK' class='listItemIcon' title='가면' src='image/item/Mask.png' onclick='showItem("MSK")'/>
-					<img id='CIR' class='listItemIcon' title='머리테' src='image/item/Circlet.png' onclick='showItem("CIR")'/>
-					<img id='BER' class='listItemIcon' title='베레모' src='image/item/Beret.png' onclick='showItem("BER")'/>
-					<img id='CCO' class='listItemIcon' title='사슬 코이프' src='image/item/Chain Coif.png' onclick='showItem("CCO")'/>
-					<img id='SHE' class='listItemIcon' title='안전모' src='image/item/Safety Helmet.png' onclick='showItem("SHE")'/>
-					<img id='CHE' class='listItemIcon' title='방탄모' src='image/item/Close Helm.png' onclick='showItem("CHE")'/>
-					<img id='FHE' class='listItemIcon' title='소방 헬멧' src='image/item/Fire Helmet.png' onclick='showItem("FHE")'/>
-					<img id='TIA' class='listItemIcon' title='티아라' src='image/item/Tiara.png' onclick='showItem("TIA")'/>
-					<img id='CRW' class='listItemIcon' title='왕관' src='image/item/Crown.png' onclick='showItem("CRW")'/>
-					<img id='BAH' class='listItemIcon' title='투구' src='image/item/Ballistic Helmet.png' onclick='showItem("BAH")'/>
-					<img id='MOH' class='listItemIcon' title='오토바이 헬멧' src='image/item/Motorcycle Helmet.png' onclick='showItem("MOH")'/>
-					<img id='MIH' class='listItemIcon' title='미스릴 투구' src='image/item/Mithril Helm.png' onclick='showItem("MIH")'/>
-					<img id='CTI' class='listItemIcon' title='수정 티아라' src='image/item/Crystal Tiara.png' onclick='showItem("CTI")'/>
-					<img id='THE' class='listItemIcon' title='전술-OPS 헬멧' src='image/item/Tactical OPS Helmet.png' onclick='showItem("THE")'/>
-					<img id='HBA' class='listItemIcon' title='기사단장의 투구' src='image/item/Helm of Banneret.png' onclick='showItem("HBA")'/>
-					<img id='ICR' class='listItemIcon' title='제국왕관' src='image/item/Imperial Crown.png' onclick='showItem("ICR")'/>
-					<img id='IBU' class='listItemIcon' title='황실 부르고넷' src='image/item/Imperial Burgonet.png' onclick='showItem("IBU")'/>
-					<img id='COM' class='listItemIcon' title='변검' src='image/item/Chinese Opera Mask.png' onclick='showItem("COM")'/>
-					<img id='LWR' class='listItemIcon' title='월계관' src='image/item/Laurel Wreath.png' onclick='showItem("LWR")'/>
-					<img id='WCH' class='listItemIcon' title='손목시계' src='image/item/Watch.png' onclick='showItem("WCH")'/>
-					<img id='BAN' class='listItemIcon' title='붕대' src='image/item/Bandage.png' onclick='showItem("BAN")'/>
-					<img id='BLT' class='listItemIcon' title='팔찌' src='image/item/Bracelet.png' onclick='showItem("BLT")'/>
-					<img id='LSH' class='listItemIcon' title='가죽 방패' src='image/item/Leather Shield.png' onclick='showItem("LSH")'/>
-					<img id='SLA' class='listItemIcon' title='분대장 완장' src='image/item/Squad Leader Armband.png' onclick='showItem("SLA")'/>
-					<img id='BCR' class='listItemIcon' title='브레이서' src='image/item/Bracer.png' onclick='showItem("BCR")'/>
-					<img id='SHH' class='listItemIcon' title='검집' src='image/item/Sheath.png' onclick='showItem("SHH")'/>
-					<img id='GBL' class='listItemIcon' title='금팔찌' src='image/item/Golden Bracelet.png' onclick='showItem("GBL")'/>
-					<img id='BAZ' class='listItemIcon' title='바주반드' src='image/item/Bazuband.png' onclick='showItem("BAZ")'/>
-					<img id='CBL' class='listItemIcon' title='진홍 팔찌' src='image/item/Crimson Bracelet.png' onclick='showItem("CBL")'/>
-					<img id='SSH' class='listItemIcon' title='강철 방패' src='image/item/Steel Shield.png' onclick='showItem("SSH")'/>
-					<img id='CWC' class='listItemIcon' title='큐브 워치' src='image/item/Cube Watch.png' onclick='showItem("CWC")'/>
-					<img id='SST' class='listItemIcon' title='소드 스토퍼' src='image/item/Sword Stopper.png' onclick='showItem("SST")'/>
-					<img id='DRA' class='listItemIcon' title='드라우프니르' src='image/item/Draupnir.png' onclick='showItem("DRA")'/>
-					<img id='MSH' class='listItemIcon' title='미스릴 방패' src='image/item/Mithril Shield.png' onclick='showItem("MSH")'/>
-					<img id='VSE' class='listItemIcon' title='바이탈 센서' src='image/item/Vital Sign Sensor.png' onclick='showItem("VSE")'/>
-					<img id='CKN' class='listItemIcon' title='기사의 신조' src='image/item/Creed of the Knight.png' onclick='showItem("CKN")'/>
-					<img id='SSJ' class='listItemIcon' title='샤자한의 검집' src='image/item/Sword of Shah Jahan.png' onclick='showItem("SSJ")'/>
-					<img id='BSK' class='listItemIcon' title='스카디의 팔찌' src='image/item/Bracelet of Skadi.png' onclick='showItem("BSK")'/>
-					<img id='RAD' class='listItemIcon' title='레이더' src='image/item/Radar.png' onclick='showItem("RAD")'/>
-					<img id='AAR' class='listItemIcon' title='오토-암즈' src='image/item/Auto-arms.png' onclick='showItem("AAR")'/>
-					<img id='SLP' class='listItemIcon' title='슬리퍼' src='image/item/Slippers.png' onclick='showItem("SLP")'/>
-					<img id='RUS' class='listItemIcon' title='운동화' src='image/item/Running Shoes.png' onclick='showItem("RUS")'/>
-					<img id='TIG' class='listItemIcon' title='타이즈' src='image/item/Tights.png' onclick='showItem("TIG")'/>
-					<img id='KPA' class='listItemIcon' title='무릎 보호대' src='image/item/Knee Pads.png' onclick='showItem("KPA")'/>
-					<img id='CLE' class='listItemIcon' title='체인 레깅스' src='image/item/Chain Leggings.png' onclick='showItem("CLE")'/>
-					<img id='HHE' class='listItemIcon' title='하이힐' src='image/item/High Heels.png' onclick='showItem("HHE")'/>
-					<img id='HEE' class='listItemIcon' title='힐리스' src='image/item/Heelys.png' onclick='showItem("HEE")'/>
-					<img id='RSL' class='listItemIcon' title='덧댄 슬리퍼' src='image/item/Repaired Slippers.png' onclick='showItem("RSL")'/>
-					<img id='BOO' class='listItemIcon' title='부츠' src='image/item/Boots.png' onclick='showItem("BOO")'/>
-					<img id='SNP' class='listItemIcon' title='강철 무릎 보호대' src='image/item/Steel Knee Pads.png' onclick='showItem("SNP")'/>
-					<img id='MRU' class='listItemIcon' title='매버릭 러너' src='image/item/Maverick Runner.png' onclick='showItem("MRU")'/>
-					<img id='CBB' class='listItemIcon' title='전투화' src='image/item/Combat Boots.png' onclick='showItem("CBB")'/>
-					<img id='KHE' class='listItemIcon' title='킬힐' src='image/item/Killer Heels.png' onclick='showItem("KHE")'/>
-					<img id='SSN' class='listItemIcon' title='풍화륜' src='image/item/Straitjacket Sneakers.png' onclick='showItem("SSN")'/>
-					<img id='FTB' class='listItemIcon' title='경량화 부츠' src='image/item/Feather Boots.png' onclick='showItem("FTB")'/>
-					<img id='MIB' class='listItemIcon' title='미스릴 부츠' src='image/item/Mithril Boots.png' onclick='showItem("MIB")'/>
-					<img id='BUC' class='listItemIcon' title='부케팔로스' src='image/item/Bucephalus.png' onclick='showItem("BUC")'/>
-					<img id='WRH' class='listItemIcon' title='클링온 부츠' src='image/item/White Rhinos.png' onclick='showItem("WRH")'/>
-					<img id='EOB' class='listItemIcon' title='EOD 부츠' src='image/item/EOD Boots.png' onclick='showItem("EOB")'/>
-					<img id='GSH' class='listItemIcon' title='글레이셜 슈즈' src='image/item/Glacial Shoes.png' onclick='showItem("GSH")'/>
-					<img id='BOH' class='listItemIcon' title='헤르메스의 부츠' src='image/item/Boots of Hermes.png' onclick='showItem("BOH")'/>
-					<img id='RES' class='listItemIcon' title='분홍신' src='image/item/Red Shoes.png' onclick='showItem("RES")'/>
-					<img id='FEA' class='listItemIcon' title='깃털' src='image/item/Feather.png' onclick='showItem("FEA")'/>
-					<img id='FLO' class='listItemIcon' title='꽃' src='image/item/Flower.png' onclick='showItem("FLO")'/>
-					<img id='RIB' class='listItemIcon' title='리본' src='image/item/Ribbon.png' onclick='showItem("RIB")'/>
-					<img id='FAN' class='listItemIcon' title='부채' src='image/item/Fan.png' onclick='showItem("FAN")'/>
-					<img id='BSC' class='listItemIcon' title='불경' src='image/item/Buddhist Scripture.png' onclick='showItem("BSC")'/>
-					<img id='BOX' class='listItemIcon' title='상자' src='image/item/Box.png' onclick='showItem("BOX")'/>
-					<img id='HGR' class='listItemIcon' title='성배' src='image/item/Holy Grail.png' onclick='showItem("HGR")'/>
-					<img id='CRS' class='listItemIcon' title='십자가' src='image/item/Cross.png' onclick='showItem("CRS")'/>
-					<img id='BIN' class='listItemIcon' title='쌍안경' src='image/item/Binoculars.png' onclick='showItem("BIN")'/>
-					<img id='SRE' class='listItemIcon' title='성자의 유산' src='image/item/Saint_s Relic.png' onclick='showItem("SRE")'/>
-					<img id='FFA' class='listItemIcon' title='운명의 꽃' src='image/item/Flower of Fate.png' onclick='showItem("FFA")'/>
-					<img id='GPI' class='listItemIcon' title='유리 조각' src='image/item/Glass Pieces.png' onclick='showItem("GPI")'/>
-					<img id='DOL' class='listItemIcon' title='인형' src='image/item/Doll.png' onclick='showItem("DOL")'/>
-					<img id='SSC' class='listItemIcon' title='저격 스코프' src='image/item/Sniper Scope.png' onclick='showItem("SSC")'/>
-					<img id='BSA' class='listItemIcon' title='진신사리' src='image/item/Buddha Sarira.png' onclick='showItem("BSA")'/>
-					<img id='QUI' class='listItemIcon' title='화살통' src='image/item/Quiver.png' onclick='showItem("QUI")'/>
-					<img id='FDU' class='listItemIcon' title='먼지털이개' src='image/item/Feather Duster.png' onclick='showItem("FDU")'/>
-					<img id='GFA' class='listItemIcon' title='군선' src='image/item/Gilded Quill Fan.png' onclick='showItem("GFA")'/>
-					<img id='WFA' class='listItemIcon' title='백우선' src='image/item/White Crane Fan.png' onclick='showItem("WFA")'/>
-					<img id='PLI' class='listItemIcon' title='생명의 가루' src='image/item/Powder of Life.png' onclick='showItem("PLI")'/>
-					<img id='UCH' class='listItemIcon' title='우치와' src='image/item/Uchiwa.png' onclick='showItem("UCH")'/>
-					<img id='MAG' class='listItemIcon' title='탄창' src='image/item/Magazine.png' onclick='showItem("MAG")'/>
-					<img id='LQU' class='listItemIcon' title='궁기병의 화살통' src='image/item/No Image' onclick='showItem("LQU")'/>
-					<img id='MPE' class='listItemIcon' title='달빛 펜던트' src='image/item/Moonlight Pendant.png' onclick='showItem("MPE")'/>
-					<img id='SCH' class='listItemIcon' title='슈뢰딩거의 상자' src='image/item/Schrodinger_s Box.png' onclick='showItem("SCH")'/>
-					<img id='VME' class='listItemIcon' title='진리는 나의 빛' src='image/item/Veritas Lux Mea.png' onclick='showItem("VME")'/>
-					<img id='GIC' class='listItemIcon' title='만년빙' src='image/item/Glacial Ice.png' onclick='showItem("GIC")'/>
-					<img id='TFI' class='listItemIcon' title='삼매진화' src='image/item/True Samadhi Fire.png' onclick='showItem("TFI")'/>
-					<img id='ETA' class='listItemIcon' title='에메랄드 타블렛' src='image/item/Emerald Tablet.png' onclick='showItem("ETA")'/>
-					<img id='STN' class='listItemIcon' title='돌멩이' src='image/item/Stone.png' onclick='showItem("STN")'/>
-					<img id='GLB' class='listItemIcon' title='유리병' src='image/item/Glass Bottle.png' onclick='showItem("GLB")'/>
-					<img id='NAI' class='listItemIcon' title='못' src='image/item/Nail.png' onclick='showItem("NAI")'/>
-					<img id='LEA' class='listItemIcon' title='가죽' src='image/item/Leather.png' onclick='showItem("LEA")'/>
-					<img id='TTS' class='listItemIcon' title='거북이 등딱지' src='image/item/Turtle Shell.png' onclick='showItem("TTS")'/>
-					<img id='RUB' class='listItemIcon' title='고무' src='image/item/Rubber.png' onclick='showItem("RUB")'/>
-					<img id='SCM' class='listItemIcon' title='고철' src='image/item/Scrap Metal.png' onclick='showItem("SCM")'/>
-					<img id='LIG' class='listItemIcon' title='라이터' src='image/item/Lighter.png' onclick='showItem("LIG")'/>
-					<img id='LAS' class='listItemIcon' title='레이저 포인터' src='image/item/Laser Pointer.png' onclick='showItem("LAS")'/>
-					<img id='STM' class='listItemIcon' title='마패' src='image/item/Stallion Medal.png' onclick='showItem("STM")'/>
-					<img id='BAT' class='listItemIcon' title='배터리' src='image/item/Battery.png' onclick='showItem("BAT")'/>
-					<img id='ALC' class='listItemIcon' title='알코올' src='image/item/Alcohol.png' onclick='showItem("ALC")'/>
-					<img id='OIL' class='listItemIcon' title='오일' src='image/item/Oil.png' onclick='showItem("OIL")'/>
-					<img id='CLO' class='listItemIcon' title='옷감' src='image/item/Cloth.png' onclick='showItem("CLO")'/>
-					<img id='GEM' class='listItemIcon' title='원석' src='image/item/Gemstone.png' onclick='showItem("GEM")'/>
-					<img id='GLU' class='listItemIcon' title='접착제' src='image/item/Glue.png' onclick='showItem("GLU")'/>
-					<img id='PAP' class='listItemIcon' title='종이' src='image/item/Paper.png' onclick='showItem("PAP")'/>
-					<img id='IRO' class='listItemIcon' title='철광석' src='image/item/Iron Ore.png' onclick='showItem("IRO")'/>
-					<img id='CAN' class='listItemIcon' title='캔' src='image/item/Can.png' onclick='showItem("CAN")'/>
-					<img id='GUN' class='listItemIcon' title='화약' src='image/item/Gunpower.png' onclick='showItem("GUN")'/>
-					<img id='STE' class='listItemIcon' title='강철' src='image/item/Steel.png' onclick='showItem("STE")'/>
-					<img id='OLC' class='listItemIcon' title='기름먹인 천' src='image/item/Oilcloth.png' onclick='showItem("OLC")'/>
-					<img id='HOL' class='listItemIcon' title='뜨거운 오일' src='image/item/Heated Oil.png' onclick='showItem("HOL")'/>
-					<img id='RBY' class='listItemIcon' title='루비' src='image/item/Ruby.png' onclick='showItem("RBY")'/>
-					<img id='DBT' class='listItemIcon' title='방전 전지' src='image/item/Dead Battery.png' onclick='showItem("DBT")'/>
-					<img id='WPW' class='listItemIcon' title='백색 가루' src='image/item/White Powder.png' onclick='showItem("WPW")'/>
-					<img id='HST' class='listItemIcon' title='달궈진 돌멩이' src='image/item/Heated Stone.png' onclick='showItem("HST")'/>
-					<img id='MET' class='listItemIcon' title='운석' src='image/item/Meteorite.png' onclick='showItem("MET")'/>
-					<img id='ASH' class='listItemIcon' title='재' src='image/item/Ash.png' onclick='showItem("ASH")'/>
-					<img id='EPA' class='listItemIcon' title='전자 부품' src='image/item/Electronic Parts.png' onclick='showItem("EPA")'/>
-					<img id='BPR' class='listItemIcon' title='정교한 도면' src='image/item/Blueprint.png' onclick='showItem("BPR")'/>
-					<img id='ISH' class='listItemIcon' title='철판' src='image/item/Iron Sheet.png' onclick='showItem("ISH")'/>
-					<img id='GLD' class='listItemIcon' title='황금' src='image/item/Golden Bracelet.png' onclick='showItem("GLD")'/>
-					<img id='TOL' class='listItemIcon' title='생명의 나무' src='image/item/Tree of Life.png' onclick='showItem("TOL")'/>
-					<img id='MST' class='listItemIcon' title='문스톤' src='image/item/Moon Stone.png' onclick='showItem("MST")'/>
-					<img id='POI' class='listItemIcon' title='독약' src='image/item/Poison.png' onclick='showItem("POI")'/>
-					<img id='MOT' class='listItemIcon' title='모터' src='image/item/Motorcycle Helmet.png' onclick='showItem("MOT")'/>
-					<img id='MIT' class='listItemIcon' title='미스릴' src='image/item/Mithril.png' onclick='showItem("MIT")'/>
-					<img id='GLP' class='listItemIcon' title='유리판' src='image/item/Glass Panel.png' onclick='showItem("GLP")'/>
-					<img id='ION' class='listItemIcon' title='이온 전지' src='image/item/Ion Battery.png' onclick='showItem("ION")'/>
-					<img id='VBS' class='listItemIcon' title='VF 혈액 샘플' src='image/item/VF Blood Sample.png' onclick='showItem("VBS")'/>
-					<img id='CEL' class='listItemIcon' title='휴대폰' src='image/item/Cell Phone.png' onclick='showItem("CEL")'/>
-					<img id='FCO' class='listItemIcon' title='포스 코어' src='image/item/Force Core.png' onclick='showItem("FCO")'/>
-					<img id='POT' class='listItemIcon' title='감자' src='image/item/Potato.png' onclick='showItem("POT")'/>
-					<img id='COD' class='listItemIcon' title='대구' src='image/item/Cod.png' onclick='showItem("COD")'/>
-					<img id='LEM' class='listItemIcon' title='레몬' src='image/item/Lemon.png' onclick='showItem("LEM")'/>
-					<img id='GAR' class='listItemIcon' title='마늘' src='image/item/Garlic.png' onclick='showItem("GAR")'/>
-					<img id='ADB' class='listItemIcon' title='반창고' src='image/item/Adhesive Bandage.png' onclick='showItem("ADB")'/>
-					<img id='CRP' class='listItemIcon' title='붕어' src='image/item/Carp.png' onclick='showItem("CRP")'/>
-					<img id='BRD' class='listItemIcon' title='빵' src='image/item/Bread.png' onclick='showItem("BRD")'/>
-					<img id='MEA' class='listItemIcon' title='고기' src='image/item/Meat.png' onclick='showItem("MEA")'/>
-					<img id='EGG' class='listItemIcon' title='달걀' src='image/item/Egg.png' onclick='showItem("EGG")'/>
-					<img id='RAM' class='listItemIcon' title='생라면' src='image/item/Ramen.png' onclick='showItem("RAM")'/>
-					<img id='HER' class='listItemIcon' title='약초' src='image/item/Oriental Herb.png' onclick='showItem("HER")'/>
-					<img id='CHO' class='listItemIcon' title='초콜렛' src='image/item/Chocolate.png' onclick='showItem("CHO")'/>
-					<img id='CPW' class='listItemIcon' title='카레 가루' src='image/item/Curry Powder.png' onclick='showItem("CPW")'/>
-					<img id='HCS' class='listItemIcon' title='꿀 바른 대구살' src='image/item/Honey Cod Steak.png' onclick='showItem("HCS")'/>
-					<img id='CCL' class='listItemIcon' title='대구 간 통조림' src='image/item/Canned Cod Liver.png' onclick='showItem("CCL")'/>
-					<img id='GBR' class='listItemIcon' title='마늘빵' src='image/item/Garlic Bread.png' onclick='showItem("GBR")'/>
-					<img id='BUT' class='listItemIcon' title='버터' src='image/item/Butter.png' onclick='showItem("BUT")'/>
-					<img id='HMD' class='listItemIcon' title='보약' src='image/item/Herb Medicine.png' onclick='showItem("HMD")'/>
-					<img id='CBR' class='listItemIcon' title='붕어빵' src='image/item/Carp Bread.png' onclick='showItem("CBR")'/>
-					<img id='OWA' class='listItemIcon' title='성수' src='image/item/Holy Water.png' onclick='showItem("OWA")'/>
-					<img id='DIF' class='listItemIcon' title='지혈제' src='image/item/Disinfectant.png' onclick='showItem("DIF")'/>
-					<img id='CHP' class='listItemIcon' title='초코파이' src='image/item/Choco Pie.png' onclick='showItem("CHP")'/>
-					<img id='ACN' class='listItemIcon' title='한방침' src='image/item/Acupuncture Needle.png' onclick='showItem("ACN")'/>
-					<img id='ORC' class='listItemIcon' title='난초' src='image/item/Orchid.png' onclick='showItem("ORC")'/>
-					<img id='TCH' class='listItemIcon' title='탄두리' src='image/item/Tandoori Chicken.png' onclick='showItem("TCH")'/>
-					<img id='BGS' class='listItemIcon' title='마늘 베이컨 말이' src='image/item/Bacon and Garlic Stick.png' onclick='showItem("BGS")'/>
-					<img id='BUN' class='listItemIcon' title='번' src='image/item/Bun.png' onclick='showItem("BUN")'/>
-					<img id='HBG' class='listItemIcon' title='햄버거' src='image/item/Hamburger.png' onclick='showItem("HBG")'/>
-					<img id='PBR' class='listItemIcon' title='감자빵' src='image/item/Potato Bread.png' onclick='showItem("PBR")'/>
-					<img id='PSP' class='listItemIcon' title='감자스프' src='image/item/Potato Soup.png' onclick='showItem("PSP")'/>
-					<img id='FFE' class='listItemIcon' title='달걀 생선 필레' src='image/item/Fish Fillet with Egg.png' onclick='showItem("FFE")'/>
-					<img id='CCK' class='listItemIcon' title='시트러스 케이크' src='image/item/Citrus Cake.png' onclick='showItem("CCK")'/>
-					<img id='LIC' class='listItemIcon' title='레몬 아이스크림' src='image/item/Lemon Ice Cream.png' onclick='showItem("LIC")'/>
-					<img id='HGP' class='listItemIcon' title='마늘 꿀절임' src='image/item/Honey Garlic Pickle.png' onclick='showItem("HGP")'/>
-					<img id='EBN' class='listItemIcon' title='계란빵' src='image/item/Egg Bun.png' onclick='showItem("EBN")'/>
-					<img id='EEG' class='listItemIcon' title='이스터 에그' src='image/item/Easter Egg.png' onclick='showItem("EEG")'/>
-					<img id='WHB' class='listItemIcon' title='위스키 봉봉' src='image/item/Whiskey Bonbon.png' onclick='showItem("WHB")'/>
-					<img id='CIC' class='listItemIcon' title='초코 아이스크림' src='image/item/Choco Ice Cream.png' onclick='showItem("CIC")'/>
-					<img id='CBN' class='listItemIcon' title='카레빵' src='image/item/Curry Bun.png' onclick='showItem("CBN")'/>
-					<img id='FFR' class='listItemIcon' title='감자튀김' src='image/item/French Fries.png' onclick='showItem("FFR")'/>
-					<img id='BPT' class='listItemIcon' title='구운 감자' src='image/item/Baked Potato.png' onclick='showItem("BPT")'/>
-					<img id='BCP' class='listItemIcon' title='구운 붕어' src='image/item/Baked Carp.png' onclick='showItem("BCP")'/>
-					<img id='GCB' class='listItemIcon' title='메로구이' src='image/item/Grilled Chilean Sea Bass.png' onclick='showItem("GCB")'/>
-					<img id='HRA' class='listItemIcon' title='뜨거운 라면' src='image/item/Hot Ramen.png' onclick='showItem("HRA")'/>
-					<img id='MBR' class='listItemIcon' title='모카빵' src='image/item/Mocha Bread.png' onclick='showItem("MBR")'/>
-					<img id='SCE' class='listItemIcon' title='스크램블 에그' src='image/item/Scrambled Eggs.png' onclick='showItem("SCE")'/>
-					<img id='CCC' class='listItemIcon' title='초코칩 쿠키' src='image/item/Chocolate Chip Cookies.png' onclick='showItem("CCC")'/>
-					<img id='CPB' class='listItemIcon' title='초코파이 상자' src='image/item/Choco Pie Box.png' onclick='showItem("CPB")'/>
-					<img id='CRY' class='listItemIcon' title='카레' src='image/item/Curry.png' onclick='showItem("CRY")'/>
-					<img id='ORI' class='listItemIcon' title='탕약' src='image/item/Oriental Concoction.png' onclick='showItem("ORI")'/>
-					<img id='HBT' class='listItemIcon' title='허니버터' src='image/item/Honey Butter.png' onclick='showItem("HBT")'/>
-					<img id='FCH' class='listItemIcon' title='후라이드 치킨' src='image/item/Fried Chicken.png' onclick='showItem("FCH")'/>
-					<img id='HPO' class='listItemIcon' title='힐링 포션' src='image/item/Healing Potion.png' onclick='showItem("HPO")'/>
-					<img id='BEG' class='listItemIcon' title='삶은 달걀' src='image/item/Boiled Egg.png' onclick='showItem("BEG")'/>
-					<img id='PCK' class='listItemIcon' title='파운드 케이크' src='image/item/Pound Cake.png' onclick='showItem("PCK")'/>
-					<img id='CCQ' class='listItemIcon' title='카레 고로케' src='image/item/Curry Croquette.png' onclick='showItem("CCQ")'/>
-					<img id='STK' class='listItemIcon' title='스테이크' src='image/item/Steak.png' onclick='showItem("STK")'/>
-					<img id='FAK' class='listItemIcon' title='구급상자' src='image/item/First Aid Kit.png' onclick='showItem("FAK")'/>
-					<img id='BFP' class='listItemIcon' title='버터 감자구이' src='image/item/Butter-Fried Potatoes.png' onclick='showItem("BFP")'/>
-					<img id='FCT' class='listItemIcon' title='생선까스' src='image/item/Fish Cutlet.png' onclick='showItem("FCT")'/>
-					<img id='STR' class='listItemIcon' title='볶음라면' src='image/item/Stir Fried Ramen.png' onclick='showItem("STR")'/>
-					<img id='CND' class='listItemIcon' title='냉면' src='image/item/Cold Noodles.png' onclick='showItem("CND")'/>
-					<img id='GRA' class='listItemIcon' title='마늘라면' src='image/item/Garlic Ramen.png' onclick='showItem("GRA")'/>
-					<img id='SFS' class='listItemIcon' title='매운탕' src='image/item/Spicy Fish Stew.png' onclick='showItem("SFS")'/>
-					<img id='ZVI' class='listItemIcon' title='대환단' src='image/item/Zen Vitality.png' onclick='showItem("ZVI")'/>
-					<img id='FAC' class='listItemIcon' title='피쉬 앤 칩스' src='image/item/Fish and Chips.png' onclick='showItem("FAC")'/>
-					<img id='HNY' class='listItemIcon' title='꿀' src='image/item/Honey.png' onclick='showItem("HNY")'/>
-					<img id='WAT' class='listItemIcon' title='물' src='image/item/Water.png' onclick='showItem("WAT")'/>
-					<img id='ICE' class='listItemIcon' title='얼음' src='image/item/Ice.png' onclick='showItem("ICE")'/>
-					<img id='WHS' class='listItemIcon' title='위스키' src='image/item/Whiskey Bonbon.png' onclick='showItem("WHS")'/>
-					<img id='COF' class='listItemIcon' title='커피콩' src='image/item/Coffee.png' onclick='showItem("COF")'/>
-					<img id='CWA' class='listItemIcon' title='탄산수' src='image/item/Carbonated Water.png' onclick='showItem("CWA")'/>
-					<img id='MLK' class='listItemIcon' title='우유' src='image/item/Milk.png' onclick='showItem("MLK")'/>
-					<img id='BWA' class='listItemIcon' title='뜨거운 물' src='image/item/Boiling Water.png' onclick='showItem("BWA")'/>
-					<img id='LMD' class='listItemIcon' title='레몬에이드' src='image/item/Lemonade.png' onclick='showItem("LMD")'/>
-					<img id='WAB' class='listItemIcon' title='물병' src='image/item/Water Bottle.png' onclick='showItem("WAB")'/>
-					<img id='BAJ' class='listItemIcon' title='백주' src='image/item/Baijiu.png' onclick='showItem("BAJ")'/>
-					<img id='SOJ' class='listItemIcon' title='소주' src='image/item/Soju.png' onclick='showItem("SOJ")'/>
-					<img id='ICF' class='listItemIcon' title='아이스 커피' src='image/item/Ice Coffee.png' onclick='showItem("ICF")'/>
-					<img id='CTL' class='listItemIcon' title='칵테일' src='image/item/Cocktail.png' onclick='showItem("CTL")'/>
-					<img id='CFL' class='listItemIcon' title='커피 리큐르' src='image/item/Coffee Liqueur.png' onclick='showItem("CFL")'/>
-					<img id='COL' class='listItemIcon' title='콜라' src='image/item/Cola.png' onclick='showItem("COL")'/>
-					<img id='CLA' class='listItemIcon' title='카페라테' src='image/item/Latte.png' onclick='showItem("CLA")'/>
-					<img id='HMI' class='listItemIcon' title='꿀탄 우유' src='image/item/Honey Milk.png' onclick='showItem("HMI")'/>
-					<img id='HBL' class='listItemIcon' title='하이볼' src='image/item/Highball.png' onclick='showItem("HBL")'/>
-					<img id='CMI' class='listItemIcon' title='초코 우유' src='image/item/Chocolate Milk.png' onclick='showItem("CMI")'/>
-					<img id='HWA' class='listItemIcon' title='꿀물' src='image/item/Honey Water.png' onclick='showItem("HWA")'/>
-					<img id='IWA' class='listItemIcon' title='얼음물' src='image/item/Ice Water.png' onclick='showItem("IWA")'/>
-					<img id='OTR' class='listItemIcon' title='온더락' src='image/item/On The Rocks.png' onclick='showItem("OTR")'/>
-					<img id='CBY' class='listItemIcon' title='카우보이' src='image/item/Cowboy.png' onclick='showItem("CBY")'/>
-					<img id='KLQ' class='listItemIcon' title='고량주' src='image/item/Kaoliang Liquor.png' onclick='showItem("KLQ")'/>
-					<img id='HHW' class='listItemIcon' title='뜨거운 꿀물' src='image/item/Hot Honey Water.png' onclick='showItem("HHW")'/>
-					<img id='FLQ' class='listItemIcon' title='백일취' src='image/item/Flower Liquor.png' onclick='showItem("FLQ")'/>
-					<img id='AMC' class='listItemIcon' title='아메리카노' src='image/item/Americano.png' onclick='showItem("AMC")'/>
-					<img id='HLQ' class='listItemIcon' title='약주' src='image/item/Herbal Liquor.png' onclick='showItem("HLQ")'/>
-					<img id='WCT' class='listItemIcon' title='위스키 콕' src='image/item/Whiskey Cocktail.png' onclick='showItem("WCT")'/>
-					<img id='PWA' class='listItemIcon' title='정화수' src='image/item/Purified Water.png' onclick='showItem("PWA")'/>
-					<img id='COC' class='listItemIcon' title='캔 콜라' src='image/item/Can of Cola.png' onclick='showItem("COC")'/>
-					<img id='HOC' class='listItemIcon' title='핫초코' src='image/item/Hot Chocolate.png' onclick='showItem("HOC")'/>
-					<img id='WRS' class='listItemIcon' title='깔루아 밀크' src='image/item/White Russian.png' onclick='showItem("WRS")'/>
+					<img id='WRS' class='listItemIcon' title='깔루아 밀크' src='image/item/Kahlua Milk.png' onclick='showItem("WRS")'/>
 					<img id='CAM' class='listItemIcon' title='감시 카메라' src='image/item/Surveillance Camera.png' onclick='showItem("CAM")'/>
 					<img id='SNR' class='listItemIcon' title='올가미' src='image/item/Snare.png' onclick='showItem("SNR")'/>
 					<img id='MTR' class='listItemIcon' title='쥐덫' src='image/item/Mouse Trap.png' onclick='showItem("MTR")'/>

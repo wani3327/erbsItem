@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name(ENG),Name(KOR),Code,Type,Rarity,Recipe,Drop,Stat,Image Name
 Pickaxe,곡괭이,PIC,Axe,Common,,"연 7,모 7,묘 7,숲 8",공격력 +15,Pickaxe.png
 Hatchet,손도끼,HCH,Axe,Common,,"연 4,모 5,공 4",공격력 +25,Hatchet.png
@@ -72,13 +71,13 @@ NTW-20,NTW-20,NTW,Sniper Rifle,Epic,GRI+ISH,,"공격력 + 95,스킬 증폭 + 27%
 Polaris,폴라리스,POL,Sniper Rifle,Epic,RAI+WPW,,"공격력 + 135,공격 속도 + 40%,이동 속도 - 0.1,시야 + 2,Max Ammo: 3,",Polaris.png
 The Deadly Ray,사사성광,TRA,Sniper Rifle,Legendary,MST+GRI,,"공격력 + 95,스킬 증폭 + 36%,이동 속도 - 0.15,시야 + 2.5,Max Ammo: 1,",The Deadly Ray.png
 Needle,바늘,NEE,Rapier,Common,,"골 7,호 6,병 6","공격력 +3, 치명타 피해량 +25%,",Needle.png
-Fencing Rapier,레이피어,FER,Rapier,Uncommon,NEE+IRO,,"공격력 +16, 치명타 피해량 +25%,",Fencing Rapier.png
-Apricot Sword,매화검,ASW,Rapier,Rare,FER+FFA,,"공격력 +21, 치명타 확률 +10%, 치명타 피해량 +25%, 쿨타임 감소 +10%,",Apricot Sword.png
-Sword of Justice,활빈검,SJU,Rapier,Epic,FER+CAU,,"공격력 +30, 체력 재생 +1.5, 스태미너 재생 +200%, 치명타 피해량 +25%, 쿨타임 감소 +15%",Sword of Justice.png
+Rapier,레이피어,RAP,Rapier,Uncommon,NEE+IRO,,"공격력 +16, 치명타 피해량 +25%,",Rapier.png
+Apricot Sword,매화검,ASW,Rapier,Rare,RAP+FFA,,"공격력 +21, 치명타 확률 +10%, 치명타 피해량 +25%, 쿨타임 감소 +10%,",Apricot Sword.png
+Sword of Justice,활빈검,SJU,Rapier,Epic,RAP+CAU,,"공격력 +30, 체력 재생 +1.5, 스태미너 재생 +200%, 치명타 피해량 +25%, 쿨타임 감소 +15%",Sword of Justice.png
 Durendal Mk2,듀랜달 Mk2,DMK,Rapier,Epic,ASW+LAS,,"공격력 + 45,치명타 피해량 + 25%,치명타 확률 + 10%,시야 + 3,쿨타임 감소 + 10%,",Durendal Mk2.png
 Volticletto,볼틱레토,VOL,Rapier,Epic,ASW+EPA,,"공격력 + 47,공격 속도 + 40%,치명타 피해량 + 25%,치명타 확률 + 10%,쿨타임 감소 + 10%,",Volticletto.png
 Meteor Claymore,유성검,MCL,Rapier,Epic,ASW+MET,,"공격력 + 70,치명타 피해량 + 50%,쿨타임 감소 + 10%,",Meteor Claymore.png
-Joyeuse,주와이외즈,JOY,Rapier,Epic,FER+MIT,,"공격력 + 75,치명타 피해량 + 30%,이동 속도 + 0.2,",Joyeuse.png
+Joyeuse,주와이외즈,JOY,Rapier,Epic,RAP+MIT,,"공격력 + 75,치명타 피해량 + 30%,이동 속도 + 0.2,",Joyeuse.png
 Mistilteinn,미스틸테인,MTT,Rapier,Legendary,SJU+BRA,,"공격력 + 30,체력 재생 + 1.5,스태미너 재생 + 200%,치명타 피해량 + 25%,쿨타임 감소 + 15%,스킬 증폭 + 20%,",Mistilteinn.png
 Short Spear,단창,SSP,Spear,Common,,"연 5,절 4,숲 4",공격력 +15,Short Spear.png
 Bamboo Spear,죽창,BSP,Spear,Uncommon,SSP+BAM,,"공격력 +37,",Bamboo Spear.png
@@ -123,82 +122,82 @@ Flour Bomb,밀가루폭탄,FBO,Throw,Rare,WPW+MCO,,"공격력 +58, 공격 속도
 Ball Lightning,볼 라이트닝,BLI,Throw,Rare,IBA+DBA,,"공격력 +24, 공격 속도 +20%,",Ball Lightning.png
 Flubber,플러버,FLU,Throw,Rare,RUB+HWA,,"공격력 +42,",Flubber.png
 Spiky Bouncy Ball,가시 탱탱볼,SBB,Throw,Rare,FLU+NAI,,"공격력 +36,스킬 적중 시 치유 감소 -40%,",Spiky Bouncy Ball.png
-Highly Explosive Grenade,소이탄,HEG,Throw,Epic,MCO+BLI,,"공격력 + 56,기본 공격 추가 피해 + 80,",Highly Explosive Grenade.png
+High Explosive Grenade,소이탄,HEG,Throw,Epic,MCO+BLI,,"공격력 + 56,기본 공격 추가 피해 + 80,",High Explosive Grenade.png
 Incendiary Bomb,고폭 수류탄,IBO,Throw,Epic,GRE+RDX,,"공격력 + 55,공격 속도 + 50%,",Incendiary Bomb.png
 Grenade of Antioch,안티오크의 수류탄,GAN,Throw,Epic,IBO+CRS,,"공격력 + 70,기본 공격 추가 피해 + 80,",Grenade of Antioch.png
 David's Sling,다비드슬링,DSL,Throw,Epic,SLI+SRE,,"공격력 + 45,체력 재생 +150%,기본 공격 추가 피해 +30,",David_s Sling.png
 Smoke Bomb,연막탄,SMB,Throw,Epic,FBO+COL,,"공격력 + 90,공격 속도 +30%,",Smoke Bomb.png
 Ruthenium Marble,루테늄 구슬,RMA,Throw,Epic,SBB+GLD,,"공격력 +70,스킬 증폭 +20%,스킬 적중 시 치유 감소 40%,",Ruthenium Marble.png
-Razor,면도칼,RAZ,Shuriken,Common,,,,Razor.png
-Playing Cards,트럼프 카드,PCA,Shuriken,Common,,,,Playing Cards.png
-Chalk,분필,CHL,Shuriken,Common,,,,Chalk.png
-Dart,다트,DAR,Shuriken,Uncommon,,,"공격력 +11,이동 속도 +0.1,치명타 피해량 +20%,",Dart.png
-Vintage Cards,빈티지 카드,VCA,Shuriken,Uncommon,,,"공격력 +15,치명타 확률 +10%,",Vintage Cards.png
-Throwing Stars,표창,TST,Shuriken,Uncommon,,,"공격력 +27,",Throwing Stars.png
-Onyx Dagger,흑건,ODA,Shuriken,Uncommon,,,"공격력 +17,기본 공격 추가 피해 +10,",Onyx Dagger.png
-Charm,부적,CHM,Shuriken,Rare,,,"공격력 +40,스킬 증폭 +10%,",Charm.png
-Willow Leaf Spike,유엽비도,WSP,Shuriken,Rare,,,"공격력 +17,기본 공격 추가 피해 +20,",Willow Leaf Spike.png
-Chakram,챠크람,CHK,Shuriken,Rare,,,"공격력 +38,",Chakram.png
-Apricot Flower Tag,매화비표,ATA,Shuriken,Rare,,,"공격력 +14,쿨타임 감소 +10%,기본 공격 추가 피해 +30,",Apricot Flower Tag.png
-Venom Dart,독침,VDA,Shuriken,Rare,,,"공격력 +55,치명타 피해량 +20%,스킬 증폭 +15,",Venom Dart.png
-Dharma Chakram,법륜,DCH,Shuriken,Rare,,,"공격력 +34,스킬 증폭 +15%,",Dharma Chakram.png
-Plumbata,플럼바타,PLU,Shuriken,Rare,,,"공격력 +48,이동 속도 +0.1,치명타 피해량 +25%,",Plumbata.png
-Cards of Tyranny,미치광이왕의 카드,CTY,Shuriken,Epic,,,"공격력 + 45,공격 속도 + 30%,치명타 확률 +20%,",Cards of Tyranny.png
-Mystic Jade Charm,옥전결,MCH,Shuriken,Epic,,,"공격력 + 60,스킬 증폭 + 12,스킬 증폭 + 12%,",Mystic Jade Charm.png
-Fuhma Shuriken,풍마 수리검,FSH,Shuriken,Epic,,,"공격력 + 40,쿨타임 감소 +15%,기본 공격 추가 피해 +36,",Fuhma Shuriken.png
-Frost Venom Dart,빙백은침,FVD,Shuriken,Epic,,,"공격력 + 80,치명타 피해량 +50%,스킬 증폭 +20,",Frost Venom Dart.png
-Azure Dagger,푸른색 단도,ADA,Shuriken,Epic,,,"공격력 + 20,기본 공격 추가 피해 + 33,스킬 증폭 + 24,",Azure Dagger.png
-Flechette,플레셋,FLE,Shuriken,Epic,,,"공격력 + 75,이동 속도 + 0.2,치명타 피해량 + 40%,",Flechette.png
-Wind and Fire Wheels,건곤권,WWH,Shuriken,Epic,,,"공격력 + 55,스킬 증폭 +17%,",Wind and Fire Wheels.png
-Death Rune,생사부,DRU,Shuriken,Epic,,,"공격력 + 80,스킬 증폭 + 20%,",Death Rune.png
-Sudarsana,수다르사나,SUD,Shuriken,Legendary,,,"공격력 + 125,",Sudarsana.png
-Petal Torrent,만천화우,PTR,Shuriken,Legendary,,,"공격력 + 100,치명타 피해량 + 50%,기본 공격 추가 피해 + 140,스킬 증폭 + 30,",Petal Torrent.png
-Bow,양궁,BOW,Bow,Common,,,"공격력 +11,",Bow.png
+Razor,면도칼,RAZ,Shuriken,Common,,"병 6,성 6,학 6",,Razor.png
+Playing Cards,트럼프 카드,PCA,Shuriken,Common,,"호 6,번 7",,Playing Cards.png
+Chalk,분필,CHL,Shuriken,Common,,"공 7,성 6,학 6",,Chalk.png
+Dart,다트,DAR,Shuriken,Uncommon,NEE+FEA,,"공격력 +11,이동 속도 +0.1,치명타 피해량 +20%,",Dart.png
+Vintage Cards,빈티지 카드,VCA,Shuriken,Uncommon,PCA+FPE,,"공격력 +15,치명타 확률 +10%,",Vintage Cards.png
+Throwing Stars,표창,TST,Shuriken,Uncommon,RAZ+PWR,,"공격력 +27,",Throwing Stars.png
+Onyx Dagger,흑건,ODA,Shuriken,Uncommon,RAZ+CRS,,"공격력 +17,기본 공격 추가 피해 +10,",Onyx Dagger.png
+Charm,부적,CHM,Shuriken,Rare,VCA+BSC,,"공격력 +40,스킬 증폭 +10%,",Charm.png
+Willow Leaf Spike,유엽비도,WSP,Shuriken,Rare,ODA+BRA,,"공격력 +17,기본 공격 추가 피해 +20,",Willow Leaf Spike.png
+Chakram,챠크람,CHK,Shuriken,Rare,TST+STM,,"공격력 +38,",Chakram.png
+Apricot Flower Tag,매화비표,ATA,Shuriken,Rare,WSP+FLO,,"공격력 +14,쿨타임 감소 +10%,기본 공격 추가 피해 +30,",Apricot Flower Tag.png
+Venom Dart,독침,VDA,Shuriken,Rare,NEE+POI,,"공격력 +55,치명타 피해량 +20%,스킬 증폭 +15,",Venom Dart.png
+Dharma Chakram,법륜,DCH,Shuriken,Rare,CHK+BSC,,"공격력 +34,스킬 증폭 +15%,",Dharma Chakram.png
+Plumbata,플럼바타,PLU,Shuriken,Rare,DAR+STE,,"공격력 +48,이동 속도 +0.1,치명타 피해량 +25%,",Plumbata.png
+Cards of Tyranny,미치광이왕의 카드,CTY,Shuriken,Epic,VCA+ION,,"공격력 + 45,공격 속도 + 30%,치명타 확률 +20%,",Cards of Tyranny.png
+Mystic Jade Charm,옥전결,MCH,Shuriken,Epic,CHM+ASH,,"공격력 + 60,스킬 증폭 + 12,스킬 증폭 + 12%,",Mystic Jade Charm.png
+Fuhma Shuriken,풍마 수리검,FSH,Shuriken,Epic,ATA+ALC,,"공격력 + 40,쿨타임 감소 +15%,기본 공격 추가 피해 +36,",Fuhma Shuriken.png
+Frost Venom Dart,빙백은침,FVD,Shuriken,Epic,VDA+ICE,,"공격력 + 80,치명타 피해량 +50%,스킬 증폭 +20,",Frost Venom Dart.png
+Azure Dagger,푸른색 단도,ADA,Shuriken,Epic,ODA+POI,,"공격력 + 20,기본 공격 추가 피해 + 33,스킬 증폭 + 24,",Azure Dagger.png
+Flechette,플레셋,FLE,Shuriken,Epic,PLU+WPW,,"공격력 + 75,이동 속도 + 0.2,치명타 피해량 + 40%,",Flechette.png
+Wind and Fire Wheels,건곤권,WWH,Shuriken,Epic,DCH+BAM,,"공격력 + 55,스킬 증폭 +17%,",Wind and Fire Wheels.png
+Death Rune,생사부,DRU,Shuriken,Epic,CHM+TOL,,"공격력 + 80,스킬 증폭 + 20%,",Death Rune.png
+Sudarsana,수다르사나,SUD,Shuriken,Legendary,FCO+TST,,"공격력 + 125,",Sudarsana.png
+Petal Torrent,만천화우,PTR,Shuriken,Legendary,FVD+SBT,,"공격력 + 100,치명타 피해량 + 50%,기본 공격 추가 피해 + 140,스킬 증폭 + 30,",Petal Torrent.png
+Bow,양궁,BOW,Bow,Common,,"양 4,성 4","공격력 +11,",Bow.png
 Wooden Bow,목궁,WBO,Bow,Uncommon,BRA+PWR,,"공격력 +26,",Wooden Bow.png
-Longbow,장궁,LON,Bow,Uncommon,,,"공격력 +25,",Longbow.png
-Composite Bow,컴포지트 보우,CBO,Bow,Uncommon,,,"공격력 +16,기본 공격 시 치유 감소 -40%,",Composite Bow.png
-Strong Bow,강궁,STO,Bow,Rare,,,"공격력 +26,공격 속도 +15%,",Strong Bow.png
-Stallion Bow,국궁,SAO,Bow,Rare,,,"공격력 +20,기본 공격 추가 피해 +25,",Stallion Bow.png
-Mighty Bow,벽력궁,MBO,Bow,Rare,,,"공격력 +20,기본 공격 추가 피해 +11,",Mighty Bow.png
-Pellet Bow,탄궁,PBO,Bow,Rare,,,"공격력 +55,",Pellet Bow.png
-Scorchbow,화전,SCO,Bow,Rare,,,"공격력 +24,스킬 증폭 +18,",Scorchbow.png
-Ancient Bolt,편전,ABO,Bow,Epic,,,"공격력 + 55,기본 공격 추가 피해 + 40,",Ancient Bolt.png
-Golden-Ratio Bow,골든래쇼 보우,GBO,Bow,Epic,,,"공격력 + 60,스킬 증폭 + 20%,",Golden-Ratio Bow.png
-Twinbow,트윈보우,TWI,Bow,Epic,,,"공격력 + 70,공격 속도 + 50%,기본 공격 시 치유 감소 -40%,",Twinbow.png
-Elemental Bow,엘리멘탈보우,EBO,Bow,Epic,,,"공격력 + 60,이동 속도 +0.1,스킬 증폭 + 48,스킬 적중 시 치유 감소 -40%,",Elemental Bow.png
-Failnaught,페일노트,FAI,Bow,Legendary,,,"공격력 + 80,공격 속도 + 15%,생명력 흡수 + 15%,",Failnaught.png
+Longbow,장궁,LON,Bow,Uncommon,BOW+RUB,,"공격력 +25,",Longbow.png
+Composite Bow,컴포지트 보우,CBO,Bow,Uncommon,LON+NAI,,"공격력 +16,기본 공격 시 치유 감소 -40%,",Composite Bow.png
+Strong Bow,강궁,STO,Bow,Rare,WBO+OIL,,"공격력 +26,공격 속도 +15%,",Strong Bow.png
+Stallion Bow,국궁,SAO,Bow,Rare,MBO+STM,,"공격력 +20,기본 공격 추가 피해 +25,",Stallion Bow.png
+Mighty Bow,벽력궁,MBO,Bow,Rare,LON+GUN,,"공격력 +20,기본 공격 추가 피해 +11,",Mighty Bow.png
+Pellet Bow,탄궁,PBO,Bow,Rare,WBO+HST,,"공격력 +55,",Pellet Bow.png
+Scorchbow,화전,SCO,Bow,Rare,LON+LIG,,"공격력 +24,스킬 증폭 +18,",Scorchbow.png
+Ancient Bolt,편전,ABO,Bow,Epic,SAO+BAM,,"공격력 + 55,기본 공격 추가 피해 + 40,",Ancient Bolt.png
+Golden-Ratio Bow,골든래쇼 보우,GBO,Bow,Epic,PBO+GLD,,"공격력 + 60,스킬 증폭 + 20%,",Golden-Ratio Bow.png
+Twinbow,트윈보우,TWI,Bow,Epic,STO+CBO,,"공격력 + 70,공격 속도 + 50%,기본 공격 시 치유 감소 -40%,",Twinbow.png
+Elemental Bow,엘리멘탈보우,EBO,Bow,Epic,SCO+WFA,,"공격력 + 60,이동 속도 +0.1,스킬 증폭 + 48,스킬 적중 시 치유 감소 -40%,",Elemental Bow.png
+Failnaught,페일노트,FAI,Bow,Legendary,VBS+STO,,"공격력 + 80,공격 속도 + 15%,생명력 흡수 + 15%,",Failnaught.png
 Short Crossbow,석궁,SCR,Crossbow,Common,,,,Short Crossbow.png
-Long Crossbow,쇠뇌,LOC,Crossbow,Uncommon,석궁+PWR,,"공격력 +30,",Long Crossbow.png
-Crossbow,크로스보우,CRB,Crossbow,Uncommon,석궁+BAM,,"공격력 +30,",Crossbow.png
-Power Crossbow,노,PCR,Crossbow,Rare,쇠뇌+RUB,,"공격력 +42,",Power Crossbow.png
-Laser Crossbow,저격궁,LAC,Crossbow,Rare,크로스보우+레이저 포인터,,"공격력 +30,시야 +2.5,",Laser Crossbow.png
-Heavy Crossbow,헤비 크로스보우,HCR,Crossbow,Rare,쇠뇌+STE,,"공격력 +72,이동 속도 -0.1,",Heavy Crossbow.png
-Steel Bow,철궁,SBO,Crossbow,Rare,크로스보우+ISH,,"공격력 +60,",Steel Bow.png
-The Legend of the General,대황,TGE,Crossbow,Epic,철궁+OLC,,"공격력 + 75,체력 재생 + 2,공격 속도 + 50%,",The Legend of the General.png
-Ballista,발리스타,BAL,Crossbow,Epic,헤비 크로스보우+단창,,"공격력 + 115,공격 속도 - 10%,이동 속도 - 0.1,",Ballista.png
-Sniper Crossbow,저격 크로스보우,SNC,Crossbow,Epic,저격궁+저격 스코프,,"공격력 + 90,시야 +5,기본 공격 사거리 +1.2,",Sniper Crossbow.png
-The Golden Ghost,영광금귀신기노,TGH,Crossbow,Epic,노+RDX,,"공격력 + 70,기본 공격 추가 피해 +40,",The Golden Ghost.png
-Sharanga,샤릉가,SHR,Crossbow,Legendary,FCO+크로스보우,,"공격력 + 140,",Sharanga.png
+Long Crossbow,쇠뇌,LOC,Crossbow,Uncommon,SCR+PWR,,"공격력 +30,",Long Crossbow.png
+Crossbow,크로스보우,CRB,Crossbow,Uncommon,SCR+BAM,,"공격력 +30,",Crossbow.png
+Power Crossbow,노,PCR,Crossbow,Rare,LOC+RUB,,"공격력 +42,",Power Crossbow.png
+Laser Crossbow,저격궁,LAC,Crossbow,Rare,SRB+LAS,,"공격력 +30,시야 +2.5,",Laser Crossbow.png
+Heavy Crossbow,헤비 크로스보우,HCR,Crossbow,Rare,LOC+STE,,"공격력 +72,이동 속도 -0.1,",Heavy Crossbow.png
+Steel Bow,철궁,SBO,Crossbow,Rare,CRB+ISH,,"공격력 +60,",Steel Bow.png
+The Legend of the General,대황,TGE,Crossbow,Epic,SBO+OLC,,"공격력 + 75,체력 재생 + 2,공격 속도 + 50%,",The Legend of the General.png
+Ballista,발리스타,BAL,Crossbow,Epic,HCR+SSP,,"공격력 + 115,공격 속도 - 10%,이동 속도 - 0.1,",Ballista.png
+Sniper Crossbow,저격 크로스보우,SNC,Crossbow,Epic,LAC+SSC,,"공격력 + 90,시야 +5,기본 공격 사거리 +1.2,",Sniper Crossbow.png
+The Golden Ghost,영광금귀신기노,TGH,Crossbow,Epic,PCR+RDX,,"공격력 + 70,기본 공격 추가 피해 +40,",The Golden Ghost.png
+Sharanga,샤릉가,SHR,Crossbow,Legendary,FCO+CRB,,"공격력 + 140,",Sharanga.png
 Brass Knuckles,너클,BKN,Glove,Common,,"숲 5,묘지 5",,Brass Knuckles.png
-Cotton Gloves,목장갑,CGL,Glove,Common,,"호텔 4,병원 4",,Cotton Gloves.png
-Leather Gloves,글러브,LGL,Glove,Uncommon,목장갑+LEA,,"공격력 +18,",Leather Gloves.png
-Iron Knuckles,아이언 너클,IKN,Glove,Uncommon,너클+IRO,,"공격력 +20,",Iron Knuckles.png
-Gauntlet,건틀릿,GAU,Glove,Rare,목장갑+STE,,"공격력 +32,이동 속도 -0.1,",Gauntlet.png
-Wing Knuckles,윙 너클,WKN,Glove,Rare,아이언 너클 + FEA,,"공격력 +20,이동 속도 +0.1,",Wing Knuckles.png
-Bone Guantlet,귀골 장갑,BGU,Glove,Rare,건틀릿+TTS,,"공격력 +35,방어력 +13,이동 속도 -0.1,",Bone Guantlet.png
-Shatter Shell Gauntlet,벽력귀투,SGA,Glove,Rare,건틀릿+GUN,,"공격력 +32,이동 속도 -0.1,기본 공격 추가 피해 +15,",Shatter Shell Gauntlet.png
-Glass Knuckles,유리 너클,GKN,Glove,Rare,아이언 너클+유리조각,,"공격력 +28,치명타 확률 +10%,",Glass Knuckles.png
-Phoenix Gloves,회단 장갑,PGL,Glove,Rare,글러브+ASH,,"공격력 +27,스킬 증폭 +30,",Phoenix Gloves.png
-One Inch Punch,단영촌천투,OPU,Glove,Epic,귀골 장갑+인형,,"공격력 + 50,방어력 + 25,스태미너 재생(%) + 50%,생명력 흡수 + 10%,",One Inch Punch.png
-Divine Fist,디바인 피스트,DFI,Glove,Epic,벽력귀투+십자가,,"공격력 + 35,기본 공격 추가 피해 + 33,이동 속도 - 0.1,",Divine Fist.png
-Bloodwing Knuckles,블러드윙 너클,BWK,Glove,Epic,윙 너클+RBY,,"공격력 + 53,최대 체력 + 400,이동 속도 + 0.1,",Bloodwing Knuckles.png
-Frost Petal Hand,빙화현옥수,FHA,Glove,Epic,회단 장갑+얼음,,"공격력 + 27,쿨타임 감소 + 15%,스킬 증폭 + 38,",Frost Petal Hand.png
-Buddha's Palm,여래수투,BPA,Glove,Epic,회단 장갑+전신사리,,"공격력 + 33,쿨타임 감소 + 10%,스킬 증폭 + 18%,",Buddha_s Palm.png
-Brasil Gauntlet,브레이질 건틀릿,BGA,Glove,Epic,귀골 장갑+OLC,,"공격력 + 42,방어력 + 13,체력 재생 + 1,공격 속도(%) + 30%,이동 속도 - 0.1,",Brasil Gauntlet.png
-White Claw Punch,소수,WPU,Glove,Epic,유리너클+백색 가루,,"공격력 + 55,치명타 확률 + 25%,",White Claw Punch.png
-Imperial Silk Glove,천잠장갑,IGL,Glove,Epic,미스릴 실+글러브,,"공격력 + 85,이동 속도 + 0.2,",Imperial Silk Glove.png
-Bamboo,대나무,BAM,Tonfa,Common,,,,Bamboo.png
-Wooden Tonfa,톤파,WTF,Tonfa,Uncommon,,,"공격력 +23,방어력 +8,",Wooden Tonfa.png
+Cotton Glove,목장갑,CGL,Glove,Common,,"호텔 4,병원 4",,Cotton Glove.png
+Leather Glove,글러브,LGL,Glove,Uncommon,CGL+LEA,,"공격력 +18,",Leather Glove.png
+Iron Knuckles,아이언 너클,IKN,Glove,Uncommon,BKN+IRO,,"공격력 +20,",Iron Knuckles.png
+Gauntlet,건틀릿,GAU,Glove,Rare,CGL+STE,,"공격력 +32,이동 속도 -0.1,",Gauntlet.png
+Wing Knuckles,윙 너클,WKN,Glove,Rare,IKN+FEA,,"공격력 +20,이동 속도 +0.1,",Wing Knuckles.png
+Bone Gauntlet,귀골 장갑,BGU,Glove,Rare,GAU+TTS,,"공격력 +35,방어력 +13,이동 속도 -0.1,",Bone Gauntlet.png
+Shatter Shell Gauntlet,벽력귀투,SGA,Glove,Rare,GAU+GUN,,"공격력 +32,이동 속도 -0.1,기본 공격 추가 피해 +15,",Shatter Shell Gauntlet.png
+Glass Knuckles,유리 너클,GKN,Glove,Rare,IKN+GPI,,"공격력 +28,치명타 확률 +10%,",Glass Knuckles.png
+Phoenix Gloves,회단 장갑,PGL,Glove,Rare,LGL+ASH,,"공격력 +27,스킬 증폭 +30,",Phoenix Gloves.png
+One Inch Punch,단영촌천투,OPU,Glove,Epic,BGU+인형,,"공격력 + 50,방어력 + 25,스태미너 재생(%) + 50%,생명력 흡수 + 10%,",One Inch Punch.png
+Divine Fist,디바인 피스트,DFI,Glove,Epic,벽력귀투+CRS,,"공격력 + 35,기본 공격 추가 피해 + 33,이동 속도 - 0.1,",Divine Fist.png
+Bloodwing Knuckles,블러드윙 너클,BWK,Glove,Epic,WKN+RBY,,"공격력 + 53,최대 체력 + 400,이동 속도 + 0.1,",Bloodwing Knuckles.png
+Frost Petal Hand,빙화현옥수,FHA,Glove,Epic,PGL+ICE,,"공격력 + 27,쿨타임 감소 + 15%,스킬 증폭 + 38,",Frost Petal Hand.png
+Buddha's Palm,여래수투,BPA,Glove,Epic,PGL+진신사리,,"공격력 + 33,쿨타임 감소 + 10%,스킬 증폭 + 18%,",Buddha_s Palm.png
+Brasil Gauntlet,브레이질 건틀릿,BGA,Glove,Epic,BGU+OLC,,"공격력 + 42,방어력 + 13,체력 재생 + 1,공격 속도(%) + 30%,이동 속도 - 0.1,",Brasil Gauntlet.png
+White Claw Punch,소수,WPU,Glove,Epic,GKN+WPW,,"공격력 + 55,치명타 확률 + 25%,",White Claw Punch.png
+Imperial Silk Glove,천잠장갑,IGL,Glove,Epic,MIS+LGL,,"공격력 + 85,이동 속도 + 0.2,",Imperial Silk Glove.png
+Bamboo,대나무,BAM,Tonfa,Common,,"연 7,절 7,양 6,묘 7,숲 7",,Bamboo.png
+Tonfa,톤파,TNF,Tonfa,Uncommon,BAM+BRA,,"공격력 +23,방어력 +8,",Tonfa.png
 Police Baton,경찰봉,PBA,Tonfa,Rare,,,"공격력 +35,방어력 +8,",Police Baton.png
 Ryukyu Tonfa,류큐톤파,RTF,Tonfa,Rare,,,"공격력 +38,방어력 +18,",Ryukyu Tonfa.png
 Tactical Tonfa,택티컬 톤파,TTF,Tonfa,Epic,,,"공격력 + 60,방어력 + 10,생명력 흡수 + 20%,",Tactical Tonfa.png
@@ -209,7 +208,7 @@ Golden Bridge,골든 브릿지,GBG,Guitar,Uncommon,보급형 기타+GLD,,"공격
 Single Coil Pickup,싱글 픽업,SPI,Guitar,Uncommon,보급형 기타+방전 전지,,"공격력 +8,공격 속도 +15%,기본 공격 추가 피해 +2,",Single Coil Pickup.png
 Ruby Special,루비 스페셜,RSP,Guitar,Rare,싱글 픽업+RBY,,"공격력 +20,최대 체력 +300,공격 속도 +20%,기본 공격 추가 피해 +2,",Ruby Special.png
 Humbucker Pickup,험버커 픽업,HPI,Guitar,Rare,골든 브릿지+저격스코프,,"공격력 +25,시야 +3,스킬 증폭 +15%,",Humbucker Pickup.png
-King-V,King-V,KIV,Guitar,Rare,골든 브릿지+가위,,"공격력 +13,스킬 증폭 +16%,",King-V.png
+King-V,King-V,KIV,Guitar,Rare,골든 브릿지+SCI,,"공격력 +13,스킬 증폭 +16%,",King-V.png
 Nocaster,노캐스터,NOC,Guitar,Rare,싱글 픽업+정교한 도면,,"공격력 +15,공격 속도 +20%,생명력 흡수 +10%,기본 공격 추가 피해 +15,",Nocaster.png
 Superstrat,슈퍼스트랫,SUP,Guitar,Rare,싱글 픽업+BAM,,"공격력 +19,공격 속도 +15%, 기본 공격 추가 피해 +2,",Superstrat.png
 Wild Horse,야생마,WHO,Guitar,Rare,싱글 픽업 +OIL,,"공격력 +9,공격 속도 +25%, 기본 공격 추가 피해 +6,",Wild Horse.png
@@ -218,7 +217,7 @@ Stairway to Heaven,천국의 계단,STH,Guitar,Epic,험버커 픽업+성배,,"�
 Purple Haze,퍼플 헤이즈,PHA,Guitar,Epic,King-V+ASH,,"공격력 + 85,스킬 증폭 + 22%,",Purple Haze.png
 Satisfaction,새티스팩션,SAT,Guitar,Epic,노캐스터+돌멩이,,"공격력 +30,공격 속도 +30%,생명력 흡수 + 10%,기본 공격 추가 피해 + 18,",Satisfaction.png
 Wonderful Tonight,원더풀 투나잇,WTO,Guitar,Epic,슈퍼스트랫+운석,,"공격력 + 100,공격 속도 + 45%,기본 공격 추가 피해 + 2,",Wonderful Tonight.png
-The Wall,더 월,TWA,Guitar,Epic,슈퍼스트랫+백색 가루,,"공격력 + 70,공격 속도 + 18%,기본 공격 추가 피해 + 2,",The Wall.png
+The Wall,더 월,TWA,Guitar,Epic,슈퍼스트랫+WPW,,"공격력 + 70,공격 속도 + 18%,기본 공격 추가 피해 + 2,",The Wall.png
 Teen Spirit,틴 스피릿,TSP,Guitar,Epic,야생마+진신사리,,"공격력 +10,공격 속도 +25%,기본 공격 추가 피해 +23,",Teen Spirit.png
 Steel Chain,쇠사슬,STC,Nunchaku,Common,,,,Steel Chain.png
 Nunchaku,눈차크,NUN,Nunchaku,Uncommon,,,공격력 +27,Nunchaku.png
@@ -247,10 +246,10 @@ Sheet Metal Armor,판금 갑옷,SMA,Chest,Rare,FAR+STE,,"방어력 +38,최대 �
 Hanbok,한복,HAN,Chest,Rare,PRO+FLO,,"방어력 +5,체력 재생 +1,쿨타임 감소 +15%,",Hanbok.png
 Bulletproof Vest,방탄조끼,BVE,Chest,Rare,MSU+ISH,,"방어력 +10,최대 체력 +130,기본 공격 피해 감소 +10,",Bulletproof Vest.png
 Sunset Armor,석양의 갑옷,SSA,Chest,Rare,LAR+LEA,,"방어력 +28,최대 체력 +450,",Sunset Armor.png
-Covert Agent Uniform,어사의,CAU,Chest,Rare,HAN+마패,,"방어력 +23,체력 재생 +2.5,쿨타임 감소 +15%,",Covert Agent Uniform.png
+Covert Agent Uniform,어사의,CAU,Chest,Rare,HAN+STM,,"방어력 +23,체력 재생 +2.5,쿨타임 감소 +15%,",Covert Agent Uniform.png
 Optical Camouflage Suit,광학미채 슈트,OSU,Chest,Epic,DSU+GLP,,"방어력 + 20,치명타 확률 + 22%,스킬 피해 감소 + 15%,",Optical Camouflage Suit.png
 Rocker's Jacket,락커의 자켓,RKJ,Chest,Epic,RDJ+소란 발생기,,"공격력 + 28,방어력 + 11,기본 공격 피해 감소 + 15,비전투중 이동 속도 + 0.3,스킬 적중 시 치유 감소 -40%,",Rocker_s Jacket.png
-Mithril Armor,미스릴 갑옷,MAR,Chest,Epic,LAR+미스릴,,"방어력 + 65,공격 속도 + 12%,이동 속도 + 0.2,",Mithril Armor.png
+Mithril Armor,미스릴 갑옷,MAR,Chest,Epic,LAR+MIT,,"방어력 + 65,공격 속도 + 12%,이동 속도 + 0.2,",Mithril Armor.png
 Crusader Armor,성기사의 갑옷,CRA,Chest,Epic,SMA+SRE,,"방어력 + 30,체력 재생 + 200%,기본 공격 추가 피해 + 20,이동 속도 - 0.1,",Crusader Armor.png
 Amazoness Armor,아마조네스 아머,AZA,Chest,Epic,SMA+BIK,,"방어력 + 38,최대 체력 + 100,스킬 피해 감소 + 20%,",Amazoness Armor.png
 Dragon Dobok,용의 도복,DDO,Chest,Epic,QIP+TDO,,"방어력 + 10,공격력 + 10,스태미너 재생 + 150%,쿨타임 감소 +10%,기본 공격 사거리 + 1m,",Dragon Dobok.png
@@ -271,7 +270,7 @@ Chain Coif,사슬 코이프,CCO,Head,Uncommon,HAT+STC,,"방어력 +14,쿨타임 
 Safety Helmet,안전모,SHE,Head,Uncommon,BKH+STN,,"최대 체력 +210,",Safety Helmet.png
 Close Helm,방탄모,CHE,Head,Rare,BER+BKH,,"방어력 + 20,최대 스태미너 + 130,이동 속도 + 0.1,쿨타임 감소 +10%,",Close Helm.png
 Fire Helmet,소방 헬멧,FHE,Head,Rare,SHE+WAT,,"최대 체력 +280,",Fire Helmet.png
-Tiara,티아라,TIA,Head,Rare,CIR+마패,,"방어력 +14,최대 스태미너+360,",Tiara.png
+Tiara,티아라,TIA,Head,Rare,CIR+STM,,"방어력 +14,최대 스태미너+360,",Tiara.png
 Crown,왕관,CRW,Head,Rare,CIR+GLD,,"방어력 +16,최대 스태미너 +360,",Crown.png
 Ballistic Helmet,투구,BAH,Head,Rare,MSK+CCO,,"방어력 +10,최대 체력 +90,쿨타임 감소 +13%,",Ballistic Helmet.png
 Motorcycle Helmet,오토바이 헬멧,MOH,Head,Rare,FHE+BIN,,"공격력 + 10,최대 체력 + 300,시야 + 2.5,",Motorcycle Helmet.png
@@ -340,7 +339,7 @@ Saint's Relic,성자의 유산,SRE,Accessory,Uncommon,CRS+HGR,,"체력 재생 +1
 Flower of Fate,운명의 꽃,FFA,Accessory,Uncommon,FLO+트럼프 카드,,"치명타 확률 +13%,쿨타임 감소 +10%,",Flower of Fate.png
 Glass Pieces,유리 조각,GPI,Accessory,Uncommon,GLB+STN,,"치명타 확률 +13%,",Glass Pieces.png
 Doll,인형,DOL,Accessory,Uncommon,RIB+CLO,,"스태미너 재생 +100%,생명력 흡수 +11%,",Doll.png
-Sniper Scope,저격 스코프,SSC,Accessory,Uncommon,LAS+BIN,,"공격력 +6,시야 +4,",Sniper Scope.png
+Sniping Scope,저격 스코프,SSC,Accessory,Uncommon,LAS+BIN,,"공격력 +6,시야 +4,",Sniping Scope.png
 Buddha Sarira,진신사리,BSA,Accessory,Uncommon,BSC+MRO,,"쿨타임 감소 +10%,스킬 증폭 +7%,",Buddha Sarira.png
 Quiver,화살통,QUI,Accessory,Uncommon,LEA+BAM,,"공격 속도 +22%,",Quiver.png
 Feather Duster,먼지털이개,FDU,Accessory,Uncommon,SRO+FEA,,"공격력 +9,이동 속도 +0.1,",Feather Duster.png
@@ -349,7 +348,7 @@ White Crane Fan,백우선,WFA,Accessory,Rare,GFA+FEA,,"이동 속도 + 0.1,스�
 Powder of Life,생명의 가루,PLI,Accessory,Rare,TOL+STN,,"체력 재생 +1.5,스태미너 재생 +1.5",Powder of Life.png
 Uchiwa,우치와,UCH,Accessory,Rare,DOL+FAN,,"스태미너 재생 + 150%,생명력 흡수 + 15%,스킬 증폭 + 21,",Uchiwa.png
 Magazine,탄창,MAG,Accessory,Rare,BOX+ISH,,"최대 체력 + 350,기본 공격 피해 감소 + 6,",Magazine.png
-Laced Quiver,궁기병의 화살통,LQU,Accessory,Rare,QUI+FDU,,"공격력 +10, 공격 속도 +25%, 이동 속도 +0.1",No Image
+Laced Quiver,궁기병의 화살통,LQU,Accessory,Rare,QUI+FDU,,"공격력 +10, 공격 속도 +25%, 이동 속도 +0.1",Laced Quiver.png
 Moonlight Pendant,달빛 펜던트,MPE,Accessory,Rare,RIB+MST,,"공격력 + 20,생명력 흡수 + 20%,",Moonlight Pendant.png
 Schrodinger's Box,슈뢰딩거의 상자,SCH,Accessory,Rare,BOX+POI,,"최대 체력 + 420,스킬 증폭 + 5,",Schrodinger_s Box.png
 Veritas Lux Mea,진리는 나의 빛,VME,Accessory,Rare,BSA+SRE,,"체력 재생 + 150%,쿨타임 감소 + 10%,기본 공격 추가 피해 + 12,스킬 증폭 + 8%,",Veritas Lux Mea.png
@@ -365,7 +364,7 @@ Rubber,고무,RUB,Material,Common,,"항 8,골 7,양 5",,Rubber.png
 Scrap Metal,고철,SCM,Material,Common,,"항 8,호 8,병 6,공 9",,Scrap Metal.png
 Lighter,라이터,LIG,Material,Common,,"항 8,골 8,공 8,학 7",,Lighter.png
 Laser Pointer,레이저 포인터,LAS,Material,Common,,"고 6,병 6,학 6",,Laser Pointer.png
-Stallion Medal,마패,STM,Material,Common,,"모 6,골 7,절 7",,Stallion Medal.png
+Stallion Medal,"숲 4,공 4",STM,Material,Common,,"모 6,골 7,절 7",,Stallion Medal.png
 Battery,배터리,BAT,Material,Common,,"항 7,번 7,공 9",,Battery.png
 Alcohol,알코올,ALC,Material,Common,,"병 4,공 6,학 5",,Alcohol.png
 Oil,오일,OIL,Material,Common,,"고 7,번 7,양 5,공 7",,Oil.png
@@ -375,7 +374,7 @@ Glue,접착제,GLU,Material,Common,,"골 7,병 6,공 7",,Glue.png
 Paper,종이,PAP,Material,Common,,"절 7,양 5,성 6",,Paper.png
 Iron Ore,철광석,IRO,Material,Common,,"호 7,묘 7,숲 7",,Iron Ore.png
 Can,캔,CAN,Material,Common,,"모 4,번 6,학 5",,Can.png
-Gunpower,화약,GUN,Material,Common,,"절 7,양 6,묘 7",,Gunpower.png
+Gunpowder,화약,GUN,Material,Common,,"절 7,양 6,묘 7",,Gunpowder.png
 Deleted2,고장난 노트북,DEL,Deleted,Common,,,,Deleted2.png
 Steel,강철,STE,Material,Uncommon,SCM+IRO+2,,,Steel.png
 Oilcloth,기름먹인 천,OLC,Material,Uncommon,OIL+BAN+2,,,Oilcloth.png
@@ -426,7 +425,7 @@ Choco Pie,초코파이,CHP,Food,Uncommon,BRD+CHO,,,Choco Pie.png
 Acupuncture Needle,한방침,ACN,Food,Uncommon,NEE+ALC,,,Acupuncture Needle.png
 Orchid,난초,ORC,Food,Uncommon,HER+FLO+2,,,Orchid.png
 Tandoori Chicken,탄두리,TCH,Food,Uncommon,CPW+MEA,,,Tandoori Chicken.png
-Bacon and Garlic Stick,마늘 베이컨 말이,BGS,Food,Uncommon,GAR+MEA,,,Bacon and Garlic Stick.png
+Bacon and Garlic Stick,마늘 베이컨 말이,BGS,Food,Uncommon,GAR+MEA,,,Bacon and Garlic Sticks.png
 Bun,번,BUN,Food,Uncommon,BRD+COF,,,Bun.png
 Hamburger,햄버거,HBG,Food,Uncommon,BRE+MEA,,,Hamburger.png
 Potato Bread,감자빵,PBR,Food,Uncommon,BRE+POT+2,,,Potato Bread.png
@@ -482,7 +481,7 @@ Soju,소주,SOJ,Bevarage,Uncommon,ALC+WAT+2,,,Soju.png
 Ice Coffee,아이스 커피,ICF,Bevarage,Uncommon,ICE+COF+2,,,Ice Coffee.png
 Cocktail,칵테일,CTL,Bevarage,Uncommon,WHS+LEM+4,,,Cocktail.png
 Coffee Liqueur,커피 리큐르,CFL,Bevarage,Uncommon,COF+ALC+2,,,Coffee Liqueur.png
-Cola,콜라,COL,Bevarage,Uncommon,CWA+HNY+3,,,Cola.png
+Cola,콜라,COL,Bevarage,Uncommon,CWA+HNY+3,,,Coke.png
 Latte,카페라테,CLA,Bevarage,Uncommon,MLK+COF+2,,,Latte.png
 Honey Milk,꿀탄 우유,HMI,Bevarage,Uncommon,MLK+HNY+2,,,Honey Milk.png
 Highball,하이볼,HBL,Bevarage,Uncommon,WHS+CWA+2,,,Highball.png
@@ -498,9 +497,9 @@ Americano,아메리카노,AMC,Bevarage,Rare,BWA+COF+2,,,Americano.png
 Herbal Liquor,약주,HLQ,Bevarage,Rare,BAJ+HER+5,,,Herbal Liquor.png
 Whiskey Cocktail,위스키 콕,WCT,Bevarage,Rare,COL+WHS+5,,,Whiskey Cocktail.png
 Purified Water,정화수,PWA,Bevarage,Rare,BWA+ICE+2,,,Purified Water.png
-Can of Cola,캔 콜라,COC,Bevarage,Rare,COL+CAN+2,,,Can of Cola.png
+Can of Cola,캔 콜라,COC,Bevarage,Rare,COL+CAN+2,,,Canned Coke.png
 Hot Chocolate,핫초코,HOC,Bevarage,Rare,BWA+CHO+4,,,Hot Chocolate.png
-White Russian,깔루아 밀크,WRS,Bevarage,Rare,CFL+MLK+4,,,White Russian.png
+White Russian,깔루아 밀크,WRS,Bevarage,Rare,CFL+MLK+4,,,Kahlua Milk.png
 Surveillance Camera,감시 카메라,CAM,Summon,Common,,"항 6,모 5,고 6,번 6,병 6,양 5,묘 6,학 6",,Surveillance Camera.png
 Snare,올가미,SNR,Summon,Common,,"항 6,연 6,모 5,양 5,숲 5,성 5",공격력 +10,Snare.png
 Mouse Trap,쥐덫,MTR,Summon,Common,,"연 7,모 5,묘 6",공격력 +50,Mouse Trap.png
@@ -525,532 +524,4 @@ Double Guillotine,더블 기요틴,DGU,Summon,Epic,JGU+PAX+2,,공격력 +340,Dou
 Claymore,크레모어,CLM,Summon,Epic,MIN+EPT+2,,공격력 +260,Claymore.png
 Stingburst,폭뢰침,SBT,Summon,Epic,RDX+SPL+2,,공격력 +310,Stingburst.png
 Remote Mine,리모트 마인,RMN,Summon,Legendary,FCO+SPL+3,,공격력 +450,Remote Mine.png
-=======
-Name(ENG),Name(KOR),Code,Type,Rarity,Recipe,Drop,Stat,Image Name
-Pickaxe,곡괭이,PIC,Axe,Common,,"연 7,모 7,묘 7,숲 8",공격력 +15,Pickaxe.png
-Hatchet,손도끼,HCH,Axe,Common,,"연 4,모 5,공 4",공격력 +25,Hatchet.png
-Chain Scythe,사슬 낫,CSC,Axe,Uncommon,PIC+STC,,"공격력 +50,기본 공격 사거리 +0.2,",Chain Scythe.png
-Battle Axe,전투 도끼,BAX,Axe,Uncommon,HCH+BAM,,"공격력 +47,",Battle Axe.png
-Light Hatchet,경량화 도끼,LHA,Axe,Rare,BAX+FEA,,"공격력 +61,이동 속도 +0.1,",Light Hatchet.png
-Reaper's Scythe,사신의 낫,RSC,Axe,Rare,CSC+SRO,,"공격력 +80,기본 공격 사거리 +0.5,",Reaper_s Scythe.png
-Gigantic Axe,대부,GAX,Axe,Rare,BAX+STE,,"공격력 +110,이동 속도 -0.1,",Gigantic Axe.png
-Beam Axe,빔 엑스,BEX,Axe,Epic,GAX+LAS,,"공격력 +137,시야 +4,이동 속도 -0.1,",Beam Axe.png
-Santa Muerte,산타 무에르테,SMU,Axe,Epic,RSC+RBY,,"공격력 +100,생명력 흡수 +15%,최대 체력 +450,기본 공격 사거리 +0.5,",Santa Muerte.png
-Scythe,스퀴테,SCY,Axe,Epic,RSC+GLD,,"공격력 +130,스킬 증폭 +18%,기본 공격 사거리 +1,",Scythe.png
-Parashu,파라슈,PAR,Axe,Epic,LHA+진신사리,,"공격력 +115,쿨타임 감소 +15%,이동 속도 +0.2,",Parashu.png
-Harpe,하르페,HAR,Axe,Epic,RSC+백우선,,"공격력 +125,기본 공격 사거리 +0.5,이동 속도 +0.1,스킬 증폭 +55,스킬 적중 시 치유 감소 -40%,",Harpe.png
-Scissors,가위,SCI,Dagger,Common,,"골목길 7,병원 6,학교 6",공격력 +5,Scissors.png
-Fountain Pen,만년필,FPE,Dagger,Common,,"고주 6,번화가 7,학교 7",공격력 +5,Fountain Pen.png
-Kitchen Knife,식칼,KKN,Dagger,Common,,"항 4,호 4,절 5","공격력 +4, 이동 속도 +0.05",Kitchen Knife.png
-Army Knife,군용 나이프,AKN,Dagger,Uncommon,KKN+BRA,,"공격력 +11,이동 속도 +0.08,",Army Knife.png
-Rose Knife,장미칼,RKN,Dagger,Rare,AKN+FLO,,"공격력 +16,이동 속도 +0.1,쿨타임 감소 +10%,",Rose Knife.png
-Carnwennan,카른웬난,CWN,Dagger,Epic,RKN+성자의 유산,,"공격력 +17,체력 재생 +1.5,이동 속도 +0.1,기본 공격 추가 피해 +29,쿨타임 감소 +10%,",Carnwennan.png
-Mount Slicer,파산검,MSL,Dagger,Epic,RKN+ASH,,"공격력 +30,이동 속도 +0.1,쿨타임 감소 +10%,스킬 증폭 +50,",Mount Slicer.png
-Vibroblade,초진동나이프,VIB,Dagger,Epic,AKN+모터,,"공격력 +42,공격 속도 + 30%,이동 속도 + 0.1,",Vibroblade.png
-Fragarach,프라가라흐,FRA,Dagger,Legendary,AKN+FCO,,"공격력 +75,이동 속도 + 0.2,",Fragarach.png
-Rusty Sword,녹슨 검,RSW,Two Handed Sword,Common,,"항 4,절 4,성 4",공격력 +11,Rusty Sword.png
-Shamshir,샴쉬르,SHA,Two Handed Sword,Uncommon,RSW+LIG,,"공격력 +27,",Shamshir.png
-Katana,일본도,KAT,Two Handed Sword,Rare,RSW+ISH,,"공격력 +35,",Katana.png
-Masamune,마사무네,MAS,Two Handed Sword,Rare,KAT+OIL,,"공격력 +40,공격 속도 +15%",Masamune.png
-Muramasa,무라마사,MUR,Two Handed Sword,Rare,KAT+GEM,,"공격력 +50,",Muramasa.png
-Bastard Sword,바스타드 소드,BSW,Two Handed Sword,Rare,RSW+STE,,"공격력 +45,이동 속도 -0.1,",Bastard Sword.png
-Jewel Sword,보검,JSW,Two Handed Sword,Rare,SHA+RBY,,"공격력 +35,최대 체력 +200",Jewel Sword.png
-Thuan Thien,뚜언 띠엔,TTH,Two Handed Sword,Rare,BSW+TTS,,"공격력 + 77,방어력 + 25,이동 속도 -0.1,",Thuan Thien.png
-Plasma Sword,플라즈마 소드,PSW,Two Handed Sword,Rare,BSW+LAS,,"공격력 + 75,시야 + 3,",Plasma Sword.png
-Arondight,아론다이트,ARO,Two Handed Sword,Epic,MAS+CRS,,"공격력 + 50,기본 공격 추가 피해 + 25,공격 속도 + 25%,",Arondight.png
-Excalibur,엑스칼리버,EXC,Two Handed Sword,Epic,JSW+HGR,,"공격력 + 60,최대 체력 + 400,체력 재생 +200%,",Excalibur.png
-Monohoshizao,모노호시자오,MON,Two Handed Sword,Epic,MUR+BPR,,"공격력 + 70,생명력 흡수 + 18%,",Monohoshizao.png
-Hovud,호푸어드,HOV,Two Handed Sword,Epic,JSW+GPI,,"공격력 + 45,최대 체력 + 300,치명타 확률 + 20%,",Hovud.png
-Laevateinn,레바테인,LAE,Two Handed Sword,Legendary,TFI+SHA,,"공격력 + 75,체력 재생 +1.5,스태미너 재생 +1.5,기본 공격 추가 피해 + 20,",Laevateinn.png
-Dainsleif,다인슬라이프,DAI,Two Handed Sword,Legendary,VBS+KAT,,"공격력 + 70,생명력 흡수 + 20%,",Dainsleif.png
-Twin Swords,쌍칼,TSW,Dual Swords,Uncommon,KKN+RSW,,"공격력 +14,공격 속도 +10%,",Twin Swords.png
-Florentine,피렌체식 쌍검,FRT,Dual Swords,Rare,TSW+BPR,,"공격력 +23,공격 속도 +10%,생명력 흡수 +10%,",Florentine.png
-Divine Dual Swords,이천일류,DSW,Dual Swords,Epic,FRT+NAI,,"공격력 + 38,공격 속도 + 10%,생명력 흡수 + 18%,스킬 적중 시 치유 감소 -40%,",Divine Dual Swords.png
-Starsteel Twin Swords,자웅일대검,SSW,Dual Swords,Epic,TSW+MST,,"공격력 + 55,공격 속도 + 50%,",Starsteel Twin Swords.png
-Dioscuri,디오스쿠로이,DIO,Dual Swords,Epic,TSW+ION,,"공격력 + 38,공격 속도 + 50%,",Dioscuri.png
-Lloigor & Zahr,로이거차르,LZA,Dual Swords,Epic,TSW+POI,,"공격력 +30,공격 속도 +20%,스킬 증폭 +36,",Lloigor _ Zahr.png
-Walther PPK,발터 PPK,WPP,Pistol,Common,,"연못 5,모래사장 4,공장 4","공격력 +8, 이동 속도 +0.1",Walther PPK.png
-Magnum-Python,매그넘-파이선,MPY,Pistol,Uncommon,WPP+OIL,,"공격력 +15,공격 속도 +10%,이동 속도 +0.1,",Magnum-Python.png
-Beretta M92F,베레타 M92F,BRM,Pistol,Uncommon,WPP+LEA,,"공격력 +23,이동 속도 +0.1,",Beretta M92F.png
-FN57,FN57,FN5,Pistol,Rare,BRM+LAS,,"공격력 +29,이동 속도 +0.1,시야 +2.5,",FN57.png
-Double Revolver SP,더블 리볼버 SP,DSP,Pistol,Rare,MPY+BRM,,"공격력 +40,공격 속도 +10%,이동 속도 +0.1,",Double Revolver SP.png
-Magnum-Anaconda,매그넘-아나콘다,MAN,Pistol,Rare,MPY+BPR,,"공격력 +43,공격 속도 +10%,이동 속도 +0.1,생명력 흡수 +10%,",Magnum-Anaconda.png
-Devil's Marksman,마탄의 사수,DMA,Pistol,Epic,DSP+ASH,,"공격력 +30,공격 속도 + 10%,이동 속도 +0.1,스킬 증폭 + 40,Max Ammo: 7,",Devil_s Marksman.png
-Elegance,엘레강스,ELE,Pistol,Epic,FN57+FDU,,"공격력 +90,시야 +5,이동 속도 +0.25,Max Ammo: 6,",Elegance.png
-Electron Blaster,일렉트론 블라스터,EBL,Pistol,Epic,BRM+ION,,"공격력 +65,공격 속도 + 50%,이동 속도 + 0.1,기본 공격 추가 피해 + 28,Max Ammo: 10,",Electron Blaster.png
-Magnum-Boa,매그넘-보아,MAB,Pistol,Epic,MAN+STE,,"공격력 + 85,공격 속도 + 25%,이동 속도 +0.1,시야 +3.5,생명력 흡수 + 20%,Max Ammo: 6,",Magnum-Boa.png
-Kelte,악켈테,KEL,Pistol,Legendary,FCO+BRM,,"공격력 + 120,이동 속도 + 0.2,Max Ammo: 10,",Kelte.png
-Fedorova,페도로프 자동소총,FED,Assault Rifle,Common,,"호 4,공 4",공격력 +11,Fedorova (1).png
-STG-44,STG-44,STG,Assault Rifle,Uncommon,FED+GUN,,"공격력 +18,시야 +1.5,기본 공격 추가 피해 +2,",STG-44.png
-AK-47,AK-47,AK4,Assault Rifle,Rare,STG+PWR,,"공격력 +29,시야 +1.5,기본 공격 추가 피해 +2,",AK-47.png
-M16A1,M16A1,M16,Assault Rifle,Rare,STG+LEA,,"공격력 +25,시야 +1.5,기본 공격 추가 피해 +4,",M16A1.png
-Machine Gun,기관총,MGU,Assault Rifle,Epic,STG+MOT,,"공격력 +20, 공격 속도 +10%, 시야 +1.5,기본 공격 추가 피해 +11,",Machine Gun.png
-Gatling Gun,개틀링건,GGU,Assault Rifle,Epic,MGU+OIL,,"공격력 +50,기본 공격 추가 피해 +14,공격 속도 +15%,시야 +1.5,Max Ammo: 30,",Gatling Gun.png
-AK-12,AK-12,AK1,Assault Rifle,Epic,AK4+GLP,,"공격력 + 90,시야 + 1.5,치명타 확률 + 25%,기본 공격 추가 피해 +2,Max Ammo: 30,",AK-12.png
-XCR,XCR,XCR,Assault Rifle,Epic,M16+MAG,,"공격력 +55,기본 공격 추가 피해 + 10,최대 체력 +420,시야 + 1.5,Max Ammo: 30,",XCR.png
-Long Rifle,화승총,LRI,Sniper Rifle,Common,,"항 3,숲 4","공격력 +34,이동 속도 -0.1",Long Rifle.png
-Springfield,스프링필드,SPR,Sniper Rifle,Uncommon,LRI+LAS,,"공격력 +50,이동 속도 -0.1,시야 +1.5,",Springfield.png
-Harpoon Gun,하푼건,HGU,Sniper Rifle,Rare,SPR+SSP,,"공격력 +64, 이동 속도 -0.1, 시야 +2,",Harpoon Gun.png
-Golden Rifle,금교전,GRI,Sniper Rifle,Rare,SPR+GLD,,"공격력 +73, 이동 속도 -0.15, 시야 +2.5, 스킬 증폭 +18%,",Golden Rifle.png
-Railgun,레일건,RAI,Sniper Rifle,Rare,SPR+EPA,,"공격력 +78, 공격 속도 +20%, 이동 속도 -0.15, 시야 +2,",Railgun.png
-Tac-50,Tac-50,TAC,Sniper Rifle,Epic,HGU+BPR,,"공격력 + 140,생명력 흡수 + 20%,이동 속도 - 0.08,시야 + 2.5,Max Ammo: 2,",Tac-50.png
-Intervention,인터벤션,INT,Sniper Rifle,Epic,HGU+TCA,,"공격력 + 110,시야 + 4.5,기본 공격 사거리 + 1,Max Ammo: 2,",Intervention.png
-NTW-20,NTW-20,NTW,Sniper Rifle,Epic,GRI+ISH,,"공격력 + 95,스킬 증폭 + 27%,이동 속도 - 0.15,시야 + 2.5,Max Ammo: 1,",NTW-20.png
-Polaris,폴라리스,POL,Sniper Rifle,Epic,RAI+WPW,,"공격력 + 135,공격 속도 + 40%,이동 속도 - 0.1,시야 + 2,Max Ammo: 3,",Polaris.png
-The Deadly Ray,사사성광,TRA,Sniper Rifle,Legendary,MST+GRI,,"공격력 + 95,스킬 증폭 + 36%,이동 속도 - 0.15,시야 + 2.5,Max Ammo: 1,",The Deadly Ray.png
-Needle,바늘,NEE,Rapier,Common,,,,Needle.png
-Fencing Rapier,레이피어,FER,Rapier,Uncommon,바늘+IRO,,"공격력 +16, 치명타 피해량 +25%,",Fencing Rapier.png
-Apricot Sword,매화검,ASW,Rapier,Rare,FER+운명의 FLO,,"공격력 +21, 치명타 확률 +10%, 치명타 피해량 +25%, 쿨타임 감소 +10%,",Apricot Sword.png
-Sword of Justice,활빈검,SJU,Rapier,Epic,FER+어사의,,"공격력 +30, 체력 재생 +1.5, 스태미너 재생 +200%, 치명타 피해량 +25%, 쿨타임 감소 +15%",Sword of Justice.png
-Durendal Mk2,듀랜달 Mk2,DMK,Rapier,Epic,ASW+레이저 포인터,,"공격력 + 45,치명타 피해량 + 25%,치명타 확률 + 10%,시야 + 3,쿨타임 감소 + 10%,",Durendal Mk2.png
-Volticletto,볼틱레토,VOL,Rapier,Epic,ASW+EPA,,"공격력 + 47,공격 속도 + 40%,치명타 피해량 + 25%,치명타 확률 + 10%,쿨타임 감소 + 10%,",Volticletto.png
-Meteor Claymore,유성검,MCL,Rapier,Epic,ASW+운석,,"공격력 + 70,치명타 피해량 + 50%,쿨타임 감소 + 10%,",Meteor Claymore.png
-Joyeuse,주와이외즈,JOY,Rapier,Epic,FER+미스릴,,"공격력 + 75,치명타 피해량 + 30%,이동 속도 + 0.2,",Joyeuse.png
-Mistilteinn,미스틸테인,MTT,Rapier,Legendary,활빈검+BRA,,"공격력 + 30,체력 재생 + 1.5,스태미너 재생 + 200%,치명타 피해량 + 25%,쿨타임 감소 + 15%,스킬 증폭 + 20%,",Mistilteinn.png
-Short Spear,단창,SSP,Spear,Common,,,,Short Spear.png
-Bamboo Spear,죽창,BSP,Spear,Uncommon,,,"공격력 +37,",Bamboo Spear.png
-Bident,바이던트,BID,Spear,Rare,,,"공격력 +52,",Bident.png
-Pike,파이크,PIK,Spear,Rare,,,"공격력 +67,이동 속도 -0.1,",Pike.png
-Halberd Axe,도끼창,HAX,Spear,Rare,,,"공격력 +90,이동 속도 -0.1,",Halberd Axe.png
-Sharpened Spear,강창,SHS,Spear,Rare,,,"공격력 +40,이동 속도 +0.1,",Sharpened Spear.png
-Gentian Silver Gun,애각창,GSG,Spear,Epic,,,"공격력 + 105,이동 속도 + 0.2,",Gentian Silver Gun.png
-Eighteen Foot Spear,장팔사모,ESP,Spear,Epic,,,"공격력 +110,공격 속도 + 40%,",Eighteen Foot Spear.png
-Cosmic Bident,코스믹 바이던트,CBI,Spear,Epic,,,"공격력 + 150,",Cosmic Bident.png
-Lance of Poseidon,트리아이나,LPO,Spear,Epic,,,"공격력 + 120,이동 속도 - 0.1,",Lance of Poseidon.png
-Fangtian Huaji,방천화극,FHU,Spear,Epic,,,"공격력 + 88,스킬 증폭 + 40,이동 속도 - 0.1,스킬 적중 시 치유 감소 -40%,",Fangtian Huaji.png
-Dragon Guandao,청룡언월도,DGD,Spear,Epic,,,"공격력 + 130,이동 속도 - 0.1,",Dragon Guandao.png
-Blazing Lance,화첨창,BLA,Spear,Legendary,,,"공격력 + 130,체력 재생 + 1.5,스태미너 재생 + 1.5,기본 공격 추가 피해 + 30,",Blazing Lance.png
-Spear of Longinus,롱기누스의 창,SLO,Spear,Legendary,,,"공격력 + 150,생명력 흡수 + 20%,",Spear of Longinus.png
-Hammer,망치,HAM,Hammer,Common,,,,Hammer.png
-Warhammer,워해머,WAR,Hammer,Uncommon,HAM+SRO,,"공격력 +40,",Warhammer.png
-Morning Star,모닝 스타,MNS,Hammer,Rare,워해머+쇠구슬,,"공격력 +55,",Morning Star.png
-Black Stag Hammer,사슴 망치,BHA,Hammer,Rare,워해머+LEA,,"공격력 +56,",Black Stag Hammer.png
-Fang Mace,낭아봉,FMA,Hammer,Epic,모닝 스타+달궈진 돌멩이,,"공격력 + 55,스킬 증폭 + 35,",Fang Mace.png
-Hammer of Dagda,다그다의 망치,HDA,Hammer,Epic,BHA+성자의 유산,,"공격력 + 95,체력 재생 + 250%,",Hammer of Dagda.png
-Hammer of Thor,토르의 망치,HTH,Hammer,Epic,BHA+이온 전지,,"공격력 + 120,공격 속도 + 40%,",Hammer of Thor.png
-Evening Star,개밥바라기,EST,Hammer,Epic,MST+모닝 스타,,"공격력 + 145,",Evening Star.png
-Magic Stick,마법봉,MGS,Hammer,Epic,워해머+달빛 펜던트,,"공격력 + 60,생명력 흡수 + 30%,스킬 증폭 + 27%,",Magic Stick.png
-Branch,나뭇가지,BRA,Bat,Common,,,,Branch.png
-Short Rod,단봉,SRO,Bat,Common,,,,Short Rod.png
-Long Rod,장봉,LRO,Bat,Uncommon,SRO+BAM,,공격력 +25,Long Rod.png
-Goblin Bat,도깨비 방망이,GBA,Bat,Rare,장봉+NAI,,"공격력 +30,Healing Reduction (Normal Attacks) -40%,",Goblin Bat.png
-Umbrella,우산,UMB,Bat,Rare,장봉+부채,,"공격력 +30,스킬 증폭 +14,",Umbrella.png
-Torch,횃불,TOR,Bat,Rare,먼지털이개+기름먹인천,,"공격력 +40,체력 재생 +0.8,공격 속도 +10%, 이동 속도 +0.1",Torch.png
-Statue of Soteria,구원의 여신상,SSO,Bat,Epic,횃볼+인형,,"공격력 + 95,체력 재생 + 1.5,스태미너 재생 + 60%,공격 속도 + 15%,이동 속도 + 0.15,생명력 흡수 + 10%,",Statue of Soteria.png
-Mallet,타구봉,MAL,Bat,Epic,도깨비 방망이+모터,,"공격력 + 90,공격 속도 + 50%,Healing Reduction (Normal Attacks) -40%,",Mallet.png
-Spy Umbrella,스파이의 우산,SUM,Bat,Epic,우산+POI,,"공격력 + 40,스킬 증폭 + 25,",Spy Umbrella.png
-Monkey King Bar,여의봉,MBA,Bat,Legendary,FCO+장봉,,"공격력 + 140,",Monkey King Bar.png
-Baseball,야구공,BAS,Throw,Common,,,,Signed Ball.png
-Iron Ball,쇠구슬,IBA,Throw,Common,,,,Iron Ball.png
-Grenade,수류탄,GRE,Throw,Uncommon,,,"공격력 +25,기본 공격 추가 피해 +20,",Grenade.png
-Molotov Cocktail,화염병,MCO,Throw,Uncommon,,,"공격력 +22, 공격 속도 +15%,",Molotov Cocktail.png
-Signed Ball,싸인볼,SBA,Throw,Uncommon,,,"공격력 +30,",Signed Ball.png
-Sling,슬링,SLI,Throw,Rare,,,"공격력 +42,",Sling.png
-Flour Bomb,밀가루폭탄,FBO,Throw,Rare,,,"공격력 +58, 공격 속도 +15%,",Flour Bomb.png
-Ball Lightning,볼 라이트닝,BLI,Throw,Rare,,,"공격력 +24, 공격 속도 +20%,",Ball Lightning.png
-Flubber,플러버,FLU,Throw,Rare,,,"공격력 +42,",Flubber.png
-Spiky Bouncy Ball,가시 탱탱볼,SBB,Throw,Rare,,,"공격력 +36,스킬 적중 시 치유 감소 -40%,",Spiky Bouncy Ball.png
-Highly Explosive Grenade,소이탄,HEG,Throw,Epic,,,"공격력 + 56,기본 공격 추가 피해 + 80,",Highly Explosive Grenade.png
-Incendiary Bomb,고폭 수류탄,IBO,Throw,Epic,,,"공격력 + 55,공격 속도 + 50%,",Incendiary Bomb.png
-Grenade of Antioch,안티오크의 수류탄,GAN,Throw,Epic,,,"공격력 + 70,기본 공격 추가 피해 + 80,",Grenade of Antioch.png
-David's Sling,다비드슬링,DSL,Throw,Epic,,,"공격력 + 45,체력 재생 +150%,기본 공격 추가 피해 +30,",David_s Sling.png
-Smoke Bomb,연막탄,SMB,Throw,Epic,,,"공격력 + 90,공격 속도 +30%,",Smoke Bomb.png
-Ruthenium Marble,루테늄 구슬,RMA,Throw,Epic,,,"공격력 +70,스킬 증폭 +20%,스킬 적중 시 치유 감소 40%,",Ruthenium Marble.png
-Razor,면도칼,RAZ,Shuriken,Common,,,,Razor.png
-Playing Cards,트럼프 카드,PCA,Shuriken,Common,,,,Playing Cards.png
-Chalk,분필,CHL,Shuriken,Common,,,,Chalk.png
-Dart,다트,DAR,Shuriken,Uncommon,,,"공격력 +11,이동 속도 +0.1,치명타 피해량 +20%,",Dart.png
-Vintage Cards,빈티지 카드,VCA,Shuriken,Uncommon,,,"공격력 +15,치명타 확률 +10%,",Vintage Cards.png
-Throwing Stars,표창,TST,Shuriken,Uncommon,,,"공격력 +27,",Throwing Stars.png
-Onyx Dagger,흑건,ODA,Shuriken,Uncommon,,,"공격력 +17,기본 공격 추가 피해 +10,",Onyx Dagger.png
-Charm,부적,CHM,Shuriken,Rare,,,"공격력 +40,스킬 증폭 +10%,",Charm.png
-Willow Leaf Spike,유엽비도,WSP,Shuriken,Rare,,,"공격력 +17,기본 공격 추가 피해 +20,",Willow Leaf Spike.png
-Chakram,챠크람,CHK,Shuriken,Rare,,,"공격력 +38,",Chakram.png
-Apricot Flower Tag,매화비표,ATA,Shuriken,Rare,,,"공격력 +14,쿨타임 감소 +10%,기본 공격 추가 피해 +30,",Apricot Flower Tag.png
-Venom Dart,독침,VDA,Shuriken,Rare,,,"공격력 +55,치명타 피해량 +20%,스킬 증폭 +15,",Venom Dart.png
-Dharma Chakram,법륜,DCH,Shuriken,Rare,,,"공격력 +34,스킬 증폭 +15%,",Dharma Chakram.png
-Plumbata,플럼바타,PLU,Shuriken,Rare,,,"공격력 +48,이동 속도 +0.1,치명타 피해량 +25%,",Plumbata.png
-Cards of Tyranny,미치광이왕의 카드,CTY,Shuriken,Epic,,,"공격력 + 45,공격 속도 + 30%,치명타 확률 +20%,",Cards of Tyranny.png
-Mystic Jade Charm,옥전결,MCH,Shuriken,Epic,,,"공격력 + 60,스킬 증폭 + 12,스킬 증폭 + 12%,",Mystic Jade Charm.png
-Fuhma Shuriken,풍마 수리검,FSH,Shuriken,Epic,,,"공격력 + 40,쿨타임 감소 +15%,기본 공격 추가 피해 +36,",Fuhma Shuriken.png
-Frost Venom Dart,빙백은침,FVD,Shuriken,Epic,,,"공격력 + 80,치명타 피해량 +50%,스킬 증폭 +20,",Frost Venom Dart.png
-Azure Dagger,푸른색 단도,ADA,Shuriken,Epic,,,"공격력 + 20,기본 공격 추가 피해 + 33,스킬 증폭 + 24,",Azure Dagger.png
-Flechette,플레셋,FLE,Shuriken,Epic,,,"공격력 + 75,이동 속도 + 0.2,치명타 피해량 + 40%,",Flechette.png
-Wind and Fire Wheels,건곤권,WWH,Shuriken,Epic,,,"공격력 + 55,스킬 증폭 +17%,",Wind and Fire Wheels.png
-Death Rune,생사부,DRU,Shuriken,Epic,,,"공격력 + 80,스킬 증폭 + 20%,",Death Rune.png
-Sudarsana,수다르사나,SUD,Shuriken,Legendary,,,"공격력 + 125,",Sudarsana.png
-Petal Torrent,만천화우,PTR,Shuriken,Legendary,,,"공격력 + 100,치명타 피해량 + 50%,기본 공격 추가 피해 + 140,스킬 증폭 + 30,",Petal Torrent.png
-Bow,양궁,BOW,Bow,Common,,,"공격력 +11,",Bow.png
-Wooden Bow,목궁,WBO,Bow,Uncommon,BRA+PWR,,"공격력 +26,",Wooden Bow.png
-Longbow,장궁,LON,Bow,Uncommon,,,"공격력 +25,",Longbow.png
-Composite Bow,컴포지트 보우,CBO,Bow,Uncommon,,,"공격력 +16,기본 공격 시 치유 감소 -40%,",Composite Bow.png
-Strong Bow,강궁,STO,Bow,Rare,,,"공격력 +26,공격 속도 +15%,",Strong Bow.png
-Stallion Bow,국궁,SAO,Bow,Rare,,,"공격력 +20,기본 공격 추가 피해 +25,",Stallion Bow.png
-Mighty Bow,벽력궁,MBO,Bow,Rare,,,"공격력 +20,기본 공격 추가 피해 +11,",Mighty Bow.png
-Pellet Bow,탄궁,PBO,Bow,Rare,,,"공격력 +55,",Pellet Bow.png
-Scorchbow,화전,SCO,Bow,Rare,,,"공격력 +24,스킬 증폭 +18,",Scorchbow.png
-Ancient Bolt,편전,ABO,Bow,Epic,,,"공격력 + 55,기본 공격 추가 피해 + 40,",Ancient Bolt.png
-Golden-Ratio Bow,골든래쇼 보우,GBO,Bow,Epic,,,"공격력 + 60,스킬 증폭 + 20%,",Golden-Ratio Bow.png
-Twinbow,트윈보우,TWI,Bow,Epic,,,"공격력 + 70,공격 속도 + 50%,기본 공격 시 치유 감소 -40%,",Twinbow.png
-Elemental Bow,엘리멘탈보우,EBO,Bow,Epic,,,"공격력 + 60,이동 속도 +0.1,스킬 증폭 + 48,스킬 적중 시 치유 감소 -40%,",Elemental Bow.png
-Failnaught,페일노트,FAI,Bow,Legendary,,,"공격력 + 80,공격 속도 + 15%,생명력 흡수 + 15%,",Failnaught.png
-Short Crossbow,석궁,SCR,Crossbow,Common,,,,Short Crossbow.png
-Long Crossbow,쇠뇌,LOC,Crossbow,Uncommon,석궁+PWR,,"공격력 +30,",Long Crossbow.png
-Crossbow,크로스보우,CRB,Crossbow,Uncommon,석궁+BAM,,"공격력 +30,",Crossbow.png
-Power Crossbow,노,PCR,Crossbow,Rare,쇠뇌+고무,,"공격력 +42,",Power Crossbow.png
-Laser Crossbow,저격궁,LAC,Crossbow,Rare,크로스보우+레이저 포인터,,"공격력 +30,시야 +2.5,",Laser Crossbow.png
-Heavy Crossbow,헤비 크로스보우,HCR,Crossbow,Rare,쇠뇌+STE,,"공격력 +72,이동 속도 -0.1,",Heavy Crossbow.png
-Steel Bow,철궁,SBO,Crossbow,Rare,크로스보우+ISH,,"공격력 +60,",Steel Bow.png
-The Legend of the General,대황,TGE,Crossbow,Epic,철궁+OLC,,"공격력 + 75,체력 재생 + 2,공격 속도 + 50%,",The Legend of the General.png
-Ballista,발리스타,BAL,Crossbow,Epic,헤비 크로스보우+단창,,"공격력 + 115,공격 속도 - 10%,이동 속도 - 0.1,",Ballista.png
-Sniper Crossbow,저격 크로스보우,SNC,Crossbow,Epic,저격궁+저격 스코프,,"공격력 + 90,시야 +5,기본 공격 사거리 +1.2,",Sniper Crossbow.png
-The Golden Ghost,영광금귀신기노,TGH,Crossbow,Epic,노+RDX,,"공격력 + 70,기본 공격 추가 피해 +40,",The Golden Ghost.png
-Sharanga,샤릉가,SHR,Crossbow,Legendary,FCO+크로스보우,,"공격력 + 140,",Sharanga.png
-Brass Knuckles,너클,BKN,Glove,Common,,"숲 5,묘지 5",,Brass Knuckles.png
-Cotton Gloves,목장갑,CGL,Glove,Common,,"호텔 4,병원 4",,Cotton Gloves.png
-Leather Gloves,글러브,LGL,Glove,Uncommon,목장갑+LEA,,"공격력 +18,",Leather Gloves.png
-Iron Knuckles,아이언 너클,IKN,Glove,Uncommon,너클+IRO,,"공격력 +20,",Iron Knuckles.png
-Gauntlet,건틀릿,GAU,Glove,Rare,목장갑+STE,,"공격력 +32,이동 속도 -0.1,",Gauntlet.png
-Wing Knuckles,윙 너클,WKN,Glove,Rare,아이언 너클 + FEA,,"공격력 +20,이동 속도 +0.1,",Wing Knuckles.png
-Bone Guantlet,귀골 장갑,BGU,Glove,Rare,건틀릿+TTS,,"공격력 +35,방어력 +13,이동 속도 -0.1,",Bone Guantlet.png
-Shatter Shell Gauntlet,벽력귀투,SGA,Glove,Rare,건틀릿+GUN,,"공격력 +32,이동 속도 -0.1,기본 공격 추가 피해 +15,",Shatter Shell Gauntlet.png
-Glass Knuckles,유리 너클,GKN,Glove,Rare,아이언 너클+유리조각,,"공격력 +28,치명타 확률 +10%,",Glass Knuckles.png
-Phoenix Gloves,회단 장갑,PGL,Glove,Rare,글러브+ASH,,"공격력 +27,스킬 증폭 +30,",Phoenix Gloves.png
-One Inch Punch,단영촌천투,OPU,Glove,Epic,귀골 장갑+인형,,"공격력 + 50,방어력 + 25,스태미너 재생(%) + 50%,생명력 흡수 + 10%,",One Inch Punch.png
-Divine Fist,디바인 피스트,DFI,Glove,Epic,벽력귀투+십자가,,"공격력 + 35,기본 공격 추가 피해 + 33,이동 속도 - 0.1,",Divine Fist.png
-Bloodwing Knuckles,블러드윙 너클,BWK,Glove,Epic,윙 너클+RBY,,"공격력 + 53,최대 체력 + 400,이동 속도 + 0.1,",Bloodwing Knuckles.png
-Frost Petal Hand,빙화현옥수,FHA,Glove,Epic,회단 장갑+얼음,,"공격력 + 27,쿨타임 감소 + 15%,스킬 증폭 + 38,",Frost Petal Hand.png
-Buddha's Palm,여래수투,BPA,Glove,Epic,회단 장갑+전신사리,,"공격력 + 33,쿨타임 감소 + 10%,스킬 증폭 + 18%,",Buddha_s Palm.png
-Brasil Gauntlet,브레이질 건틀릿,BGA,Glove,Epic,귀골 장갑+OLC,,"공격력 + 42,방어력 + 13,체력 재생 + 1,공격 속도(%) + 30%,이동 속도 - 0.1,",Brasil Gauntlet.png
-White Claw Punch,소수,WPU,Glove,Epic,유리너클+백색 가루,,"공격력 + 55,치명타 확률 + 25%,",White Claw Punch.png
-Imperial Silk Glove,천잠장갑,IGL,Glove,Epic,미스릴 실+글러브,,"공격력 + 85,이동 속도 + 0.2,",Imperial Silk Glove.png
-Bamboo,대나무,BAM,Tonfa,Common,,,,Bamboo.png
-Wooden Tonfa,톤파,WTF,Tonfa,Uncommon,,,"공격력 +23,방어력 +8,",Wooden Tonfa.png
-Police Baton,경찰봉,PBA,Tonfa,Rare,,,"공격력 +35,방어력 +8,",Police Baton.png
-Ryukyu Tonfa,류큐톤파,RTF,Tonfa,Rare,,,"공격력 +38,방어력 +18,",Ryukyu Tonfa.png
-Tactical Tonfa,택티컬 톤파,TTF,Tonfa,Epic,,,"공격력 + 60,방어력 + 10,생명력 흡수 + 20%,",Tactical Tonfa.png
-Mai Sok,마이쏙,MSO,Tonfa,Epic,,,"공격력 + 45,방어력 + 20,체력 재생 +100%,",Mai Sok.png
-Plasma Tonfa,플라즈마 톤파,PTF,Tonfa,Epic,,,"공격력 + 65,방어력 + 18,시야 + 2.5,",Plasma Tonfa.png
-Starter Guitar,보급형 기타,SGU,Guitar,Common,,,,Starter Guitar.png
-Golden Bridge,골든 브릿지,GBG,Guitar,Uncommon,보급형 기타+GLD,,"공격력 +8,스킬 증폭 +14%,",Golden Bridge.png
-Single Coil Pickup,싱글 픽업,SPI,Guitar,Uncommon,보급형 기타+방전 전지,,"공격력 +8,공격 속도 +15%,기본 공격 추가 피해 +2,",Single Coil Pickup.png
-Ruby Special,루비 스페셜,RSP,Guitar,Rare,싱글 픽업+RBY,,"공격력 +20,최대 체력 +300,공격 속도 +20%,기본 공격 추가 피해 +2,",Ruby Special.png
-Humbucker Pickup,험버커 픽업,HPI,Guitar,Rare,골든 브릿지+저격스코프,,"공격력 +25,시야 +3,스킬 증폭 +15%,",Humbucker Pickup.png
-King-V,King-V,KIV,Guitar,Rare,골든 브릿지+가위,,"공격력 +13,스킬 증폭 +16%,",King-V.png
-Nocaster,노캐스터,NOC,Guitar,Rare,싱글 픽업+정교한 도면,,"공격력 +15,공격 속도 +20%,생명력 흡수 +10%,기본 공격 추가 피해 +15,",Nocaster.png
-Superstrat,슈퍼스트랫,SUP,Guitar,Rare,싱글 픽업+BAM,,"공격력 +19,공격 속도 +15%, 기본 공격 추가 피해 +2,",Superstrat.png
-Wild Horse,야생마,WHO,Guitar,Rare,싱글 픽업 +OIL,,"공격력 +9,공격 속도 +25%, 기본 공격 추가 피해 +6,",Wild Horse.png
-Bohemian,보헤미안,BHM,Guitar,Epic,RBY 스페셜 +트럼프 카드,,"공격력 + 50,최대 체력 + 380,공격 속도 + 20%,치명타 확률 + 20%,기본 공격 추가 피해 + 2,",Bohemian.png
-Stairway to Heaven,천국의 계단,STH,Guitar,Epic,험버커 픽업+성배,,"공격력 + 52,체력 재생 +200%,스킬 증폭 + 20%,시야 + 4,",Stairway to Heaven.png
-Purple Haze,퍼플 헤이즈,PHA,Guitar,Epic,King-V+ASH,,"공격력 + 85,스킬 증폭 + 22%,",Purple Haze.png
-Satisfaction,새티스팩션,SAT,Guitar,Epic,노캐스터+돌멩이,,"공격력 +30,공격 속도 +30%,생명력 흡수 + 10%,기본 공격 추가 피해 + 18,",Satisfaction.png
-Wonderful Tonight,원더풀 투나잇,WTO,Guitar,Epic,슈퍼스트랫+운석,,"공격력 + 100,공격 속도 + 45%,기본 공격 추가 피해 + 2,",Wonderful Tonight.png
-The Wall,더 월,TWA,Guitar,Epic,슈퍼스트랫+백색 가루,,"공격력 + 70,공격 속도 + 18%,기본 공격 추가 피해 + 2,",The Wall.png
-Teen Spirit,틴 스피릿,TSP,Guitar,Epic,야생마+진신사리,,"공격력 +10,공격 속도 +25%,기본 공격 추가 피해 +23,",Teen Spirit.png
-Steel Chain,쇠사슬,STC,Nunchaku,Common,,,,Steel Chain.png
-Nunchaku,눈차크,NUN,Nunchaku,Uncommon,,,공격력 +27,Nunchaku.png
-Sharper,샤퍼,SHP,Nunchaku,Rare,,,"공격력 +19,스킬 적중 시 치유 감소 -40%",Sharper.png
-Bleeder,블리더,BLE,Nunchaku,Rare,,,공격력 +38,Bleeder.png
-The Smiting Dragon,대소반룡곤,TDR,Nunchaku,Epic,,,"공격력 + 50,스킬 증폭 +14,스킬 적중 시 치유 감소 -40%,",The Smiting Dragon.png
-Vibro Nunchaku,초진동눈차크,VNU,Nunchaku,Epic,,,"공격력 + 65,공격 속도 + 50%,",Vibro Nunchaku.png
-Windbreaker,바람막이,WIN,Chest,Common,,"고주 6,호텔 7,학교 7",,Windbreaker.png
-Monk's Robe,승복,MRO,Chest,Common,,"절 9,양궁장 5",,Monk_s Robe.png
-Deleted1,의사가운,DEL,Deleted,Common,,,,Deleted1.png
-Wetsuit,전신 수영복,WET,Chest,Common,,"항구 7,모래사장 6, 골목길 7",,Wetsuit.png
-Fabric Armor,천 갑옷,FAR,Chest,Common,,"절 8,양궁장 6,묘지 7",,Fabric Armor.png
-Leather Armor,가죽 갑옷,LAR,Chest,Uncommon,FAR+LEA,,"방어력 +22,",Leather Armor.png
-Leather Jacket,가죽 자켓,LJA,Chest,Uncommon,WIN+LEA,,"방어력 +8,최대 체력 +70,기본 공격 피해 감소 +6,",Leather Jacket.png
-Turtle Dobok,거북 도복,TDO,Chest,Uncommon,MRO+TTS,,"방어력 +10,쿨타임 감소 +10%,",Turtle Dobok.png
-Military Suit,군복,MSU,Chest,Uncommon,WIN+BRA,,"최대 체력 +50,기본 공격 피해 감소 +10,",Military Suit.png
-Patched Robe,덧댄 로브,PRO,Chest,Uncommon,MRO+BAN,,"방어력 +5,체력 재생 +1,쿨타임 감소 +7%,",Patched Robe.png
-Dress,드레스,DRE,Chest,Uncommon,CLO+SCI,,"공격력 +8, 방어력 +8, 스태미너 재생 +100,",Dress.png
-Bikini,비키니,BIK,Chest,Uncommon,WET+SCI,,"방어력 +4,스킬 피해 감소 +11%,",Bikini.png
-Diving Suit,잠수복,DSU,Chest,Uncommon,WET+고무,,"방어력 +9,스킬 피해 감소 +10%,",Diving Suit.png
-Rider Jacket,라이더 자켓,RDJ,Chest,Rare,LJA+STC,,"방어력 +11,최대 체력 +70,기본 공격 피해 감소 +9,",Rider Jacket.png
-Chain Armor,사슬 갑옷,CNA,Chest,Rare,LAR+STC,,"방어력 +30,",Chain Armor.png
-Suit,정장,SUI,Chest,Rare,MSU+RIB,,"생명력 흡수 +5%,기본 공격 피해 감소 +12,",Suit.png
-Qipao,치파오,QIP,Chest,Rare,DRE+면도칼,,"공격력 +10,방어력 +10,스태미너 재생 +150%,",Qipao.png
-Sheet Metal Armor,판금 갑옷,SMA,Chest,Rare,FAR+STE,,"방어력 +38,최대 체력 +100,이동 속도 -0.1,",Sheet Metal Armor.png
-Hanbok,한복,HAN,Chest,Rare,PRO+FLO,,"방어력 +5,체력 재생 +1,쿨타임 감소 +15%,",Hanbok.png
-Bulletproof Vest,방탄조끼,BVE,Chest,Rare,MSU+ISH,,"방어력 +10,최대 체력 +130,기본 공격 피해 감소 +10,",Bulletproof Vest.png
-Sunset Armor,석양의 갑옷,SSA,Chest,Rare,LAR+LEA,,"방어력 +28,최대 체력 +450,",Sunset Armor.png
-Covert Agent Uniform,어사의,CUN,Chest,Rare,HAN+마패,,"방어력 +23,체력 재생 +2.5,쿨타임 감소 +15%,",Covert Agent Uniform.png
-Optical Camouflage Suit,광학미채 슈트,OSU,Chest,Epic,DSU+GLP,,"방어력 + 20,치명타 확률 + 22%,스킬 피해 감소 + 15%,",Optical Camouflage Suit.png
-Rocker's Jacket,락커의 자켓,RKJ,Chest,Epic,RDJ+소란 발생기,,"공격력 + 28,방어력 + 11,기본 공격 피해 감소 + 15,비전투중 이동 속도 + 0.3,스킬 적중 시 치유 감소 -40%,",Rocker_s Jacket.png
-Mithril Armor,미스릴 갑옷,MAR,Chest,Epic,LAR+미스릴,,"방어력 + 65,공격 속도 + 12%,이동 속도 + 0.2,",Mithril Armor.png
-Crusader Armor,성기사의 갑옷,CRA,Chest,Epic,SMA+SRE,,"방어력 + 30,체력 재생 + 200%,기본 공격 추가 피해 + 20,이동 속도 - 0.1,",Crusader Armor.png
-Amazoness Armor,아마조네스 아머,AZA,Chest,Epic,SMA+BIK,,"방어력 + 38,최대 체력 + 100,스킬 피해 감소 + 20%,",Amazoness Armor.png
-Dragon Dobok,용의 도복,DDO,Chest,Epic,QIP+TDO,,"방어력 + 10,공격력 + 10,스태미너 재생 + 150%,쿨타임 감소 +10%,기본 공격 사거리 + 1m,",Dragon Dobok.png
-Commander's Armor,지휘관의 갑옷,CMA,Chest,Epic,CNA+GLD,,"방어력 + 20,스킬 증폭 + 16%,",Commander_s Armor.png
-Butler's Suit,집사복,BLS,Chest,Epic,SUI+FDU,,"공격력 + 30,기본 공격 피해 감소 + 12,이동 속도 + 0.1,생명력 흡수 + 20%,",Butler_s Suit.png
-Battle Suit,배틀 슈트,BTS,Chest,Epic,BVE+DSU,,"방어력 + 25,최대 체력 +140,기본 공격 피해 감소 +12,스킬 피해 감소 +12%,",Battle Suit.png
-EOD Suit,EOD 슈트,EOS,Chest,Epic,BVE+PRO,,"방어력 + 15,최대 체력 + 350,기본 공격 피해 감소 + 10,스태미너 재생 + 140%,쿨타임 감소 + 20%,",EOD Suit.png
-Blazing Dress,불꽃 드레스,BDR,Chest,Legendary,TFI+DRE,,"방어력 + 25,스태미너 재생 + 75%,스태미너 재생 +3,체력 재생 +2.5,기본 공격 추가 피해 +20,",Blazing Dress.png
-Kabana,카바나,KAB,Chest,Legendary,CMA+MET,,"방어력 + 36,스킬 증폭 + 18%,",Kabana.png
-Queen of Hearts,퀸 오브 하트,QOH,Chest,Legendary,VBS+HAN,,"방어력 + 45,체력 재생 + 3,쿨타임 감소 + 25%,",Queen of Hearts.png
-Hairband,머리띠,HAI,Head,Common,,"번화가 7,절 7,묘지 7",,Hairband.png
-Hat,모자,HAT,Head,Common,,"연못 7,양궁장 5,학교 6",,Hat.png
-Bike Helmet,자전거 헬멧,BKH,Head,Common,,"모래사장 6,성당 6,학교 6",,Bike Helmet.png
-Mask,가면,MSK,Head,Uncommon,HAI+FEA,,"방어력 +10,최대 스태미너 +130,이동 속도 +0.08,",Mask.png
-Circlet,머리테,CIR,Head,Uncommon,HAI+BRA,,"방어력 +14,최대 스태미너 +270,",Circlet.png
-Beret,베레모,BER,Head,Uncommon,HAT+SCI,,"방어력 +5,최대 체력 +50,쿨타임 감소 +13,",Beret.png
-Chain Coif,사슬 코이프,CCO,Head,Uncommon,HAT+STC,,"방어력 +14,쿨타임 감소 +10%,",Chain Coif.png
-Safety Helmet,안전모,SHE,Head,Uncommon,BKH+STN,,"최대 체력 +210,",Safety Helmet.png
-Close Helm,방탄모,CHE,Head,Rare,BER+BKH,,"방어력 + 20,최대 스태미너 + 130,이동 속도 + 0.1,쿨타임 감소 +10%,",Close Helm.png
-Fire Helmet,소방 헬멧,FHE,Head,Rare,SHE+WAT,,"최대 체력 +280,",Fire Helmet.png
-Tiara,티아라,TIA,Head,Rare,CIR+마패,,"방어력 +14,최대 스태미너+360,",Tiara.png
-Crown,왕관,CRW,Head,Rare,CIR+GLD,,"방어력 +16,최대 스태미너 +360,",Crown.png
-Ballistic Helmet,투구,BAH,Head,Rare,MSK+CCO,,"방어력 +10,최대 체력 +90,쿨타임 감소 +13%,",Ballistic Helmet.png
-Motorcycle Helmet,오토바이 헬멧,MOH,Head,Rare,FHE+BIN,,"공격력 + 10,최대 체력 + 300,시야 + 2.5,",Motorcycle Helmet.png
-Mithril Helm,미스릴 투구,MIH,Head,Epic,MIT+CCO,,"방어력 + 38,공격 속도 + 12%,이동 속도 + 0.2,쿨타임 감소 + 15%,",Mithril Helm.png
-Crystal Tiara,수정 티아라,CTI,Head,Epic,TIA+GPI,,"방어력 + 14,최대 스태미너 + 700,치명타 확률 + 22%,",Crystal Tiara.png
-Tactical OPS Helmet,전술-OPS 헬멧,THE,Head,Epic,CHE+EPA,,"방어력 + 15,최대 체력 + 150,공격 속도 + 20%,쿨타임 감소 + 15%,",Tactical OPS Helmet.png
-Helm of Banneret,기사단장의 투구,HBA,Head,Epic,BAH+고무,,"방어력 + 15,최대 스태미너 + 200,기본 공격 피해 감소 + 15,쿨타임 감소 + 10%,이동 속도 + 0.1,스킬 피해 감소 +11%",Helm of Banneret.png
-Imperial Crown,제국왕관,ICR,Head,Epic,CRW+RBY,,"방어력 + 18,최대 체력 + 300,최대 스태미너 + 500,스킬 증폭 + 10%,",Imperial Crown.png
-Imperial Burgonet,황실 부르고넷,IBU,Head,Epic,BAH+GLD,,"방어력 + 10,최대 스태미너 + 200,이동 속도 + 0.1,쿨타임 감소 + 10%,스킬 증폭 + 14%,",Imperial Burgonet.png
-Chinese Opera Mask,변검,COM,Head,Epic,MSK+VBS,,"방어력 + 16,최대 스태미너 + 300,생명력 흡수 + 22%,이동 속도 + 0.1,Out of Combat 이동 속도 + 0.4,",Chinese Opera Mask.png
-Laurel Wreath,월계관,LWR,Head,Legendary,TFI+CIR,,"방어력 + 18,최대 스태미너 + 580,체력 재생 + 1.5,스태미너 재생 + 2,기본 공격 추가 피해 + 15,",Laurel Wreath.png
-Watch,손목시계,WCH,Arm,Common,,"고주 6,호텔 6,번화가 7",,Watch.png
-Bandage,붕대,BAN,Arm,Common,,"항구 7,병원 6,공장 6,학교 6",,Bandage.png
-Deleted2,토시,DEL,Deleted,Common,,,,Deleted2.png
-Bracelet,팔찌,BLT,Arm,Common,,"연못 7,고주 6,골목길 6",,Bracelet.png
-Leather Shield,가죽 방패,LSH,Arm,Uncommon,TTS+LEA,,"공격력 +10,방어력 +10,",Leather Shield.png
-Squad Leader Armband,분대장 완장,SLA,Arm,Uncommon,BAN+바늘,,"체력 재생 +1.5,치명타 피해량 +20%,",Squad Leader Armband.png
-Bracer,브레이서,BCR,Arm,Uncommon,BAN+LEA,,"방어력 +13,체력 재생 +1,",Bracer.png
-Sheath,검집,SHH,Arm,Rare,LEA+ISH,,"공격력 +18,기본 공격 피해 감소 +2,",Sheath.png
-Golden Bracelet,금팔찌,GBL,Arm,Rare,BLT+GLD,,"최대 스태미너 +250,스킬 증폭 +12%,",Golden Bracelet.png
-Bazuband,바주반드,BAZ,Arm,Rare,BCR+ISH,,"방어력 +25,기본 공격 피해 감소 +8,",Bazuband.png
-Crimson Bracelet,진홍 팔찌,CBL,Arm,Rare,BLT+RBY,,"최대 체력 +200,최대 스태미너 +250,",Crimson Bracelet.png
-Steel Shield,강철 방패,SSH,Arm,Rare,LSH+STE,,"공격력 +23,방어력 +25,이동 속도 -0.1,",Steel Shield.png
-Cube Watch,큐브 워치,CWC,Arm,Rare,WCH+MST,,"방어력 + 27,공격 속도 + 50%,",Cube Watch.png
-Sword Stopper,소드 스토퍼,SST,Arm,Epic,BAZ+NAI,,"방어력 + 26,기본 공격 피해 감소 + 11,Healing Reduction (Normal Attacks) -40%,",Sword Stopper.png
-Draupnir,드라우프니르,DRA,Arm,Epic,GBL+BCR,,"방어력 + 10,최대 스태미너 + 240,체력 재생 + 1,스킬 증폭 + 15%,",Draupnir.png
-Mithril Shield,미스릴 방패,MSH,Arm,Epic,LSH+MIT,,"공격력 + 30,방어력 + 30,공격 속도 + 12%,이동 속도 + 0.1,",Mithril Shield.png
-Vital Sign Sensor,바이탈 센서,VSE,Arm,Epic,WCH+CEL,,"방어력 + 15,공격 속도 + 30%,",Vital Sign Sensor.png
-Creed of the Knight,기사의 신조,CKN,Arm,Epic,SSH+SLA,,"공격력 + 30,방어력 + 25,체력 재생 + 1.5,치명타 피해량 + 25%,이동 속도 - 0.1,",Creed of the Knight.png
-Sword of Shah Jahan,샤자한의 검집,SSJ,Arm,Epic,SHH+RBY,,"공격력 + 28,최대 체력 + 400,기본 공격 피해 감소 +2,",Sword of Shah Jahan.png
-Bracelet of Skadi,스카디의 팔찌,BSK,Arm,Legendary,GIC+CBL,,"최대 체력 + 200,최대 스태미너 + 250,스태미너 재생 + 2,체력 재생 + 2,스킬 증폭 + 20,",Bracelet of Skadi.png
-Radar,레이더,RAD,Arm,Legendary,VSE+GLP,,"방어력 + 15,치명타 확률 + 20%,공격 속도 + 35%,",Radar.png
-Auto-arms,오토-암즈,AAR,Arm,Legendary,BCR+FCO,,"공격력 + 40,방어력 + 40,체력 재생 + 1.5,",Auto-arms.png
-Slippers,슬리퍼,SLP,Leg,Common,,"번화가 7,병원 6,학교 7",,Slippers.png
-Running Shoes,운동화,RUS,Leg,Common,,"고주 6,골목길 7,양궁장 5",,Running Shoes.png
-Tights,타이즈,TIG,Leg,Common,,"번화가 7,병원 6,숲 7",,Tights.png
-Knee Pads,무릎 보호대,KPA,Leg,Uncommon,TIG+LEA,,"방어력 +8,이동 속도 +0.16,",Knee Pads.png
-Chain Leggings,체인 레깅스,CLE,Leg,Uncommon,TIG+STC,,"방어력 +10,이동 속도 +0.14,",Chain Leggings.png
-High Heels,하이힐,HHE,Leg,Uncommon,SLP+SCM,,"스태미너 재생 +0.8,이동 속도 +0.17,",High Heels.png
-Heelys,힐리스,HEE,Leg,Uncommon,RUS+쇠공,,"이동 속도 +0.12,Out of Combat 이동 속도 +0.2,",Heelys.png
-Repaired Slippers,덧댄 슬리퍼,RSL,Leg,Uncommon,SLP+CLO,,"스태미너 재생 +0.5,스태미너 재생 +55%,이동 속도 +0.16,",Repaired Slippers.png
-Boots,부츠,BOO,Leg,Rare,RUS+OLC,,"체력 재생 +0.6,공격 속도 +2%,이동 속도 +0.22,",Boots.png
-Steel Knee Pads,강철 무릎 보호대,SNP,Leg,Rare,KPA+STE,,"방어력 +20,이동 속도 +0.24,",Steel Knee Pads.png
-Maverick Runner,매버릭 러너,MRU,Leg,Rare,HEE+EPA,,"이동 속도 + 0.25,비전투중 이동 속도 + 0.5,공격 속도 + 15%,",Maverick Runner.png
-Combat Boots,전투화,CBB,Leg,Rare,BOO+LEA,,"체력 재생 +0.6,공격 속도 +7%,이동 속도 +0.27,",Combat Boots.png
-Killer Heels,킬힐,KHE,Leg,Rare,HHE+GPI,,"공격력 +5,스태미너 재생 +0.8,이동 속도 +0.16,치명타 확률 +10%,",Killer Heels.png
-Straitjacket Sneakers,풍화륜,SSN,Leg,Rare,RSL+ASH,,"스태미너 재생 + 1,스태미너 재생 + 80%,이동 속도 + 0.35,스킬 증폭 + 10,",Straitjacket Sneakers.png
-Feather Boots,경량화 부츠,FTB,Leg,Epic,CBB+FEA,,"체력 재생 + 1,공격 속도 + 30%,이동 속도 + 0.4,",Feather Boots.png
-Mithril Boots,미스릴 부츠,MIB,Leg,Epic,MIT+CLE,,"방어력 + 22,공격 속도 + 12%,이동 속도 + 0.45,",Mithril Boots.png
-Bucephalus,부케팔로스,BUC,Leg,Epic,KHE+CLE,,"공격력 + 5,방어력 + 5,치명타 확률 + 17%,이동 속도 + 0.3,스태미너 재생 + 1,",Bucephalus.png
-White Rhinos,클링온 부츠,WRH,Leg,Epic,CBB+NAI,,"공격 속도 + 15%,이동 속도 + 0.35,체력 재생 + 0.7,Healing Reduction (Normal Attacks) -40%,",White Rhinos.png
-EOD Boots,EOD 부츠,EOB,Leg,Legendary,BOO+SNP,,"방어력 + 21,이동 속도 +0.33,체력 재생 +1,",EOD Boots.png
-Glacial Shoes,글레이셜 슈즈,GSH,Leg,Legendary,RSL+GIC,,"체력 재생 + 2,스태미너 재생 + 2,스태미너 재생 + 60%,이동 속도 + 0.15,Out of Combat 이동 속도 + 0.5,스킬 증폭 + 15,",Glacial Shoes.png
-Boots of Hermes,헤르메스의 부츠,BOH,Leg,Legendary,FCO+HEE,,"방어력 + 40,이동 속도 + 0.4,비전투중 이동 속도 + 0.2,",Boots of Hermes.png
-Red Shoes,분홍신,RES,Leg,Legendary,KHE+VBS,,"공격력 + 5,스태미너 재생 + 1,치명타 확률 + 10%,이동 속도 + 0.35,생명력 흡수 + 15%,",Red Shoes.png
-Feather,깃털,FEA,Accessory,Common,,"병원 6,묘지 7,숲 7",,Feather.png
-Flower,꽃,FLO,Accessory,Common,,"연못 7,고주 7,묘지 7,숲 7",,Flower.png
-Ribbon,리본,RIB,Accessory,Common,,"연못 6,고주 7,학교 7",,Ribbon.png
-Fan,부채,FAN,Accessory,Common,,"번화가 7,숲 8,성당 6",,Fan.png
-Buddhist Scripture,불경,BSC,Accessory,Common,,절 8,,Buddhist Scripture.png
-Box,상자,BOX,Accessory,Common,,"항구 7,연못 7,성당 6",,Box.png
-Holy Grail,성배,HGR,Accessory,Common,,성당 9,,Holy Grail.png
-Cross,십자가,CRS,Accessory,Common,,"골목길 7,성당 9",,Cross.png
-Binoculars,쌍안경,BIN,Accessory,Common,,"모래사장 6,골목길 7,호텔 6,공장 7",,Binoculars.png
-Saint's Relic,성자의 유산,SRE,Accessory,Uncommon,CRS+HGR,,"체력 재생 +150%,기본 공격 추가 피해 +8,",Saint_s Relic.png
-Flower of Fate,운명의 꽃,FFA,Accessory,Uncommon,FLO+트럼프 카드,,"치명타 확률 +13%,쿨타임 감소 +10%,",Flower of Fate.png
-Glass Pieces,유리 조각,GPI,Accessory,Uncommon,GLB+STN,,"치명타 확률 +13%,",Glass Pieces.png
-Doll,인형,DOL,Accessory,Uncommon,RIB+CLO,,"스태미너 재생 +100%,생명력 흡수 +11%,",Doll.png
-Sniper Scope,저격 스코프,SSC,Accessory,Uncommon,LAS+BIN,,"공격력 +6,시야 +4,",Sniper Scope.png
-Buddha Sarira,진신사리,BSA,Accessory,Uncommon,BSC+MRO,,"쿨타임 감소 +10%,스킬 증폭 +7%,",Buddha Sarira.png
-Quiver,화살통,QUI,Accessory,Uncommon,LEA+BAM,,"공격 속도 +22%,",Quiver.png
-Feather Duster,먼지털이개,FDU,Accessory,Uncommon,SRO+FEA,,"공격력 +9,이동 속도 +0.1,",Feather Duster.png
-Gilded Quill Fan,군선,GFA,Accessory,Uncommon,FAN+NAI,,"스킬 증폭 +16,스킬 적중 시 치유 감소 -40%,",Gilded Quill Fan.png
-White Crane Fan,백우선,WFA,Accessory,Rare,GFA+FEA,,"이동 속도 + 0.1,스킬 증폭 + 18,스킬 적중 시 치유 감소 -40%,",White Crane Fan.png
-Powder of Life,생명의 가루,PLI,Accessory,Rare,TOL+STN,,"체력 재생 +1.5,스태미너 재생 +1.5",Powder of Life.png
-Uchiwa,우치와,UCH,Accessory,Rare,DOL+FAN,,"스태미너 재생 + 150%,생명력 흡수 + 15%,스킬 증폭 + 21,",Uchiwa.png
-Magazine,탄창,MAG,Accessory,Rare,BOX+ISH,,"최대 체력 + 350,기본 공격 피해 감소 + 6,",Magazine.png
-Laced Quiver,궁기병의 화살통,LQU,Accessory,Rare,QUI+FDU,,"공격력 +10, 공격 속도 +25%, 이동 속도 +0.1",No Image
-Moonlight Pendant,달빛 펜던트,MPE,Accessory,Rare,RIB+MST,,"공격력 + 20,생명력 흡수 + 20%,",Moonlight Pendant.png
-Schrodinger's Box,슈뢰딩거의 상자,SCH,Accessory,Rare,BOX+POI,,"최대 체력 + 420,스킬 증폭 + 5,",Schrodinger_s Box.png
-Veritas Lux Mea,진리는 나의 빛,VME,Accessory,Rare,BSA+SRE,,"체력 재생 + 150%,쿨타임 감소 + 10%,기본 공격 추가 피해 + 12,스킬 증폭 + 8%,",Veritas Lux Mea.png
-Glacial Ice,만년빙,GIC,Accessory,Epic,PLI+ICE,,"체력 재생 + 1.5,스태미너 재생 + 1.5,스킬 증폭 + 18,",Glacial Ice.png
-True Samadhi Fire,삼매진화,TFI,Accessory,Epic,PLI+LIG,,"체력 재생 + 1.5,스태미너 재생 + 1.5,기본 공격 추가 피해 + 13,",True Samadhi Fire.png
-Emerald Tablet,에메랄드 타블렛,ETA,Accessory,Legendary,FCO+FFA,,"공격력 + 10,방어력 + 10,치명타 확률 + 15%,쿨타임 감소 + 10%,",Emerald Tablet.png
-Stone,돌멩이,STN,Material,Common,,채집,,Stone.png
-Glass Bottle,유리병,GLB,Material,Common,,"항 7,번 7,성 6",,Glass Bottle.png
-Nail,못,NAI,Material,Common,,"번 7,양 6,공 7",,Nail.png
-Leather,가죽,LEA,Material,Common,,사냥,,Leather.png
-Turtle Shell,거북이 등딱지,TTS,Material,Common,,"항 7,연 7,모 6",,Turtle Shell.png
-Rubber,고무,RUB,Material,Common,,"항 8,골 7,양 5",,Rubber.png
-Scrap Metal,고철,SCM,Material,Common,,"항 8,호 8,병 6,공 9",,Scrap Metal.png
-Lighter,라이터,LIG,Material,Common,,"항 8,골 8,공 8,학 7",,Lighter.png
-Laser Pointer,레이저 포인터,LAS,Material,Common,,"고 6,병 6,학 6",,Laser Pointer.png
-Stallion Medal,마패,STM,Material,Common,,"모 6,골 7,절 7",,Stallion Medal.png
-Battery,배터리,BAT,Material,Common,,"항 7,번 7,공 9",,Battery.png
-Alcohol,알코올,ALC,Material,Common,,"병 4,공 6,학 5",,Alcohol.png
-Oil,오일,OIL,Material,Common,,"고 7,번 7,양 5,공 7",,Oil.png
-Cloth,옷감,CLO,Material,Common,,"호 7,번 7,절 7",,Cloth.png
-Gemstone,원석,GEM,Material,Common,,"연 8,모 7,절 8,숲 8",,Gemstone.png
-Glue,접착제,GLU,Material,Common,,"골 7,병 6,공 7",,Glue.png
-Paper,종이,PAP,Material,Common,,"절 7,양 5,성 6",,Paper.png
-Iron Ore,철광석,IRO,Material,Common,,"호 7,묘 7,숲 7",,Iron Ore.png
-Can,캔,CAN,Material,Common,,"모 4,번 6,학 5",,Can.png
-Gunpower,화약,GUN,Material,Common,,"절 7,양 6,묘 7",,Gunpower.png
-Deleted2,고장난 노트북,DEL,Deleted,Common,,,,Deleted2.png
-Steel,강철,STE,Material,Uncommon,SCM+IRO+2,,,Steel.png
-Oilcloth,기름먹인 천,OLC,Material,Uncommon,OIL+BAN+2,,,Oilcloth.png
-Heated Oil,뜨거운 오일,HOL,Material,Uncommon,OIL+LIG+3,,,Heated Oil.png
-Ruby,루비,RBY,Material,Uncommon,GEM+HAM,,,Ruby.png
-Dead Battery,방전 전지,DBT,Material,Uncommon,BAT+WAT+2,,,Dead Battery.png
-White Powder,백색 가루,WPW,Material,Uncommon,CHL+STN,,,White Powder.png
-Heated Stone,달궈진 돌멩이,HST,Material,Uncommon,STN+LIG+3,,,Heated Stone.png
-Meteorite,운석,MET,Material,Uncommon,,사냥,,Meteorite.png
-Ash,재,ASH,Material,Uncommon,PAP+LIG,,,Ash.png
-Electronic Parts,전자 부품,EPA,Material,Uncommon,PWR+BAT,,,Electronic Parts.png
-Blueprint,정교한 도면,BPR,Material,Uncommon,FPE+PAP,,,Blueprint.png
-Iron Sheet,철판,ISH,Material,Uncommon,SCM+PAP+2,,,Iron Sheet.png
-Golden Bracelet,황금,GLD,Material,Uncommon,GEM+PIC,,,Golden Bracelet.png
-Tree of Life,생명의 나무,TOL,Material,Rare,,채집,,Tree of Life.png
-Moon Stone,문스톤,MST,Material,Rare,MET+STN,,,Moon Stone.png
-Poison,독약,POI,Material,Rare,ASH+WAT,,,Poison.png
-Motorcycle Helmet,모터,MOT,Material,Rare,EPA+SCM,,,Motorcycle Helmet.png
-Mithril,미스릴,MIT,Material,Rare,,사냥,,Mithril.png
-Glass Panel,유리판,GLP,Material,Rare,GPI+GLU,,,Glass Panel.png
-Ion Battery,이온 전지,ION,Material,Rare,DBT+CWA+2,,,Ion Battery.png
-VF Blood Sample,VF 혈액 샘플,VBS,Material,Rare,,사냥,,VF Blood Sample.png
-Deleted3,방전된 노트북,DEL,Deleted,Rare,,,,Deleted3.png
-Cell Phone,휴대폰,CEL,Material,Rare,BPR+EPA,,,Cell Phone.png
-Force Core,포스 코어,FCO,Material,Epic,PLI+MET,사냥,,Force Core.png
-Potato,감자,POT,Food,Common,,채집,,Potato.png
-Cod,대구,COD,Food,Common,,채집,,Cod.png
-Lemon,레몬,LEM,Food,Common,,"고 5,호 6,병 4",,Lemon.png
-Garlic,마늘,GAR,Food,Common,,"골 6,절 6,묘 5",,Garlic.png
-Adhesive Bandage,반창고,ADB,Food,Common,,병 4,,Adhesive Bandage.png
-Carp,붕어,CRP,Food,Common,,채집,,Carp.png
-Bread,빵,BRD,Food,Common,,"항 4,성 4,학 6",,Bread.png
-Meat,고기,MEA,Food,Common,,채집,,Meat.png
-Egg,달걀,EGG,Food,Common,,"양 5,묘 5,숲 6",,Egg.png
-Ramen,생라면,RAM,Food,Common,,"항 6,골 6,양 5",,Ramen.png
-Oriental Herb,약초,HER,Food,Common,,"연 7,절 6,숲 6",,Oriental Herb.png
-Chocolate,초콜렛,CHO,Food,Common,,"고 5,번 6,양 4",,Chocolate.png
-Curry Powder,카레 가루,CPW,Food,Common,,"고 5,공 5",,Curry Powder.png
-Honey Cod Steak,꿀 바른 대구살,HCS,Food,Uncommon,COD+HNY,,,Honey Cod Steak.png
-Canned Cod Liver,대구 간 통조림,CCL,Food,Uncommon,COD+CAN,,,Canned Cod Liver.png
-Garlic Bread,마늘빵,GBR,Food,Uncommon,BRD+GAR+2,,,Garlic Bread.png
-Butter,버터,BUT,Food,Uncommon,MLK+BRA,,,Butter.png
-Herb Medicine,보약,HMD,Food,Uncommon,HER+TTS,,,Herb Medicine.png
-Carp Bread,붕어빵,CBR,Food,Uncommon,BRD+CRP+2,,,Carp Bread.png
-Holy Water,성수,OWA,Food,Uncommon,,,,Holy Water.png
-Disinfectant,지혈제,DIF,Food,Uncommon,ALC+ADB,,,Disinfectant.png
-Choco Pie,초코파이,CHP,Food,Uncommon,BRD+CHO,,,Choco Pie.png
-Acupuncture Needle,한방침,ACN,Food,Uncommon,NEE+ALC,,,Acupuncture Needle.png
-Orchid,난초,ORC,Food,Uncommon,HER+FLO+2,,,Orchid.png
-Tandoori Chicken,탄두리,TCH,Food,Uncommon,CPW+MEA,,,Tandoori Chicken.png
-Bacon and Garlic Stick,마늘 베이컨 말이,BGS,Food,Uncommon,GAR+MEA,,,Bacon and Garlic Stick.png
-Bun,번,BUN,Food,Uncommon,BRD+COF,,,Bun.png
-Hamburger,햄버거,HBG,Food,Uncommon,BRE+MEA,,,Hamburger.png
-Potato Bread,감자빵,PBR,Food,Uncommon,BRE+POT+2,,,Potato Bread.png
-Potato Soup,감자스프,PSP,Food,Uncommon,POT+MLK,,,Potato Soup.png
-Fish Fillet with Egg,달걀 생선 필레,FFE,Food,Uncommon,COD+EGG,,,Fish Fillet with Egg.png
-Citrus Cake,시트러스 케이크,CCK,Food,Uncommon,BRE+LEM+2,,,Citrus Cake.png
-Lemon Ice Cream,레몬 아이스크림,LIC,Food,Uncommon,LEM+EGG+3,,,Lemon Ice Cream.png
-Honey Garlic Pickle,마늘 꿀절임,HGP,Food,Uncommon,GAR+HNY+3,,,Honey Garlic Pickle.png
-Egg Bun,계란빵,EBN,Food,Uncommon,BRD+EGG+2,,,Egg Bun.png
-Easter Egg,이스터 에그,EEG,Food,Uncommon,BRD+CHO,,,Easter Egg.png
-Whiskey Bonbon,위스키 봉봉,WHB,Food,Uncommon,WHS+CHO+3,,,Whiskey Bonbon.png
-Choco Ice Cream,초코 아이스크림,CIC,Food,Uncommon,ICE+CHO+2,,,Choco Ice Cream.png
-Curry Bun,카레빵,CBN,Food,Uncommon,CPW+BRD+2,,,Curry Bun.png
-French Fries,감자튀김,FFR,Food,Rare,POT+HOL,,,French Fries.png
-Baked Potato,구운 감자,BPT,Food,Rare,POT+HST+2,,,Baked Potato.png
-Baked Carp,구운 붕어,BCP,Food,Rare,CRP+HST+2,,,Baked Carp.png
-Grilled Chilean Sea Bass,메로구이,GCB,Food,Rare,COD+HST+3,,,Grilled Chilean Sea Bass.png
-Hot Ramen,뜨거운 라면,HRA,Food,Rare,RAM+BWA+2,,,Hot Ramen.png
-Mocha Bread,모카빵,MBR,Food,Rare,BRD+CFL+2,,,Mocha Bread.png
-Scrambled Eggs,스크램블 에그,SCE,Food,Rare,EGG+HOL+2,,,Scrambled Eggs.png
-Chocolate Chip Cookies,초코칩 쿠키,CCC,Food,Rare,CHO+BUT+2,,,Chocolate Chip Cookies.png
-Choco Pie Box,초코파이 상자,CPB,Food,Rare,CHP+BOX+2,,,Choco Pie Box.png
-Curry,카레,CRY,Food,Rare,CPW+BWA+3,,,Curry.png
-Oriental Concoction,탕약,ORI,Food,Rare,HER+BWA+2,,,Oriental Concoction.png
-Honey Butter,허니버터,HBT,Food,Rare,BUT+HNY+2,,,Honey Butter.png
-Fried Chicken,후라이드 치킨,FCH,Food,Rare,MEA+HOL+2,,,Fried Chicken.png
-Healing Potion,힐링 포션,HPO,Food,Rare,ORC+GLB+2,,,Healing Potion.png
-Boiled Egg,삶은 달걀,BEG,Food,Rare,EGG+BWA+2,,,Boiled Egg.png
-Pound Cake,파운드 케이크,PCK,Food,Rare,BUT+BRD+2,,,Pound Cake.png
-Curry Croquette,카레 고로케,CCQ,Food,Rare,CPW+HOL+2,,,Curry Croquette.png
-Steak,스테이크,STK,Food,Rare,MEA+HST+4,,,Steak.png
-First Aid Kit,구급상자,FAK,Food,Rare,DIF+BAN,,,First Aid Kit.png
-Butter-Fried Potatoes,버터 감자구이,BFP,Food,Rare,POT+BUT+2,,,Butter-Fried Potatoes.png
-Fish Cutlet,생선까스,FCT,Food,Rare,COD+HOL,,,Fish Cutlet.png
-Stir Fried Ramen,볶음라면,STR,Food,Rare,RAM+HOL+2,,,Stir Fried Ramen.png
-Cold Noodles,냉면,CND,Food,Rare,RAM+IWA+2,,,Cold Noodles.png
-Garlic Ramen,마늘라면,GRA,Food,Rare,HRA+GAR+2,,,Garlic Ramen.png
-Spicy Fish Stew,매운탕,SFS,Food,Rare,CRP+HWA+2,,,Spicy Fish Stew.png
-Zen Vitality,대환단,ZVI,Food,Rare,ACN+HMD+2,,,Zen Vitality.png
-Fish and Chips,피쉬 앤 칩스,FAC,Food,Epic,FCT+FFR+2,,,Fish and Chips.png
-Honey,꿀,HNY,Bevarage,Common,,"골 5,번 6,숲 6",,Honey.png
-Water,물,WAT,Bevarage,Common,,채집,,Water.png
-Ice,얼음,ICE,Bevarage,Common,,"호 7,병 6,묘 5",,Ice.png
-Whiskey Bonbon,위스키,WHS,Bevarage,Common,,"고 5,호 5,성 4",,Whiskey Bonbon.png
-Coffee,커피콩,COF,Bevarage,Common,,"항 6,고 5,묘 5",,Coffee.png
-Carbonated Water,탄산수,CWA,Bevarage,Common,,"모 5,고 5,호 5",,Carbonated Water.png
-Milk,우유,MLK,Bevarage,Common,,"번 6,병 5,성 3",,Milk.png
-Boiling Water,뜨거운 물,BWA,Bevarage,Uncommon,WAT+LIG+3,,,Boiling Water.png
-Lemonade,레몬에이드,LMD,Bevarage,Uncommon,CWA+LEM+4,,,Lemonade.png
-Water Bottle,물병,WAB,Bevarage,Uncommon,WAT+GLB+2,,,Water Bottle.png
-Baijiu,백주,BAJ,Bevarage,Uncommon,ALC+LIG,,,Baijiu.png
-Soju,소주,SOJ,Bevarage,Uncommon,ALC+WAT+2,,,Soju.png
-Ice Coffee,아이스 커피,ICF,Bevarage,Uncommon,ICE+COF+2,,,Ice Coffee.png
-Cocktail,칵테일,CTL,Bevarage,Uncommon,WHS+LEM+4,,,Cocktail.png
-Coffee Liqueur,커피 리큐르,CFL,Bevarage,Uncommon,COF+ALC+2,,,Coffee Liqueur.png
-Cola,콜라,COL,Bevarage,Uncommon,CWA+HNY+3,,,Cola.png
-Latte,카페라테,CLA,Bevarage,Uncommon,MLK+COF+2,,,Latte.png
-Honey Milk,꿀탄 우유,HMI,Bevarage,Uncommon,MLK+HNY+2,,,Honey Milk.png
-Highball,하이볼,HBL,Bevarage,Uncommon,WHS+CWA+2,,,Highball.png
-Chocolate Milk,초코 우유,CMI,Bevarage,Uncommon,CHO+MLK+3,,,Chocolate Milk.png
-Honey Water,꿀물,HWA,Bevarage,Uncommon,HNY+WAT+2,,,Honey Water.png
-Ice Water,얼음물,IWA,Bevarage,Uncommon,ICE+WAT+2,,,Ice Water.png
-On The Rocks,온더락,OTR,Bevarage,Uncommon,ICE+WHS+2,,,On The Rocks.png
-Cowboy,카우보이,CBY,Bevarage,Uncommon,MLK+WHS+2,,,Cowboy.png
-Kaoliang Liquor,고량주,KLQ,Bevarage,Rare,BAJ+LIG+3,,,Kaoliang Liquor.png
-Hot Honey Water,뜨거운 꿀물,HHW,Bevarage,Rare,BWA+HNY+2,,,Hot Honey Water.png
-Flower Liquor,백일취,FLQ,Bevarage,Rare,BAJ+FLO+5,,,Flower Liquor.png
-Americano,아메리카노,AMC,Bevarage,Rare,BWA+COF+2,,,Americano.png
-Herbal Liquor,약주,HLQ,Bevarage,Rare,BAJ+HER+5,,,Herbal Liquor.png
-Whiskey Cocktail,위스키 콕,WCT,Bevarage,Rare,COL+WHS+5,,,Whiskey Cocktail.png
-Purified Water,정화수,PWA,Bevarage,Rare,BWA+ICE+2,,,Purified Water.png
-Can of Cola,캔 콜라,COC,Bevarage,Rare,COL+CAN+2,,,Can of Cola.png
-Hot Chocolate,핫초코,HOC,Bevarage,Rare,BWA+CHO+4,,,Hot Chocolate.png
-White Russian,깔루아 밀크,WRS,Bevarage,Rare,CFL+MLK+4,,,White Russian.png
-Surveillance Camera,감시 카메라,CAM,Summon,Common,,"항 6,모 5,고 6,번 6,병 6,양 5,묘 6,학 6",,Surveillance Camera.png
-Snare,올가미,SNR,Summon,Common,,"항 6,연 6,모 5,양 5,숲 5,성 5",공격력 +10,Snare.png
-Mouse Trap,쥐덫,MTR,Summon,Common,,"연 7,모 5,묘 6",공격력 +50,Mouse Trap.png
-Piano Wire,피아노선,PWR,Summon,Common,,"모 6,고 7,호 7,성 6",공격력 +130,Piano Wire.png
-Spiked Plank,가시 발판,SPL,Summon,Uncommon,MTR+NAI+2,,공격력 +120,Spiked Plank.png
-Enhanced Mouse Trap,개량형 쥐덫,EMT,Summon,Uncommon,MTR+IRO+2,,공격력 +160,Enhanced Mouse Trap.png
-Dynamite,다이너마이트,DYN,Summon,Uncommon,PWR+GUN,,공격력 +220,Dynamite.png
-Bamboo Trap,대나무 트랩,BBT,Summon,Uncommon,SNR+BAM+2,,공격력 +30,Bamboo Trap.png
-Booby Trap,부비트랩,BYT,Summon,Uncommon,SNR+GLU+2,,공격력 +30,Booby Trap.png
-Clang Clatter,소란 발생기,CCR,Summon,Uncommon,CAN+IBA+5,,공격력 +40,Clang Clatter.png
-Telephoto Camera,망원 카메라,TCA,Summon,Uncommon,CAM+BIN+3,,,Telephoto Camera.png
-Jungle Guillotine,정글 기요틴,JGU,Summon,Uncommon,MTR+KKN,,공격력 +100,Jungle Guillotine.png
-Explosive Trap,폭발 트랩,EPT,Summon,Uncommon,MTR+GUN,,공격력 +180,Explosive Trap.png
-Mine,지뢰,MIN,Summon,Rare,BYT+GUN+2,,공격력 +80,Mine.png
-Pendulum Axe,펜듈럼 도끼,PAX,Summon,Rare,BBT+HCH+2,,공격력 +100,Pendulum Axe.png
-RDX,RDX,RDX,Summon,Rare,DYN+SCM,,공격력 +250,RDX.png
-Mithril String,미스릴 실,MIS,Summon,Rare,MIT+PWR+3,,공격력 +300,Mithril String.png
-Fire Trap,화염 트랩,FIT,Summon,Rare,EPT+OLC+3,,공격력 +280,Fire Trap.png
-Hidden Maiden,히든 메이든,HMA,Summon,Rare,SPL+JGU+2,,공격력 +300,Hidden Maiden.png
-C-4,C-4,C-4,Summon,Epic,RDX+WPW+3,,공격력 +340,C-4.png
-Double Guillotine,더블 기요틴,DGU,Summon,Epic,JGU+PAX+2,,공격력 +340,Double Guillotine.png
-Claymore,크레모어,CLM,Summon,Epic,MIN+EPT+2,,공격력 +260,Claymore.png
-Stingburst,폭뢰침,SBT,Summon,Epic,RDX+SPL+2,,공격력 +310,Stingburst.png
-Remote Mine,리모트 마인,RMN,Summon,Legendary,FCO+SPL+3,,공격력 +450,Remote Mine.png
->>>>>>> 7759457268d354dab9a88961cbbaed91bd7e977e
 Smart Bomb,스마트 폭탄,STB,Summon,Legendary,RDX+CEL+3,,공격력 +370,Smart Bomb.png
