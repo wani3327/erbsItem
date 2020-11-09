@@ -45,12 +45,14 @@ for n, row in enumerate(datac):
             if rli[0] not in dsuper:
                 dsuper[rli[0]] = [code]
             else:
-                dsuper[rli[0]].append(code)
+                if code not in dsuper[rli[0]]:
+                    dsuper[rli[0]].append(code)
 
             if rli[1] not in dsuper:
                 dsuper[rli[1]] = [code]
             else:
-                dsuper[rli[1]].append(code)
+                if code not in dsuper[rli[1]]:
+                    dsuper[rli[1]].append(code)
 
 
         if stat:

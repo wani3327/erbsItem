@@ -1,5 +1,6 @@
 #super {
     height: 10%;
+    overflow-x: scroll;
 }
 
 #super > img {
