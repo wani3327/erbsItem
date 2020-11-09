@@ -17,11 +17,81 @@
 
 .itemSpot {
     position: absolute;
-    width: 15%;
-    background-color: lightgrey;
+    width: 12%;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 #forest {
-    top: 33%;
-    left: 33%;
+    top: 52%;
+    left: 34%;
+}
+
+#school {
+    top: 29%;
+    left: 30%;
+}
+
+#hotel {
+    top: 38%;
+    left: 16%;
+}
+
+#archeryRange {
+    top: 19%;
+    left: 19%;
+}
+
+#alley {
+    top: 11%;
+    left: 37.5%;
+}
+
+#avenue {
+    top: 25%;
+    left: 50.5%;
+}
+
+#temple {
+    top: 22.5%;
+    left: 67.5%;
+}
+
+#pond {
+    top: 36%;
+    left: 60%;
+}
+
+#hospital {
+    top: 38%;
+    left: 16%;
+}
+
+#cemetery {
+    top: 53%;
+    left: 16%;
+}
+
+#factory {
+    top: 38%;
+    left: 16%;
+}
+
+#chapel {
+    top: 38%;
+    left: 16%;
+}
+
+#dock {
+    top: 38%;
+    left: 16%;
+}
+
+#uptown {
+    top: 38%;
+    left: 16%;
+}
+
+#beach {
+    top: 38%;
+    left: 16%;
 }
