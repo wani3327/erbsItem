@@ -11,7 +11,10 @@
     </head>
 
     <body>
-        <h3>아이템 도감</h3>
+        <h3>아이템 도감
+        <button onclick="changeLayout(0)">PC</button>
+        <button onclick="changeLayout(1)">모바일</button>
+        </h3>
 
         <div id="content">
             <div id='itemType' class='cell'>
@@ -33,6 +36,14 @@
                 <img id='Glove' src="image/weapon/Glove.png" onclick='toggle("Glove");'>
                 <img id='Guitar' src="image/weapon/Guitar.png" onclick='toggle("Guitar");'>
                 <img id='Nunchaku' src="image/weapon/Nunchaku.png" onclick='toggle("Nunchaku");'>
+                <img id='Chest' src='image/weapon/Chest.png' onclick="toggle('Chest');"/>
+                <img id='Head' src='image/weapon/Head.png' onclick="toggle('Head');"/>
+                <img id='Arm' src='image/weapon/Arm.png' onclick="toggle('Arm');"/>
+                <img id='Leg' src='image/weapon/Leg.png' onclick="toggle('Leg');"/>
+                <img id='Accessory' src='image/weapon/Accessory.png' onclick="toggle('Accessory');"/>
+                <img id='Food' src='image/weapon/Food.png' onclick="toggle('Food');"/>
+                <img id='Bevarage' src='image/weapon/Bevarage.png' onclick="toggle('Bevarage');"/>
+                <img id='Summon' src='image/weapon/Summon.png' onclick="toggle('Summon');"/>
             </div>
 
             <div class="column">
@@ -576,7 +587,7 @@
                 <div id="super" class='cell'>
                 </div>
 
-                 <!-- Recipe shows here -->
+                <!-- Recipe shows here -->
                 <div id='recipe' class='cell'>
                     <div id='final'>
                         <img class="itemIcon"/>
@@ -619,7 +630,6 @@
                     <img id='more3'/>
                     <img id='more4'/>
                 </div>
-
                 <!-- Stat and more information shows here -->
                 <div id='stat' class='cell'></div>
             </div>
@@ -630,64 +640,64 @@
                     <img id="mapImg" src="image/BlankMap.png" width="100%">
 
                     <!-- Whole areas -->
-                    <div id='alley' class='itemSpot'>
+                    <div id='mAL' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='archeryRange' class='itemSpot'>
+                    <div id='mAR' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='avenue' class='itemSpot'>
+                    <div id='mAV' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='beach' class='itemSpot'>
+                    <div id='mBC' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='cemetery' class='itemSpot'>
+                    <div id='mCM' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='chapel' class='itemSpot'>
+                    <div id='mCP' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='dock' class='itemSpot'>
+                    <div id='mDK' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='factory' class='itemSpot'>
+                    <div id='mFT' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='forest' class='itemSpot'>
+                    <div id='mFR' class='itemSpot'>
                         <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='hospital'>
-                        <img/>
+                    <div id='mHS' class='itemSpot'>
+                        <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='hotel'>
-                        <img/>
+                    <div id='mHT' class='itemSpot'>
+                        <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='pond'>
-                        <img/>
+                    <div id='mPN' class='itemSpot'>
+                        <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='school'>
-                        <img/>
+                    <div id='mSC' class='itemSpot'>
+                        <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='temple'>
-                        <img/>
+                    <div id='mTP' class='itemSpot'>
+                        <img class='itemIcon'/>
                         <span></span>
                     </div>
-                    <div id='uptown'>
-                        <img/>
+                    <div id='mUT' class='itemSpot'>
+                        <img class='itemIcon'/>
                         <span></span>
                     </div>
 

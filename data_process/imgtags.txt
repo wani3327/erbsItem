@@ -361,7 +361,7 @@
 					<img id='SCM' class='listItemIcon' title='고철' src='image/item/Scrap Metal.png' onclick='showItem("SCM")'/>
 					<img id='LIG' class='listItemIcon' title='라이터' src='image/item/Lighter.png' onclick='showItem("LIG")'/>
 					<img id='LAS' class='listItemIcon' title='레이저 포인터' src='image/item/Laser Pointer.png' onclick='showItem("LAS")'/>
-					<img id='STM' class='listItemIcon' title='숲 4,공 4' src='image/item/Stallion Medal.png' onclick='showItem("STM")'/>
+					<img id='STM' class='listItemIcon' title='마패' src='image/item/Stallion Medal.png' onclick='showItem("STM")'/>
 					<img id='BAT' class='listItemIcon' title='배터리' src='image/item/Battery.png' onclick='showItem("BAT")'/>
 					<img id='ALC' class='listItemIcon' title='알코올' src='image/item/Alcohol.png' onclick='showItem("ALC")'/>
 					<img id='OIL' class='listItemIcon' title='오일' src='image/item/Oil.png' onclick='showItem("OIL")'/>
@@ -384,7 +384,7 @@
 					<img id='EPA' class='listItemIcon' title='전자 부품' src='image/item/Electronic Parts.png' onclick='showItem("EPA")'/>
 					<img id='BPR' class='listItemIcon' title='정교한 도면' src='image/item/Blueprint.png' onclick='showItem("BPR")'/>
 					<img id='ISH' class='listItemIcon' title='철판' src='image/item/Iron Sheet.png' onclick='showItem("ISH")'/>
-					<img id='GLD' class='listItemIcon' title='황금' src='image/item/Golden Bracelet.png' onclick='showItem("GLD")'/>
+					<img id='GLD' class='listItemIcon' title='황금' src='image/item/Gold.png' onclick='showItem("GLD")'/>
 					<img id='TOL' class='listItemIcon' title='생명의 나무' src='image/item/Tree of Life.png' onclick='showItem("TOL")'/>
 					<img id='MST' class='listItemIcon' title='문스톤' src='image/item/Moon Stone.png' onclick='showItem("MST")'/>
 					<img id='POI' class='listItemIcon' title='독약' src='image/item/Poison.png' onclick='showItem("POI")'/>

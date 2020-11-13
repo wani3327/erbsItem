@@ -1,3 +1,29 @@
+function changeLayout(sizeCode)
+{
+    switch (sizeCode)
+    {
+    case 0: // 1536*864
+        $('#content').css('height', '520px');
+        $('#itemType').css('height', '10%');
+        $('#itemType img').css('height', '80%');
+        $('.column').css('width', '495px');
+        $('#itemList').css('height', '100%');
+        $('#stat').css('height', '37.8%');
+        $('#recipe').css('height', '45%');
+        break;
+
+    case 1: // mobile
+        $('#content').css('height', 'auto');
+        $('#itemType').css('height', 'auto');
+        $('#itemType img').css('height', '50px');
+        $('.column').css('width', '100%');
+        $('#itemList').css('height', '320px');
+        $('#stat').css('height', 'auto');
+        $('#recipe').css('height', '320px');
+        break;
+    }
+}
+
 function toggle(type)
 {
     button = $('#' + type);
@@ -166,9 +192,9 @@ function showMap(code)
         singleDrop = drop[code]
         for (let place of singleDrop)
         {
-            $('#' + place[0]).css('display', '')
-            $('#' + place[0] + ' img').attr('src', img[code]);
-            $('#' + place[0] + ' span').html(place[1]);
+            $('#m' + place[0]).css('display', '')
+            $('#m' + place[0] + ' img').attr('src', img[code]);
+            $('#m' + place[0] + ' span').html(place[1]);
         }
     }
 }
