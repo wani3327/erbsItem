@@ -19,7 +19,7 @@ function changeLayout(sizeCode)
         $('.column').css('width', '100%');
         $('#itemList').css('height', '320px');
         $('#stat').css('height', 'auto');
-        $('#recipe').css('height', '320px');
+        $('#recipe').css('height', '480px');
         break;
     }
 }

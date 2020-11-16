@@ -18,6 +18,7 @@
 
         <div id="content">
             <div id='itemType' class='cell'>
+                <!-- Item type filter shows here -->
                 <img id='all' src="image/weapon/all.png" onclick='toggleAll();' style="border-style: inset;">
                 <img id='Axe' src="image/weapon/Axe.png" onclick='toggle("Axe");'>
                 <img id='Dagger' src="image/weapon/Dagger.png" onclick='toggle("Dagger");'>
@@ -27,6 +28,7 @@
                 <img id='Assault_Rifle' src="image/weapon/Assault Rifle.png" onclick='toggle("Assault_Rifle");'>
                 <img id='Sniper_Rifle' src="image/weapon/Sniper Rifle.png" onclick='toggle("Sniper_Rifle");'>
                 <img id='Rapier' src="image/weapon/Rapier.png" onclick='toggle("Rapier");'>
+                <img id='Spear' src="image/weapon/Spear.png" onclick='toggle("Spear");'>
                 <img id='Hammer' src="image/weapon/Hammer.png" onclick='toggle("Hammer");'>
                 <img id='Bat' src="image/weapon/Bat.png" onclick='toggle("Bat");'>
                 <img id='Throw' src="image/weapon/Throw.png" onclick='toggle("Throw");'>
@@ -36,26 +38,20 @@
                 <img id='Glove' src="image/weapon/Glove.png" onclick='toggle("Glove");'>
                 <img id='Guitar' src="image/weapon/Guitar.png" onclick='toggle("Guitar");'>
                 <img id='Nunchaku' src="image/weapon/Nunchaku.png" onclick='toggle("Nunchaku");'>
-                <img id='Chest' src='image/weapon/Chest.png' onclick="toggle('Chest');"/>
-                <img id='Head' src='image/weapon/Head.png' onclick="toggle('Head');"/>
-                <img id='Arm' src='image/weapon/Arm.png' onclick="toggle('Arm');"/>
-                <img id='Leg' src='image/weapon/Leg.png' onclick="toggle('Leg');"/>
-                <img id='Accessory' src='image/weapon/Accessory.png' onclick="toggle('Accessory');"/>
-                <img id='Food' src='image/weapon/Food.png' onclick="toggle('Food');"/>
-                <img id='Bevarage' src='image/weapon/Bevarage.png' onclick="toggle('Bevarage');"/>
-                <img id='Summon' src='image/weapon/Summon.png' onclick="toggle('Summon');"/>
+                <img id='Chest' src='image/weapon/Chest.png' onclick="toggle('Chest');" title='몸통'/>
+                <img id='Head' src='image/weapon/Head.png' onclick="toggle('Head');" title='머리'/>
+                <img id='Arm' src='image/weapon/Arm.png' onclick="toggle('Arm');" title='팔'/>
+                <img id='Leg' src='image/weapon/Leg.png' onclick="toggle('Leg');" title='다리'/>
+                <img id='Accessory' src='image/weapon/Accessory.png' onclick="toggle('Accessory');" title='장식'/>
+                <img id='Material' src='image/weapon/Material.png' onclick="toggle('Material');" title='재료'/>
+                <img id='Food' src='image/weapon/Food.png' onclick="toggle('Food');" title='음식'/>
+                <img id='Bevarage' src='image/weapon/Bevarage.png' onclick="toggle('Bevarage');" title='음료'/>
+                <img id='Summon' src='image/weapon/Summon.png' onclick="toggle('Summon');" title='설치'/>
             </div>
 
             <div class="column">
-                <!-- Item icon and filter shows here -->
+                <!-- Item icon shows here -->
                 <div id='itemList' class='cell'>
-                    <!--div id="Filter">
-                        <input type="checkbox" value="Food" onclick="showOnly()">음식</input>
-                    </div>
-                    <p></p-->
-                    <!-- Example
-                    <img id='TE1' src='image/item/item1.png' name='test1' class='listItemIcon' onclick="showItem('TE1')"/>
-                    -->
                     <div>
                         <img id='PIC' class='listItemIcon' title='곡괭이' src='image/item/Pickaxe.png' onclick='showItem("PIC")'/>
                         <img id='HCH' class='listItemIcon' title='손도끼' src='image/item/Hatchet.png' onclick='showItem("HCH")'/>
@@ -630,6 +626,7 @@
                     <img id='more3'/>
                     <img id='more4'/>
                 </div>
+
                 <!-- Stat and more information shows here -->
                 <div id='stat' class='cell'></div>
             </div>
