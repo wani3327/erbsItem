@@ -4,13 +4,14 @@
 }
 
 #super > img {
-    width: 20%;
+    height: 73%;
     cursor: pointer;
+    margin-right: 2px;
 }
 
 #recipe {
     text-align: center;
-    height: 45%;
+    height: 47%;
 }
 
 span {
@@ -92,10 +93,3 @@ span {
     border-style: solid;
     font-size: 80%;
 }
-/*
-@media screen and (max-width: 800px) {
-    #recipe {
-        height: 320px;
-    }
-}
-*/

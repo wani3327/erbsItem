@@ -1,7 +1,7 @@
 html {
     background-color: #222222;
     color: white;
-    height: 70%;
+    height: 100%;
 }
 
 body {
@@ -9,29 +9,23 @@ body {
 }
 
 #content {
-    height: 520px;
-    /* border-style: solid; */
+    height: 100%;
 }
 
 .button {
     float: right;
 }
 
-#itemType {
-    height: 10%;
-}
-
 #itemType > img {
-    height: 80%;
+    height: 3em;
     cursor: pointer;
-    margin-right: 1px;
     vertical-align: middle;
 }
 
 .column {
     vertical-align: top;
     width: 495px;
-    height: 100%;
+    height: 70%;
     display: inline-block;
 }
 
@@ -42,13 +36,14 @@ body {
     display: block;
 }
 
+/* left column */
 #itemList {
     height: 100%;
     overflow: auto;
 }
 
 .listItemIcon {
-    width: 22%;
+    width: 23.5%;
     cursor: pointer;
 }
 
@@ -58,32 +53,5 @@ body {
 }
 
 #stat {
-    height: 37.8%;
+    height: 35%;
 }
-/*
-@media screen and (max-width: 800px) {
-    #content {
-        height: auto;
-    }
-
-    #itemType {
-        height: auto;
-    }
-
-    #itemType > img {
-        height: 55px;
-    }
-
-    #itemList {
-        height: 320px;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    #stat {
-        height: auto;
-    }
-}
-*/

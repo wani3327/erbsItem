@@ -266,11 +266,11 @@
 					<img id='BER' class='listItemIcon' title='베레모' src='image/item/Beret.png' onclick='showItem("BER")'/>
 					<img id='CCO' class='listItemIcon' title='사슬 코이프' src='image/item/Chain Coif.png' onclick='showItem("CCO")'/>
 					<img id='SHE' class='listItemIcon' title='안전모' src='image/item/Safety Helmet.png' onclick='showItem("SHE")'/>
-					<img id='CHE' class='listItemIcon' title='방탄모' src='image/item/Close Helm.png' onclick='showItem("CHE")'/>
+					<img id='BAH' class='listItemIcon' title='방탄모' src='image/item/Close Helm.png' onclick='showItem("BAH")'/>
 					<img id='FHE' class='listItemIcon' title='소방 헬멧' src='image/item/Fire Helmet.png' onclick='showItem("FHE")'/>
 					<img id='TIA' class='listItemIcon' title='티아라' src='image/item/Tiara.png' onclick='showItem("TIA")'/>
 					<img id='CRW' class='listItemIcon' title='왕관' src='image/item/Crown.png' onclick='showItem("CRW")'/>
-					<img id='BAH' class='listItemIcon' title='투구' src='image/item/Ballistic Helmet.png' onclick='showItem("BAH")'/>
+					<img id='CHE' class='listItemIcon' title='투구' src='image/item/Ballistic Helmet.png' onclick='showItem("CHE")'/>
 					<img id='MOH' class='listItemIcon' title='오토바이 헬멧' src='image/item/Motorcycle Helmet.png' onclick='showItem("MOH")'/>
 					<img id='MIH' class='listItemIcon' title='미스릴 투구' src='image/item/Mithril Helm.png' onclick='showItem("MIH")'/>
 					<img id='CTI' class='listItemIcon' title='수정 티아라' src='image/item/Crystal Tiara.png' onclick='showItem("CTI")'/>

@@ -4,8 +4,6 @@ function changeLayout(sizeCode)
     {
     case 0: // 1536*864
         $('#content').css('height', '520px');
-        $('#itemType').css('height', '10%');
-        $('#itemType img').css('height', '80%');
         $('.column').css('width', '495px');
         $('#itemList').css('height', '100%');
         $('#stat').css('height', '37.8%');
@@ -14,8 +12,6 @@ function changeLayout(sizeCode)
 
     case 1: // mobile
         $('#content').css('height', 'auto');
-        $('#itemType').css('height', 'auto');
-        $('#itemType img').css('height', '50px');
         $('.column').css('width', '100%');
         $('#itemList').css('height', '320px');
         $('#stat').css('height', 'auto');
@@ -35,7 +31,7 @@ function toggle(type)
 
     $('#all').css('border-style', 'none');
 
-    typeFilter();
+    filter();
 }
 
 function toggleAll()
@@ -52,29 +48,50 @@ function toggleAll()
         $('#itemType img').css('border-style', 'none')
     }
 
-    typeFilter();
+    filter();
 }
 
-function typeFilter()
+function filter()
 {
-    var filters = []
     $('#itemList div img').each(function(_) {
         $(this).css('display', 'none');
     });
 
-    $('#itemType img').each(function(i) {
+    let showing = []
+    let filters = []
 
+    let isAll = false
+    $('#itemType img').each(function(i) {
         if (i != 0)
-            if ($(this).css('border-style') == 'inset')
-            {
-                for (let item of type[this.id])
-                {
-                    $('#' + item).css('display', '');
-                }
-            }
+        {
+            if (isAll || $(this).css('border-style') == 'inset')
+                showing = showing.concat(type[this.id]);
+        }
+        else if ($(this).css('border-style') == 'inset')
+            isAll = true;
     });
 
+    $('#statFilter table tr td input').each(function(_) {
+        if ($(this).prop('checked'))
+            filters.push(this.id.replace('s', ''));
+    });
 
+    for (let i = 0; i < showing.length; i++)
+    {
+        let item = showing[i]
+
+        for (let ab of filters)
+            if (!stat[item] || !stat[item].includes(ab))
+            {
+                showing.splice(i--, 1);
+                break;
+            }
+    }
+
+    for (let item of showing)
+    {
+        $('#' + item).css('display', '');
+    }
 }
 
 function showItem(code)
@@ -175,8 +192,34 @@ function showRecipe(code)
 
 function showStat(code)
 {
+    function translate(s)
+    {
+        return s.replace('AP', '공격력')
+                .replace('EN', '기본 공격 추가 피해')
+                .replace('AS', '공격 속도')
+                .replace('AR', '기본 공격 사거리')
+                .replace('LS', '생명력 흡수')
+                .replace('CC', '치명타 확률')
+                .replace('CD', '치명타 피해량')
+                .replace('SA', '스킬 증폭')
+                .replace('CR', '쿨타임 감소')
+                .replace('MS', '최대 스태미너')
+                .replace('SR', '스태미너 재생')
+                .replace('DF', '방어력')
+                .replace('MH', '최대 체력')
+                .replace('HR', '체력 재생')
+                .replace('ND', '기본 공격 피해량 감소')
+                .replace('SD', '스킬 피해량 감소')
+                .replace('SP', '이동 속도')
+                .replace('SO', '비전투시 이동 속도')
+                .replace('VR', '시야')
+                .replace('HN', '기본 공격 적중 시 치유 감소')
+                .replace('HS', '스킬 적중 시 치유 감소')
+                .replace('MA', '장탄수');
+    }
+
     if (code in stat)
-        $('#stat').html(stat[code]);
+        $('#stat').html(translate(stat[code]));
     else
         $('#stat').html('');
 }
@@ -200,23 +243,4 @@ function showMap(code)
 }
 
 
-/*
-var image = document.createElement("img");
-image.src = 'image/Acupuncture.png'
 
-window.addEventListener("load", function()
-{
-    var canvas = document.createElement("canvas");
-    document.getElementById("mapColumn").appendChild(canvas);
-
-    canvas.id = 'mapCanvas';
-    canvas.width = image.width;
-    canvas.height = image.height;
-
-    var context = canvas.getContext("2d");
-
-    context.fillStyle = "#BBBBBB";
-    context.fillRect(0, 0, 256, 142);
-
-    context.drawImage(image, 0, 0);
-}); */
