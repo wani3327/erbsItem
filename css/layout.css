@@ -36,22 +36,18 @@ body {
     display: block;
 }
 
-/* left column */
-#itemList {
-    height: 100%;
-    overflow: auto;
-}
-
-.listItemIcon {
-    width: 23.5%;
-    cursor: pointer;
-}
-
 .itemIcon {
     width: 100%;
     cursor: pointer;
 }
 
-#stat {
-    height: 35%;
+/* for mobile */
+@media screen and (max-width: 800px) {
+    #content {
+        height: auto;
+    }
+
+    .column {
+        width: 100%;
+    }
 }

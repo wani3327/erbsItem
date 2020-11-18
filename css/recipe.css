@@ -93,3 +93,18 @@ span {
     border-style: solid;
     font-size: 80%;
 }
+
+#stat {
+    height: 35%;
+}
+
+/* for mobile */
+@media screen and (max-width: 800px) {
+    #stat {
+        height: auto;
+    }
+
+    #recipe {
+        height: 480px;
+    }
+}
