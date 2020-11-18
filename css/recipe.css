@@ -100,11 +100,20 @@ span {
 
 /* for mobile */
 @media screen and (max-width: 800px) {
-    #stat {
+    #super {
         height: auto;
+    }
+
+    #super > img {
+        width: 24.5%;
+        height: initial;
     }
 
     #recipe {
         height: 480px;
+    }
+
+    #stat {
+        height: auto;
     }
 }

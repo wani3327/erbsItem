@@ -27,6 +27,7 @@ body {
     width: 495px;
     height: 70%;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 .cell {
@@ -49,5 +50,6 @@ body {
 
     .column {
         width: 100%;
+        height: auto;
     }
 }

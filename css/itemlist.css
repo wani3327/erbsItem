@@ -1,5 +1,5 @@
 #itemList {
-    height: 100%;
+    height: 99.8%;
     overflow: auto;
 }
 
@@ -8,9 +8,31 @@
     cursor: pointer;
 }
 
+a:link {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 /* for mobile */
 @media screen and (max-width: 800px) {
     #itemList {
-            height: 320px;
+        height: 320px;
     }
 }
