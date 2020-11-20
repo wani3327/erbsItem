@@ -1,4 +1,5 @@
 import csv
+import func
 
 data = open('database.csv', 'r', encoding='utf8')
 datac = csv.reader(data)
@@ -18,6 +19,7 @@ dimg = {}
 ddrop = {}
 dclass = {}
 dsuper = {}
+dquery = {}
 
 html = ''
 
@@ -26,7 +28,7 @@ for n, row in enumerate(datac):
         continue
 
     try:
-        _, name, code, ty, rarity, recipe, drop, stat, img = row
+        _, name, code, ty, rarity, recipe, drop, stat, img, alias, _ = row
 
         if ty == 'Deleted':
             continue
@@ -39,20 +41,18 @@ for n, row in enumerate(datac):
 
 
         if recipe:
-            rli = recipe.split('+')
-            drecipe[code] = rli
+            sub = recipe.split('+')
+            drecipe[code] = sub
 
-            if rli[0] not in dsuper:
-                dsuper[rli[0]] = [code]
+            if sub[0] not in dsuper:
+                dsuper[sub[0]] = [code]
             else:
-                if code not in dsuper[rli[0]]:
-                    dsuper[rli[0]].append(code)
+                dsuper[sub[0]].append(code)
 
-            if rli[1] not in dsuper:
-                dsuper[rli[1]] = [code]
+            if sub[1] not in dsuper:
+                dsuper[sub[1]] = [code]
             else:
-                if code not in dsuper[rli[1]]:
-                    dsuper[rli[1]].append(code)
+                dsuper[sub[1]].append(code)
 
 
         if stat:
@@ -68,6 +68,7 @@ for n, row in enumerate(datac):
             for s in single:
                 ddrop[code].append(s.split())
 
+
         ty = ty.replace(' ', '_')
         if ty not in dclass:
             dclass[ty] = [code]
@@ -75,9 +76,20 @@ for n, row in enumerate(datac):
             dclass[ty].append(code)
 
 
+        names = [name]
+        if alias:
+            names += alias.split(',')
+        dquery[code] = []
+
+        for n in names:
+            n = n.replace(' ', '')
+            dquery[code].append(func.shatter(n))
+
 
         if shouldWeMakeImageTags:
             html += f"\t\t\t\t\t<img id='{code}' class='listItemIcon' title='{name}' src='image/item/{img}' onclick='showItem(\"{code}\")'/>\n"
+
+
 
     except IndexError: # no rarity
         print('ierr' + str(n))
@@ -85,14 +97,15 @@ for n, row in enumerate(datac):
         print('verr' + str(n))
 
 resD.write(f'''
-var itemName={str(dname)};
-var recipe={str(drecipe)};
-var img={str(dimg)};
-var rarity={str(drarity)};
-var drop={str(ddrop)};
-var type={str(dclass)};
-var stat={str(dstat)};
-var sup={str(dsuper)};
+var itemName={str(dname).replace(', ',',').replace(': ',':')};
+var recipe={str(drecipe).replace(', ',',').replace(': ',':')};
+var img={str(dimg).replace(', ',',').replace(': ',':')};.replace(': ',':')
+var rarity={str(drarity).replace(', ',',').replace(': ',':')};
+var drop={str(ddrop).replace(', ',',').replace(': ',':')};
+var type={str(dclass).replace(', ',',').replace(': ',':')};
+var stat={str(dstat).replace(', ',',').replace(': ',':')};
+var sup={str(dsuper).replace(', ',',').replace(': ',':')};
+var query={str(dquery).replace(', ',',').replace(': ',':')};
 ''')
 resD.close()
 

@@ -8,28 +8,6 @@
     cursor: pointer;
 }
 
-a:link {
-    color: lightblue;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: lightblue;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    background-color: transparent;
-    text-decoration: underline;
-}
-
 /* for mobile */
 @media screen and (max-width: 800px) {
     #itemList {

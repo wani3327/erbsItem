@@ -1,5 +1,5 @@
 html {
-    background-color: #222222;
+    background-color: #0d1423;
     color: white;
     height: 100%;
 }
@@ -12,15 +12,25 @@ body {
     height: 100%;
 }
 
-.button {
-    float: right;
-}
-
 #itemType > img {
     height: 3em;
     cursor: pointer;
     vertical-align: middle;
+    border-color: lightgreen;
+    margin: 1px;
 }
+
+#statFilter > table {
+    display: inline;
+}
+
+label {
+    white-space: nowrap;
+}
+
+/* #searchBar { */
+    /* vertical-align: middle; */
+/* } */
 
 .column {
     vertical-align: top;
@@ -40,6 +50,28 @@ body {
 .itemIcon {
     width: 100%;
     cursor: pointer;
+}
+
+a:link {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 /* for mobile */

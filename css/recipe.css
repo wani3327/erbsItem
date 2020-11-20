@@ -3,6 +3,13 @@
     overflow-x: auto;
 }
 
+#super > p {
+    display: none;
+    font-weight: 700;
+    margin: 2px;
+    width: 90%;
+}
+
 #super > img {
     height: 73%;
     cursor: pointer;
@@ -104,13 +111,17 @@ span {
         height: auto;
     }
 
+    #super > p {
+        display: block;
+    }
+
     #super > img {
         width: 24.5%;
         height: initial;
     }
 
     #recipe {
-        height: 480px;
+        height: 320px;
     }
 
     #stat {

@@ -1,25 +1,3 @@
-function changeLayout(sizeCode)
-{
-    switch (sizeCode)
-    {
-    case 0: // 1536*864
-        $('#content').css('height', '520px');
-        $('.column').css('width', '495px');
-        $('#itemList').css('height', '100%');
-        $('#stat').css('height', '37.8%');
-        $('#recipe').css('height', '45%');
-        break;
-
-    case 1: // mobile
-        $('#content').css('height', 'auto');
-        $('.column').css('width', '100%');
-        $('#itemList').css('height', '320px');
-        $('#stat').css('height', 'auto');
-        $('#recipe').css('height', '480px');
-        break;
-    }
-}
-
 function toggle(type)
 {
     button = $('#' + type);
@@ -37,16 +15,12 @@ function toggle(type)
 function toggleAll()
 {
     button = $('#all');
-    if (button.css('border-style') != 'inset')
-    {
+    let isOff = button.css('border-style') != 'inset'
+
+    $('#itemType img').css('border-style', 'none')
+
+    if (isOff)
         button.css('border-style', 'inset');
-        $('#itemType img').css('border-style', 'inset');
-    }
-    else
-    {
-        button.css('border-style', 'none');
-        $('#itemType img').css('border-style', 'none')
-    }
 
     filter();
 }
@@ -60,6 +34,7 @@ function filter()
     let showing = []
     let filters = []
 
+    // Filtering by types
     let isAll = false
     $('#itemType img').each(function(i) {
         if (i != 0)
@@ -71,7 +46,8 @@ function filter()
             isAll = true;
     });
 
-    $('#statFilter table tr td input').each(function(_) {
+    // Filtering by stats
+    $('#statFilter input').each(function(_) {
         if ($(this).prop('checked'))
             filters.push(this.id.replace('s', ''));
     });
@@ -81,17 +57,42 @@ function filter()
         let item = showing[i]
 
         for (let ab of filters)
-            if (!stat[item] || !stat[item].includes(ab))
+        {
+            if (!stat[item])
             {
                 showing.splice(i--, 1);
                 break;
             }
+
+            let isValid;
+
+            switch (ab)
+            {
+            case 'SP':
+                isValid
+                = stat[item].includes('SP') || stat[item].includes('SO');
+                break;
+
+            case 'HNS':
+                isValid
+                = stat[item].includes('HN') || stat[item].includes('HS');
+                break;
+
+            default:
+                isValid = stat[item].includes(ab)
+                break;
+            }
+
+            if (!isValid)
+            {
+                showing.splice(i--, 1);
+                break;
+            }
+        }
     }
 
     for (let item of showing)
-    {
         $('#' + item).css('display', '');
-    }
 }
 
 function showItem(code)
@@ -121,7 +122,7 @@ function bgColor(code)
 
 function showSuper(code)
 {
-    var ht = '';
+    let ht = '<p>상위 아이템</p>';
 
     if (code in sup)
     {
@@ -150,7 +151,7 @@ function showRecipe(code)
     {
         function setAttr(divId, code)
         {
-            var imgTag = $('#' + divId + ' img');
+            let imgTag = $('#' + divId + ' img');
             imgTag.attr('src', img[code]);
             imgTag.attr('onclick', 'showItem("' + code + '")');
             imgTag.css('background-color', bgColor(code));
@@ -160,14 +161,14 @@ function showRecipe(code)
 
         function setAmount(divId, code)
         {
-            var amount = recipe[code][2] == undefined ? '1' : recipe[code][2]
+            let amount = recipe[code][2] == undefined ? '1' : recipe[code][2]
 
             $('#' + divId).html(amount + '개');
             $('#' + divId).css('display', '');
         }
 
-        var left = recipe[code][0]
-        var right = recipe[code][1]
+        let left = recipe[code][0]
+        let right = recipe[code][1]
 
         setAttr('ingre11', left)
         setAttr('ingre12', right)
@@ -204,7 +205,7 @@ function showStat(code)
                 .replace('SA', '스킬 증폭')
                 .replace('CR', '쿨타임 감소')
                 .replace('MS', '최대 스태미너')
-                .replace('SR', '스태미너 재생')
+                .replace('SR', '스태미너 재생').replace('SR', '스태미너 재생')
                 .replace('DF', '방어력')
                 .replace('MH', '최대 체력')
                 .replace('HR', '체력 재생')
@@ -241,6 +242,3 @@ function showMap(code)
         }
     }
 }
-
-
-
