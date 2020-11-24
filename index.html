@@ -111,7 +111,11 @@
 
                 </table>
 
-                <input id='searchBar' type="search" autofocus/>
+                <span id='sCaution'>주의! 아이템 검색 기능 사용 시 위 필터는 전부 무시됩니다.</span>
+                <div id='search'>
+                    <input type="text" placeholder="아이템 검색" autofocus>
+                </div>
+
             </div>
 
             <div class="column">
@@ -776,6 +780,7 @@
         <script>
             showRecipe(0);
             showMap(0);
+            search();
 
             $('.listItemIcon').each(function(_) {
                 $(this).css('background-color', bgColor(this.id));

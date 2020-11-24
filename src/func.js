@@ -27,10 +27,6 @@ function toggleAll()
 
 function filter()
 {
-    $('#itemList div img').each(function(_) {
-        $(this).css('display', 'none');
-    });
-
     let showing = []
     let filters = []
 
@@ -91,8 +87,62 @@ function filter()
         }
     }
 
+    $('#itemList div img').each(function(_) {
+        $(this).css('display', 'none');
+    });
+
     for (let item of showing)
         $('#' + item).css('display', '');
+}
+
+function search() {
+    $("#search input").on('keyup', function () {
+        let CHOSUNG_LIST = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
+        let JUNGSUNG_LIST = ['ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅗㅏ', 'ㅗㅐ', 'ㅗㅣ', 'ㅛ', 'ㅜ', 'ㅜㅓ', 'ㅜㅔ', 'ㅜㅣ', 'ㅠ', 'ㅡ', 'ㅡㅣ', 'ㅣ']
+        let JONGSUNG_LIST = ['', 'ㄱ', 'ㄲ', 'ㄱㅅ', 'ㄴ', 'ㄴㅈ', 'ㄴㅎ', 'ㄷ', 'ㄹ', 'ㄹㄱ', 'ㄹㅁ', 'ㄹㅂ', 'ㄹㅅ', 'ㄹㅌ', 'ㄹㅍ', 'ㄹㅎ', 'ㅁ', 'ㅂ', 'ㅂㅅ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
+
+        let r_lst = []
+        for (let w of $("#search input").val()
+                                       .replace(' ', '')
+                                       .toLocaleLowerCase())
+        {
+            if ('가' <= w && w <='힣')
+            {
+                // 588개 마다 초성이 바뀜.
+                ch1 = Math.floor((w.charCodeAt() - 44032) / 588)
+                // 중성은 총 28가지 종류
+                ch2 = Math.floor(((w.charCodeAt() - 44032) - (588 * ch1)) / 28)
+                ch3 = Math.floor((w.charCodeAt() - 44032) - (588 * ch1) - 28 * ch2)
+                r_lst = r_lst.concat(CHOSUNG_LIST[ch1] + JUNGSUNG_LIST[ch2] + JONGSUNG_LIST[ch3])
+            }
+            else
+                r_lst.push(w)
+        }
+
+        res = '';
+        for (let a of r_lst)
+        {
+            res += a;
+        }
+
+        let showing = []
+
+        Object.keys(query).forEach(function(item) {
+            for (let q of query[item])
+                if (q.includes(res))
+                {
+                    showing.push(item);
+                    break;
+                }
+        });
+
+        $('#itemList div img').each(function(_) {
+            $(this).css('display', 'none');
+        });
+
+        for (let item of showing)
+            $('#' + item).css('display', '');
+    });
 }
 
 function showItem(code)
@@ -101,6 +151,11 @@ function showItem(code)
     showRecipe(code);
     showStat(code);
     showMap(code);
+}
+
+function imagePath(code)
+{
+    return 'image/item/' + img[code];
 }
 
 function bgColor(code)
@@ -127,7 +182,7 @@ function showSuper(code)
     if (code in sup)
     {
         for (let c of sup[code])
-            ht += '<img src="' + img[c]
+            ht += '<img src="' + imagePath(c)
                   + '" onclick="showItem(\'' + c
                   + '\')" style="background-color:' + bgColor(c) + '"/>';
 
@@ -143,7 +198,9 @@ function showRecipe(code)
             $(this).css('display', 'none');
     });
 
-    $('#final img').attr('src', img[code]);
+    if (code == 0) return;
+
+    $('#final img').attr('src', imagePath(code));
     $('#final span').html(itemName[code]);
     $('#final img').css('background-color', bgColor(code));
 
@@ -152,7 +209,7 @@ function showRecipe(code)
         function setAttr(divId, code)
         {
             let imgTag = $('#' + divId + ' img');
-            imgTag.attr('src', img[code]);
+            imgTag.attr('src', imagePath(code));
             imgTag.attr('onclick', 'showItem("' + code + '")');
             imgTag.css('background-color', bgColor(code));
             $('#' + divId + ' span').html(itemName[code]);
@@ -237,7 +294,7 @@ function showMap(code)
         for (let place of singleDrop)
         {
             $('#m' + place[0]).css('display', '')
-            $('#m' + place[0] + ' img').attr('src', img[code]);
+            $('#m' + place[0] + ' img').attr('src', imagePath(code));
             $('#m' + place[0] + ' span').html(place[1]);
         }
     }

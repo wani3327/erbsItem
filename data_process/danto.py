@@ -59,7 +59,7 @@ for n, row in enumerate(datac):
             dstat[code] = stat.replace(',', '<br>')
 
 
-        dimg[code] = 'image/item/' + img
+        dimg[code] = img
 
 
         if drop:
@@ -99,7 +99,7 @@ for n, row in enumerate(datac):
 resD.write(f'''
 var itemName={str(dname).replace(', ',',').replace(': ',':')};
 var recipe={str(drecipe).replace(', ',',').replace(': ',':')};
-var img={str(dimg).replace(', ',',').replace(': ',':')};.replace(': ',':')
+var img={str(dimg).replace(', ',',').replace(': ',':')};
 var rarity={str(drarity).replace(', ',',').replace(': ',':')};
 var drop={str(ddrop).replace(', ',',').replace(': ',':')};
 var type={str(dclass).replace(', ',',').replace(': ',':')};
