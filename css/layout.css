@@ -13,7 +13,7 @@ body {
     height: 100%;
 }
 
-#itemType > img {
+tr > td > img {
     height: 3em;
     cursor: pointer;
     vertical-align: middle;

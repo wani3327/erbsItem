@@ -104,7 +104,7 @@ function search() {
         let r_lst = []
         for (let w of $("#search input").val()
                                        .replace(' ', '')
-                                       .toLocaleLowerCase())
+                                       .toLocaleUpperCase())
         {
             if ('가' <= w && w <='힣')
             {
