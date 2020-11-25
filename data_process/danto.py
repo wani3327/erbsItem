@@ -1,7 +1,7 @@
 import csv
 import func
 
-data = open('database.csv', 'r', encoding='utf8')
+data = open('database - KO.csv', 'r', encoding='utf8')
 datac = csv.reader(data)
 resD = open('src/database.js', 'w', encoding='utf8')
 resT = None

@@ -352,171 +352,171 @@
 					<img id='GIC' class='listItemIcon' title='만년빙' src='image/item/Glacial Ice.webp' onclick='showItem("GIC")'/>
 					<img id='TFI' class='listItemIcon' title='삼매진화' src='image/item/True Samadhi Fire.webp' onclick='showItem("TFI")'/>
 					<img id='ETA' class='listItemIcon' title='에메랄드 타블렛' src='image/item/Emerald Tablet.webp' onclick='showItem("ETA")'/>
-					<img id='STN' class='listItemIcon' title='돌멩이' src='image/item/Stone.png.webp' onclick='showItem("STN")'/>
-					<img id='GLB' class='listItemIcon' title='유리병' src='image/item/Glass Bottle.png.webp' onclick='showItem("GLB")'/>
-					<img id='NAI' class='listItemIcon' title='못' src='image/item/Nail.png.webp' onclick='showItem("NAI")'/>
-					<img id='LEA' class='listItemIcon' title='가죽' src='image/item/Leather.png.webp' onclick='showItem("LEA")'/>
-					<img id='TTS' class='listItemIcon' title='거북이 등딱지' src='image/item/Turtle Shell.png.webp' onclick='showItem("TTS")'/>
-					<img id='RUB' class='listItemIcon' title='고무' src='image/item/Rubber.png.webp' onclick='showItem("RUB")'/>
-					<img id='SCM' class='listItemIcon' title='고철' src='image/item/Scrap Metal.png.webp' onclick='showItem("SCM")'/>
-					<img id='LIG' class='listItemIcon' title='라이터' src='image/item/Lighter.png.webp' onclick='showItem("LIG")'/>
-					<img id='LAS' class='listItemIcon' title='레이저 포인터' src='image/item/Laser Pointer.png.webp' onclick='showItem("LAS")'/>
-					<img id='STM' class='listItemIcon' title='마패' src='image/item/Stallion Medal.png.webp' onclick='showItem("STM")'/>
-					<img id='BAT' class='listItemIcon' title='배터리' src='image/item/Battery.png.webp' onclick='showItem("BAT")'/>
-					<img id='ALC' class='listItemIcon' title='알코올' src='image/item/Alcohol.png.webp' onclick='showItem("ALC")'/>
-					<img id='OIL' class='listItemIcon' title='오일' src='image/item/Oil.png.webp' onclick='showItem("OIL")'/>
-					<img id='CLO' class='listItemIcon' title='옷감' src='image/item/Cloth.png.webp' onclick='showItem("CLO")'/>
-					<img id='GEM' class='listItemIcon' title='원석' src='image/item/Gemstone.png.webp' onclick='showItem("GEM")'/>
-					<img id='GLU' class='listItemIcon' title='접착제' src='image/item/Glue.png.webp' onclick='showItem("GLU")'/>
-					<img id='PAP' class='listItemIcon' title='종이' src='image/item/Paper.png.webp' onclick='showItem("PAP")'/>
-					<img id='IRO' class='listItemIcon' title='철광석' src='image/item/Iron Ore.png.webp' onclick='showItem("IRO")'/>
-					<img id='CAN' class='listItemIcon' title='캔' src='image/item/Can.png.webp' onclick='showItem("CAN")'/>
-					<img id='GUN' class='listItemIcon' title='화약' src='image/item/Gunpowder.png.webp' onclick='showItem("GUN")'/>
-					<img id='STE' class='listItemIcon' title='강철' src='image/item/Steel.png.webp' onclick='showItem("STE")'/>
-					<img id='OLC' class='listItemIcon' title='기름먹인 천' src='image/item/Oilcloth.png.webp' onclick='showItem("OLC")'/>
-					<img id='HOL' class='listItemIcon' title='뜨거운 오일' src='image/item/Heated Oil.png.webp' onclick='showItem("HOL")'/>
-					<img id='RBY' class='listItemIcon' title='루비' src='image/item/Ruby.png.webp' onclick='showItem("RBY")'/>
-					<img id='DBT' class='listItemIcon' title='방전 전지' src='image/item/Dead Battery.png.webp' onclick='showItem("DBT")'/>
-					<img id='WPW' class='listItemIcon' title='백색 가루' src='image/item/White Powder.png.webp' onclick='showItem("WPW")'/>
-					<img id='HST' class='listItemIcon' title='달궈진 돌멩이' src='image/item/Heated Stone.png.webp' onclick='showItem("HST")'/>
-					<img id='MET' class='listItemIcon' title='운석' src='image/item/Meteorite.png.webp' onclick='showItem("MET")'/>
-					<img id='ASH' class='listItemIcon' title='재' src='image/item/Ash.png.webp' onclick='showItem("ASH")'/>
-					<img id='EPA' class='listItemIcon' title='전자 부품' src='image/item/Electronic Parts.png.webp' onclick='showItem("EPA")'/>
-					<img id='BPR' class='listItemIcon' title='정교한 도면' src='image/item/Blueprint.png.webp' onclick='showItem("BPR")'/>
-					<img id='ISH' class='listItemIcon' title='철판' src='image/item/Iron Sheet.png.webp' onclick='showItem("ISH")'/>
-					<img id='GLD' class='listItemIcon' title='황금' src='image/item/Gold.png.webp' onclick='showItem("GLD")'/>
-					<img id='TOL' class='listItemIcon' title='생명의 나무' src='image/item/Tree of Life.png.webp' onclick='showItem("TOL")'/>
-					<img id='MST' class='listItemIcon' title='문스톤' src='image/item/Moon Stone.png.webp' onclick='showItem("MST")'/>
-					<img id='POI' class='listItemIcon' title='독약' src='image/item/Poison.png.webp' onclick='showItem("POI")'/>
-					<img id='MOT' class='listItemIcon' title='모터' src='image/item/Motor.png.webp' onclick='showItem("MOT")'/>
-					<img id='MIT' class='listItemIcon' title='미스릴' src='image/item/Mithril.png.webp' onclick='showItem("MIT")'/>
-					<img id='GLP' class='listItemIcon' title='유리판' src='image/item/Glass Panel.png.webp' onclick='showItem("GLP")'/>
-					<img id='ION' class='listItemIcon' title='이온 전지' src='image/item/Ion Battery.png.webp' onclick='showItem("ION")'/>
-					<img id='VBS' class='listItemIcon' title='VF 혈액 샘플' src='image/item/VF Blood Sample.png.webp' onclick='showItem("VBS")'/>
-					<img id='CEL' class='listItemIcon' title='휴대폰' src='image/item/Cell Phone.png.webp' onclick='showItem("CEL")'/>
-					<img id='FCO' class='listItemIcon' title='포스 코어' src='image/item/Force Core.png.webp' onclick='showItem("FCO")'/>
-					<img id='POT' class='listItemIcon' title='감자' src='image/item/Potato.png.webp' onclick='showItem("POT")'/>
-					<img id='COD' class='listItemIcon' title='대구' src='image/item/Cod.png.webp' onclick='showItem("COD")'/>
-					<img id='LEM' class='listItemIcon' title='레몬' src='image/item/Lemon.png.webp' onclick='showItem("LEM")'/>
-					<img id='GAR' class='listItemIcon' title='마늘' src='image/item/Garlic.png.webp' onclick='showItem("GAR")'/>
-					<img id='ADB' class='listItemIcon' title='반창고' src='image/item/Adhesive Bandage.png.webp' onclick='showItem("ADB")'/>
-					<img id='CRP' class='listItemIcon' title='붕어' src='image/item/Carp.png.webp' onclick='showItem("CRP")'/>
-					<img id='BRD' class='listItemIcon' title='빵' src='image/item/Bread.png.webp' onclick='showItem("BRD")'/>
-					<img id='MEA' class='listItemIcon' title='고기' src='image/item/Meat.png.webp' onclick='showItem("MEA")'/>
-					<img id='EGG' class='listItemIcon' title='달걀' src='image/item/Egg.png.webp' onclick='showItem("EGG")'/>
-					<img id='RAM' class='listItemIcon' title='생라면' src='image/item/Ramen.png.webp' onclick='showItem("RAM")'/>
-					<img id='HER' class='listItemIcon' title='약초' src='image/item/Oriental Herb.png.webp' onclick='showItem("HER")'/>
-					<img id='CHO' class='listItemIcon' title='초콜렛' src='image/item/Chocolate.png.webp' onclick='showItem("CHO")'/>
-					<img id='CPW' class='listItemIcon' title='카레 가루' src='image/item/Curry Powder.png.webp' onclick='showItem("CPW")'/>
-					<img id='HCS' class='listItemIcon' title='꿀 바른 대구살' src='image/item/Honey Cod Steak.png.webp' onclick='showItem("HCS")'/>
-					<img id='CCL' class='listItemIcon' title='대구 간 통조림' src='image/item/Canned Cod Liver.png.webp' onclick='showItem("CCL")'/>
-					<img id='GBR' class='listItemIcon' title='마늘빵' src='image/item/Garlic Bread.png.webp' onclick='showItem("GBR")'/>
-					<img id='BUT' class='listItemIcon' title='버터' src='image/item/Butter.png.webp' onclick='showItem("BUT")'/>
-					<img id='HMD' class='listItemIcon' title='보약' src='image/item/Herb Medicine.png.webp' onclick='showItem("HMD")'/>
-					<img id='CBR' class='listItemIcon' title='붕어빵' src='image/item/Carp Bread.png.webp' onclick='showItem("CBR")'/>
-					<img id='OWA' class='listItemIcon' title='성수' src='image/item/Holy Water.png.webp' onclick='showItem("OWA")'/>
-					<img id='DIF' class='listItemIcon' title='지혈제' src='image/item/Disinfectant.png.webp' onclick='showItem("DIF")'/>
-					<img id='CHP' class='listItemIcon' title='초코파이' src='image/item/Choco Pie.png.webp' onclick='showItem("CHP")'/>
-					<img id='ACN' class='listItemIcon' title='한방침' src='image/item/Acupuncture Needle.png.webp' onclick='showItem("ACN")'/>
-					<img id='ORC' class='listItemIcon' title='난초' src='image/item/Orchid.png.webp' onclick='showItem("ORC")'/>
-					<img id='TCH' class='listItemIcon' title='탄두리' src='image/item/Tandoori Chicken.png.webp' onclick='showItem("TCH")'/>
+					<img id='STN' class='listItemIcon' title='돌멩이' src='image/item/Stone.webp' onclick='showItem("STN")'/>
+					<img id='GLB' class='listItemIcon' title='유리병' src='image/item/Glass Bottle.webp' onclick='showItem("GLB")'/>
+					<img id='NAI' class='listItemIcon' title='못' src='image/item/Nail.webp' onclick='showItem("NAI")'/>
+					<img id='LEA' class='listItemIcon' title='가죽' src='image/item/Leather.webp' onclick='showItem("LEA")'/>
+					<img id='TTS' class='listItemIcon' title='거북이 등딱지' src='image/item/Turtle Shell.webp' onclick='showItem("TTS")'/>
+					<img id='RUB' class='listItemIcon' title='고무' src='image/item/Rubber.webp' onclick='showItem("RUB")'/>
+					<img id='SCM' class='listItemIcon' title='고철' src='image/item/Scrap Metal.webp' onclick='showItem("SCM")'/>
+					<img id='LIG' class='listItemIcon' title='라이터' src='image/item/Lighter.webp' onclick='showItem("LIG")'/>
+					<img id='LAS' class='listItemIcon' title='레이저 포인터' src='image/item/Laser Pointer.webp' onclick='showItem("LAS")'/>
+					<img id='STM' class='listItemIcon' title='마패' src='image/item/Stallion Medal.webp' onclick='showItem("STM")'/>
+					<img id='BAT' class='listItemIcon' title='배터리' src='image/item/Battery.webp' onclick='showItem("BAT")'/>
+					<img id='ALC' class='listItemIcon' title='알코올' src='image/item/Alcohol.webp' onclick='showItem("ALC")'/>
+					<img id='OIL' class='listItemIcon' title='오일' src='image/item/Oil.webp' onclick='showItem("OIL")'/>
+					<img id='CLO' class='listItemIcon' title='옷감' src='image/item/Cloth.webp' onclick='showItem("CLO")'/>
+					<img id='GEM' class='listItemIcon' title='원석' src='image/item/Gemstone.webp' onclick='showItem("GEM")'/>
+					<img id='GLU' class='listItemIcon' title='접착제' src='image/item/Glue.webp' onclick='showItem("GLU")'/>
+					<img id='PAP' class='listItemIcon' title='종이' src='image/item/Paper.webp' onclick='showItem("PAP")'/>
+					<img id='IRO' class='listItemIcon' title='철광석' src='image/item/Iron Ore.webp' onclick='showItem("IRO")'/>
+					<img id='CAN' class='listItemIcon' title='캔' src='image/item/Can.webp' onclick='showItem("CAN")'/>
+					<img id='GUN' class='listItemIcon' title='화약' src='image/item/Gunpowder.webp' onclick='showItem("GUN")'/>
+					<img id='STE' class='listItemIcon' title='강철' src='image/item/Steel.webp' onclick='showItem("STE")'/>
+					<img id='OLC' class='listItemIcon' title='기름먹인 천' src='image/item/Oilcloth.webp' onclick='showItem("OLC")'/>
+					<img id='HOL' class='listItemIcon' title='뜨거운 오일' src='image/item/Heated Oil.webp' onclick='showItem("HOL")'/>
+					<img id='RBY' class='listItemIcon' title='루비' src='image/item/Ruby.webp' onclick='showItem("RBY")'/>
+					<img id='DBT' class='listItemIcon' title='방전 전지' src='image/item/Dead Battery.webp' onclick='showItem("DBT")'/>
+					<img id='WPW' class='listItemIcon' title='백색 가루' src='image/item/White Powder.webp' onclick='showItem("WPW")'/>
+					<img id='HST' class='listItemIcon' title='달궈진 돌멩이' src='image/item/Heated Stone.webp' onclick='showItem("HST")'/>
+					<img id='MET' class='listItemIcon' title='운석' src='image/item/Meteorite.webp' onclick='showItem("MET")'/>
+					<img id='ASH' class='listItemIcon' title='재' src='image/item/Ash.webp' onclick='showItem("ASH")'/>
+					<img id='EPA' class='listItemIcon' title='전자 부품' src='image/item/Electronic Parts.webp' onclick='showItem("EPA")'/>
+					<img id='BPR' class='listItemIcon' title='정교한 도면' src='image/item/Blueprint.webp' onclick='showItem("BPR")'/>
+					<img id='ISH' class='listItemIcon' title='철판' src='image/item/Iron Sheet.webp' onclick='showItem("ISH")'/>
+					<img id='GLD' class='listItemIcon' title='황금' src='image/item/Gold.webp' onclick='showItem("GLD")'/>
+					<img id='TOL' class='listItemIcon' title='생명의 나무' src='image/item/Tree of Life.webp' onclick='showItem("TOL")'/>
+					<img id='MST' class='listItemIcon' title='문스톤' src='image/item/Moon Stone.webp' onclick='showItem("MST")'/>
+					<img id='POI' class='listItemIcon' title='독약' src='image/item/Poison.webp' onclick='showItem("POI")'/>
+					<img id='MOT' class='listItemIcon' title='모터' src='image/item/Motor.webp' onclick='showItem("MOT")'/>
+					<img id='MIT' class='listItemIcon' title='미스릴' src='image/item/Mithril.webp' onclick='showItem("MIT")'/>
+					<img id='GLP' class='listItemIcon' title='유리판' src='image/item/Glass Panel.webp' onclick='showItem("GLP")'/>
+					<img id='ION' class='listItemIcon' title='이온 전지' src='image/item/Ion Battery.webp' onclick='showItem("ION")'/>
+					<img id='VBS' class='listItemIcon' title='VF 혈액 샘플' src='image/item/VF Blood Sample.webp' onclick='showItem("VBS")'/>
+					<img id='CEL' class='listItemIcon' title='휴대폰' src='image/item/Cell Phone.webp' onclick='showItem("CEL")'/>
+					<img id='FCO' class='listItemIcon' title='포스 코어' src='image/item/Force Core.webp' onclick='showItem("FCO")'/>
+					<img id='POT' class='listItemIcon' title='감자' src='image/item/Potato.webp' onclick='showItem("POT")'/>
+					<img id='COD' class='listItemIcon' title='대구' src='image/item/Cod.webp' onclick='showItem("COD")'/>
+					<img id='LEM' class='listItemIcon' title='레몬' src='image/item/Lemon.webp' onclick='showItem("LEM")'/>
+					<img id='GAR' class='listItemIcon' title='마늘' src='image/item/Garlic.webp' onclick='showItem("GAR")'/>
+					<img id='ADB' class='listItemIcon' title='반창고' src='image/item/Adhesive Bandage.webp' onclick='showItem("ADB")'/>
+					<img id='CRP' class='listItemIcon' title='붕어' src='image/item/Carp.webp' onclick='showItem("CRP")'/>
+					<img id='BRD' class='listItemIcon' title='빵' src='image/item/Bread.webp' onclick='showItem("BRD")'/>
+					<img id='MEA' class='listItemIcon' title='고기' src='image/item/Meat.webp' onclick='showItem("MEA")'/>
+					<img id='EGG' class='listItemIcon' title='달걀' src='image/item/Egg.webp' onclick='showItem("EGG")'/>
+					<img id='RAM' class='listItemIcon' title='생라면' src='image/item/Ramen.webp' onclick='showItem("RAM")'/>
+					<img id='HER' class='listItemIcon' title='약초' src='image/item/Oriental Herb.webp' onclick='showItem("HER")'/>
+					<img id='CHO' class='listItemIcon' title='초콜렛' src='image/item/Chocolate.webp' onclick='showItem("CHO")'/>
+					<img id='CPW' class='listItemIcon' title='카레 가루' src='image/item/Curry Powder.webp' onclick='showItem("CPW")'/>
+					<img id='HCS' class='listItemIcon' title='꿀 바른 대구살' src='image/item/Honey Cod Steak.webp' onclick='showItem("HCS")'/>
+					<img id='CCL' class='listItemIcon' title='대구 간 통조림' src='image/item/Canned Cod Liver.webp' onclick='showItem("CCL")'/>
+					<img id='GBR' class='listItemIcon' title='마늘빵' src='image/item/Garlic Bread.webp' onclick='showItem("GBR")'/>
+					<img id='BUT' class='listItemIcon' title='버터' src='image/item/Butter.webp' onclick='showItem("BUT")'/>
+					<img id='HMD' class='listItemIcon' title='보약' src='image/item/Herb Medicine.webp' onclick='showItem("HMD")'/>
+					<img id='CBR' class='listItemIcon' title='붕어빵' src='image/item/Carp Bread.webp' onclick='showItem("CBR")'/>
+					<img id='OWA' class='listItemIcon' title='성수' src='image/item/Holy Water.webp' onclick='showItem("OWA")'/>
+					<img id='DIF' class='listItemIcon' title='지혈제' src='image/item/Disinfectant.webp' onclick='showItem("DIF")'/>
+					<img id='CHP' class='listItemIcon' title='초코파이' src='image/item/Choco Pie.webp' onclick='showItem("CHP")'/>
+					<img id='ACN' class='listItemIcon' title='한방침' src='image/item/Acupuncture Needle.webp' onclick='showItem("ACN")'/>
+					<img id='ORC' class='listItemIcon' title='난초' src='image/item/Orchid.webp' onclick='showItem("ORC")'/>
+					<img id='TCH' class='listItemIcon' title='탄두리' src='image/item/Tandoori Chicken.webp' onclick='showItem("TCH")'/>
 					<img id='BGS' class='listItemIcon' title='마늘 베이컨 말이' src='image/item/Bacon and Garlic Sticks.webp' onclick='showItem("BGS")'/>
-					<img id='BUN' class='listItemIcon' title='번' src='image/item/Bun.png.webp' onclick='showItem("BUN")'/>
-					<img id='HBG' class='listItemIcon' title='햄버거' src='image/item/Hamburger.png.webp' onclick='showItem("HBG")'/>
-					<img id='PBR' class='listItemIcon' title='감자빵' src='image/item/Potato Bread.png.webp' onclick='showItem("PBR")'/>
-					<img id='PSP' class='listItemIcon' title='감자스프' src='image/item/Potato Soup.png.webp' onclick='showItem("PSP")'/>
-					<img id='FFE' class='listItemIcon' title='달걀 생선 필레' src='image/item/Fish Fillet with Egg.png.webp' onclick='showItem("FFE")'/>
-					<img id='CCK' class='listItemIcon' title='시트러스 케이크' src='image/item/Citrus Cake.png.webp' onclick='showItem("CCK")'/>
-					<img id='LIC' class='listItemIcon' title='레몬 아이스크림' src='image/item/Lemon Ice Cream.png.webp' onclick='showItem("LIC")'/>
-					<img id='HGP' class='listItemIcon' title='마늘 꿀절임' src='image/item/Honey Garlic Pickle.png.webp' onclick='showItem("HGP")'/>
-					<img id='EBN' class='listItemIcon' title='계란빵' src='image/item/Egg Bun.png.webp' onclick='showItem("EBN")'/>
-					<img id='EEG' class='listItemIcon' title='이스터 에그' src='image/item/Easter Egg.png.webp' onclick='showItem("EEG")'/>
-					<img id='WHB' class='listItemIcon' title='위스키 봉봉' src='image/item/Whiskey Bonbon.png.webp' onclick='showItem("WHB")'/>
-					<img id='CIC' class='listItemIcon' title='초코 아이스크림' src='image/item/Choco Ice Cream.png.webp' onclick='showItem("CIC")'/>
-					<img id='CBN' class='listItemIcon' title='카레빵' src='image/item/Curry Bun.png.webp' onclick='showItem("CBN")'/>
-					<img id='FFR' class='listItemIcon' title='감자튀김' src='image/item/French Fries.png.webp' onclick='showItem("FFR")'/>
-					<img id='BPT' class='listItemIcon' title='구운 감자' src='image/item/Baked Potato.png.webp' onclick='showItem("BPT")'/>
-					<img id='BCP' class='listItemIcon' title='구운 붕어' src='image/item/Baked Carp.png.webp' onclick='showItem("BCP")'/>
-					<img id='GCB' class='listItemIcon' title='메로구이' src='image/item/Grilled Chilean Sea Bass.png.webp' onclick='showItem("GCB")'/>
-					<img id='HRA' class='listItemIcon' title='뜨거운 라면' src='image/item/Hot Ramen.png.webp' onclick='showItem("HRA")'/>
-					<img id='MBR' class='listItemIcon' title='모카빵' src='image/item/Mocha Bread.png.webp' onclick='showItem("MBR")'/>
-					<img id='SCE' class='listItemIcon' title='스크램블 에그' src='image/item/Scrambled Eggs.png.webp' onclick='showItem("SCE")'/>
-					<img id='CCC' class='listItemIcon' title='초코칩 쿠키' src='image/item/Chocolate Chip Cookies.png.webp' onclick='showItem("CCC")'/>
-					<img id='CPB' class='listItemIcon' title='초코파이 상자' src='image/item/Choco Pie Box.png.webp' onclick='showItem("CPB")'/>
-					<img id='CRY' class='listItemIcon' title='카레' src='image/item/Curry.png.webp' onclick='showItem("CRY")'/>
-					<img id='ORI' class='listItemIcon' title='탕약' src='image/item/Oriental Concoction.png.webp' onclick='showItem("ORI")'/>
-					<img id='HBT' class='listItemIcon' title='허니버터' src='image/item/Honey Butter.png.webp' onclick='showItem("HBT")'/>
-					<img id='FCH' class='listItemIcon' title='후라이드 치킨' src='image/item/Fried Chicken.png.webp' onclick='showItem("FCH")'/>
-					<img id='HPO' class='listItemIcon' title='힐링 포션' src='image/item/Healing Potion.png.webp' onclick='showItem("HPO")'/>
-					<img id='BEG' class='listItemIcon' title='삶은 달걀' src='image/item/Boiled Egg.png.webp' onclick='showItem("BEG")'/>
-					<img id='PCK' class='listItemIcon' title='파운드 케이크' src='image/item/Pound Cake.png.webp' onclick='showItem("PCK")'/>
-					<img id='CCQ' class='listItemIcon' title='카레 고로케' src='image/item/Curry Croquette.png.webp' onclick='showItem("CCQ")'/>
-					<img id='STK' class='listItemIcon' title='스테이크' src='image/item/Steak.png.webp' onclick='showItem("STK")'/>
-					<img id='FAK' class='listItemIcon' title='구급상자' src='image/item/First Aid Kit.png.webp' onclick='showItem("FAK")'/>
-					<img id='BFP' class='listItemIcon' title='버터 감자구이' src='image/item/Butter-Fried Potatoes.png.webp' onclick='showItem("BFP")'/>
-					<img id='FCT' class='listItemIcon' title='생선까스' src='image/item/Fish Cutlet.png.webp' onclick='showItem("FCT")'/>
-					<img id='STR' class='listItemIcon' title='볶음라면' src='image/item/Stir Fried Ramen.png.webp' onclick='showItem("STR")'/>
-					<img id='CND' class='listItemIcon' title='냉면' src='image/item/Cold Noodles.png.webp' onclick='showItem("CND")'/>
-					<img id='GRA' class='listItemIcon' title='마늘라면' src='image/item/Garlic Ramen.png.webp' onclick='showItem("GRA")'/>
-					<img id='SFS' class='listItemIcon' title='매운탕' src='image/item/Spicy Fish Stew.png.webp' onclick='showItem("SFS")'/>
-					<img id='ZVI' class='listItemIcon' title='대환단' src='image/item/Zen Vitality.png.webp' onclick='showItem("ZVI")'/>
-					<img id='FAC' class='listItemIcon' title='피쉬 앤 칩스' src='image/item/Fish and Chips.png.webp' onclick='showItem("FAC")'/>
-					<img id='HNY' class='listItemIcon' title='꿀' src='image/item/Honey.png.webp' onclick='showItem("HNY")'/>
-					<img id='WAT' class='listItemIcon' title='물' src='image/item/Water.png.webp' onclick='showItem("WAT")'/>
-					<img id='ICE' class='listItemIcon' title='얼음' src='image/item/Ice.png.webp' onclick='showItem("ICE")'/>
-					<img id='WHS' class='listItemIcon' title='위스키' src='image/item/Whiskey Bonbon.png.webp' onclick='showItem("WHS")'/>
-					<img id='COF' class='listItemIcon' title='커피콩' src='image/item/Coffee.png.webp' onclick='showItem("COF")'/>
-					<img id='CWA' class='listItemIcon' title='탄산수' src='image/item/Carbonated Water.png.webp' onclick='showItem("CWA")'/>
-					<img id='MLK' class='listItemIcon' title='우유' src='image/item/Milk.png.webp' onclick='showItem("MLK")'/>
-					<img id='BWA' class='listItemIcon' title='뜨거운 물' src='image/item/Boiling Water.png.webp' onclick='showItem("BWA")'/>
-					<img id='LMD' class='listItemIcon' title='레몬에이드' src='image/item/Lemonade.png.webp' onclick='showItem("LMD")'/>
-					<img id='WAB' class='listItemIcon' title='물병' src='image/item/Water Bottle.png.webp' onclick='showItem("WAB")'/>
-					<img id='BAJ' class='listItemIcon' title='백주' src='image/item/Baijiu.png.webp' onclick='showItem("BAJ")'/>
-					<img id='SOJ' class='listItemIcon' title='소주' src='image/item/Soju.png.webp' onclick='showItem("SOJ")'/>
-					<img id='ICF' class='listItemIcon' title='아이스 커피' src='image/item/Ice Coffee.png.webp' onclick='showItem("ICF")'/>
-					<img id='CTL' class='listItemIcon' title='칵테일' src='image/item/Cocktail.png.webp' onclick='showItem("CTL")'/>
-					<img id='CFL' class='listItemIcon' title='커피 리큐르' src='image/item/Coffee Liqueur.png.webp' onclick='showItem("CFL")'/>
+					<img id='BUN' class='listItemIcon' title='번' src='image/item/Bun.webp' onclick='showItem("BUN")'/>
+					<img id='HBG' class='listItemIcon' title='햄버거' src='image/item/Hamburger.webp' onclick='showItem("HBG")'/>
+					<img id='PBR' class='listItemIcon' title='감자빵' src='image/item/Potato Bread.webp' onclick='showItem("PBR")'/>
+					<img id='PSP' class='listItemIcon' title='감자스프' src='image/item/Potato Soup.webp' onclick='showItem("PSP")'/>
+					<img id='FFE' class='listItemIcon' title='달걀 생선 필레' src='image/item/Fish Fillet with Egg.webp' onclick='showItem("FFE")'/>
+					<img id='CCK' class='listItemIcon' title='시트러스 케이크' src='image/item/Citrus Cake.webp' onclick='showItem("CCK")'/>
+					<img id='LIC' class='listItemIcon' title='레몬 아이스크림' src='image/item/Lemon Ice Cream.webp' onclick='showItem("LIC")'/>
+					<img id='HGP' class='listItemIcon' title='마늘 꿀절임' src='image/item/Honey Garlic Pickle.webp' onclick='showItem("HGP")'/>
+					<img id='EBN' class='listItemIcon' title='계란빵' src='image/item/Egg Bun.webp' onclick='showItem("EBN")'/>
+					<img id='EEG' class='listItemIcon' title='이스터 에그' src='image/item/Easter Egg.webp' onclick='showItem("EEG")'/>
+					<img id='WHB' class='listItemIcon' title='위스키 봉봉' src='image/item/Whiskey Bonbon.webp' onclick='showItem("WHB")'/>
+					<img id='CIC' class='listItemIcon' title='초코 아이스크림' src='image/item/Choco Ice Cream.webp' onclick='showItem("CIC")'/>
+					<img id='CBN' class='listItemIcon' title='카레빵' src='image/item/Curry Bun.webp' onclick='showItem("CBN")'/>
+					<img id='FFR' class='listItemIcon' title='감자튀김' src='image/item/French Fries.webp' onclick='showItem("FFR")'/>
+					<img id='BPT' class='listItemIcon' title='구운 감자' src='image/item/Baked Potato.webp' onclick='showItem("BPT")'/>
+					<img id='BCP' class='listItemIcon' title='구운 붕어' src='image/item/Baked Carp.webp' onclick='showItem("BCP")'/>
+					<img id='GCB' class='listItemIcon' title='메로구이' src='image/item/Grilled Chilean Sea Bass.webp' onclick='showItem("GCB")'/>
+					<img id='HRA' class='listItemIcon' title='뜨거운 라면' src='image/item/Hot Ramen.webp' onclick='showItem("HRA")'/>
+					<img id='MBR' class='listItemIcon' title='모카빵' src='image/item/Mocha Bread.webp' onclick='showItem("MBR")'/>
+					<img id='SCE' class='listItemIcon' title='스크램블 에그' src='image/item/Scrambled Eggs.webp' onclick='showItem("SCE")'/>
+					<img id='CCC' class='listItemIcon' title='초코칩 쿠키' src='image/item/Chocolate Chip Cookies.webp' onclick='showItem("CCC")'/>
+					<img id='CPB' class='listItemIcon' title='초코파이 상자' src='image/item/Choco Pie Box.webp' onclick='showItem("CPB")'/>
+					<img id='CRY' class='listItemIcon' title='카레' src='image/item/Curry.webp' onclick='showItem("CRY")'/>
+					<img id='ORI' class='listItemIcon' title='탕약' src='image/item/Oriental Concoction.webp' onclick='showItem("ORI")'/>
+					<img id='HBT' class='listItemIcon' title='허니버터' src='image/item/Honey Butter.webp' onclick='showItem("HBT")'/>
+					<img id='FCH' class='listItemIcon' title='후라이드 치킨' src='image/item/Fried Chicken.webp' onclick='showItem("FCH")'/>
+					<img id='HPO' class='listItemIcon' title='힐링 포션' src='image/item/Healing Potion.webp' onclick='showItem("HPO")'/>
+					<img id='BEG' class='listItemIcon' title='삶은 달걀' src='image/item/Boiled Egg.webp' onclick='showItem("BEG")'/>
+					<img id='PCK' class='listItemIcon' title='파운드 케이크' src='image/item/Pound Cake.webp' onclick='showItem("PCK")'/>
+					<img id='CCQ' class='listItemIcon' title='카레 고로케' src='image/item/Curry Croquette.webp' onclick='showItem("CCQ")'/>
+					<img id='STK' class='listItemIcon' title='스테이크' src='image/item/Steak.webp' onclick='showItem("STK")'/>
+					<img id='FAK' class='listItemIcon' title='구급상자' src='image/item/First Aid Kit.webp' onclick='showItem("FAK")'/>
+					<img id='BFP' class='listItemIcon' title='버터 감자구이' src='image/item/Butter-Fried Potatoes.webp' onclick='showItem("BFP")'/>
+					<img id='FCT' class='listItemIcon' title='생선까스' src='image/item/Fish Cutlet.webp' onclick='showItem("FCT")'/>
+					<img id='STR' class='listItemIcon' title='볶음라면' src='image/item/Stir Fried Ramen.webp' onclick='showItem("STR")'/>
+					<img id='CND' class='listItemIcon' title='냉면' src='image/item/Cold Noodles.webp' onclick='showItem("CND")'/>
+					<img id='GRA' class='listItemIcon' title='마늘라면' src='image/item/Garlic Ramen.webp' onclick='showItem("GRA")'/>
+					<img id='SFS' class='listItemIcon' title='매운탕' src='image/item/Spicy Fish Stew.webp' onclick='showItem("SFS")'/>
+					<img id='ZVI' class='listItemIcon' title='대환단' src='image/item/Zen Vitality.webp' onclick='showItem("ZVI")'/>
+					<img id='FAC' class='listItemIcon' title='피쉬 앤 칩스' src='image/item/Fish and Chips.webp' onclick='showItem("FAC")'/>
+					<img id='HNY' class='listItemIcon' title='꿀' src='image/item/Honey.webp' onclick='showItem("HNY")'/>
+					<img id='WAT' class='listItemIcon' title='물' src='image/item/Water.webp' onclick='showItem("WAT")'/>
+					<img id='ICE' class='listItemIcon' title='얼음' src='image/item/Ice.webp' onclick='showItem("ICE")'/>
+					<img id='WHS' class='listItemIcon' title='위스키' src='image/item/Whiskey Bonbon.webp' onclick='showItem("WHS")'/>
+					<img id='COF' class='listItemIcon' title='커피콩' src='image/item/Coffee.webp' onclick='showItem("COF")'/>
+					<img id='CWA' class='listItemIcon' title='탄산수' src='image/item/Carbonated Water.webp' onclick='showItem("CWA")'/>
+					<img id='MLK' class='listItemIcon' title='우유' src='image/item/Milk.webp' onclick='showItem("MLK")'/>
+					<img id='BWA' class='listItemIcon' title='뜨거운 물' src='image/item/Boiling Water.webp' onclick='showItem("BWA")'/>
+					<img id='LMD' class='listItemIcon' title='레몬에이드' src='image/item/Lemonade.webp' onclick='showItem("LMD")'/>
+					<img id='WAB' class='listItemIcon' title='물병' src='image/item/Water Bottle.webp' onclick='showItem("WAB")'/>
+					<img id='BAJ' class='listItemIcon' title='백주' src='image/item/Baijiu.webp' onclick='showItem("BAJ")'/>
+					<img id='SOJ' class='listItemIcon' title='소주' src='image/item/Soju.webp' onclick='showItem("SOJ")'/>
+					<img id='ICF' class='listItemIcon' title='아이스 커피' src='image/item/Ice Coffee.webp' onclick='showItem("ICF")'/>
+					<img id='CTL' class='listItemIcon' title='칵테일' src='image/item/Cocktail.webp' onclick='showItem("CTL")'/>
+					<img id='CFL' class='listItemIcon' title='커피 리큐르' src='image/item/Coffee Liqueur.webp' onclick='showItem("CFL")'/>
 					<img id='COL' class='listItemIcon' title='콜라' src='image/item/Coke.webp' onclick='showItem("COL")'/>
-					<img id='CLA' class='listItemIcon' title='카페라테' src='image/item/Latte.png.webp' onclick='showItem("CLA")'/>
-					<img id='HMI' class='listItemIcon' title='꿀탄 우유' src='image/item/Honey Milk.png.webp' onclick='showItem("HMI")'/>
-					<img id='HBL' class='listItemIcon' title='하이볼' src='image/item/Highball.png.webp' onclick='showItem("HBL")'/>
-					<img id='CMI' class='listItemIcon' title='초코 우유' src='image/item/Chocolate Milk.png.webp' onclick='showItem("CMI")'/>
-					<img id='HWA' class='listItemIcon' title='꿀물' src='image/item/Honey Water.png.webp' onclick='showItem("HWA")'/>
-					<img id='IWA' class='listItemIcon' title='얼음물' src='image/item/Ice Water.png.webp' onclick='showItem("IWA")'/>
-					<img id='OTR' class='listItemIcon' title='온더락' src='image/item/On The Rocks.png.webp' onclick='showItem("OTR")'/>
-					<img id='CBY' class='listItemIcon' title='카우보이' src='image/item/Cowboy.png.webp' onclick='showItem("CBY")'/>
-					<img id='KLQ' class='listItemIcon' title='고량주' src='image/item/Kaoliang Liquor.png.webp' onclick='showItem("KLQ")'/>
-					<img id='HHW' class='listItemIcon' title='뜨거운 꿀물' src='image/item/Hot Honey Water.png.webp' onclick='showItem("HHW")'/>
-					<img id='FLQ' class='listItemIcon' title='백일취' src='image/item/Flower Liquor.png.webp' onclick='showItem("FLQ")'/>
-					<img id='AMC' class='listItemIcon' title='아메리카노' src='image/item/Americano.png.webp' onclick='showItem("AMC")'/>
-					<img id='HLQ' class='listItemIcon' title='약주' src='image/item/Herbal Liquor.png.webp' onclick='showItem("HLQ")'/>
-					<img id='WCT' class='listItemIcon' title='위스키 콕' src='image/item/Whiskey Cocktail.png.webp' onclick='showItem("WCT")'/>
-					<img id='PWA' class='listItemIcon' title='정화수' src='image/item/Purified Water.png.webp' onclick='showItem("PWA")'/>
+					<img id='CLA' class='listItemIcon' title='카페라테' src='image/item/Latte.webp' onclick='showItem("CLA")'/>
+					<img id='HMI' class='listItemIcon' title='꿀탄 우유' src='image/item/Honey Milk.webp' onclick='showItem("HMI")'/>
+					<img id='HBL' class='listItemIcon' title='하이볼' src='image/item/Highball.webp' onclick='showItem("HBL")'/>
+					<img id='CMI' class='listItemIcon' title='초코 우유' src='image/item/Chocolate Milk.webp' onclick='showItem("CMI")'/>
+					<img id='HWA' class='listItemIcon' title='꿀물' src='image/item/Honey Water.webp' onclick='showItem("HWA")'/>
+					<img id='IWA' class='listItemIcon' title='얼음물' src='image/item/Ice Water.webp' onclick='showItem("IWA")'/>
+					<img id='OTR' class='listItemIcon' title='온더락' src='image/item/On The Rocks.webp' onclick='showItem("OTR")'/>
+					<img id='CBY' class='listItemIcon' title='카우보이' src='image/item/Cowboy.webp' onclick='showItem("CBY")'/>
+					<img id='KLQ' class='listItemIcon' title='고량주' src='image/item/Kaoliang Liquor.webp' onclick='showItem("KLQ")'/>
+					<img id='HHW' class='listItemIcon' title='뜨거운 꿀물' src='image/item/Hot Honey Water.webp' onclick='showItem("HHW")'/>
+					<img id='FLQ' class='listItemIcon' title='백일취' src='image/item/Flower Liquor.webp' onclick='showItem("FLQ")'/>
+					<img id='AMC' class='listItemIcon' title='아메리카노' src='image/item/Americano.webp' onclick='showItem("AMC")'/>
+					<img id='HLQ' class='listItemIcon' title='약주' src='image/item/Herbal Liquor.webp' onclick='showItem("HLQ")'/>
+					<img id='WCT' class='listItemIcon' title='위스키 콕' src='image/item/Whiskey Cocktail.webp' onclick='showItem("WCT")'/>
+					<img id='PWA' class='listItemIcon' title='정화수' src='image/item/Purified Water.webp' onclick='showItem("PWA")'/>
 					<img id='COC' class='listItemIcon' title='캔 콜라' src='image/item/Canned Coke.webp' onclick='showItem("COC")'/>
-					<img id='HOC' class='listItemIcon' title='핫초코' src='image/item/Hot Chocolate.png.webp' onclick='showItem("HOC")'/>
+					<img id='HOC' class='listItemIcon' title='핫초코' src='image/item/Hot Chocolate.webp' onclick='showItem("HOC")'/>
 					<img id='WRS' class='listItemIcon' title='깔루아 밀크' src='image/item/Kahlua Milk.webp' onclick='showItem("WRS")'/>
-					<img id='CAM' class='listItemIcon' title='감시 카메라' src='image/item/Surveillance Camera.png.webp' onclick='showItem("CAM")'/>
-					<img id='SNR' class='listItemIcon' title='올가미' src='image/item/Snare.png.webp' onclick='showItem("SNR")'/>
-					<img id='MTR' class='listItemIcon' title='쥐덫' src='image/item/Mouse Trap.png.webp' onclick='showItem("MTR")'/>
-					<img id='PWR' class='listItemIcon' title='피아노선' src='image/item/Piano Wire.png.webp' onclick='showItem("PWR")'/>
-					<img id='SPL' class='listItemIcon' title='가시 발판' src='image/item/Spiked Plank.png.webp' onclick='showItem("SPL")'/>
-					<img id='EMT' class='listItemIcon' title='개량형 쥐덫' src='image/item/Enhanced Mouse Trap.png.webp' onclick='showItem("EMT")'/>
-					<img id='DYN' class='listItemIcon' title='다이너마이트' src='image/item/Dynamite.png.webp' onclick='showItem("DYN")'/>
-					<img id='BBT' class='listItemIcon' title='대나무 트랩' src='image/item/Bamboo Trap.png.webp' onclick='showItem("BBT")'/>
-					<img id='BYT' class='listItemIcon' title='부비트랩' src='image/item/Booby Trap.png.webp' onclick='showItem("BYT")'/>
-					<img id='CCR' class='listItemIcon' title='소란 발생기' src='image/item/Clang Clatter.png.webp' onclick='showItem("CCR")'/>
-					<img id='TCA' class='listItemIcon' title='망원 카메라' src='image/item/Telephoto Camera.png.webp' onclick='showItem("TCA")'/>
-					<img id='JGU' class='listItemIcon' title='정글 기요틴' src='image/item/Jungle Guillotine.png.webp' onclick='showItem("JGU")'/>
-					<img id='EPT' class='listItemIcon' title='폭발 트랩' src='image/item/Explosive Trap.png.webp' onclick='showItem("EPT")'/>
-					<img id='MIN' class='listItemIcon' title='지뢰' src='image/item/Mine.png.webp' onclick='showItem("MIN")'/>
-					<img id='PAX' class='listItemIcon' title='펜듈럼 도끼' src='image/item/Pendulum Axe.png.webp' onclick='showItem("PAX")'/>
-					<img id='RDX' class='listItemIcon' title='RDX' src='image/item/RDX.png.webp' onclick='showItem("RDX")'/>
-					<img id='MIS' class='listItemIcon' title='미스릴 실' src='image/item/Mithril String.png.webp' onclick='showItem("MIS")'/>
-					<img id='FIT' class='listItemIcon' title='화염 트랩' src='image/item/Fire Trap.png.webp' onclick='showItem("FIT")'/>
-					<img id='HMA' class='listItemIcon' title='히든 메이든' src='image/item/Hidden Maiden.png.webp' onclick='showItem("HMA")'/>
-					<img id='C-4' class='listItemIcon' title='C-4' src='image/item/C-4.png.webp' onclick='showItem("C-4")'/>
-					<img id='DGU' class='listItemIcon' title='더블 기요틴' src='image/item/Double Guillotine.png.webp' onclick='showItem("DGU")'/>
-					<img id='CLM' class='listItemIcon' title='크레모어' src='image/item/Claymore.png.webp' onclick='showItem("CLM")'/>
-					<img id='SBT' class='listItemIcon' title='폭뢰침' src='image/item/Stingburst.png.webp' onclick='showItem("SBT")'/>
-					<img id='RMN' class='listItemIcon' title='리모트 마인' src='image/item/Remote Mine.png.webp' onclick='showItem("RMN")'/>
-					<img id='STB' class='listItemIcon' title='스마트 폭탄' src='image/item/Smart Bomb.png.webp' onclick='showItem("STB")'/>
+					<img id='CAM' class='listItemIcon' title='감시 카메라' src='image/item/Surveillance Camera.webp' onclick='showItem("CAM")'/>
+					<img id='SNR' class='listItemIcon' title='올가미' src='image/item/Snare.webp' onclick='showItem("SNR")'/>
+					<img id='MTR' class='listItemIcon' title='쥐덫' src='image/item/Mouse Trap.webp' onclick='showItem("MTR")'/>
+					<img id='PWR' class='listItemIcon' title='피아노선' src='image/item/Piano Wire.webp' onclick='showItem("PWR")'/>
+					<img id='SPL' class='listItemIcon' title='가시 발판' src='image/item/Spiked Plank.webp' onclick='showItem("SPL")'/>
+					<img id='EMT' class='listItemIcon' title='개량형 쥐덫' src='image/item/Enhanced Mouse Trap.webp' onclick='showItem("EMT")'/>
+					<img id='DYN' class='listItemIcon' title='다이너마이트' src='image/item/Dynamite.webp' onclick='showItem("DYN")'/>
+					<img id='BBT' class='listItemIcon' title='대나무 트랩' src='image/item/Bamboo Trap.webp' onclick='showItem("BBT")'/>
+					<img id='BYT' class='listItemIcon' title='부비트랩' src='image/item/Booby Trap.webp' onclick='showItem("BYT")'/>
+					<img id='CCR' class='listItemIcon' title='소란 발생기' src='image/item/Clang Clatter.webp' onclick='showItem("CCR")'/>
+					<img id='TCA' class='listItemIcon' title='망원 카메라' src='image/item/Telephoto Camera.webp' onclick='showItem("TCA")'/>
+					<img id='JGU' class='listItemIcon' title='정글 기요틴' src='image/item/Jungle Guillotine.webp' onclick='showItem("JGU")'/>
+					<img id='EPT' class='listItemIcon' title='폭발 트랩' src='image/item/Explosive Trap.webp' onclick='showItem("EPT")'/>
+					<img id='MIN' class='listItemIcon' title='지뢰' src='image/item/Mine.webp' onclick='showItem("MIN")'/>
+					<img id='PAX' class='listItemIcon' title='펜듈럼 도끼' src='image/item/Pendulum Axe.webp' onclick='showItem("PAX")'/>
+					<img id='RDX' class='listItemIcon' title='RDX' src='image/item/RDX.webp' onclick='showItem("RDX")'/>
+					<img id='MIS' class='listItemIcon' title='미스릴 실' src='image/item/Mithril String.webp' onclick='showItem("MIS")'/>
+					<img id='FIT' class='listItemIcon' title='화염 트랩' src='image/item/Fire Trap.webp' onclick='showItem("FIT")'/>
+					<img id='HMA' class='listItemIcon' title='히든 메이든' src='image/item/Hidden Maiden.webp' onclick='showItem("HMA")'/>
+					<img id='C-4' class='listItemIcon' title='C-4' src='image/item/C-4.webp' onclick='showItem("C-4")'/>
+					<img id='DGU' class='listItemIcon' title='더블 기요틴' src='image/item/Double Guillotine.webp' onclick='showItem("DGU")'/>
+					<img id='CLM' class='listItemIcon' title='크레모어' src='image/item/Claymore.webp' onclick='showItem("CLM")'/>
+					<img id='SBT' class='listItemIcon' title='폭뢰침' src='image/item/Stingburst.webp' onclick='showItem("SBT")'/>
+					<img id='RMN' class='listItemIcon' title='리모트 마인' src='image/item/Remote Mine.webp' onclick='showItem("RMN")'/>
+					<img id='STB' class='listItemIcon' title='스마트 폭탄' src='image/item/Smart Bomb.webp' onclick='showItem("STB")'/>
