@@ -87,7 +87,7 @@ for n, row in enumerate(datac):
 
 
         if shouldWeMakeImageTags:
-            html += f"\t\t\t\t\t<img id='{code}' class='listItemIcon' title='{name}' src='image/item/{img}' onclick='showItem(\"{code}\")'/>\n"
+            html += f"\t\t\t\t\t<img id='{code}' class='listItemIcon' title='{name}' src='image/item/{img}.webp' onclick='showItem(\"{code}\")'/>\n"
 
 
 

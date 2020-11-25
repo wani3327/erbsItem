@@ -155,7 +155,7 @@ function showItem(code)
 
 function imagePath(code)
 {
-    return 'image/item/' + img[code];
+    return 'image/item/' + img[code] + '.webp';
 }
 
 function bgColor(code)
