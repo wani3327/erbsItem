@@ -1,6 +1,7 @@
 #super {
     height: 15%;
-    overflow-x: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 
 #super > p {
@@ -11,9 +12,10 @@
 }
 
 #super > img {
-    height: 73%;
+    height: 90%;
     cursor: pointer;
-    margin-right: 2px;
+    margin: 2px;
+    display: inline;
 }
 
 #recipe {
