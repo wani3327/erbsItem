@@ -151,6 +151,7 @@ function showItem(code)
     showRecipe(code);
     showStat(code);
     showMap(code);
+    clicky.log('/erbsItem/', code);
 }
 
 function imagePath(code)
