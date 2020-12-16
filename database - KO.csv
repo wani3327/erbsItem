@@ -10,15 +10,15 @@ Beam Axe,빔 엑스,BEX,Axe,Epic,GAX+LAS,,"AP +137,VR +4,SP -0.1,",Beam Axe,,EOL
 Santa Muerte,산타 무에르테,SMU,Axe,Epic,RSC+RBY,,"AP +100,LS +15%,MH +450,AR +0.5,",Santa Muerte,,EOL
 Scythe,스퀴테,SCY,Axe,Epic,RSC+GLD,,"AP +130,SA +18%,AR +1,",Scythe,,EOL
 Parashu,파라슈,PAR,Axe,Epic,LHA+BSA,,"AP +115,CR +10%,SP +0.2,",Parashu,,EOL
-Harpe,하르페,HAR,Axe,Epic,RSC+WFA,,"AP +125,AR +0.5,SP +0.1,SA +42,HS -40%,",Harpe,,EOL
+Harpe,하르페,HAR,Axe,Epic,RSC+WFA,,"AP +125,AR +0.5,SP +0.1,SA +38,HS -40%,",Harpe,,EOL
 Scissors,가위,SCI,Dagger,Common,,"AL 7,HS 6,SC 6",AP +5,Scissors,,EOL
 Fountain Pen,만년필,FPE,Dagger,Common,,"UT 6,AV 7,SC 7",AP +5,Fountain Pen,,EOL
 Kitchen Knife,식칼,KKN,Dagger,Common,,"DK 4,HT 4,TP 5","AP +4,SP +0.05",Kitchen Knife,,EOL
 Army Knife,군용 나이프,AKN,Dagger,Uncommon,KKN+BRA,,"AP +14,SP +0.08,",Army Knife,,EOL
 Rose Knife,장미칼,RKN,Dagger,Rare,AKN+FLO,,"AP +20,SP +0.1,CR +10%,",Rose Knife,,EOL
-Carnwennan,카른웬난,CWN,Dagger,Epic,RKN+SRE,,"AP +26,HR +1.5,SP +0.1,EN +29,CR +10%,",Carnwennan,,EOL
+Carnwennan,카른웬난,CWN,Dagger,Epic,RKN+SRE,,"AP +30,HR +1.5,SP +0.1,EN +29,CR +10%,",Carnwennan,,EOL
 Mount Slicer,파산검,MSL,Dagger,Epic,RKN+ASH,,"AP +30,SP +0.1,CR +10%,SA +35",Mount Slicer,,EOL
-Vibroblade,초진동나이프,VIB,Dagger,Epic,AKN+MOT,,"AP +53,AS +30%,SP +0.1,",Vibroblade,,EOL
+Vibroblade,초진동나이프,VIB,Dagger,Epic,AKN+MOT,,"AP +57,AS +30%,SP +0.1,",Vibroblade,,EOL
 Fragarach,프라가라흐,FRA,Dagger,Legendary,AKN+FCO,,"AP +75,SP +0.2,",Fragarach,,EOL
 Rusty Sword,녹슨 검,RSW,Two Handed Sword,Common,,"DK 4,TP 4,CP 4",AP +11,Rusty Sword,,EOL
 Shamshir,샴쉬르,SHA,Two Handed Sword,Uncommon,RSW+LIG,,"AP +27,",Shamshir,,EOL
@@ -37,10 +37,10 @@ Laevateinn,레바테인,LAE,Two Handed Sword,Legendary,TFI+SHA,,"AP +75,HR +1.5,
 Dainsleif,다인슬라이프,DAI,Two Handed Sword,Legendary,VBS+KAT,,"AP +70,LS +20%,",Dainsleif,,EOL
 Twin Swords,쌍칼,TSW,Dual Swords,Uncommon,KKN+RSW,,"AP +14,AS +10%,",Twin Swords,,EOL
 Florentine,피렌체식 쌍검,FRT,Dual Swords,Rare,TSW+BPR,,"AP +23,AS +10%,LS +10%,",Florentine,,EOL
-Divine Dual Swords,이천일류,DSW,Dual Swords,Epic,FRT+NAI,,"AP +38,AS +10%,LS +18%,HS -40%,",Divine Dual Swords,,EOL
+Divine Dual Swords,이천일류,DSW,Dual Swords,Epic,FRT+NAI,,"AP +41,AS +10%,LS +18%,HS -40%,",Divine Dual Swords,,EOL
 Starsteel Twin Swords,자웅일대검,SSW,Dual Swords,Epic,TSW+MST,,"AP +55,AS +50%,",Starsteel Twin Swords,,EOL
-Dioscuri,디오스쿠로이,DIO,Dual Swords,Epic,TSW+ION,,"AP +38,AS +50%,",Dioscuri,,EOL
-Lloigor & Zahr,로이거차르,LZA,Dual Swords,Epic,TSW+POI,,"AP +30,AS +20%,SA +36,",Lloigor _ Zahr,,EOL
+Dioscuri,디오스쿠로이,DIO,Dual Swords,Epic,TSW+ION,,"AP +40,AS +50%,",Dioscuri,,EOL
+Lloigor & Zahr,로이거차르,LZA,Dual Swords,Epic,TSW+POI,,"AP +33,AS +20%,SA +36,",Lloigor _ Zahr,,EOL
 Walther PPK,발터 PPK,WPP,Pistol,Common,,"PN 5,BC 4,FT 4","AP +8,SP +0.1",Walther PPK,,EOL
 Magnum-Python,매그넘-파이선,MPY,Pistol,Uncommon,WPP+OIL,,"AP +15,AS +10%,SP +0.1,",Magnum-Python,,EOL
 Beretta M92F,베레타 M92F,BRM,Pistol,Uncommon,WPP+LEA,,"AP +23,SP +0.1,",Beretta M92F,,EOL
@@ -58,7 +58,7 @@ AK-47,AK-47,AK4,Assault Rifle,Rare,STG+PWR,,"AP +29,VR +1.5,EN +2,",AK-47,,EOL
 M16A1,M16A1,M16,Assault Rifle,Rare,STG+LEA,,"AP +25,VR +1.5,EN +4,",M16A1,,EOL
 Machine Gun,기관총,MGU,Assault Rifle,Epic,STG+MOT,,"AP +20,AS +10%,VR +1.5,EN +11,",Machine Gun,,EOL
 Gatling Gun,개틀링건,GGU,Assault Rifle,Epic,MGU+OIL,,"AP +50,EN +12,AS +15%,VR +1.5,MA: 30,",Gatling Gun,,EOL
-AK-12,AK-12,AK1,Assault Rifle,Epic,AK4+GLP,,"AP +94,VR +1.5,CC +25%,EN +2,MA: 30,",AK-12,,EOL
+AK-12,AK-12,AK1,Assault Rifle,Epic,AK4+GLP,,"AP +94,VR +1.5,CC +25%,MA: 30,",AK-12,,EOL
 XCR,XCR,XCR,Assault Rifle,Epic,M16+MAG,,"AP +60,EN +10,MH +420,VR +1.5,MA: 30,",XCR,,EOL
 Long Rifle,화승총,LRI,Sniper Rifle,Common,,"DK 3,FR 4","AP +34,SP -0.1",Long Rifle,,EOL
 Springfield,스프링필드,SPR,Sniper Rifle,Uncommon,LRI+LAS,,"AP +50,SP -0.1,VR +1.5,",Springfield,,EOL
@@ -107,8 +107,8 @@ Short Rod,단봉,SRO,Bat,Common,,"DK 5,PN 5,TP 5",AP +15,Short Rod,,EOL
 Long Rod,장봉,LRO,Bat,Uncommon,SRO+BAM,,AP +25,Long Rod,,EOL
 Goblin Bat,도깨비 방망이,GBA,Bat,Rare,LRO+NAI,,"AP +30,HN -40%,",Goblin Bat,,EOL
 Umbrella,우산,UMB,Bat,Rare,LRO+FAN,,"AP +30,SA +14,",Umbrella,,EOL
-Torch,횃불,TOR,Bat,Rare,FDU+OLC,,"AP +40,HR +0.8,AS +10%,SP +0.1",Torch,,EOL
-Statue of Soteria,구원의 여신상,SSO,Bat,Epic,TOR+DOL,,"AP +90,HR +1.2,SR +60%,AS +15%,SP +0.15,LS +10%,",Statue of Soteria,,EOL
+Torch,횃불,TOR,Bat,Rare,FDU+OLC,,"AP +40,HR +0.5,AS +10%,SP +0.1",Torch,,EOL
+Statue of Soteria,구원의 여신상,SSO,Bat,Epic,TOR+DOL,,"AP +90,HR +0.6,SR +60%,AS +15%,SP +0.1,LS +10%,",Statue of Soteria,,EOL
 Mallet,타구봉,MAL,Bat,Epic,GBA+MOT,,"AP +80,AS +50%,HN -40%,",Mallet,,EOL
 Spy Umbrella,스파이의 우산,SUM,Bat,Epic,UMB+POI,,"AP +60,SA +25,",Spy Umbrella,,EOL
 Monkey King Bar,여의봉,MBA,Bat,Legendary,FCO+LRO,,"AP +150,",Monkey King Bar,,EOL
@@ -164,8 +164,8 @@ Scorchbow,화전,SCO,Bow,Rare,LON+LIG,,"AP +24,SA +18,",Scorchbow,,EOL
 Ancient Bolt,편전,ABO,Bow,Epic,SAO+BAM,,"AP +55,EN +40,",Ancient Bolt,,EOL
 Golden-Ratio Bow,골든래쇼 보우,GBO,Bow,Epic,PBO+GLD,,"AP +68,SA +20%,",Golden-Ratio Bow,,EOL
 Twinbow,트윈보우,TWI,Bow,Epic,STO+CBO,,"AP +70,AS +50%,HN -40%,",Twinbow,,EOL
-Elemental Bow,엘리멘탈보우,EBO,Bow,Epic,SCO+WFA,,"AP +60,SP +0.1,SA +45,HS -40%,",Elemental Bow,엘보,EOL
-Failnaught,페일노트,FAI,Bow,Legendary,VBS+STO,,"AP +80,AS +15%,LS +15%,",Failnaught,,EOL
+Elemental Bow,엘리멘탈보우,EBO,Bow,Epic,SCO+WFA,,"AP +60,SP +0.1,SA +41,HS -40%,",Elemental Bow,엘보,EOL
+Failnaught,페일노트,FAI,Bow,Legendary,VBS+STO,,"AP +90,AS +15%,LS +15%,",Failnaught,,EOL
 Short Crossbow,석궁,SCR,Crossbow,Common,,,AP +12,Short Crossbow,,EOL
 Long Crossbow,쇠뇌,LOC,Crossbow,Uncommon,SCR+PWR,,"AP +30,",Long Crossbow,,EOL
 Crossbow,크로스보우,CRB,Crossbow,Uncommon,SCR+BAM,,"AP +30,",Crossbow,,EOL
@@ -175,7 +175,7 @@ Heavy Crossbow,헤비 크로스보우,HCR,Crossbow,Rare,LOC+STE,,"AP +72,SP -0.1
 Steel Bow,철궁,SBO,Crossbow,Rare,CRB+ISH,,"AP +60,",Steel Bow,,EOL
 The Legend of the General,대황,TGE,Crossbow,Epic,SBO+OLC,,"AP +75,HR +2,AS +50%,",The Legend of the General,,EOL
 Ballista,발리스타,BAL,Crossbow,Epic,HCR+SSP,,"AP +115,AS -10%,",Ballista,,EOL
-Sniper Crossbow,저격 크로스보우,SNC,Crossbow,Epic,LAC+SSC,,"AP +85,VR +5,AR +1,",Sniper Crossbow,,EOL
+Sniper Crossbow,저격 크로스보우,SNC,Crossbow,Epic,LAC+SSC,,"AP +85,VR +3.5,AR +1,",Sniper Crossbow,,EOL
 The Golden Ghost,영광금귀신기노,TGH,Crossbow,Epic,PCR+RDX,,"AP +70,EN +37,",The Golden Ghost,,EOL
 Sharanga,샤릉가,SHR,Crossbow,Legendary,FCO+CRB,,"AP +140,",Sharanga,,EOL
 Brass Knuckles,너클,BKN,Glove,Common,,"FR 5,CM 5",AP +10,Brass Knuckles,,EOL
@@ -190,7 +190,7 @@ Glass Knuckles,유리 너클,GKN,Glove,Rare,IKN+GPI,,"AP +28,CC +10%,",Glass Knu
 Phoenix Gloves,회단 장갑,PGL,Glove,Rare,LGL+ASH,,"AP +27,SA +30,",Phoenix Gloves,,EOL
 One Inch Punch,단영촌천투,OPU,Glove,Epic,BGU+DOL,,"AP +50,DF +25,SR(%) +50%,LS +10%,",One Inch Punch,,EOL
 Divine Fist,디바인 피스트,DFI,Glove,Epic,SGA+CRS,,"AP +42,EN +33,SP -0.05,",Divine Fist,,EOL
-Bloodwing Knuckles,블러드윙 너클,BWK,Glove,Epic,WKN+RBY,,"AP +53,MH +300,SP +0.1,",Bloodwing Knuckles,,EOL
+Bloodwing Knuckles,블러드윙 너클,BWK,Glove,Epic,WKN+RBY,,"AP +53,MH +250,SP +0.1,",Bloodwing Knuckles,,EOL
 Frost Petal Hand,빙화현옥수,FHA,Glove,Epic,PGL+ICE,,"AP +27,CR +15%,SA +38,",Frost Petal Hand,,EOL
 Buddha's Palm,여래수투,BPA,Glove,Epic,PGL+BSA,,"AP +33,CR +10%,SA +18%,",Buddha_s Palm,,EOL
 Brasil Gauntlet,브레이질 건틀릿,BGA,Glove,Epic,BGU+OLC,,"AP +48,DF +13,HR +1,AS(%) +30%,SP -0.05,",Brasil Gauntlet,,EOL
@@ -209,13 +209,13 @@ Single Coil Pickup,싱글 픽업,SPI,Guitar,Uncommon,SGU+DBT,,"AP +8,AS +15%,EN 
 Ruby Special,루비 스페셜,RSP,Guitar,Rare,SPI+RBY,,"AP +20,MH +300,AS +20%,EN +2,",Ruby Special,,EOL
 Humbucker Pickup,험버커 픽업,HPI,Guitar,Rare,GBG+SSC,,"AP +25,VR +3,SA +15%,",Humbucker Pickup,,EOL
 King-V,King-V,KIV,Guitar,Rare,GBG+SCI,,"AP +13,SA +16%,",King-V,킹브이,EOL
-Nocaster,노캐스터,NOC,Guitar,Rare,SPI+BPR,,"AP +15,AS +20%,LS +10%,EN +15,",Nocaster,,EOL
+Nocaster,노캐스터,NOC,Guitar,Rare,SPI+BPR,,"AP +15,AS +20%,LS +10%,EN +10,",Nocaster,,EOL
 Superstrat,슈퍼스트랫,SUP,Guitar,Rare,SPI+BAM,,"AP +19,AS +15%,EN +2,",Super Strat,,EOL
 Wild Horse,야생마,WHO,Guitar,Rare,SPI+OIL,,"AP +9,AS +25%,EN +6,",Wild Horse,,EOL
 Bohemian,보헤미안,BHM,Guitar,Epic,RSP+PCA,,"AP +50,MH +380,AS +20%,CC +20%,EN +2,",Bohemian,,EOL
 Stairway to Heaven,천국의 계단,STH,Guitar,Epic,HPI+HGR,,"AP +52,HR +200%,SA +20%,VR +4,",Stairway to Heaven,,EOL
-Purple Haze,퍼플 헤이즈,PHA,Guitar,Epic,KIV+ASH,,"AP +85,SA +22%,",Purple Haze,,EOL
-Satisfaction,새티스팩션,SAT,Guitar,Epic,NOC+STN,,"AP +30,AS +30%,LS +10%,EN +12,",Satisfaction,,EOL
+Purple Haze,퍼플 헤이즈,PHA,Guitar,Epic,KIV+ASH,,"AP +85,SA +19%,",Purple Haze,,EOL
+Satisfaction,새티스팩션,SAT,Guitar,Epic,NOC+STN,,"AP +30,AS +30%,LS +10%,EN +11,",Satisfaction,,EOL
 Wonderful Tonight,원더풀 투나잇,WTO,Guitar,Epic,SUP+MET,,"AP +100,AS +45%,EN +2,",Wonderful Tonight,,EOL
 The Wall,더 월,TWA,Guitar,Epic,SUP+WPW,,"AP +70,AS +18%,EN +2,",The Wall,,EOL
 Teen Spirit,틴 스피릿,TSP,Guitar,Epic,WHO+BSA,,"AP +10,AS +25%,EN +20,",Teen Spirit,,EOL
@@ -243,21 +243,21 @@ Chain Armor,사슬 갑옷,CNA,Chest,Rare,LAR+STC,,"DF +30,",Chain Armor,,EOL
 Suit,정장,SUI,Chest,Rare,MSU+RIB,,"LS +5%,ND +12,",Suit,,EOL
 Qipao,치파오,QIP,Chest,Rare,DRE+RAZ,,"AP +10,DF +10,SR +150%,",Qipao,,EOL
 Sheet Metal Armor,판금 갑옷,SMA,Chest,Rare,FAR+STE,,"DF +38,MH +100,SP -0.1,",Sheet Metal Armor,,EOL
-Hanbok,한복,HAN,Chest,Rare,PRO+FLO,,"DF +5,HR +1,CR +15%,",Hanbok,,EOL
+Hanbok,한복,HAN,Chest,Rare,PRO+FLO,,"DF +5,HR +1,CR +8%,",Hanbok,,EOL
 Bulletproof Vest,방탄조끼,BVE,Chest,Rare,MSU+ISH,,"DF +10,MH +130,ND +10,",Bulletproof Vest,,EOL
 Sunset Armor,석양의 갑옷,SSA,Chest,Rare,LAR+LEA,,"DF +28,MH +450,",Sunset Armor,,EOL
 Covert Agent Uniform,어사의,CAU,Chest,Rare,HAN+STM,,"DF +23,HR +2.5,CR +15%,",Covert Agent Uniform,,EOL
 Optical Camouflage Suit,광학미채 슈트,OSU,Chest,Epic,DSU+GLP,,"AP +10,DF +20,CC +22%,SD +10%,",Optical Camouflage Suit,광미채,EOL
-Rocker's Jacket,락커의 자켓,RKJ,Chest,Epic,RDJ+CCR,,"AP +30,DF +11,ND +15,SO +0.3,HS -40%,",Rocker_s Jacket,,EOL
+Rocker's Jacket,락커의 자켓,RKJ,Chest,Epic,RDJ+CCR,,"AP +30,DF +11,ND +15,SO +0.2,HS -40%,",Rocker_s Jacket,,EOL
 Mithril Armor,미스릴 갑옷,MAR,Chest,Epic,LAR+MIT,,"DF +65,AS +12%,SP +0.2,",Mithril Armor,,EOL
-Crusader Armor,성기사의 갑옷,CRA,Chest,Epic,SMA+SRE,,"DF +30,HR +200%,EN +20,SP -0.1,",Crusader Armor,,EOL
+Crusader Armor,성기사의 갑옷,CRA,Chest,Epic,SMA+SRE,,"DF +30,HR +200%,EN +15,SP -0.02,",Crusader Armor,,EOL
 Amazoness Armor,아마조네스 아머,AZA,Chest,Epic,SMA+BIK,,"DF +38,MH +100,SD +20%,",Amazoness Armor,,EOL
 Dragon Dobok,용의 도복,DDO,Chest,Epic,QIP+TDO,,"DF +10,AP +11,SR +150%,CR +10%,AR +1",Dragon Dobok,,EOL
 Commander's Armor,지휘관의 갑옷,CMA,Chest,Epic,CNA+GLD,,"DF +20,SA +16%,",Commander_s Armor,,EOL
 Butler's Suit,집사복,BLS,Chest,Epic,SUI+FDU,,"AP +30,ND +10,SP +0.1,LS +20%,",Butler_s Suit,,EOL
 Battle Suit,배틀 슈트,BTS,Chest,Epic,BVE+DSU,,"DF +25,MH +140,ND +12,SD +12%,",Battle Suit,,EOL
 EOD Suit,EOD 슈트,EOS,Chest,Epic,BVE+PRO,,"DF +15,MH +300,ND +10,HR +1,CR +10%,",EOD Suit,이오디슈트,EOL
-Blazing Dress,불꽃 드레스,BDR,Chest,Legendary,TFI+DRE,,"DF +25,SR +75%,SR +3,HR +2.5,EN +22",Blazing Dress,,EOL
+Blazing Dress,불꽃 드레스,BDR,Chest,Legendary,TFI+DRE,,"DF +25,SR +75%,SR +3,HR +2.5,EN +18",Blazing Dress,,EOL
 Kabana,카바나,KAB,Chest,Legendary,CMA+MET,,"DF +36,SA +18%,",Kabana,,EOL
 Queen of Hearts,퀸 오브 하트,QOH,Chest,Legendary,VBS+HAN,,"DF +45,HR +3,CR +25%,",Queen of Hearts,,EOL
 Hairband,머리띠,HAI,Head,Common,,"AV 7,TP 7,CM 7","DF +4,MS +130",Hairband,,EOL
@@ -265,14 +265,14 @@ Hat,모자,HAT,Head,Common,,"PN 7,AR 5,SC 6","DF +4,CR +5%",Hat,,EOL
 Bike Helmet,자전거 헬멧,BKH,Head,Common,,"BC 6,CP 6,SC 6",MH +90,Bike Helmet,,EOL
 Mask,가면,MSK,Head,Uncommon,HAI+FEA,,"DF +10,MS +130,SP +0.08,",Mask,,EOL
 Circlet,머리테,CIR,Head,Uncommon,HAI+BRA,,"DF +14,MS +270,",Circlet,,EOL
-Beret,베레모,BER,Head,Uncommon,HAT+SCI,,"DF +5,MH +50,CR +13%",Beret,,EOL
+Beret,베레모,BER,Head,Uncommon,HAT+SCI,,"DF +10,MH +60,CR +7%",Beret,,EOL
 Chain Coif,사슬 코이프,CCO,Head,Uncommon,HAT+STC,,"DF +14,CR +10%,",Chain Coif,,EOL
 Safety Helmet,안전모,SHE,Head,Uncommon,BKH+STN,,"MH +210,",Safety Helmet,,EOL
-Ballistic Helmet,방탄모,BAH,Head,Rare,BER+BKH,,"DF +10,MH +90,CR +13%,",Close Helm,,EOL
+Ballistic Helmet,방탄모,BAH,Head,Rare,BER+BKH,,"DF +15,MH +90,CR +8%,",Ballistic Helmet,,EOL
 Fire Helmet,소방 헬멧,FHE,Head,Rare,SHE+WAT,,"MH +280,",Fire Helmet,,EOL
 Tiara,티아라,TIA,Head,Rare,CIR+STM,,"DF +14,MS+360,",Tiara,,EOL
 Crown,왕관,CRW,Head,Rare,CIR+GLD,,"DF +16,MS +360,SA +11%",Crown,,EOL
-Close Helm,투구,CHE,Head,Rare,MSK+CCO,,"DF +20,MS +130,SP +0.1,CR +10%,",Ballistic Helmet,,EOL
+Close Helm,투구,CHE,Head,Rare,MSK+CCO,,"DF +20,MS +130,SP +0.1,CR +10%,",Close Helm,,EOL
 Motorcycle Helmet,오토바이 헬멧,MOH,Head,Rare,FHE+BIN,,"AP +10,MH +300,VR +2.5,",Motorcycle Helmet,,EOL
 Mithril Helm,미스릴 투구,MIH,Head,Epic,MIT+CCO,,"DF +38,AS +12%,SP +0.2,CR +15%,",Mithril Helm,,EOL
 Crystal Tiara,수정 티아라,CTI,Head,Epic,TIA+GPI,,"DF +14,MS +700,CC +22%,",Crystal Tiara,,EOL
@@ -300,7 +300,7 @@ Draupnir,드라우프니르,DRA,Arm,Epic,GBL+BCR,,"DF +10,MS +240,HR +1,SA +15%,
 Mithril Shield,미스릴 방패,MSH,Arm,Epic,LSH+MIT,,"AP +30,DF +30,AS +12%,SP +0.1,",Mithril Shield,,EOL
 Vital Sign Sensor,바이탈 센서,VSE,Arm,Epic,WCH+CEL,,"DF +15,AS +30%,",Vital Sign Sensor,,EOL
 Creed of the Knight,기사의 신조,CKN,Arm,Epic,SSH+SLA,,"AP +30,DF +25,HR +1.5,CD +20%,SP -0.1,",Creed of the Knight,,EOL
-Sword of Shah Jahan,샤자한의 검집,SSJ,Arm,Epic,SHH+RBY,,"AP +28,MH +350,ND +2,",Sword of Shah Jahan,,EOL
+Sword of Shah Jahan,샤자한의 검집,SSJ,Arm,Epic,SHH+RBY,,"AP +28,MH +300,ND +2,",Sword of Shah Jahan,,EOL
 Bracelet of Skadi,스카디의 팔찌,BSK,Arm,Legendary,GIC+CBL,,"MH +200,MS +250,SR +2,HR +2,SA +20,",Bracelet of Skadi,,EOL
 Radar,레이더,RAD,Arm,Legendary,VSE+GLP,,"DF +15,CC +20%,AS +35%,",Radar,,EOL
 Auto-arms,오토-암즈,AAR,Arm,Legendary,BCR+FCO,,"AP +40,DF +40,HR +1.5,",Auto-arms,오토암즈,EOL
@@ -327,7 +327,7 @@ Glacial Shoes,글레이셜 슈즈,GSH,Leg,Legendary,RSL+GIC,,"HR +2,SR +2,SR +60
 Boots of Hermes,헤르메스의 부츠,BOH,Leg,Legendary,FCO+HEE,,"DF +40,SP +0.4,SO +0.2,",Boots of Hermes,,EOL
 Red Shoes,분홍신,RES,Leg,Legendary,KHE+VBS,,"AP +5,SR +1,CC +10%,SP +0.4,LS +15%,",Red Shoes,,EOL
 Feather,깃털,FEA,Accessory,Common,,"HS 6,CM 7,FR 7",SP +0.08,Feather,,EOL
-Flower,꽃,FLO,Accessory,Common,,"PN 7,UT 7,CM 7,FR 7",CR +9%,Flower,,EOL
+Flower,꽃,FLO,Accessory,Common,,"PN 7,UT 7,CM 7,FR 7",CR +7%,Flower,,EOL
 Ribbon,리본,RIB,Accessory,Common,,"PN 6,UT 7,SC 7","LS +5%,",Ribbon,,EOL
 Fan,부채,FAN,Accessory,Common,,"AV 7,FR 8,CP 6",SA +11,Fan,,EOL
 Buddhist Scripture,불경,BSC,Accessory,Common,,TP 8,"SA +7%,",Buddhist Scripture,,EOL
@@ -340,7 +340,7 @@ Flower of Fate,운명의 꽃,FFA,Accessory,Uncommon,FLO+PCA,,"CC +15%,CR +10%,",
 Glass Pieces,유리 조각,GPI,Accessory,Uncommon,GLB+STN,,"CC +13%,",Glass Pieces,,EOL
 Doll,인형,DOL,Accessory,Uncommon,RIB+CLO,,"SR +100%,LS +11%,",Doll,,EOL
 Sniping Scope,저격 스코프,SSC,Accessory,Uncommon,LAS+BIN,,"AP +6,VR +4,",Sniping Scope,,EOL
-Buddha Sarira,진신사리,BSA,Accessory,Uncommon,BSC+MRO,,"CR +10%,SA +7%,",Buddha Sarira,,EOL
+Buddha Sarira,진신사리,BSA,Accessory,Uncommon,BSC+MRO,,"CR +8%,SA +8%,",Buddha Sarira,,EOL
 Quiver,화살통,QUI,Accessory,Uncommon,LEA+BAM,,"AS +22%,",Quiver,,EOL
 Feather Duster,먼지털이개,FDU,Accessory,Uncommon,SRO+FEA,,"AP +9,SP +0.1,",Feather Duster,,EOL
 Gilded Quill Fan,군선,GFA,Accessory,Uncommon,FAN+NAI,,"SA +14,HS -40%,",Gilded Quill Fan,,EOL
