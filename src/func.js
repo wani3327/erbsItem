@@ -181,15 +181,15 @@ function bgColor(code)
 {
     switch (rarity[code])
     {
-    case 'C':
+    case 0:
         return 'grey';
-    case 'U':
+    case 1:
         return 'lawngreen';
-    case 'R':
+    case 2:
         return 'deepskyblue';
-    case 'E':
+    case 3:
         return 'purple';
-    case 'L':
+    case 4:
         return 'yellow';
     }
 }
