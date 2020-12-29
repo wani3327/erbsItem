@@ -1,5 +1,5 @@
 #super {
-    height: 15%;
+    height: 63px;
     overflow-x: scroll;
     white-space: nowrap;
 }
@@ -12,7 +12,7 @@
 }
 
 #super > img {
-    height: 90%;
+    width: 110px;
     cursor: pointer;
     margin: 2px;
     display: inline;

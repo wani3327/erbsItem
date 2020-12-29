@@ -1,3 +1,24 @@
+function init()
+{
+    function rarityClass(code)
+    {
+        return ['commonItem', 'uncommonItem', 'rareItem', 'epicItem', 'legendaryItem'][rarity[code]];
+    }
+
+    let ht = ''
+
+    for (let code of codes)
+    {
+        ht +=
+        `<div class='`+ rarityClass(code) +`'>
+            <img id='`+ code +`' title='`+ itemName[code] +`' src='image/item/`+ img[code] +`.webp' onclick='showItem("`+ code +`")'/>
+            <span>`+ itemName[code] +`</span>
+        </div>`;
+    }
+
+    $('#itemList').html(ht);
+}
+
 function toggle(type)
 {
     button = $('#' + type);

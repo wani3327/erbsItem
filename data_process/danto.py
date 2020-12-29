@@ -1,20 +1,15 @@
 import csv
 import func
 
-# data = open('database - KO.csv', 'r', encoding='utf8')
-data = open('E:/erbsItem/erbsItem/database - KO.csv', 'r', encoding='utf8')
+data = open('database - KO.csv', 'r', encoding='utf8')
+# data = open('E:/erbsItem/erbsItem/database - KO.csv', 'r', encoding='utf8')
 datac = csv.reader(data)
 
-# resD = open('src/database.js', 'w', encoding='utf8')
-resD = open('E:/erbsItem/erbsItem/src/database.js', 'w', encoding='utf8')
+resD = open('src/database.js', 'w', encoding='utf8')
+# resD = open('E:/erbsItem/erbsItem/src/database.js', 'w', encoding='utf8')
 resT = None
 
-shouldWeMakeImageTags = True
-
-if shouldWeMakeImageTags:
-    # resT = open('data_process/imgtags.txt', 'w')
-    resT = open('E:/erbsItem/erbsItem/data_process/imgtags.txt', 'w')
-
+lcode = []
 dname = {}
 drarity = {}
 drecipe = {}
@@ -25,7 +20,6 @@ dclass = {}
 dsuper = {}
 dquery = {}
 
-html = ''
 
 for n, row in enumerate(datac):
     if n == 0:
@@ -38,10 +32,14 @@ for n, row in enumerate(datac):
             continue
 
 
+        lcode.append(code)
+
+
         dname[code] = name
 
 
-        drarity[code] = rarity[0] # Common -> C
+        index = {'Common': 0, 'Uncommon': 1, 'Rare': 2, 'Epic': 3, 'Legendary': 4}
+        drarity[code] = index[rarity]
 
 
         if recipe:
@@ -90,10 +88,6 @@ for n, row in enumerate(datac):
             dquery[code].append(func.shatter(n))
 
 
-        if shouldWeMakeImageTags:
-            html += f"\t\t\t\t\t<img id='{code}' class='listItemIcon' title='{name}' src='image/item/{img}.webp' onclick='showItem(\"{code}\")'/>\n"
-
-
 
     except IndexError: # no rarity
         print('ierr' + str(n))
@@ -101,6 +95,7 @@ for n, row in enumerate(datac):
         print('verr' + str(n))
 
 resD.write(f'''
+var codes={str(lcode).replace(', ',',')};
 var itemName={str(dname).replace(', ',',').replace(': ',':')};
 var recipe={str(drecipe).replace(', ',',').replace(': ',':')};
 var img={str(dimg).replace(', ',',').replace(': ',':')};
@@ -113,9 +108,6 @@ var query={str(dquery).replace(', ',',').replace(': ',':')};
 ''')
 resD.close()
 
-if shouldWeMakeImageTags:
-    resT.write(html)
-    resT.close()
 
 # var itemName = {'TE1': 'test1', 'TE2': 'test2', 'TE3': 'test3', 'TE4': 'test4', 'TE5': 'test5'}
 # var recipe = {'TE1': ['TE2', 'TE3', '2'], 'TE3': ['TE4', 'TE5']};

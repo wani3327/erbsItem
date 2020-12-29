@@ -1,16 +1,57 @@
 #itemList {
     height: 99.8%;
-    overflow: auto;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    font-size: 0.8em;
+    text-align: center;
 }
 
-.listItemIcon {
-    width: 23.5%;
+#itemList > div {
+    width: 110px;
     cursor: pointer;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1px;
+    margin-bottom: 3px;
+}
+
+#itemList > div > img {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: -3px;
+}
+
+div.commonItem {
+    border-color: white;
+}
+
+div.uncommonItem {
+    border-color: lawngreen;
+}
+
+div.rareItem {
+    border-color: deepskyblue;
+}
+
+div.epicItem {
+    border-color: darkmagenta;
+}
+
+div.legendaryItem {
+    border-color: yellow;
 }
 
 /* for mobile */
 @media screen and (max-width: 800px) {
     #itemList {
         height: 320px;
+    }
+
+    #itemList > div {
+        width: 23%;
     }
 }
