@@ -10,8 +10,8 @@ function init()
     for (let code of codes)
     {
         ht +=
-        `<div class='`+ rarityClass(code) +`'>
-            <img id='`+ code +`' title='`+ itemName[code] +`' src='image/item/`+ img[code] +`.webp' onclick='showItem("`+ code +`")'/>
+        `<div id='`+ code +`' class='`+ rarityClass(code) +`'>
+            <img title='`+ itemName[code] +`' src='image/item/`+ img[code] +`.webp' onclick='showItem("`+ code +`")'/>
             <span>`+ itemName[code] +`</span>
         </div>`;
     }
@@ -108,7 +108,7 @@ function filter()
         }
     }
 
-    $('#itemList div img').each(function(_) {
+    $('#itemList div').each(function(_) {
         $(this).css('display', 'none');
     });
 
