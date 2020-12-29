@@ -1,15 +1,19 @@
 import csv
 import func
 
-data = open('database - KO.csv', 'r', encoding='utf8')
+# data = open('database - KO.csv', 'r', encoding='utf8')
+data = open('E:/erbsItem/erbsItem/database - KO.csv', 'r', encoding='utf8')
 datac = csv.reader(data)
-resD = open('src/database.js', 'w', encoding='utf8')
+
+# resD = open('src/database.js', 'w', encoding='utf8')
+resD = open('E:/erbsItem/erbsItem/src/database.js', 'w', encoding='utf8')
 resT = None
 
 shouldWeMakeImageTags = True
 
 if shouldWeMakeImageTags:
-    resT = open('data_process/imgtags.txt', 'w')
+    # resT = open('data_process/imgtags.txt', 'w')
+    resT = open('E:/erbsItem/erbsItem/data_process/imgtags.txt', 'w')
 
 dname = {}
 drarity = {}
