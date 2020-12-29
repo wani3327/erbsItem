@@ -86,13 +86,11 @@ function filter()
             switch (ab)
             {
             case 'SP':
-                isValid
-                = stat[item].includes('SP') || stat[item].includes('SO');
+                isValid = stat[item].includes('SP') || stat[item].includes('SO');
                 break;
 
             case 'HNS':
-                isValid
-                = stat[item].includes('HN') || stat[item].includes('HS');
+                isValid = stat[item].includes('HN') || stat[item].includes('HS');
                 break;
 
             default:
@@ -157,7 +155,7 @@ function search() {
                 }
         });
 
-        $('#itemList div img').each(function(_) {
+        $('#itemList div').each(function(_) {
             $(this).css('display', 'none');
         });
 
