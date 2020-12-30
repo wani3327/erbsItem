@@ -1,4 +1,4 @@
-function init()
+function loadItemList()
 {
     function rarityClass(code)
     {
@@ -19,6 +19,8 @@ function init()
     ht += '<div id="dummy1" class="dummy"></div><div id="dummy2" class="dummy"></div><div id="dummy3" class="dummy"></div>'
 
     $('#itemList').html(ht);
+
+    filter();
 }
 
 function toggle(type)
@@ -112,15 +114,7 @@ function filter()
         $(this).css('display', 'none');
     });
 
-    for (let item of showing)
-        $('#' + item).css('display', '');
-
-    let dummy = 4 - showing.length % 4;
-
-    if (dummy != 4)
-        for (let i = 1; i < dummy + 1; i++) {
-            $('#dummy' + String(i)).css('display', '');
-        }
+    showList(showing);
 }
 
 function search() {
@@ -131,8 +125,8 @@ function search() {
 
         let r_lst = []
         for (let w of $("#search input").val()
-                                       .replace(' ', '')
-                                       .toLocaleUpperCase())
+                                        .replace(' ', '')
+                                        .toLocaleUpperCase())
         {
             if ('가' <= w && w <='힣')
             {
@@ -153,22 +147,34 @@ function search() {
 
         let showing = []
 
-        Object.keys(query).forEach(function(item) {
-            for (let q of query[item])
-                if (q.includes(res))
+        for(let code of codes) {
+            for (let q of query[code])
+                if (q.toLocaleUpperCase().includes(res))
                 {
-                    showing.push(item);
+                    showing.push(code);
                     break;
                 }
-        });
+        }
 
-        $('#itemList div').each(function(_) {
-            $(this).css('display', 'none');
-        });
-
-        for (let item of showing)
-            $('#' + item).css('display', '');
+        showList(showing);
     });
+}
+
+function showList(showing)
+{
+    $('#itemList div').each(function(_) {
+        $(this).css('display', 'none');
+    });
+
+    for (let item of showing)
+        $('#' + item).css('display', '');
+
+    let dummy = 4 - showing.length % 4;
+
+    if (dummy != 4)
+        for (let i = 1; i < dummy + 1; i++) {
+            $('#dummy' + String(i)).css('display', '');
+        }
 }
 
 function showItem(code)

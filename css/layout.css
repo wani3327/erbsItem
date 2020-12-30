@@ -79,7 +79,7 @@ label {
 }
 
 .cell {
-    border-style: inset;
+    border-style: solid;
     position: relative;
     margin: 2px;
     display: block;

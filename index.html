@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFJBB0TDP5"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-LFJBB0TDP5');
-        </script>
-        <!-- END -->
-
         <title>영원회귀: 블랙서바이벌 아이템 도감</title>
         <meta name='description' content="영원회귀: 블랙서바이벌의 아이템 능력치, 조합식을 간편한 검색, 필터 시스템으로 찾아보세요.">
 
@@ -26,6 +15,24 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src='src/database.js'></script>
         <script src='src/func.js'></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFJBB0TDP5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-LFJBB0TDP5');
+        </script>
+        <!-- END -->
+        <!-- Internet Explorer Check -->
+        <script>
+            let ua = navigator.userAgent;
+            if (ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1)
+                alert('No Internet Explorer Support')
+        </script>
+        <!-- END -->
     </head>
 
     <body>
@@ -141,22 +148,19 @@
                 <!-- Item icon shows here -->
                 <div id='itemList' class='cell'>
                     <div>
-                        <img src='image/item/Pickaxe.webp' onclick='showItem("PIC")'/>
+                        <img src='image/item/Pickaxe.webp'/>
                         <span>로딩...</span>
                     </div>
-
                     <div>
-                        <img src='image/item/Pickaxe.webp' onclick='showItem("PIC")'/>
+                        <img src='image/item/Pickaxe.webp'/>
                         <span>로딩...</span>
                     </div>
-
                     <div>
-                        <img src='image/item/Pickaxe.webp' onclick='showItem("PIC")'/>
+                        <img src='image/item/Pickaxe.webp'/>
                         <span>로딩...</span>
                     </div>
-
                     <div>
-                        <img src='image/item/Pickaxe.webp' onclick='showItem("PIC")'/>
+                        <img src='image/item/Pickaxe.webp'/>
                         <span>로딩...</span>
                     </div>
                 </div>
@@ -294,8 +298,7 @@
 
         <!-- Initializing -->
         <script>
-            init();
-
+            loadItemList();
             showRecipe(0);
             showMap(0);
             search();
