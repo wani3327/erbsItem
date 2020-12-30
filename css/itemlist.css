@@ -1,6 +1,6 @@
 #itemList {
     height: 99.8%;
-    overflow: scroll;
+    overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
