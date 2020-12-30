@@ -16,6 +16,8 @@ function init()
         </div>`;
     }
 
+    ht += '<div id="dummy1" class="dummy"></div><div id="dummy2" class="dummy"></div><div id="dummy3" class="dummy"></div>'
+
     $('#itemList').html(ht);
 }
 
@@ -112,6 +114,13 @@ function filter()
 
     for (let item of showing)
         $('#' + item).css('display', '');
+
+    let dummy = 4 - showing.length % 4;
+
+    if (dummy != 4)
+        for (let i = 1; i < dummy + 1; i++) {
+            $('#dummy' + String(i)).css('display', '');
+        }
 }
 
 function search() {
@@ -140,9 +149,7 @@ function search() {
 
         res = '';
         for (let a of r_lst)
-        {
             res += a;
-        }
 
         let showing = []
 

@@ -19,6 +19,10 @@
     margin-bottom: 3px;
 }
 
+div.dummy {
+    display: none;
+}
+
 #itemList > div > img {
     width: 100%;
     cursor: pointer;
