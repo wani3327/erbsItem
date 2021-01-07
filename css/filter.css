@@ -151,7 +151,6 @@ label {
 }
 
 .item-type:hover {
-    /* border-left: 4px solid orange; */
     color: orange;
 }
 
@@ -239,5 +238,13 @@ label {
     .item-type-ph {
         margin: 1px;
         border: 1px solid;
+    }
+
+    .item-type {
+        padding: 3px;
+    }
+
+    .item-type:hover {
+        color: inherit;
     }
 }

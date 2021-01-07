@@ -44,6 +44,10 @@
     height: 140px;
 }
 
+#super-info > span {
+    white-space: nowrap;
+}
+
 #super-list {
     margin: 2px;
     width: 100%;
