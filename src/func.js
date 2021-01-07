@@ -147,33 +147,6 @@ function statFilter()
     showList(showing);
 }
 
-function toggle(type)
-{
-    button = $('#' + type);
-
-    if (button.css('border-style') != 'inset')
-        button.css('border-style', 'inset');
-    else
-        button.css('border-style', 'none');
-
-    $('#all').css('border-style', 'none');
-
-    filter();
-}
-
-function toggleAll()
-{
-    button = $('#all');
-    let isOff = button.css('border-style') != 'inset'
-
-    $('#itemType img').css('border-style', 'none')
-
-    if (isOff)
-        button.css('border-style', 'inset');
-
-    filter();
-}
-
 function typeToggle(id)
 {
     function isOn(id)
