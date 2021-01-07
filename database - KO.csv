@@ -112,6 +112,15 @@ Statue of Soteria,구원의 여신상,SSO,Bat,Epic,TOR+DOL,,"AP +90,HR +0.6,SR +
 Mallet,타구봉,MAL,Bat,Epic,GBA+MOT,,"AP +80,AS +50%,HN -40%,",Mallet,,EOL
 Spy Umbrella,스파이의 우산,SUM,Bat,Epic,UMB+POI,,"AP +65,SA +25,",Spy Umbrella,,EOL
 Monkey King Bar,여의봉,MBA,Bat,Legendary,FCO+LRO,,"AP +150,AR +1,",Monkey King Bar,,EOL
+Whip,채찍,,,,,,,,,EOL
+Rope Cuffs,오랏줄,,,,,,,,,EOL
+Bullwhip,철편,,,,,,,,,EOL
+Wind Whip,바람 채찍,,,,,,,,,EOL
+Thunder Whip,뇌룡편,,,,,,,,,EOL
+Lightning Whip,벽력편,,,,,,,,,EOL
+Gleipnir,글레이프니르,,,,,,,,,EOL
+Plasma Whip,플라즈마 윕,,,,,,,,,EOL
+Whip of Nine Bloody Tails,혈화구절편,,,,,,,,,EOL
 Baseball,야구공,BAS,Throw,Common,,,AP +12,Baseball,,EOL
 Iron Ball,쇠구슬,IBA,Throw,Common,,"AR 5,FR 7,FT 7",AP +12,Iron Ball,,EOL
 Grenade,수류탄,GRE,Throw,Uncommon,IBA+GUN,,"AP +25,EN +20,",Grenade,,EOL
@@ -344,7 +353,7 @@ Buddha Sarira,진신사리,BSA,Accessory,Uncommon,BSC+MRO,,"CR +8%,SA +8%,",Budd
 Quiver,화살통,QUI,Accessory,Uncommon,LEA+BAM,,"AS +22%,",Quiver,,EOL
 Feather Duster,먼지털이개,FDU,Accessory,Uncommon,SRO+FEA,,"AP +9,SP +0.1,",Feather Duster,,EOL
 Gilded Quill Fan,군선,GFA,Accessory,Uncommon,FAN+NAI,,"SA +14,HS -40%,",Gilded Quill Fan,,EOL
-Shaman's Bronze,비파단도,SHB,Accessory,Uncommon,RSW+STM,,"AP +5,SA +8%",NOIMG,,EOL
+Shaman's Bronze,비파단도,SHB,Accessory,Uncommon,RSW+STM,,"AP +5,SA +8%",SHB,,EOL
 White Crane Fan,백우선,WFA,Accessory,Rare,GFA+FEA,,"SP +0.1,SA +16,HS -40%,",White Crane Fan,,EOL
 Powder of Life,생명의 가루,PLI,Accessory,Rare,TOL+STN,,"HR +1.5,SR +1.5",Powder of Life,,EOL
 Uchiwa,우치와,UCH,Accessory,Rare,DOL+FAN,,"SR +100%,LS +15%,SA +21,",Uchiwa,,EOL
