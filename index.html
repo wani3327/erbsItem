@@ -216,6 +216,8 @@
             </div>
 
             <div class="column">
+                <div id='prev' class='cell info' onclick="goBack();">◀ 방금 본 아이템 다시 보기</div>
+
                 <div id='basic-info' class='cell info'>
                     <div id="item-image" >
                         <img src=''/>
@@ -395,7 +397,7 @@
             loadItemList();
             $('#map-content').css('display', 'none');
             $('#craft-content').css('display', 'none');
-            showItem(101101);
+            showItem(101101, 0);
             search();
         </script>
 

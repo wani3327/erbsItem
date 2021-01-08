@@ -1,3 +1,11 @@
+#prev {
+    font-weight: 700;
+    padding: 2px;
+    display: inline-block;
+    width: auto;
+}
+
+
 .info {
     margin-bottom: 5px;
 }

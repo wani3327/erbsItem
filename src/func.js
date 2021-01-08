@@ -231,13 +231,35 @@ function showList(showing)
     }
 }
 
-function showItem(code)
+var itemStack = []
+var old;
+var now;
+
+function showItem(code, p)
 {
+    if (p == undefined)
+    {
+        itemStack.push(old);
+        if (itemStack.length > 100)
+        {
+            itemStack = itemStack.slice(1)
+        }
+    }
+    old = code;
+
     showItemInfo(code);
     showSuper(code);
 
     fold('map', showMap(code));
     fold('craft', showRecipe(code));
+}
+
+function goBack()
+{
+    old = itemStack.pop()
+    if (old == undefined) return;
+
+    showItem(old, false);
 }
 
 function showItemInfo(code)
