@@ -10,7 +10,7 @@ import ownDB
 def callApi(apitype: str):
     headers = {
         'accept': 'application/json',
-        'x-api-key': 'GLiLXQdMtN9i657xxYddn8qj9kvkmKt6T7VSK3I9',
+        'x-api-key': 'secret',
     }
 
     return requests.get('https://open-api.bser.io/v1/' + apitype, headers=headers)
