@@ -1,0 +1,16 @@
+#itemList {
+    height: 99.8%;
+    overflow: auto;
+}
+
+.listItemIcon {
+    width: 23.5%;
+    cursor: pointer;
+}
+
+/* for mobile */
+@media screen and (max-width: 800px) {
+    #itemList {
+        height: 320px;
+    }
+}
