@@ -244,6 +244,10 @@ label {
         padding: 3px;
     }
 
+    .item-type-on {
+        color: orange!important;
+    }
+
     .item-type:hover {
         color: inherit;
     }
