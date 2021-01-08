@@ -512,27 +512,27 @@ Can of Cola,캔 콜라,,,EOL
 Hot Chocolate,핫초코,,,EOL
 White Russian,깔루아 밀크,,,EOL
 Surveillance Camera,감시 카메라,감카,,EOL
-Snare,올가미,,,EOL
-Mouse Trap,쥐덫,,,EOL
-Piano Wire,피아노선,,,EOL
-Spiked Plank,가시 발판,,,EOL
-Enhanced Mouse Trap,개량형 쥐덫,,,EOL
-Dynamite,다이너마이트,,,EOL
-Bamboo Trap,대나무 트랩,,,EOL
-Booby Trap,부비트랩,,,EOL
-Clang Clatter,소란 발생기,,,EOL
+Snare,올가미,,AP +10,EOL
+Mouse Trap,쥐덫,,AP +50,EOL
+Piano Wire,피아노선,,AP +130,EOL
+Spiked Plank,가시 발판,,AP +120,EOL
+Enhanced Mouse Trap,개량형 쥐덫,,AP +160,EOL
+Dynamite,다이너마이트,,AP +220,EOL
+Bamboo Trap,대나무 트랩,,AP +30,EOL
+Booby Trap,부비트랩,,AP +30,EOL
+Clang Clatter,소란 발생기,,AP +40,EOL
 Telephoto Camera,망원 카메라,,,EOL
-Jungle Guillotine,정글 기요틴,,,EOL
-Explosive Trap,폭발 트랩,,,EOL
-Mine,지뢰,,,EOL
-Pendulum Axe,펜듈럼 도끼,,,EOL
-RDX,RDX,,,EOL
-Mithril String,미스릴 실,,,EOL
-Fire Trap,화염 트랩,,,EOL
-Hidden Maiden,히든 메이든,,,EOL
-C-4,C-4,,,EOL
-Double Guillotine,더블 기요틴,더블기모띠,,EOL
-Claymore,크레모어,,,EOL
-Stingburst,폭뢰침,,,EOL
-Remote Mine,리모트 마인,,,EOL
-Smart Bomb,스마트 폭탄,스폭,,EOL
+Jungle Guillotine,정글 기요틴,,AP +100,EOL
+Explosive Trap,폭발 트랩,,AP +180,EOL
+Mine,지뢰,,AP +80,EOL
+Pendulum Axe,펜듈럼 도끼,,AP +100,EOL
+RDX,RDX,,AP +250,EOL
+Mithril String,미스릴 실,,AP +300,EOL
+Fire Trap,화염 트랩,,AP +280,EOL
+Hidden Maiden,히든 메이든,,AP +300,EOL
+C-4,C-4,,AP +340,EOL
+Double Guillotine,더블 기요틴,더블기모띠,AP +340,EOL
+Claymore,크레모어,,AP +260,EOL
+Stingburst,폭뢰침,,AP +350,EOL
+Remote Mine,리모트 마인,,AP +450,EOL
+Smart Bomb,스마트 폭탄,스폭,AP +370,EOL
