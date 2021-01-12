@@ -203,26 +203,26 @@ function showList(showing)
 
 
     // Displaying all activated item
-    let count = 0;
+    let show = 0;
 
     for (let code of showing)
         if ( activatedType[0]  == -1 ||
              activatedType.includes( Math.floor(code / 1000) ))
         {
             $('#' + code).css('display', '');
-            count += 1;
+            show += 1;
         }
 
     // If there's no item
-    // alert(count)
-    if (!count)
+    // alert(show)
+    if (!show)
     {
         $('#found-nothing').css('display', '');
     }
     // Displaying dummies; for layout
     else
     {
-        let dummy = 4 - count % 4;
+        let dummy = 4 - show % 4;
 
         if (dummy != 4)
         for (let i = 1; i < dummy + 1; i++) {
@@ -252,7 +252,7 @@ function showItem(code, p)
 
     fold('map', showMap(code));
     fold('craft', showRecipe(code));
-    showHunt(code);
+    fold('hunt', showHunt(code));
 }
 
 function goBack()
@@ -407,7 +407,7 @@ function showMap(code)
         $(this).css('display', 'none')
     })
 
-    let count = 0
+    let show = false
 
     for (let spawn of item[code][4])
     {
@@ -417,11 +417,11 @@ function showMap(code)
             $('#map-' + spawn[0] + ' img').attr('src', imagePath(code));
             $('#map-' + spawn[0] + ' span').html(spawn[1]);
 
-            count += 1
+            show = true
         }
     }
 
-    return Boolean(count);
+    return show;
 }
 
 function showRecipe(code)
@@ -462,14 +462,14 @@ function showRecipe(code)
 
 function showHunt(code)
 {
-    let isDropped = false;
+    let show = false;
 
     for (let spawn of item[code][4])
     {
         if (spawn[0] == -1)
         {
             v = spawn[1];
-            isDropped = true;
+            show = true;
 
             for (let i = 6; i > -1; i--)
             {
@@ -513,10 +513,10 @@ function showHunt(code)
             break;
     }
 
-    if (!isDropped)
+    if (!show)
     {
         $('.is-dropped td').css('background-color', 'firebrick');
     }
 
-    return isDropped;
+    return show;
 }
