@@ -352,11 +352,36 @@
                 <div id='hunt' class='cell info'>
                     <div id='hunt-title' class='fold-title' onclick='fold("hunt");'>
                         <div id='hunt-fold' class='folder'>▶</div>
-                        사냥 / 보급
+                        사냥
                     </div>
 
                     <div id='hunt-content'>
-
+                        사냥의 경우 확률 50% 이상의 '확정 전리품'은 파란색,<br>
+                        그 이하의 확률은 초록색으로 표시됩니다.
+                        <table id='drop-table'>
+                            <tr class='animal-img'>
+                                <td><img id='chicken' src="image/animal/Chicken.webp"/></td>
+                                <td><img src="image/animal/Bat.webp"/></td>
+                                <td><img src="image/animal/Wild_Boar.webp"/></td>
+                                <td><img src="image/animal/Hound.webp"/></td>
+                            </tr>
+                            <tr id="is-dropped-0" class='is-dropped'>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class='animal-img'>
+                                <td><img src="image/animal/Wolf.webp"/></td>
+                                <td><img src="image/animal/Bear.webp"/></td>
+                                <td><img src="image/animal/Wickeline.webp"/></td>
+                            </tr>
+                            <tr id="is-dropped-1" class='is-dropped'>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
                     </div>
 
                 </div>

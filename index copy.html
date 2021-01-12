@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>영원회귀: 블랙서바이벌 아이템 도감</title>
+        <meta name='description' content="영원회귀: 블랙서바이벌의 아이템 능력치, 조합식을 간편한 검색, 필터 시스템으로 찾아보세요.">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="2YbiJGVvGXpMC1Y3sc7OhmrWVl-SEa83TWJh8YId-ew" />
+
+        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+        <link rel="stylesheet" type="text/css" href="css/itemlist.css"/>
+        <link rel="stylesheet" type="text/css" href="css/recipe.css"/>
+        <link rel="stylesheet" type="text/css" href="css/map.css"/>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src='src/database.js'></script>
+        <script src='src/func.js'></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFJBB0TDP5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-LFJBB0TDP5');
+        </script>
+        <!-- END -->
+        <!-- Internet Explorer Check -->
+        <script>
+            let ua = navigator.userAgent;
+            if (ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1)
+                alert('No Internet Explorer Support')
+        </script>
+        <!-- END -->
+    </head>
+
+    <body>
+        <h3>아이템 도감</h3>
+
+        <div id="content">
+            <div id='itemType' class='cell'>
+                <!-- Item type filter shows here -->
+                <img id='all' src="image/weapon/all.webp" onclick='toggleAll();' style="border-style: inset;">
+                <div>
+                    <img id='Axe' src="image/weapon/Axe.webp" onclick='toggle("Axe");'>
+                    <img id='Dagger' src="image/weapon/Dagger.webp" onclick='toggle("Dagger");'>
+                    <img id='Two_Handed_Sword' src="image/weapon/Two Handed Sword.webp" onclick='toggle("Two_Handed_Sword");'>
+                    <img id='Dual_Swords' src="image/weapon/Dual Swords.webp" onclick='toggle("Dual_Swords");'>
+                    <img id='Pistol' src="image/weapon/Pistol.webp" onclick='toggle("Pistol");'>
+                    <img id='Assault_Rifle' src="image/weapon/Assault Rifle.webp" onclick='toggle("Assault_Rifle");'>
+                    <img id='Sniper_Rifle' src="image/weapon/Sniper Rifle.webp" onclick='toggle("Sniper_Rifle");'>
+                    <img id='Rapier' src="image/weapon/Rapier.webp" onclick='toggle("Rapier");'>
+                    <img id='Spear' src="image/weapon/Spear.webp" onclick='toggle("Spear");'>
+                    <img id='Hammer' src="image/weapon/Hammer.webp" onclick='toggle("Hammer");'>
+                    <img id='Bat' src="image/weapon/Bat.webp" onclick='toggle("Bat");'>
+                    <img id='Throw' src="image/weapon/Throw.webp" onclick='toggle("Throw");'>
+                    <img id='Shuriken' src="image/weapon/Shuriken.webp" onclick='toggle("Shuriken");'>
+                    <img id='Bow' src="image/weapon/Bow.webp" onclick='toggle("Bow");'>
+                    <img id='Crossbow' src="image/weapon/Crossbow.webp" onclick='toggle("Crossbow");'>
+                    <img id='Glove' src="image/weapon/Glove.webp" onclick='toggle("Glove");'>
+                    <img id='Tonfa' src="image/weapon/Tonfa.webp" onclick='toggle("Tonfa");'>
+                    <img id='Guitar' src="image/weapon/Guitar.webp" onclick='toggle("Guitar");'>
+                    <img id='Nunchaku' src="image/weapon/Nunchaku.webp" onclick='toggle("Nunchaku");'>
+                    <br>
+                    <img id='Chest' src='image/weapon/Chest.webp' onclick="toggle('Chest');" title='몸통'/>
+                    <img id='Head' src='image/weapon/Head.webp' onclick="toggle('Head');" title='머리'/>
+                    <img id='Arm' src='image/weapon/Arm.webp' onclick="toggle('Arm');" title='팔'/>
+                    <img id='Leg' src='image/weapon/Leg.webp' onclick="toggle('Leg');" title='다리'/>
+                    <img id='Accessory' src='image/weapon/Accessory.webp' onclick="toggle('Accessory');" title='장식'/>
+                    <img id='Material' src='image/weapon/Material.webp' onclick="toggle('Material');" title='재료'/>
+                    <img id='Food' src='image/weapon/Food.webp' onclick="toggle('Food');" title='음식'/>
+                    <img id='Bevarage' src='image/weapon/Bevarage.webp' onclick="toggle('Bevarage');" title='음료'/>
+                    <img id='Summon' src='image/weapon/Summon.webp' onclick="toggle('Summon');" title='설치'/>
+                </div>
+            </div>
+
+            <div id='statFilter' class='cell'>
+                <table>
+                    <tr>
+                        <td rowspan="2">공격</td>
+                        <td>기본</td>
+                        <td>
+                            <span><input type="checkbox" id="sEN" onclick="filter()">
+                            <label for='sEN'>기본 공격 추가 피해</label></span>
+                            <span><input type="checkbox" id="sAS" onclick="filter()">
+                            <label for='sAS'>공격 속도</label></span>
+                            <span><input type="checkbox" id="sAR" onclick="filter()">
+                            <label for='sAR'>사거리</label></span>
+                            <span><input type="checkbox" id="sLS" onclick="filter()">
+                            <label for='sLS'>생명력 흡수</label></span>
+                            <span><input type="checkbox" id="sCC" onclick="filter()">
+                            <label for='sCC'>치명타 확률</label></span>
+                            <span><input type="checkbox" id="sCD" onclick="filter()">
+                            <label for='sCD'>치명타 피해량</label></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>스킬</td>
+                        <td>
+                            <span><input type="checkbox" id="sSA" onclick="filter()">
+                            <label for='sSA'>스킬 증폭</label></span>
+                            <span><input type="checkbox" id="sCR" onclick="filter()">
+                            <label for='sCR'>쿨타임 감소</label></span>
+                            <span><input type="checkbox" id="sMS" onclick="filter()">
+                            <label for='sMS'>최대 스태미너</label></span>
+                            <span><input type="checkbox" id="sSR" onclick="filter()">
+                            <label for='sSR'>스태미너 재생</label></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">방어</td>
+                        <td>
+                            <span><input type="checkbox" id="sDF" onclick="filter()">
+                            <label for='sDF'>방어력</label></span>
+                            <span><input type="checkbox" id="sMH" onclick="filter()">
+                            <label for='sMH'>최대 체력</label></span>
+                            <span><input type="checkbox" id="sHR" onclick="filter()">
+                            <label for='sHR'>체력 재생</label></span>
+                            <span><input type="checkbox" id="sND" onclick="filter()">
+                            <label for='sND'>기본 공격 피해량 감소</label></span>
+                            <span><input type="checkbox" id="sSD" onclick="filter()">
+                            <label for='sSD'>스킬 피해량 감소</label></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">기타</td>
+                        <td>
+                            <span><input type="checkbox" id="sSP" onclick="filter()">
+                            <label for='sSP'>이동 속도</label></span>
+                            <span><input type="checkbox" id="sVR" onclick="filter()">
+                            <label for='sVR'>시야</label></span>
+                            <span><input type="checkbox" id="sHNS" onclick="filter()">
+                            <label for='sHNS'>치유 감소</label></span>
+                        </td>
+                    </tr>
+
+                </table>
+
+                <span id='sCaution'>주의! 아이템 검색 기능 사용 시 위 필터는 전부 무시됩니다.</span>
+                <div id='search'>
+                    <input type="text" placeholder="아이템 검색" autofocus>
+                </div>
+
+            </div>
+
+            <div class="column">
+                <!-- Item icon shows here -->
+                <div id='itemList' class='cell'>
+                    <div>
+                        <img src='image/item/Pickaxe.webp'/>
+                        <span>로딩...</span>
+                    </div>
+                    <div>
+                        <img src='image/item/Pickaxe.webp'/>
+                        <span>로딩...</span>
+                    </div>
+                    <div>
+                        <img src='image/item/Pickaxe.webp'/>
+                        <span>로딩...</span>
+                    </div>
+                    <div>
+                        <img src='image/item/Pickaxe.webp'/>
+                        <span>로딩...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div id="itemImage" class='cell'>
+                    <img src='image/item/Elemental Bow.webp'/>
+                </div>
+                <div id='itemName' class='cell'>엘리멘탈보우</div>
+            </div>
+
+            <div class="column">
+                <!-- Map shows here -->
+                <div id="map" class='cell'>
+                    <img id="mapImg" src="image/map.webp" width="100%">
+
+                    <!-- Whole areas -->
+                    <div id='mAL' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mAR' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mAV' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mBC' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mCM' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mCP' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mDK' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mFT' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mFR' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mHS' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mHT' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mPN' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mSC' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mTP' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+                    <div id='mUT' class='itemSpot'>
+                        <img class='itemIcon'/>
+                        <span></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                아이템 패치 버전: 0.22.4 (2020. 12. 30.)<br>
+                이미지 저작권은 님블뉴런에게 있습니다.<br>
+                본 사이트는 크롬에 최적화되어 있습니다. 특히 인터넷 익스플로러는 webp를 지원하지 않으므로 다른 브라우저를 이용해 주십시오.<br>
+                버그 제보 및 문의는 <a href='https://github.com/wani3327/erbsItem/issues'>깃헙</a>이나 <a href='mailto:wani3327@gmail.com'>메일(wani3327@gmail.com)</a>로
+            </div>
+        </div>
+
+        <!-- Initializing -->
+        <script>
+            loadItemList();
+            showRecipe(0);
+            showMap(0);
+            search();
+        </script>
+
+    </body>
+</html>

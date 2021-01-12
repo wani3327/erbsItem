@@ -252,6 +252,7 @@ function showItem(code, p)
 
     fold('map', showMap(code));
     fold('craft', showRecipe(code));
+    showHunt(code);
 }
 
 function goBack()
@@ -461,5 +462,61 @@ function showRecipe(code)
 
 function showHunt(code)
 {
+    let isDropped = false;
 
+    for (let spawn of item[code][4])
+    {
+        if (spawn[0] == -1)
+        {
+            v = spawn[1];
+            isDropped = true;
+
+            for (let i = 6; i > -1; i--)
+            {
+                if (v / 2 ** i >= 1)
+                {
+                    $('#is-dropped-' + Math.floor(i / 4)
+                    + ' td:nth-child(' + (i % 4 + 1) + ')'
+                    ).css('background-color', 'forestgreen');
+
+                    v -= 2 ** i;
+                }
+                else
+                    $('#is-dropped-' + Math.floor(i / 4)
+                    + ' td:nth-child(' + (i % 4 + 1) + ')'
+                    ).css('background-color', 'firebrick');
+            }
+        }
+    }
+
+    switch (code) {
+        case 302111:
+            $('#is-dropped-0 td:nth-child(1)').css('background-color', 'steelblue');
+            $('#is-dropped-0 td:nth-child(3)').css('background-color', 'steelblue');
+            $('#is-dropped-1 td:nth-child(1)').css('background-color', 'steelblue');
+            $('#is-dropped-1 td:nth-child(2)').css('background-color', 'steelblue');
+            break;
+
+        case 401103:
+            $('#is-dropped-0 td:nth-child(1)').css('background-color', 'steelblue');
+            $('#is-dropped-0 td:nth-child(4)').css('background-color', 'steelblue');
+            $('#is-dropped-1 td:nth-child(1)').css('background-color', 'steelblue');
+            $('#is-dropped-1 td:nth-child(2)').css('background-color', 'steelblue');
+            break;
+
+        case 401403:
+        case 401401:
+        case 302324:
+            $('#is-dropped-1 td:nth-child(3)').css('background-color', 'steelblue');
+
+        default:
+            break;
+    }
+
+    if (!isDropped)
+    {
+        $('.is-dropped td').css('background-color', 'firebrick');
+    }
+
+    return isDropped;
 }
