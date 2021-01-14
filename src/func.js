@@ -147,6 +147,35 @@ function statFilter()
     showList(showing);
 }
 
+function areaSelect(id)
+{
+    id = '#area-' + id;
+
+    $('.area').removeClass('area-on');
+    $(id).addClass('area-on');
+
+    areaFilter();
+}
+
+function areaFilter()
+{
+    let showing = [];
+    let area = $('.area-on').attr('id').replace('area-', '');
+
+    Object.keys(item).forEach(function (code) {
+        for (let s of item[code][4])
+        {
+            if (s[0] == area)
+            {
+                showing.push(code);
+                break;
+            }
+        }
+    });
+
+    showList(showing);
+}
+
 function typeToggle(id)
 {
     function isOn(id)
@@ -179,6 +208,7 @@ function typeToggle(id)
 
     if (isOn('#by-name')) search();
     else if (isOn('#by-stat')) statFilter();
+    else areaFilter();
 }
 
 function showList(showing)
@@ -191,8 +221,8 @@ function showList(showing)
     // Find activated types
     activatedType = []
 
-    $('#type-filter .item-type-on').each(function (i) {
-        if (i == 0 && this.id == 'type-all')
+    $('.item-type-on').each(function (i) {
+        if (this.id == 'type-all')
         {
             activatedType = [-1];
             return;
@@ -214,11 +244,11 @@ function showList(showing)
         }
 
     // If there's no item
-    // alert(show)
     if (!show)
     {
         $('#found-nothing').css('display', '');
     }
+
     // Displaying dummies; for layout
     else
     {

@@ -83,6 +83,10 @@ label {
     cursor: pointer;
 }
 
+.area-on {
+    color: orange;
+}
+
 .area:hover {
     color: orange
 }
