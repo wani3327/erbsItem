@@ -5,16 +5,17 @@
         <meta name='description' content="영원회귀: 블랙서바이벌의 아이템 능력치, 조합식을 간편한 검색, 필터 시스템으로 찾아보세요.">
         <meta http-equiv="refresh" content="0; url=erit.info"></meta>
 
-        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
-        <link rel="stylesheet" type="text/css" href="css/itemlist.css"/>
-        <link rel="stylesheet" type="text/css" href="css/recipe.css"/>
-        <link rel="stylesheet" type="text/css" href="css/map.css"/>
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="2YbiJGVvGXpMC1Y3sc7OhmrWVl-SEa83TWJh8YId-ew" />
 
+        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+        <link rel="stylesheet" type="text/css" href="css/filter.css"/>
+        <link rel="stylesheet" type="text/css" href="css/itemlist.css"/>
+        <link rel="stylesheet" type="text/css" href="css/info.css"/>
+        <link rel="stylesheet" type="text/css" href="css/map.css"/>
+
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src='src/database.js'></script>
+        <script src='src/database_api.js'></script>
         <script src='src/func.js'></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -37,271 +38,393 @@
     </head>
 
     <body>
-        <h3>아이템 도감</h3>
-
-        <div id="content">
-            <div id='itemType' class='cell'>
-                <!-- Item type filter shows here -->
-                <img id='all' src="image/weapon/all.webp" onclick='toggleAll();' style="border-style: inset;">
-                <div>
-                    <img id='Axe' src="image/weapon/Axe.webp" onclick='toggle("Axe");'>
-                    <img id='Dagger' src="image/weapon/Dagger.webp" onclick='toggle("Dagger");'>
-                    <img id='Two_Handed_Sword' src="image/weapon/Two Handed Sword.webp" onclick='toggle("Two_Handed_Sword");'>
-                    <img id='Dual_Swords' src="image/weapon/Dual Swords.webp" onclick='toggle("Dual_Swords");'>
-                    <img id='Pistol' src="image/weapon/Pistol.webp" onclick='toggle("Pistol");'>
-                    <img id='Assault_Rifle' src="image/weapon/Assault Rifle.webp" onclick='toggle("Assault_Rifle");'>
-                    <img id='Sniper_Rifle' src="image/weapon/Sniper Rifle.webp" onclick='toggle("Sniper_Rifle");'>
-                    <img id='Rapier' src="image/weapon/Rapier.webp" onclick='toggle("Rapier");'>
-                    <img id='Spear' src="image/weapon/Spear.webp" onclick='toggle("Spear");'>
-                    <img id='Hammer' src="image/weapon/Hammer.webp" onclick='toggle("Hammer");'>
-                    <img id='Bat' src="image/weapon/Bat.webp" onclick='toggle("Bat");'>
-                    <img id='Throw' src="image/weapon/Throw.webp" onclick='toggle("Throw");'>
-                    <img id='Shuriken' src="image/weapon/Shuriken.webp" onclick='toggle("Shuriken");'>
-                    <img id='Bow' src="image/weapon/Bow.webp" onclick='toggle("Bow");'>
-                    <img id='Crossbow' src="image/weapon/Crossbow.webp" onclick='toggle("Crossbow");'>
-                    <img id='Glove' src="image/weapon/Glove.webp" onclick='toggle("Glove");'>
-                    <img id='Tonfa' src="image/weapon/Tonfa.webp" onclick='toggle("Tonfa");'>
-                    <img id='Guitar' src="image/weapon/Guitar.webp" onclick='toggle("Guitar");'>
-                    <img id='Nunchaku' src="image/weapon/Nunchaku.webp" onclick='toggle("Nunchaku");'>
-                    <br>
-                    <img id='Chest' src='image/weapon/Chest.webp' onclick="toggle('Chest');" title='몸통'/>
-                    <img id='Head' src='image/weapon/Head.webp' onclick="toggle('Head');" title='머리'/>
-                    <img id='Arm' src='image/weapon/Arm.webp' onclick="toggle('Arm');" title='팔'/>
-                    <img id='Leg' src='image/weapon/Leg.webp' onclick="toggle('Leg');" title='다리'/>
-                    <img id='Accessory' src='image/weapon/Accessory.webp' onclick="toggle('Accessory');" title='장식'/>
-                    <img id='Material' src='image/weapon/Material.webp' onclick="toggle('Material');" title='재료'/>
-                    <img id='Food' src='image/weapon/Food.webp' onclick="toggle('Food');" title='음식'/>
-                    <img id='Bevarage' src='image/weapon/Bevarage.webp' onclick="toggle('Bevarage');" title='음료'/>
-                    <img id='Summon' src='image/weapon/Summon.webp' onclick="toggle('Summon');" title='설치'/>
-                </div>
+        <div id='header'>
+            <div id='menubar'>
+                <div class='left-menu'><a href='index.html'>아이템 도감</a></div>
+                <!-- <div class='push'><a>LANGUAGE</a></div> -->
             </div>
-
-            <div id='statFilter' class='cell'>
-                <table>
-                    <tr>
-                        <td rowspan="2">공격</td>
-                        <td>기본</td>
-                        <td>
-                            <span><input type="checkbox" id="sEN" onclick="filter()">
-                            <label for='sEN'>기본 공격 추가 피해</label></span>
-                            <span><input type="checkbox" id="sAS" onclick="filter()">
-                            <label for='sAS'>공격 속도</label></span>
-                            <span><input type="checkbox" id="sAR" onclick="filter()">
-                            <label for='sAR'>사거리</label></span>
-                            <span><input type="checkbox" id="sLS" onclick="filter()">
-                            <label for='sLS'>생명력 흡수</label></span>
-                            <span><input type="checkbox" id="sCC" onclick="filter()">
-                            <label for='sCC'>치명타 확률</label></span>
-                            <span><input type="checkbox" id="sCD" onclick="filter()">
-                            <label for='sCD'>치명타 피해량</label></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>스킬</td>
-                        <td>
-                            <span><input type="checkbox" id="sSA" onclick="filter()">
-                            <label for='sSA'>스킬 증폭</label></span>
-                            <span><input type="checkbox" id="sCR" onclick="filter()">
-                            <label for='sCR'>쿨타임 감소</label></span>
-                            <span><input type="checkbox" id="sMS" onclick="filter()">
-                            <label for='sMS'>최대 스태미너</label></span>
-                            <span><input type="checkbox" id="sSR" onclick="filter()">
-                            <label for='sSR'>스태미너 재생</label></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">방어</td>
-                        <td>
-                            <span><input type="checkbox" id="sDF" onclick="filter()">
-                            <label for='sDF'>방어력</label></span>
-                            <span><input type="checkbox" id="sMH" onclick="filter()">
-                            <label for='sMH'>최대 체력</label></span>
-                            <span><input type="checkbox" id="sHR" onclick="filter()">
-                            <label for='sHR'>체력 재생</label></span>
-                            <span><input type="checkbox" id="sND" onclick="filter()">
-                            <label for='sND'>기본 공격 피해량 감소</label></span>
-                            <span><input type="checkbox" id="sSD" onclick="filter()">
-                            <label for='sSD'>스킬 피해량 감소</label></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">기타</td>
-                        <td>
-                            <span><input type="checkbox" id="sSP" onclick="filter()">
-                            <label for='sSP'>이동 속도</label></span>
-                            <span><input type="checkbox" id="sVR" onclick="filter()">
-                            <label for='sVR'>시야</label></span>
-                            <span><input type="checkbox" id="sHNS" onclick="filter()">
-                            <label for='sHNS'>치유 감소</label></span>
-                        </td>
-                    </tr>
-
-                </table>
-
-                <span id='sCaution'>주의! 아이템 검색 기능 사용 시 위 필터는 전부 무시됩니다.</span>
-                <div id='search'>
-                    <input type="text" placeholder="아이템 검색" autofocus>
+        </div>
+        <div id="content">
+            <div id='filter'>
+                <div id='by-name' class='filter-tab filter-tab-on' onclick="showFilter('name');">
+                    이름으로 찾기
+                </div>
+                <div id='by-stat' class='filter-tab' onclick="showFilter('stat');">
+                    능력치로 찾기
+                </div>
+                <div id='by-area' class='filter-tab' onclick="showFilter('area');">
+                    지역으로 찾기
                 </div>
 
+                <div id="filter-wrapper" class="cell">
+                    <div id="name-filter" class='selectible-filter selectible-filter-on'>
+                        <div id='search'>
+                            <input type="text" placeholder="아이템 검색" autofocus>
+                        </div>
+                    </div>
+
+                    <div id='stat-filter' class='selectible-filter' onclick="statFilter();">
+                        <table>
+                            <tr>
+                                <td rowspan="2">공격</td>
+                                <td>기본</td>
+                                <td>
+                                    <span><input type="checkbox" id="sEN">
+                                    <label for='sEN'>기본 공격 추가 피해</label></span>
+                                    <span><input type="checkbox" id="sAS">
+                                    <label for='sAS'>공격 속도</label></span>
+                                    <span><input type="checkbox" id="sAR">
+                                    <label for='sAR'>사거리</label></span>
+                                    <span><input type="checkbox" id="sCC">
+                                    <label for='sCC'>치명타 확률</label></span>
+                                    <span><input type="checkbox" id="sCD">
+                                    <label for='sCD'>치명타 피해량</label></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>스킬</td>
+                                <td>
+                                    <span><input type="checkbox" id="sSA">
+                                    <label for='sSA'>스킬 증폭</label></span>
+                                    <span><input type="checkbox" id="sCR">
+                                    <label for='sCR'>쿨타임 감소</label></span>
+                                    <span><input type="checkbox" id="sMS">
+                                    <label for='sMS'>최대 스태미너</label></span>
+                                    <span><input type="checkbox" id="sSR">
+                                    <label for='sSR'>스태미너 재생</label></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">방어</td>
+                                <td>
+                                    <span><input type="checkbox" id="sDF">
+                                    <label for='sDF'>방어력</label></span>
+                                    <span><input type="checkbox" id="sMH">
+                                    <label for='sMH'>최대 체력</label></span>
+                                    <span><input type="checkbox" id="sHR">
+                                    <label for='sHR'>체력 재생</label></span>
+                                    <span><input type="checkbox" id="sND">
+                                    <label for='sND'>기본 공격 피해량 감소</label></span>
+                                    <span><input type="checkbox" id="sSD">
+                                    <label for='sSD'>스킬 피해량 감소</label></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">기타</td>
+                                <td>
+                                    <span><input type="checkbox" id="sSP">
+                                    <label for='sSP'>이동 속도</label></span>
+                                    <span><input type="checkbox" id="sVR">
+                                    <label for='sVR'>시야</label></span>
+                                    <span><input type="checkbox" id="sLS">
+                                    <label for='sLS'>생명력 흡수</label></span>
+                                    <span><input type="checkbox" id="sHNS">
+                                    <label for='sHNS'>치유 감소</label></span>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                    <div id='area-filter' class='selectible-filter'>
+                        <div id='area-grid'>
+                            <div id='area-4' class='area' onclick='areaSelect(4)'>고급주택가</div>
+                            <div id='area-5' class='area' onclick='areaSelect(5)'>골목길</div>
+                            <div id='area-13' class='area' onclick='areaSelect(13)'>공장</div>
+                            <div id='area-3' class='area' onclick='areaSelect(3)'>모래사장</div>
+                            <div id='area-11' class='area' onclick='areaSelect(11)'>묘지</div>
+                            <div id='area-7' class='area' onclick='areaSelect(7)'>번화가</div>
+                            <div id='area-8' class='area' onclick='areaSelect(8)'>병원</div>
+                            <div id='area-14' class='area' onclick='areaSelect(14)'>성당</div>
+                            <div id='area-12' class='area' onclick='areaSelect(12)'>숲</div>
+                            <div id='area-10' class='area' onclick='areaSelect(10)'>양궁장</div>
+                            <div id='area-2' class='area' onclick='areaSelect(2)'>연못</div>
+                            <div id='area-9' class='area' onclick='areaSelect(9)'>절</div>
+                            <div id='area-15' class='area' onclick='areaSelect(15)'>학교</div>
+                            <div id='area-1' class='area' onclick='areaSelect(1)'>항구</div>
+                            <div id='area-6' class='area' onclick='areaSelect(6)'>호텔</div>
+                        </div>
+                    </div>
+
+                    <div id="type-filter">
+                        <div id='type-all' class="item-type item-type-on" onclick="typeToggle('all')">ALL</div>
+                        <div id='type-weapon'></div>
+                        <div id='type-101' class="item-type" onclick='typeToggle(101)'>단검</div>
+                        <div id='type-102' class="item-type" onclick='typeToggle(102)'>양손검</div>
+                        <div id='type-103' class="item-type" onclick='typeToggle(103)'>쌍검</div>
+                        <div id='type-104' class="item-type" onclick='typeToggle(104)'>망치</div>
+                        <div id='type-105' class="item-type" onclick='typeToggle(105)'>도끼</div>
+                        <div id='type-107' class="item-type" onclick='typeToggle(107)'>창</div>
+                        <div id='type-108' class="item-type" onclick='typeToggle(108)'>방망이</div>
+                        <div id='type-109' class="item-type" onclick='typeToggle(109)'>채찍</div>
+                        <div id='type-110' class="item-type" onclick='typeToggle(110)'>글러브</div>
+                        <div id='type-111' class="item-type" onclick='typeToggle(111)'>톤파</div>
+                        <div id='type-112' class="item-type" onclick='typeToggle(112)'>투척</div>
+                        <div id='type-113' class="item-type" onclick='typeToggle(113)'>암기</div>
+                        <div id='type-114' class="item-type" onclick='typeToggle(114)'>활</div>
+                        <div id='type-115' class="item-type" onclick='typeToggle(115)'>석궁</div>
+                        <div id='type-116' class="item-type" onclick='typeToggle(116)'>권총</div>
+                        <div id='type-117' class="item-type" onclick='typeToggle(117)'>돌격소총</div>
+                        <div id='type-118' class="item-type" onclick='typeToggle(118)'>저격총</div>
+                        <div id='type-119' class="item-type" onclick='typeToggle(119)'>쌍절곤</div>
+                        <div id='type-120' class="item-type" onclick='typeToggle(120)'>레이피어</div>
+                        <div id='type-121' class="item-type" onclick='typeToggle(121)'>기타</div>
+                        <div id='type-placeholder1' class="item-type-ph"></div>
+                        <div id='type-armor'></div>
+                        <div id='type-201' class="item-type" onclick='typeToggle(201)'>머리</div>
+                        <div id='type-202' class="item-type" onclick='typeToggle(202)'>옷</div>
+                        <div id='type-203' class="item-type" onclick='typeToggle(203)'>팔</div>
+                        <div id='type-204' class="item-type" onclick='typeToggle(204)'>다리</div>
+                        <div id='type-205' class="item-type" onclick='typeToggle(205)'>장식</div>
+                        <div id='type-placeholder2' class="item-type-ph"></div>
+                        <div id='type-other'></div>
+                        <div id='type-301' class="item-type" onclick='typeToggle(301)'>음료</div>
+                        <div id='type-302' class="item-type" onclick='typeToggle(302)'>음식</div>
+                        <div id='type-401' class="item-type" onclick='typeToggle(401)'>재료</div>
+                        <div id='type-502' class="item-type" onclick='typeToggle(502)'>설치</div>
+                        <div id='type-placeholder3' class="item-type-ph"></div>
+                    </div>
+                </div>
             </div>
 
             <div class="column">
                 <!-- Item icon shows here -->
-                <div id='itemList' class='cell'>
+                <div id='item-list' class='cell info'>
                     <div>
-                        <img src='image/item/Pickaxe.webp'/>
+                        <img src='image/item/301107.webp'/>
                         <span>로딩...</span>
                     </div>
                     <div>
-                        <img src='image/item/Pickaxe.webp'/>
+                        <img src='image/item/301101.webp'/>
                         <span>로딩...</span>
                     </div>
                     <div>
-                        <img src='image/item/Pickaxe.webp'/>
+                        <img src='image/item/301107.webp'/>
                         <span>로딩...</span>
                     </div>
                     <div>
-                        <img src='image/item/Pickaxe.webp'/>
+                        <img src='image/item/301101.webp'/>
                         <span>로딩...</span>
                     </div>
+                </div>
+
+                <div class='cell info'>
+                    <li>이미지 저작권은 님블뉴런에게 있습니다.</li>
+                    <li>본 사이트는 크롬에 최적화되어 있습니다. 특히 인터넷 익스플로러는 webp를 지원하지 않으므로 다른 브라우저를 이용해 주십시오.</li>
+                    <li>버그 제보 및 문의는 <a href='https://github.com/wani3327/erbsItem/issues'>깃헙</a>이나 <a href='mailto:wani3327@gmail.com'>메일(wani3327@gmail.com)</a>로</li>
                 </div>
             </div>
 
             <div class="column">
-                <!-- Superior item shows here -->
-                <div id="super" class='cell'></div>
+                <div id='prev' class='cell info' onclick="goBack();">◀ 방금 본 아이템 다시 보기</div>
 
-                <!-- Recipe shows here -->
-                <div id='recipe' class='cell'>
-                    <div id='final'>
-                        <img class="itemIcon"/>
-                        <span></span>
+                <div id='basic-info' class='cell info'>
+                    <div id="item-image" >
+                        <img src=''/>
                     </div>
-
-                    <div id='ingre11'>
-                        <img class="itemIcon"/>
-                        <span></span>
-                    </div>
-                    <div id='ingre12'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='amount1'></div>
-
-                    <div id='ingre21'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='ingre22'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='amount2'></div>
-
-                    <div id='ingre23'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='ingre24'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='amount3'></div>
-
-                    <!-- TODO -->
-                    <img id='more1'/>
-                    <img id='more2'/>
-                    <img id='more3'/>
-                    <img id='more4'/>
+                    <div id='item-name'></div>
+                    <div id='type-info'></div>
                 </div>
 
-                <!-- Stat and more information shows here -->
-                <div id='stat' class='cell'></div>
-            </div>
-
-            <div class="column">
                 <!-- Map shows here -->
-                <div id="map" class='cell'>
-                    <img id="mapImg" src="image/map.webp" width="100%">
+                <div id="map" class='cell info'>
+                    <div id='map-title' class='fold-title' onclick='fold("map");'>
+                        <div id='map-fold' class='folder'>▶</div>
+                        탐색
+                    </div>
 
-                    <!-- Whole areas -->
-                    <div id='mAL' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mAR' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mAV' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mBC' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mCM' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mCP' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mDK' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mFT' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mFR' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mHS' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mHT' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mPN' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mSC' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mTP' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
-                    </div>
-                    <div id='mUT' class='itemSpot'>
-                        <img class='itemIcon'/>
-                        <span></span>
+                    <div id='map-content'>
+                        <img id="map-img" src="image/map.webp" width="100%">
+
+                        <!-- Whole areas -->
+                        <div id='map-5' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-10' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-7' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-3' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-11' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-14' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-1' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-13' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-12' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-8' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-6' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-2' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-15' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-9' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-4' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+
                     </div>
 
                 </div>
+
+                <div id='craft' class='cell info'>
+                    <div id='craft-title' class='fold-title' onclick='fold("craft");'>
+                        <div id='craft-fold' class='folder'>▶</div>
+                        제작
+                    </div>
+
+                    <div id='craft-content'>
+                        <div class='craft-result'>
+                            <div class="craft-item">
+                                <img src='image/item/301101.webp'/>
+                                <span>로딩...</span>
+                            </div>
+
+                            <div class='craft-ingre'>
+                                <div class='craft-result'>
+                                    <div class="craft-item">
+                                        <img src='image/item/301101.webp'/>
+                                        <span>로딩...</span>
+                                    </div>
+
+                                    <div class='craft-ingre'>
+                                        <div id='craft-ingre11'>
+                                            <div class="craft-item">ingre11 item</div>
+                                        </div>
+
+                                        <br>
+
+                                        <div id='craft-ingre12'>
+                                            <div class="craft-item">ingre12 item</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+
+                                <div id='craft-result'>
+                                    <div class="craft-item">
+                                        <img src='image/item/301101.webp'/>
+                                        <span>로딩...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='hunt' class='cell info'>
+                    <div id='hunt-title' class='fold-title' onclick='fold("hunt");'>
+                        <div id='hunt-fold' class='folder'>▶</div>
+                        사냥
+                    </div>
+
+                    <div id='hunt-content'>
+                        사냥의 경우 확률 50% 이상의 '확정 전리품'은 파란색,<br>
+                        그 이하의 확률은 초록색으로 표시됩니다.
+                        <table id='drop-table'>
+                            <tr class='animal-img'>
+                                <td><img id='chicken' src="image/animal/Chicken.webp"/></td>
+                                <td><img src="image/animal/Bat.webp"/></td>
+                                <td><img src="image/animal/Wild_Boar.webp"/></td>
+                                <td><img src="image/animal/Hound.webp"/></td>
+                            </tr>
+                            <tr id="is-dropped-0" class='is-dropped'>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class='animal-img'>
+                                <td><img src="image/animal/Wolf.webp"/></td>
+                                <td><img src="image/animal/Bear.webp"/></td>
+                                <td><img src="image/animal/Wickeline.webp"/></td>
+                            </tr>
+                            <tr id="is-dropped-1" class='is-dropped'>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+
             </div>
 
-            <div>
-                아이템 패치 버전: 0.22.4 (2020. 12. 30.)<br>
-                이미지 저작권은 님블뉴런에게 있습니다.<br>
-                본 사이트는 크롬에 최적화되어 있습니다. 특히 인터넷 익스플로러는 webp를 지원하지 않으므로 다른 브라우저를 이용해 주십시오.<br>
-                버그 제보 및 문의는 <a href='https://github.com/wani3327/erbsItem/issues'>깃헙</a>이나 <a href='mailto:wani3327@gmail.com'>메일(wani3327@gmail.com)</a>로
+            <div class="column">
+                <div id='stat-info' class='cell info text-inside'>로딩 중..</div>
+
+                <div id='super-info' class="cell info text-inside">
+                    <span>상위 아이템</span>
+                    <div id='super-list'></div>
+                </div>
+
+                <div id='misc-info' class='cell info' style="display: none;">
+                    이 칸에서 제공하는 정보는 현재 서비스 준비 중입니다.
+                    <table id='misc-table'>
+                        <tr>
+                            <td>최소 방문 지역 수</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>최대 스택 개수</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>제공 숙련도</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
 
         <!-- Initializing -->
         <script>
             loadItemList();
-            showRecipe(0);
-            showMap(0);
+            $('#map-content').css('display', 'none');
+            $('#craft-content').css('display', 'none');
+            $('#hunt-content').css('display', 'none');
+            showItem(101101, 0);
             search();
         </script>
 

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ER: BS Item Guide</title>
+        <meta name='description' content="Check out the information and crafting recipes of items in Eternal Return: Black Survival with the various filters.">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="2YbiJGVvGXpMC1Y3sc7OhmrWVl-SEa83TWJh8YId-ew" />
+
+        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+        <link rel="stylesheet" type="text/css" href="css/filter.css"/>
+        <link rel="stylesheet" type="text/css" href="css/itemlist.css"/>
+        <link rel="stylesheet" type="text/css" href="css/info.css"/>
+        <link rel="stylesheet" type="text/css" href="css/map.css"/>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src='src/database_api.js'></script>
+        <script src='src/func.js'></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFJBB0TDP5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-LFJBB0TDP5');
+        </script>
+        <!-- END -->
+        <!-- Internet Explorer Check -->
+        <script>
+            let ua = navigator.userAgent;
+            if (ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1)
+                alert('No Internet Explorer Support')
+        </script>
+        <!-- END -->
+    </head>
+
+    <body>
+        <div id='header'>
+            <div id='menubar'>
+                <div class='left-menu'><a href='index.html'>Item Guide</a></div>
+                <!-- <div class='push'><a>LANGUAGE</a></div> -->
+            </div>
+        </div>
+        <div id="content">
+            <div id='filter'>
+                <div id='by-name' class='filter-tab filter-tab-on' onclick="showFilter('name');">
+                    Search by Name
+                </div>
+                <div id='by-stat' class='filter-tab' onclick="showFilter('stat');">
+                    Search by Stat.
+                </div>
+                <div id='by-area' class='filter-tab' onclick="showFilter('area');">
+                    Search by Area
+                </div>
+
+                <div id="filter-wrapper" class="cell">
+                    <div id="name-filter" class='selectible-filter selectible-filter-on'>
+                        <div id='search'>
+                            <input type="text" placeholder="Search" autofocus>
+                        </div>
+                    </div>
+
+                    <div id='stat-filter' class='selectible-filter' onclick="statFilter();">
+                        <table>
+                            <tr>
+                                <td rowspan="2">Attack</td>
+                                <td>Normal</td>
+                                <td>
+                                    <span><input type="checkbox" id="sEN">
+                                    <label for='sEN'>Extra Normal Atk. Dmg.</label></span>
+                                    <span><input type="checkbox" id="sAS">
+                                    <label for='sAS'>Atk. Speed</label></span>
+                                    <span><input type="checkbox" id="sAR">
+                                    <label for='sAR'>Atk. Range</label></span>
+                                    <span><input type="checkbox" id="sCC">
+                                    <label for='sCC'>Crit. Chance</label></span>
+                                    <span><input type="checkbox" id="sCD">
+                                    <label for='sCD'>Crit. Dmg.</label></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Skill</td>
+                                <td>
+                                    <span><input type="checkbox" id="sSA">
+                                    <label for='sSA'>Skill Amp.</label></span>
+                                    <span><input type="checkbox" id="sCR">
+                                    <label for='sCR'>Cooldown Reduction</label></span>
+                                    <span><input type="checkbox" id="sMS">
+                                    <label for='sMS'>Max SP</label></span>
+                                    <span><input type="checkbox" id="sSR">
+                                    <label for='sSR'>SP Regen.</label></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Defense</td>
+                                <td>
+                                    <span><input type="checkbox" id="sDF">
+                                    <label for='sDF'>Defense</label></span>
+                                    <span><input type="checkbox" id="sMH">
+                                    <label for='sMH'>Max HP</label></span>
+                                    <span><input type="checkbox" id="sHR">
+                                    <label for='sHR'>HP Regen.</label></span>
+                                    <span><input type="checkbox" id="sND">
+                                    <label for='sND'>Normal Atk. Dmg. Reduction</label></span>
+                                    <span><input type="checkbox" id="sSD">
+                                    <label for='sSD'>Skill Dmg. Reduction</label></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Others</td>
+                                <td>
+                                    <span><input type="checkbox" id="sSP">
+                                    <label for='sSP'>Movement Speed</label></span>
+                                    <span><input type="checkbox" id="sVR">
+                                    <label for='sVR'>Vision Range</label></span>
+                                    <span><input type="checkbox" id="sLS">
+                                    <label for='sLS'>Life Steal</label></span>
+                                    <span><input type="checkbox" id="sHNS">
+                                    <label for='sHNS'>Healing Reduction</label></span>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                    <div id='area-filter' class='selectible-filter'>
+                        <div id='area-grid'>
+                            <div id='area-4' class='area' onclick='areaSelect(4)'>Uptown</div>
+                            <div id='area-5' class='area' onclick='areaSelect(5)'>Alley</div>
+                            <div id='area-13' class='area' onclick='areaSelect(13)'>Factory</div>
+                            <div id='area-3' class='area' onclick='areaSelect(3)'>Beach</div>
+                            <div id='area-11' class='area' onclick='areaSelect(11)'>Cemetery</div>
+                            <div id='area-7' class='area' onclick='areaSelect(7)'>Avanue</div>
+                            <div id='area-8' class='area' onclick='areaSelect(8)'>Hospital</div>
+                            <div id='area-14' class='area' onclick='areaSelect(14)'>Church</div>
+                            <div id='area-12' class='area' onclick='areaSelect(12)'>Forest</div>
+                            <div id='area-10' class='area' onclick='areaSelect(10)'>Arch. Range</div>
+                            <div id='area-2' class='area' onclick='areaSelect(2)'>Pond</div>
+                            <div id='area-9' class='area' onclick='areaSelect(9)'>Temple</div>
+                            <div id='area-15' class='area' onclick='areaSelect(15)'>School</div>
+                            <div id='area-1' class='area' onclick='areaSelect(1)'>Dock</div>
+                            <div id='area-6' class='area' onclick='areaSelect(6)'>Hotel</div>
+                        </div>
+                    </div>
+
+                    <div id="type-filter">
+                        <div id='type-all' class="item-type item-type-on" onclick="typeToggle('all')">ALL</div>
+                        <div id='type-weapon'></div>
+                        <div id='type-101' class="item-type" onclick='typeToggle(101)'>Dagger</div>
+                        <div id='type-102' class="item-type" onclick='typeToggle(102)'>Two H. S.</div>
+                        <div id='type-103' class="item-type" onclick='typeToggle(103)'>Dual S.</div>
+                        <div id='type-104' class="item-type" onclick='typeToggle(104)'>Hammer</div>
+                        <div id='type-105' class="item-type" onclick='typeToggle(105)'>Axe</div>
+                        <div id='type-107' class="item-type" onclick='typeToggle(107)'>Spear</div>
+                        <div id='type-108' class="item-type" onclick='typeToggle(108)'>Bat</div>
+                        <div id='type-109' class="item-type" onclick='typeToggle(109)'>Whip</div>
+                        <div id='type-110' class="item-type" onclick='typeToggle(110)'>Glove</div>
+                        <div id='type-111' class="item-type" onclick='typeToggle(111)'>Tonfa</div>
+                        <div id='type-112' class="item-type" onclick='typeToggle(112)'>Throw</div>
+                        <div id='type-113' class="item-type" onclick='typeToggle(113)'>Shuriken</div>
+                        <div id='type-114' class="item-type" onclick='typeToggle(114)'>Bow</div>
+                        <div id='type-115' class="item-type" onclick='typeToggle(115)'>Crossbow</div>
+                        <div id='type-116' class="item-type" onclick='typeToggle(116)'>Pistol</div>
+                        <div id='type-117' class="item-type" onclick='typeToggle(117)'>Asslt. R.</div>
+                        <div id='type-118' class="item-type" onclick='typeToggle(118)'>Sniper R.</div>
+                        <div id='type-119' class="item-type" onclick='typeToggle(119)'>Nunchaku</div>
+                        <div id='type-120' class="item-type" onclick='typeToggle(120)'>Rapier</div>
+                        <div id='type-121' class="item-type" onclick='typeToggle(121)'>Guitar</div>
+                        <div id='type-placeholder1' class="item-type-ph"></div>
+                        <div id='type-armor'></div>
+                        <div id='type-201' class="item-type" onclick='typeToggle(201)'>Head</div>
+                        <div id='type-202' class="item-type" onclick='typeToggle(202)'>Chest</div>
+                        <div id='type-203' class="item-type" onclick='typeToggle(203)'>Arm</div>
+                        <div id='type-204' class="item-type" onclick='typeToggle(204)'>Leg</div>
+                        <div id='type-205' class="item-type" onclick='typeToggle(205)'>Acce.</div>
+                        <div id='type-placeholder2' class="item-type-ph"></div>
+                        <div id='type-other'></div>
+                        <div id='type-301' class="item-type" onclick='typeToggle(301)'>Bevarage</div>
+                        <div id='type-302' class="item-type" onclick='typeToggle(302)'>Food</div>
+                        <div id='type-401' class="item-type" onclick='typeToggle(401)'>Material</div>
+                        <div id='type-502' class="item-type" onclick='typeToggle(502)'>Summon</div>
+                        <div id='type-placeholder3' class="item-type-ph"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <!-- Item icon shows here -->
+                <div id='item-list' class='cell info'>
+                    <div>
+                        <img src='image/item/301107.webp'/>
+                        <span>Loading...</span>
+                    </div>
+                    <div>
+                        <img src='image/item/301101.webp'/>
+                        <span>Loading...</span>
+                    </div>
+                    <div>
+                        <img src='image/item/301107.webp'/>
+                        <span>Loading...</span>
+                    </div>
+                    <div>
+                        <img src='image/item/301101.webp'/>
+                        <span>Loading...</span>
+                    </div>
+                </div>
+
+                <div class='cell info'>
+                    <li>이미지 저작권은 님블뉴런에게 있습니다.</li>
+                    <li>본 사이트는 크롬에 최적화되어 있습니다. 특히 인터넷 익스플로러는 webp를 지원하지 않으므로 다른 브라우저를 이용해 주십시오.</li>
+                    <li>버그 제보 및 문의는 <a href='https://github.com/wani3327/erbsItem/issues'>깃헙</a>이나 <a href='mailto:wani3327@gmail.com'>메일(wani3327@gmail.com)</a>로</li>
+                </div>
+            </div>
+
+            <div class="column">
+                <div id='prev' class='cell info' onclick="goBack();">◀ 방금 본 아이템 다시 보기</div>
+
+                <div id='basic-info' class='cell info'>
+                    <div id="item-image" >
+                        <img src=''/>
+                    </div>
+                    <div id='item-name'></div>
+                    <div id='type-info'></div>
+                </div>
+
+                <!-- Map shows here -->
+                <div id="map" class='cell info'>
+                    <div id='map-title' class='fold-title' onclick='fold("map");'>
+                        <div id='map-fold' class='folder'>▶</div>
+                        탐색
+                    </div>
+
+                    <div id='map-content'>
+                        <img id="map-img" src="image/map.webp" width="100%">
+
+                        <!-- Whole areas -->
+                        <div id='map-5' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-10' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-7' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-3' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-11' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-14' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-1' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-13' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-12' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-8' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-6' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-2' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-15' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-9' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+                        <div id='map-4' class='spawn-area'>
+                            <img class='itemIcon'/>
+                            <span></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id='craft' class='cell info'>
+                    <div id='craft-title' class='fold-title' onclick='fold("craft");'>
+                        <div id='craft-fold' class='folder'>▶</div>
+                        제작
+                    </div>
+
+                    <div id='craft-content'>
+                        <div class='craft-result'>
+                            <div class="craft-item">
+                                <img src='image/item/301101.webp'/>
+                                <span>로딩...</span>
+                            </div>
+
+                            <div class='craft-ingre'>
+                                <div class='craft-result'>
+                                    <div class="craft-item">
+                                        <img src='image/item/301101.webp'/>
+                                        <span>로딩...</span>
+                                    </div>
+
+                                    <div class='craft-ingre'>
+                                        <div id='craft-ingre11'>
+                                            <div class="craft-item">ingre11 item</div>
+                                        </div>
+
+                                        <br>
+
+                                        <div id='craft-ingre12'>
+                                            <div class="craft-item">ingre12 item</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+
+                                <div id='craft-result'>
+                                    <div class="craft-item">
+                                        <img src='image/item/301101.webp'/>
+                                        <span>로딩...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='hunt' class='cell info'>
+                    <div id='hunt-title' class='fold-title' onclick='fold("hunt");'>
+                        <div id='hunt-fold' class='folder'>▶</div>
+                        사냥
+                    </div>
+
+                    <div id='hunt-content'>
+                        사냥의 경우 확률 50% 이상의 '확정 전리품'은 파란색,<br>
+                        그 이하의 확률은 초록색으로 표시됩니다.
+                        <table id='drop-table'>
+                            <tr class='animal-img'>
+                                <td><img id='chicken' src="image/animal/Chicken.webp"/></td>
+                                <td><img src="image/animal/Bat.webp"/></td>
+                                <td><img src="image/animal/Wild_Boar.webp"/></td>
+                                <td><img src="image/animal/Hound.webp"/></td>
+                            </tr>
+                            <tr id="is-dropped-0" class='is-dropped'>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class='animal-img'>
+                                <td><img src="image/animal/Wolf.webp"/></td>
+                                <td><img src="image/animal/Bear.webp"/></td>
+                                <td><img src="image/animal/Wickeline.webp"/></td>
+                            </tr>
+                            <tr id="is-dropped-1" class='is-dropped'>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="column">
+                <div id='stat-info' class='cell info text-inside'>로딩 중..</div>
+
+                <div id='super-info' class="cell info text-inside">
+                    <span>상위 아이템</span>
+                    <div id='super-list'></div>
+                </div>
+
+                <div id='misc-info' class='cell info' style="display: none;">
+                    이 칸에서 제공하는 정보는 현재 서비스 준비 중입니다.
+                    <table id='misc-table'>
+                        <tr>
+                            <td>최소 방문 지역 수</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>최대 스택 개수</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>제공 숙련도</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Initializing -->
+        <script>
+            loadItemList();
+            $('#map-content').css('display', 'none');
+            $('#craft-content').css('display', 'none');
+            $('#hunt-content').css('display', 'none');
+            showItem(101101, 0);
+            search();
+        </script>
+
+    </body>
+</html>

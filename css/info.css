@@ -1,0 +1,245 @@
+#prev {
+    font-weight: 700;
+    padding: 2px;
+    display: inline-block;
+    width: auto;
+}
+
+
+.info {
+    margin-bottom: 5px;
+}
+
+#basic-info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#item-image {
+    width: 40%;
+    display: inline-block;
+}
+
+#item-image > img {
+    width: 100%;
+}
+
+#item-name {
+    width: 55%;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.text-inside {
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#type-info {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    /* font-weight: 600; */
+    font-size: 1.1em;
+}
+
+#stat-info {
+    height: 143.5px;
+}
+
+#super-info > span {
+    white-space: nowrap;
+}
+
+#super-list {
+    margin: 2px;
+    width: 100%;
+    display: block;
+}
+
+#super-list > div {
+    width: 97%;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+#super-list > div > div {
+    width: 27%;
+    font-size: 0.8em;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+#super-list > div > div:hover {
+    width: 27%;
+    font-size: 0.8em;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    font-weight: 700;
+}
+
+#super-list > div > span {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#super-list > div > div > img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#misc-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#misc-table > tbody > tr > td {
+    border: 1px solid white;
+}
+
+#super {
+    height: 63px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#super > p {
+    display: none;
+    font-weight: 700;
+    margin: 2px;
+    width: 90%;
+}
+
+#super > img {
+    width: 110px;
+    cursor: pointer;
+    margin: 2px;
+    display: inline;
+}
+
+#recipe {
+    text-align: center;
+    height: 47%;
+}
+
+span {
+    white-space: nowrap;
+}
+
+#final {
+    position: absolute;
+    width: 20%;
+    top: 5%;
+    left: 40%;
+}
+
+#ingre11 {
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 20%;
+}
+
+#ingre12 {
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 65%;
+}
+
+#ingre21 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 10%;
+}
+
+#ingre22 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 35%;
+}
+
+#ingre23 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 55%;
+}
+
+#ingre24 {
+    position: absolute;
+    width: 10%;
+    top: 75%;
+    left: 80%;
+}
+
+#amount1 {
+    position: absolute;
+    width: 5%;
+    top: 40%;
+    left: 47.5%;
+    border-style: solid;
+    font-size: 80%;
+}
+
+#amount2 {
+    position: absolute;
+    width: 5%;
+    top: 75%;
+    left: 25%;
+    border-style: solid;
+    font-size: 80%;
+}
+
+#amount3 {
+    position: absolute;
+    width: 5%;
+    top: 75%;
+    left: 70%;
+    border-style: solid;
+    font-size: 80%;
+}
+
+#stat {
+    height: 35%;
+}
+
+/* for mobile */
+@media screen and (max-width: 800px) {
+    #super {
+        height: auto;
+    }
+
+    #super > p {
+        display: block;
+    }
+
+    #super > img {
+        width: 24.5%;
+        height: initial;
+    }
+
+    #recipe {
+        height: 320px;
+    }
+
+    #stat {
+        height: auto;
+    }
+}

@@ -1,35 +1,72 @@
-"""
-search query
-"""
+import math
 
-# 초성 리스트. 00 ~ 18
-CHOSUNG_LIST = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
-# 중성 리스트. 00 ~ 20
-JUNGSUNG_LIST = ['ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅗㅏ', 'ㅗㅐ', 'ㅗㅣ', 'ㅛ', 'ㅜ', 'ㅜㅓ', 'ㅜㅔ', 'ㅜㅣ', 'ㅠ', 'ㅡ', 'ㅡㅣ', 'ㅣ']
-# 종성 리스트. 00 ~ 27 + 1(1개 없음)
-JONGSUNG_LIST = ['', 'ㄱ', 'ㄲ', 'ㄱㅅ', 'ㄴ', 'ㄴㅈ', 'ㄴㅎ', 'ㄷ', 'ㄹ', 'ㄹㄱ', 'ㄹㅁ', 'ㄹㅂ', 'ㄹㅅ', 'ㄹㅌ', 'ㄹㅍ', 'ㄹㅎ', 'ㅁ', 'ㅂ', 'ㅂㅅ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
+def type_tr(t):
+    return {
+        'OneHandSword': 15, 'TwoHandSword': 16, 'DualSword': 18, 'Hammer': 13,
+        'Axe': 14, 'Spear': 19, 'Bat': 3, 'Whip': 4,
+        'Glove': 1, 'Tonfa': 2, 'HighAngleFire': 5, 'DirectFire': 6,
+        'Bow': 7, 'CrossBow': 8, 'Pistol': 9, 'AssaultRifle': 10,
+        'SniperRifle': 11, 'Nunchaku': 20, 'Rapier': 21, 'Guitar': 22
+    }[t]
 
-def shatter(korean_word):
-    """
-    https://frhyme.github.io/python/python_korean_englished/
-    변형해서 사용.
-    """
+def grade_tr(g):
+    return {'Common': 0, 'Uncommon': 1, 'Rare': 2, 'Epic': 3, 'Legend': 4}[g]
 
-    r_lst = []
-    for w in list(korean_word.strip()):
-        ## 영어인 경우 구분해서 작성함.
-        if '가'<=w<='힣':
-            ## 588개 마다 초성이 바뀜.
-            ch1 = (ord(w) - ord('가'))//588
-            ## 중성은 총 28가지 종류
-            ch2 = ((ord(w) - ord('가')) - (588*ch1)) // 28
-            ch3 = (ord(w) - ord('가')) - (588*ch1) - 28*ch2
-            r_lst.extend(CHOSUNG_LIST[ch1] + JUNGSUNG_LIST[ch2] + JONGSUNG_LIST[ch3])
-        else:
-            r_lst.append(w)
+def craft_tr(c1, c2, a):
+    return 0 if c1 == 0 else [c1, c2] if a == 1 else [c1, c2, a]
 
-    res = ''
-    for w in r_lst:
-        res += w
+def stat_sum(i):
+    statType = [
+        ['attackPower', 'AP ', ','],
 
-    return res
+        ['increaseBasicAttackDamage', 'EN ', ','],
+        ['attackSpeedRatio', 'AS ', '%,'],
+        ['criticalStrikeChance', 'CC ', '%,'],
+        ['criticalStrikeDamage', 'CD ', '%,'],
+        ['attackRange', 'AR ', ','],
+
+        ['increaseSkillDamage', 'SA ', ','],
+        ['increaseSkillDamageRatio', 'SA ', '%,'],
+        ['cooldownReduction', 'CR ', '%,'],
+        ["maxSp", 'MS ', ','],
+        ['spRegenRatio', 'SR ', '%,'],
+        ['spRegen', 'SR ', ','],
+
+        ['defense', 'DF ', ','],
+        ['maxHp', 'MH ', ','],
+        ['hpRegenRatio', 'HR ', '%,'],
+        ['hpRegen', 'MS ', ','],
+        ["preventBasicAttackDamaged", 'ND ', ','],
+        ["preventSkillDamagedRatio", 'SD ', '%,'],
+
+        ['moveSpeed', 'SP ', ','],
+        ["outOfCombatMoveSpeed", 'SO ', ','],
+        ['sightRange', 'VR ', ','],
+        ['lifeSteal', 'LS ', '%,'],
+        ['decreaseRecoveryToBasicAttack', 'HN ', '%,'],
+        ['decreaseRecoveryToSkill', 'HS ', '%,']
+    ]
+
+    def itoa_w_plus(n):
+        return ('+' if n > 0 else '') + str(n)
+
+    stat = ''
+
+    for key, code, comma in statType:
+        try:
+            if i[key]:
+                if comma[0] == '%':
+                    stat += code + itoa_w_plus(math.floor(i[key] * 100)) + comma
+                else:
+                    stat += code + itoa_w_plus(i[key]) + comma
+        except KeyError:
+            pass
+
+    return stat
+
+def heal_tr(i):
+    if i["consumableType"] == "Beverage":
+        return 'SR +' + str(i['spRecover'])
+    else:
+        return 'HR +' + str(i['hpRecover'])
+

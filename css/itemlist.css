@@ -1,5 +1,5 @@
-#itemList {
-    height: 99.8%;
+#item-list {
+    height: 110%;
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-#itemList > div {
+#item-list > div {
     width: 110px;
     cursor: pointer;
     display: inline-block;
@@ -19,13 +19,24 @@
     margin-bottom: 3px;
 }
 
-div.dummy {
-    display: none;
+#item-list > div:hover {
+    font-weight: 700;
 }
 
-#itemList > div > img {
+div.dummy {
+    border-color: transparent;
+    cursor: initial!important;
+}
+
+#found-nothing {
+    width: 90%!important;
+    cursor: initial!important;
+    font-size: 1rem;
+    font-weight: 500!important;
+}
+
+#item-list > div > img {
     width: 100%;
-    cursor: pointer;
     margin-bottom: -3px;
 }
 
@@ -51,11 +62,11 @@ div.legendaryItem {
 
 /* for mobile */
 @media screen and (max-width: 800px) {
-    #itemList {
+    #item-list {
         height: 320px;
     }
 
-    #itemList > div {
+    #item-list > div {
         width: 23%;
     }
 }

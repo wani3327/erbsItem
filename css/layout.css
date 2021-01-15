@@ -6,73 +6,59 @@ html {
 
 body {
     height: 100%;
+    margin: 0px;
 }
 
+#header {
+    background-color: darkorange;
+    margin-bottom: 10px;
+}
+
+#menubar {
+    width: 1490px;
+    height: 50px;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menubar > div {
+    display: inline-block;
+    cursor: pointer;
+    /* margin-top: 4px; */
+}
+
+
+
+.left-menu {
+    margin-right: 10px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+/* .rightMenu { */
+    /* margin-left: 10px; */
+/* } */
+
 #content {
-    width: 1497px;
+    width: 1490px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-
-#all {
-    height: 6em;
-    border-color: #288ca8;
-}
-
-#itemType > div {
-    position: absolute;
-    top: 1px;
-    margin-left: 2px;
-    display: inline-block;
-}
-
-#itemType > div > img {
-    height: 2.8em;
-    cursor: pointer;
-    vertical-align: middle;
-    border-color: #288ca8;
-    margin: 1px;
-}
-
-#statFilter > table {
-    display: inline;
-}
-
-label {
-    white-space: nowrap;
-}
-
-#sCaution {
-    font-size: 0.9em;
-    position: absolute;
-    right: 15px;
-    top: 2px;
-    font-weight: 700;
-}
-
-#search {
-    position: absolute;
-    display: inline;
-    right: 15px;
-    top: 25%;
-    width: 23%;
-    height: 40%;
-    border: 1px solid #288ca8;
-    background: #ffffff;
-}
-
-#search > input {
-    width: 93%;
-    padding: 10px;
-    border: 0px;
-    outline: none;
-    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
 }
 
 .column {
     vertical-align: top;
-    width: 495px;
+    width: 33%;
     height: 70%;
     display: inline-block;
     margin-bottom: 5px;
@@ -81,7 +67,6 @@ label {
 .cell {
     border-style: solid;
     position: relative;
-    margin: 2px;
     display: block;
 }
 
@@ -114,22 +99,13 @@ a:active {
 
 /* for mobile */
 @media screen and (max-width: 800px) {
+    #menubar {
+        width: 100%;
+    }
+
     #content {
-        width: initial;
+        width: 100%;
         height: auto;
-    }
-
-    #all {
-        height: 2.8em;
-    }
-
-    #itemType > div {
-        position: static;
-        display: block;
-    }
-
-    #sCaution {
-        position: static;
     }
 
     #search {
