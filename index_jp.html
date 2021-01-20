@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ER: BS Item Guide</title>
-        <meta name='description' content="Check out the information and crafting recipes of items in Eternal Return: Black Survival with the various filters.">
+        <title>BS: ER アイテム情報</title>
+        <meta name='description' content="">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="2YbiJGVvGXpMC1Y3sc7OhmrWVl-SEa83TWJh8YId-ew" />
@@ -41,86 +41,86 @@
     <body>
         <div id='header'>
             <div id='menubar'>
-                <div class='left-menu'><a href='index.html'>Item Guide</a></div>
+                <div class='left-menu'><a href='index.html'>아이템 도감: ERIT.INFO</a></div>
                 <!-- <div class='push'><a>LANGUAGE</a></div> -->
             </div>
         </div>
         <div id="content">
             <div id='filter'>
                 <div id='by-name' class='filter-tab filter-tab-on' onclick="showFilter('name');">
-                    Search by Name
+                    名前で探す
                 </div>
                 <div id='by-stat' class='filter-tab' onclick="showFilter('stat');">
-                    Search by Stat.
+                    能力値で探す
                 </div>
                 <div id='by-area' class='filter-tab' onclick="showFilter('area');">
-                    Search by Area
+                    地域で探す
                 </div>
 
                 <div id="filter-wrapper" class="cell">
                     <div id="name-filter" class='selectible-filter selectible-filter-on'>
                         <div id='search'>
-                            <input type="text" placeholder="Search" autofocus>
+                            <input type="text" placeholder="アイテム検索" autofocus>
                         </div>
                     </div>
 
                     <div id='stat-filter' class='selectible-filter' onclick="statFilter();">
                         <table>
                             <tr>
-                                <td rowspan="2">Attack</td>
-                                <td>Normal</td>
+                                <td rowspan="2">攻撃</td>
+                                <td>基本</td>
                                 <td>
                                     <span><input type="checkbox" id="sEN">
-                                    <label for='sEN'>Ex. Norm. Atk. Dmg.</label></span>
+                                    <label for='sEN'>기본 공격 추가 피해</label></span>
                                     <span><input type="checkbox" id="sAS">
-                                    <label for='sAS'>Atk. Speed</label></span>
+                                    <label for='sAS'>공격 속도</label></span>
                                     <span><input type="checkbox" id="sAR">
-                                    <label for='sAR'>Atk. Range</label></span>
+                                    <label for='sAR'>사거리</label></span>
                                     <span><input type="checkbox" id="sCC">
-                                    <label for='sCC'>Crit. Chance</label></span>
+                                    <label for='sCC'>치명타 확률</label></span>
                                     <span><input type="checkbox" id="sCD">
-                                    <label for='sCD'>Crit. Dmg.</label></span>
+                                    <label for='sCD'>치명타 피해량</label></span>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Skill</td>
+                                <td>スキル</td>
                                 <td>
                                     <span><input type="checkbox" id="sSA">
-                                    <label for='sSA'>Skill Amp.</label></span>
+                                    <label for='sSA'>스킬 증폭</label></span>
                                     <span><input type="checkbox" id="sCR">
-                                    <label for='sCR'>Cooldown Reduc.</label></span>
+                                    <label for='sCR'>쿨타임 감소</label></span>
                                     <span><input type="checkbox" id="sMS">
-                                    <label for='sMS'>Max SP</label></span>
+                                    <label for='sMS'>최대 스태미너</label></span>
                                     <span><input type="checkbox" id="sSR">
-                                    <label for='sSR'>SP Regen.</label></span>
+                                    <label for='sSR'>스태미너 재생</label></span>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2">Defense</td>
+                                <td colspan="2">防衛</td>
                                 <td>
                                     <span><input type="checkbox" id="sDF">
-                                    <label for='sDF'>Defense</label></span>
+                                    <label for='sDF'>방어력</label></span>
                                     <span><input type="checkbox" id="sMH">
-                                    <label for='sMH'>Max HP</label></span>
+                                    <label for='sMH'>최대 체력</label></span>
                                     <span><input type="checkbox" id="sHR">
-                                    <label for='sHR'>HP Regen.</label></span>
+                                    <label for='sHR'>체력 재생</label></span>
                                     <span><input type="checkbox" id="sND">
-                                    <label for='sND'>Norm. Atk. Dmg. Reduction</label></span>
+                                    <label for='sND'>기본 공격 피해량 감소</label></span>
                                     <span><input type="checkbox" id="sSD">
-                                    <label for='sSD'>Skill Dmg. Reduction</label></span>
+                                    <label for='sSD'>스킬 피해량 감소</label></span>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2">Others</td>
+                                <td colspan="2">その他</td>
                                 <td>
                                     <span><input type="checkbox" id="sSP">
-                                    <label for='sSP'>Movement Speed</label></span>
+                                    <label for='sSP'>이동 속도</label></span>
                                     <span><input type="checkbox" id="sVR">
-                                    <label for='sVR'>Vision Range</label></span>
+                                    <label for='sVR'>시야</label></span>
                                     <span><input type="checkbox" id="sLS">
-                                    <label for='sLS'>Life Steal</label></span>
+                                    <label for='sLS'>생명력 흡수</label></span>
                                     <span><input type="checkbox" id="sHNS">
-                                    <label for='sHNS'>Healing Reduc.</label></span>
+                                    <label for='sHNS'>치유 감소</label></span>
                                 </td>
                             </tr>
 
@@ -130,60 +130,60 @@
 
                     <div id='area-filter' class='selectible-filter'>
                         <div id='area-grid'>
-                            <div id='area-4' class='area' onclick='areaSelect(4)'>Uptown</div>
-                            <div id='area-5' class='area' onclick='areaSelect(5)'>Alley</div>
-                            <div id='area-13' class='area' onclick='areaSelect(13)'>Factory</div>
-                            <div id='area-3' class='area' onclick='areaSelect(3)'>Beach</div>
-                            <div id='area-11' class='area' onclick='areaSelect(11)'>Cemetery</div>
-                            <div id='area-7' class='area' onclick='areaSelect(7)'>Avanue</div>
-                            <div id='area-8' class='area' onclick='areaSelect(8)'>Hospital</div>
-                            <div id='area-14' class='area' onclick='areaSelect(14)'>Church</div>
-                            <div id='area-12' class='area' onclick='areaSelect(12)'>Forest</div>
-                            <div id='area-10' class='area' onclick='areaSelect(10)'>Ar. Range</div>
-                            <div id='area-2' class='area' onclick='areaSelect(2)'>Pond</div>
-                            <div id='area-9' class='area' onclick='areaSelect(9)'>Temple</div>
-                            <div id='area-15' class='area' onclick='areaSelect(15)'>School</div>
-                            <div id='area-1' class='area' onclick='areaSelect(1)'>Dock</div>
-                            <div id='area-6' class='area' onclick='areaSelect(6)'>Hotel</div>
+                            <div id='area-4' class='area' onclick='areaSelect(4)'>고급주택가</div>
+                            <div id='area-5' class='area' onclick='areaSelect(5)'>골목길</div>
+                            <div id='area-13' class='area' onclick='areaSelect(13)'>공장</div>
+                            <div id='area-3' class='area' onclick='areaSelect(3)'>모래사장</div>
+                            <div id='area-11' class='area' onclick='areaSelect(11)'>묘지</div>
+                            <div id='area-7' class='area' onclick='areaSelect(7)'>번화가</div>
+                            <div id='area-8' class='area' onclick='areaSelect(8)'>病院</div>
+                            <div id='area-14' class='area' onclick='areaSelect(14)'>성당</div>
+                            <div id='area-12' class='area' onclick='areaSelect(12)'>森</div>
+                            <div id='area-10' class='area' onclick='areaSelect(10)'>양궁장</div>
+                            <div id='area-2' class='area' onclick='areaSelect(2)'>연못</div>
+                            <div id='area-9' class='area' onclick='areaSelect(9)'>절</div>
+                            <div id='area-15' class='area' onclick='areaSelect(15)'>学校</div>
+                            <div id='area-1' class='area' onclick='areaSelect(1)'>항구</div>
+                            <div id='area-6' class='area' onclick='areaSelect(6)'>ホテル</div>
                         </div>
                     </div>
 
                     <div id="type-filter">
                         <div id='type-all' class="item-type item-type-on" onclick="typeToggle('all')">ALL</div>
                         <div id='type-weapon'></div>
-                        <div id='type-101' class="item-type" onclick='typeToggle(101)'>Dagger</div>
-                        <div id='type-102' class="item-type" onclick='typeToggle(102)'>Two H. S.</div>
-                        <div id='type-103' class="item-type" onclick='typeToggle(103)'>Dual S.</div>
-                        <div id='type-104' class="item-type" onclick='typeToggle(104)'>Hammer</div>
-                        <div id='type-105' class="item-type" onclick='typeToggle(105)'>Axe</div>
-                        <div id='type-107' class="item-type" onclick='typeToggle(107)'>Spear</div>
-                        <div id='type-108' class="item-type" onclick='typeToggle(108)'>Bat</div>
-                        <div id='type-109' class="item-type" onclick='typeToggle(109)'>Whip</div>
-                        <div id='type-110' class="item-type" onclick='typeToggle(110)'>Glove</div>
-                        <div id='type-111' class="item-type" onclick='typeToggle(111)'>Tonfa</div>
-                        <div id='type-112' class="item-type" onclick='typeToggle(112)'>Throw</div>
-                        <div id='type-113' class="item-type" onclick='typeToggle(113)'>Shuri.</div>
-                        <div id='type-114' class="item-type" onclick='typeToggle(114)'>Bow</div>
-                        <div id='type-115' class="item-type" onclick='typeToggle(115)'>Crossb.</div>
-                        <div id='type-116' class="item-type" onclick='typeToggle(116)'>Pistol</div>
-                        <div id='type-117' class="item-type" onclick='typeToggle(117)'>Asslt. R.</div>
-                        <div id='type-118' class="item-type" onclick='typeToggle(118)'>Sniper R.</div>
-                        <div id='type-119' class="item-type" onclick='typeToggle(119)'>Nuncha.</div>
-                        <div id='type-120' class="item-type" onclick='typeToggle(120)'>Rapier</div>
-                        <div id='type-121' class="item-type" onclick='typeToggle(121)'>Guitar</div>
+                        <div id='type-101' class="item-type" onclick='typeToggle(101)'>短剣</div>
+                        <div id='type-102' class="item-type" onclick='typeToggle(102)'>両手剣</div>
+                        <div id='type-103' class="item-type" onclick='typeToggle(103)'>デュアル</div>
+                        <div id='type-104' class="item-type" onclick='typeToggle(104)'>金槌</div>
+                        <div id='type-105' class="item-type" onclick='typeToggle(105)'>斧</div>
+                        <div id='type-107' class="item-type" onclick='typeToggle(107)'>槍</div>
+                        <div id='type-108' class="item-type" onclick='typeToggle(108)'>バット</div>
+                        <div id='type-109' class="item-type" onclick='typeToggle(109)'>鞭</div>
+                        <div id='type-110' class="item-type" onclick='typeToggle(110)'>グローブ</div>
+                        <div id='type-111' class="item-type" onclick='typeToggle(111)'>トンファー</div>
+                        <div id='type-112' class="item-type" onclick='typeToggle(112)'>投げ</div>
+                        <div id='type-113' class="item-type" onclick='typeToggle(113)'>暗器</div>
+                        <div id='type-114' class="item-type" onclick='typeToggle(114)'>弓</div>
+                        <div id='type-115' class="item-type" onclick='typeToggle(115)'>石弓</div>
+                        <div id='type-116' class="item-type" onclick='typeToggle(116)'>拳銃</div>
+                        <div id='type-117' class="item-type" onclick='typeToggle(117)'>突撃小銃</div>
+                        <div id='type-118' class="item-type" onclick='typeToggle(118)'>狙撃銃</div>
+                        <div id='type-119' class="item-type" onclick='typeToggle(119)'>双節棍</div>
+                        <div id='type-120' class="item-type" onclick='typeToggle(120)'>レイピア</div>
+                        <div id='type-121' class="item-type" onclick='typeToggle(121)'>ギター</div>
                         <div id='type-placeholder1' class="item-type-ph"></div>
                         <div id='type-armor'></div>
-                        <div id='type-201' class="item-type" onclick='typeToggle(201)'>Head</div>
-                        <div id='type-202' class="item-type" onclick='typeToggle(202)'>Chest</div>
-                        <div id='type-203' class="item-type" onclick='typeToggle(203)'>Arm</div>
-                        <div id='type-204' class="item-type" onclick='typeToggle(204)'>Leg</div>
-                        <div id='type-205' class="item-type" onclick='typeToggle(205)'>Acce.</div>
+                        <div id='type-201' class="item-type" onclick='typeToggle(201)'>頭</div>
+                        <div id='type-202' class="item-type" onclick='typeToggle(202)'>服</div>
+                        <div id='type-203' class="item-type" onclick='typeToggle(203)'>腕</div>
+                        <div id='type-204' class="item-type" onclick='typeToggle(204)'>脚</div>
+                        <div id='type-205' class="item-type" onclick='typeToggle(205)'>装飾</div>
                         <div id='type-placeholder2' class="item-type-ph"></div>
                         <div id='type-other'></div>
-                        <div id='type-301' class="item-type" onclick='typeToggle(301)'>Bevara.</div>
-                        <div id='type-302' class="item-type" onclick='typeToggle(302)'>Food</div>
-                        <div id='type-401' class="item-type" onclick='typeToggle(401)'>Materi.</div>
-                        <div id='type-502' class="item-type" onclick='typeToggle(502)'>Summon</div>
+                        <div id='type-301' class="item-type" onclick='typeToggle(301)'>飲み物</div>
+                        <div id='type-302' class="item-type" onclick='typeToggle(302)'>食べ物</div>
+                        <div id='type-401' class="item-type" onclick='typeToggle(401)'>재료</div>
+                        <div id='type-502' class="item-type" onclick='typeToggle(502)'>설치</div>
                         <div id='type-placeholder3' class="item-type-ph"></div>
                     </div>
                 </div>

@@ -310,6 +310,7 @@ Mithril Shield,미스릴 방패,,,EOL
 Vital Sign Sensor,바이탈 센서,,,EOL
 Creed of the Knight,기사의 신조,,,EOL
 Sword of Shah Jahan,샤자한의 검집,,,EOL
+Burnished Aegis,아이기스의 방패,,,EOL
 Bracelet of Skadi,스카디의 팔찌,,,EOL
 Radar,레이더,,,EOL
 Auto-arms,오토-암즈,오토암즈,,EOL
@@ -359,7 +360,7 @@ Powder of Life,생명의 가루,,,EOL
 Uchiwa,우치와,,,EOL
 Magazine,탄창,,,EOL
 Laced Quiver,궁기병의 화살통,,,EOL
-Revenge of Goujian,월왕구천,,,
+Revenge of Goujian,월왕구천,,,EOL
 Moonlight Pendant,달빛 펜던트,,,EOL
 Schrodinger's Box,슈뢰딩거의 상자,,,EOL
 Veritas Lux Mea,진리는 나의 빛,,,EOL
@@ -369,8 +370,8 @@ Emerald Tablet,에메랄드 타블렛,,,EOL
 Stone,돌멩이,,,EOL
 Glass Bottle,유리병,,SI 치명타 확률을 부여합니다.,EOL
 Nail,못,,SI 치유 감소를 부여합니다.,EOL
-Leather,가죽,,상위 방어구에 스킬 피해량 감소를 부여합니다.,EOL
-Turtle Shell,거북이 등딱지,,,EOL
+Leather,가죽,,,EOL
+Turtle Shell,거북이 등딱지,,상위 방어구에 스킬 피해량 감소를 부여합니다.,EOL
 Rubber,고무,,,EOL
 Scrap Metal,고철,,,EOL
 Lighter,라이터,,,EOL

@@ -342,7 +342,8 @@ function showItemInfo(code)
             'HN': '기본 공격 적중 시 치유 감소',
             'HS': '스킬 적중 시 치유 감소',
             'MA': '장탄수',
-            'SI': '상위 아이템에'
+            'SI': '상위 아이템에',
+            '00': ''
         }[ss] + stat_raw[s].slice(2) + '<br>'
     }
 
