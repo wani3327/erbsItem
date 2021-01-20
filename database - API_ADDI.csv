@@ -269,28 +269,28 @@ EOD Suit,EOD 슈트,이오디슈트,,EOL
 Blazing Dress,불꽃 드레스,,,EOL
 Kabana,카바나,,,EOL
 Queen of Hearts,퀸 오브 하트,,,EOL
-Hairband,머리띠,,,EOL
-Hat,모자,,,EOL
-Bike Helmet,자전거 헬멧,,,EOL
-Mask,가면,,,EOL
-Circlet,머리테,,,EOL
-Beret,베레모,,,EOL
-Chain Coif,사슬 코이프,,,EOL
-Safety Helmet,안전모,,,EOL
-Ballistic Helmet,방탄모,,,EOL
-Fire Helmet,소방 헬멧,,,EOL
-Tiara,티아라,,,EOL
-Crown,왕관,,,EOL
-Close Helm,투구,,,EOL
-Motorcycle Helmet,오토바이 헬멧,,,EOL
-Mithril Helm,미스릴 투구,,,EOL
-Crystal Tiara,수정 티아라,,,EOL
-Tactical OPS Helmet,전술-OPS 헬멧,,,EOL
-Helm of Banneret,기사단장의 투구,,,EOL
-Imperial Crown,제국왕관,,,EOL
-Imperial Burgonet,황실 부르고넷,,,EOL
-Chinese Opera Mask,변검,,,EOL
-Laurel Wreath,월계관,,,EOL
+Hairband,머리띠,,AL +2%,EOL
+Hat,모자,,AL +2%,EOL
+Bike Helmet,자전거 헬멧,,AL +2%,EOL
+Mask,가면,,AL +4%,EOL
+Circlet,머리테,,AL +4%,EOL
+Beret,베레모,,AL +4%,EOL
+Chain Coif,사슬 코이프,,AL +4%,EOL
+Safety Helmet,안전모,,AL +4%,EOL
+Ballistic Helmet,방탄모,,AL +7%,EOL
+Fire Helmet,소방 헬멧,,AL +7%,EOL
+Tiara,티아라,,AL +7%,EOL
+Crown,왕관,,AL +7%,EOL
+Close Helm,투구,,AL +7%,EOL
+Motorcycle Helmet,오토바이 헬멧,,AL +7%,EOL
+Mithril Helm,미스릴 투구,,AL +10%,EOL
+Crystal Tiara,수정 티아라,,AL +10%,EOL
+Tactical OPS Helmet,전술-OPS 헬멧,,AL +10%,EOL
+Helm of Banneret,기사단장의 투구,,AL +10%,EOL
+Imperial Crown,제국왕관,,AL +10%,EOL
+Imperial Burgonet,황실 부르고넷,,AL +10%,EOL
+Chinese Opera Mask,변검,,AL +10%,EOL
+Laurel Wreath,월계관,,AL +10%,EOL
 Watch,손목시계,,,EOL
 Bandage,붕대,,,EOL
 Deleted2,토시,,,EOL

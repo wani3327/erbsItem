@@ -343,7 +343,8 @@ function showItemInfo(code)
             'HS': '스킬 적중 시 치유 감소',
             'MA': '장탄수',
             'SI': '상위 아이템에',
-            '00': ''
+            '00': '',
+            'AL': '치명타 피해량 감소'
         }[ss] + stat_raw[s].slice(2) + '<br>'
     }
 
