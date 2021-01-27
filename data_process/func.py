@@ -35,7 +35,7 @@ def stat_sum(i):
         ['defense', 'DF ', ','],
         ['maxHp', 'MH ', ','],
         ['hpRegenRatio', 'HR ', '%,'],
-        ['hpRegen', 'MS ', ','],
+        ['hpRegen', 'HR ', ','],
         ["preventBasicAttackDamaged", 'ND ', ','],
         ["preventSkillDamagedRatio", 'SD ', '%,'],
 
