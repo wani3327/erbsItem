@@ -211,6 +211,7 @@
                 </div>
 
                 <div class='cell info'>
+                    <li><b>DB 최종 업데이트 시각: <span id='time'></span></b></li>
                     <li>이미지 저작권은 님블뉴런에게 있습니다.</li>
                     <li>본 사이트는 크롬에 최적화되어 있습니다. 특히 인터넷 익스플로러는 webp를 지원하지 않으므로 다른 브라우저를 이용해 주십시오.</li>
                     <li>버그 제보 및 문의는 <a href='https://github.com/wani3327/erbsItem/issues'>깃헙</a>이나 <a href='mailto:wani3327@gmail.com'>메일(wani3327@gmail.com)</a>로</li>
@@ -421,6 +422,7 @@
 
         <!-- Initializing -->
         <script>
+            $('#time').html(t);
             loadItemList();
             $('#map-content').css('display', 'none');
             $('#craft-content').css('display', 'none');

@@ -1,4 +1,5 @@
 import math
+import time
 
 def type_tr(t):
     return {
@@ -70,3 +71,5 @@ def heal_tr(i):
     else:
         return 'HR +' + str(i['hpRecover'])
 
+def now():
+    return time.strftime('%Y-%m-%d %I:%M:%S %p', time.localtime(time.time()))

@@ -153,7 +153,7 @@ itemf = str(item).replace(': ', ':').replace(', ', ',') \
                  .replace('501401', '401399')
 
 # [name, grade, craft, stat, spawn]
-js = 'var item=' + itemf + ';'
+js = 'var t="' + func.now() + '";var item=' + itemf + ';'
 db_js.write(js)
 
 py = 'itemdb=' + itemf
