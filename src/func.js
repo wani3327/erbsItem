@@ -19,8 +19,8 @@ function loadItemList()
         i = item[code]
 
         ht +=
-        `<div id='${code}' class='${rarityClass(code)}' onclick='showItem(${code})'>
-            <img title='${i[0][0]}' src='image/item/${code}.webp'/>
+        `<div id='${code}' title='${i[0][0]}' class='${rarityClass(code)}' onclick='showItem(${code})'>
+            <img src='image/item/${code}.webp'/>
             <span>${i[0][0]}</span>
         </div>`;
     });

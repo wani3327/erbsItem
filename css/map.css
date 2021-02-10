@@ -130,6 +130,11 @@
     border: 1px solid;
     margin: 2px;
     width: 110px;
+    cursor: pointer;
+}
+
+.craft-item:hover {
+    font-weight: 700;
 }
 
 #no-recipe {

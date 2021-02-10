@@ -1,10 +1,14 @@
 #prev {
-    font-weight: 700;
+    /* font-weight: 700; */
     padding: 2px;
     display: inline-block;
     width: auto;
+    cursor: pointer;
 }
 
+#prev:hover {
+    font-weight: 600;
+}
 
 .info {
     margin-bottom: 5px;
