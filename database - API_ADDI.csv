@@ -405,7 +405,7 @@ Electronic Parts,전자 부품,,SI 공격 속도를 부여합니다. (배터리 
 Blueprint,정교한 도면,,SI 생명력 흡수를 부여합니다.,EOL
 Iron Sheet,철판,,,EOL
 Gold,황금,,SI 비율 스킬 증폭을 부여합니다.,EOL
-Tree of Life,생명의 나무,생나,"00 1일 밤 숲, 2일 낮 호텔, 2일 밤 묘지에서 획득 가능",EOL
+Tree of Life,생명의 나무,생나,00 1일 밤 숲/2일 낮 호텔/2일 밤 묘지에서 획득 가능,EOL
 Moon Stone,문스톤,,,EOL
 Poison,독약,,SI 고정 스킬 증폭을 부여합니다. (재 상위),EOL
 Motor,모터,,SI 공격 속도를 부여합니다. (배터리 상위),EOL

@@ -143,8 +143,8 @@ for i in other_obt['data']:
 
 print('OTHER_OBT DONE')
 
-# Exceptions || Stone:        112101 -> 401198
-#            || Glass Bottle: 112104 -> 401199
+# Item Type  || Stone:        112101 -> 401198
+# Exceptions || Glass Bottle: 112104 -> 401199
 #            || Cell Phone:   501401 -> 401399
 
 itemf = str(item).replace(': ', ':').replace(', ', ',') \
@@ -153,7 +153,8 @@ itemf = str(item).replace(': ', ':').replace(', ', ',') \
                  .replace('501401', '401399')
 
 # [name, grade, craft, stat, spawn]
-js = 'var t="' + func.now() + '";var item=' + itemf + ';'
+js = 'var t="' + func.now() + '";' + \
+     'var item=' + itemf + ';'
 db_js.write(js)
 
 py = 'itemdb=' + itemf
