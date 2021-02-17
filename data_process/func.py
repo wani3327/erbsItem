@@ -18,34 +18,34 @@ def craft_tr(c1, c2, a):
 
 def stat_sum(i):
     statType = [
-        ['attackPower', 'AP ', ','],
+        ['attackPower', 'AP', ','],
 
-        ['increaseBasicAttackDamage', 'EN ', ','],
-        ['attackSpeedRatio', 'AS ', '%,'],
-        ['criticalStrikeChance', 'CC ', '%,'],
-        ['criticalStrikeDamage', 'CD ', '%,'],
-        ['attackRange', 'AR ', ','],
+        ['increaseBasicAttackDamage', 'EN', ','],
+        ['attackSpeedRatio', 'AS', '%,'],
+        ['criticalStrikeChance', 'CC', '%,'],
+        ['criticalStrikeDamage', 'CD', '%,'],
+        ['attackRange', 'AR', ','],
 
-        ['increaseSkillDamage', 'SA ', ','],
-        ['increaseSkillDamageRatio', 'SA ', '%,'],
-        ['cooldownReduction', 'CR ', '%,'],
-        ["maxSp", 'MS ', ','],
-        ['spRegenRatio', 'SR ', '%,'],
-        ['spRegen', 'SR ', ','],
+        ['increaseSkillDamage', 'SA', ','],
+        ['increaseSkillDamageRatio', 'SA', '%,'],
+        ['cooldownReduction', 'CR', '%,'],
+        ["maxSp", 'MS', ','],
+        ['spRegenRatio', 'SR', '%,'],
+        ['spRegen', 'SR', ','],
 
-        ['defense', 'DF ', ','],
-        ['maxHp', 'MH ', ','],
-        ['hpRegenRatio', 'HR ', '%,'],
-        ['hpRegen', 'HR ', ','],
-        ["preventBasicAttackDamaged", 'ND ', ','],
-        ["preventSkillDamagedRatio", 'SD ', '%,'],
+        ['defense', 'DF', ','],
+        ['maxHp', 'MH', ','],
+        ['hpRegenRatio', 'HR', '%,'],
+        ['hpRegen', 'HR', ','],
+        ["preventBasicAttackDamaged", 'ND', ','],
+        ["preventSkillDamagedRatio", 'SD', '%,'],
 
-        ['moveSpeed', 'SP ', ','],
-        ["outOfCombatMoveSpeed", 'SO ', ','],
-        ['sightRange', 'VR ', ','],
-        ['lifeSteal', 'LS ', '%,'],
-        ['decreaseRecoveryToBasicAttack', 'HN ', '%,'],
-        ['decreaseRecoveryToSkill', 'HS ', '%,']
+        ['moveSpeed', 'SP', ','],
+        ["outOfCombatMoveSpeed", 'SO', ','],
+        ['sightRange', 'VR', ','],
+        ['lifeSteal', 'LS', '%,'],
+        ['decreaseRecoveryToBasicAttack', 'HN', '%,'],
+        ['decreaseRecoveryToSkill', 'HS', '%,']
     ]
 
     def itoa_w_plus(n):
@@ -56,10 +56,14 @@ def stat_sum(i):
     for key, code, comma in statType:
         try:
             if i[key]:
-                if comma[0] == '%':
-                    stat += code + itoa_w_plus(math.floor(i[key] * 100)) + comma
+                # 치감일 때
+                if key[0:5] == 'decre':
+                    stat += code + ' -40' + comma
+                # %능력치 (100을 곱해줘야 함)
+                elif comma[0] == '%':
+                    stat += code + ' ' + itoa_w_plus(math.floor(i[key] * 100)) + comma
                 else:
-                    stat += code + itoa_w_plus(i[key]) + comma
+                    stat += code + ' ' + itoa_w_plus(i[key]) + comma
         except KeyError:
             pass
 
