@@ -1,14 +1,16 @@
-function showFilter(by)
+function init()
 {
-    $('.filter-tab').each(function (_) {
-        $(this).removeClass('filter-tab-on');
-    });
-    $('.selectible-filter').each(function (_) {
-        $(this).removeClass('selectible-filter-on');
-    });
+    $('#time').html(t);
+    loadItemList();
+    $('#map-content').css('display', 'none');
+    $('#craft-content').css('display', 'none');
+    $('#hunt-content').css('display', 'none');
+    search();
 
-    $('#by-' + by).addClass('filter-tab-on');
-    $('#' + by + '-filter').addClass('selectible-filter-on');
+    let regex = new RegExp('[?&]item(=([^&#]*)|&|#|$)');
+    let results = regex.exec(window.location.href);
+    if (!results || !results[2]) showItem(101101, 0);
+    else showItem(Number(results[2]), 0);
 }
 
 function loadItemList()
@@ -26,9 +28,24 @@ function loadItemList()
     });
 
     ht += '<div id="dummy1" class="dummy"></div><div id="dummy2" class="dummy"></div><div id="dummy3" class="dummy"></div>'
-    ht += '<div id="found-nothing" style="display:none;">검색 결과가 없습니다. 혹시 아이템 종류 중 아무것도 선택하지 않으신 건 아니신가요?</div>';
+    ht += '<div id="found-nothing" style="display:none;">검색 결과가 없습니다. 필터를 다시 한 번 확인해 주십시오.</div>';
 
     $('#item-list').html(ht);
+}
+
+function showFilter(by)
+{
+    $('.filter-tab').each(function (_) {
+        $(this).removeClass('filter-tab-on');
+    });
+    $('.selectible-filter').each(function (_) {
+        $(this).removeClass('selectible-filter-on');
+    });
+
+    $('#by-' + by).addClass('filter-tab-on');
+    $('#' + by + '-filter').addClass('selectible-filter-on');
+
+    refreshList();
 }
 
 function search() {
@@ -160,18 +177,25 @@ function areaSelect(id)
 function areaFilter()
 {
     let showing = [];
-    let area = $('.area-on').attr('id').replace('area-', '');
+    let area = $('.area-on').attr('id')
 
-    Object.keys(item).forEach(function (code) {
-        for (let s of item[code][4])
-        {
-            if (s[0] == area)
+    if (area == undefined)
+        showing = [];
+    else
+    {
+        area = area.replace('area-', '');
+
+        Object.keys(item).forEach(function (code) {
+            for (let s of item[code][4])
             {
-                showing.push(code);
-                break;
+                if (s[0] == area)
+                {
+                    showing.push(code);
+                    break;
+                }
             }
-        }
-    });
+        });
+    }
 
     showList(showing);
 }
@@ -206,6 +230,16 @@ function typeToggle(id)
         }
     }
 
+    refreshList();
+}
+
+function refreshList()
+{
+    function isOn(id)
+    {
+        return $(id).attr('class').includes('on');
+    }
+
     if (isOn('#by-name')) search();
     else if (isOn('#by-stat')) statFilter();
     else areaFilter();
@@ -231,6 +265,11 @@ function showList(showing)
         activatedType.push(Number(this.id.replace('type-', '')));
     });
 
+    if (activatedType.length == 0)
+    {
+        typeToggle('all');
+        return;
+    }
 
     // Displaying all activated item
     let show = 0;

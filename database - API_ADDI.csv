@@ -357,6 +357,7 @@ Quiver,화살통,,,EOL
 Feather Duster,먼지털이개,,,EOL
 Gilded Quill Fan,군선,,,EOL
 Shaman's Bronze,비파단도,,,EOL
+Decorative Flintlock,캐리비안 장식총,,,
 White Crane Fan,백우선,,,EOL
 Powder of Life,생명의 가루,,,EOL
 Uchiwa,우치와,,,EOL
@@ -366,6 +367,7 @@ Revenge of Goujian,월왕구천,,,EOL
 Moonlight Pendant,달빛 펜던트,,,EOL
 Schrodinger's Box,슈뢰딩거의 상자,,,EOL
 Veritas Lux Mea,진리는 나의 빛,,,EOL
+Buccaneer Doubloon,해적의 증표,,,
 Glacial Ice,만년빙,,,EOL
 True Samadhi Fire,삼매진화,,,EOL
 Emerald Tablet,에메랄드 타블렛,,,EOL
@@ -373,7 +375,7 @@ Stone,돌멩이,,,EOL
 Glass Bottle,유리병,,SI 치명타 확률을 부여합니다.,EOL
 Nail,못,,SI 치유 감소를 부여합니다.,EOL
 Leather,가죽,,,EOL
-Turtle Shell,거북이 등딱지,,상위 방어구에 스킬 피해량 감소를 부여합니다.,EOL
+Turtle Shell,거북이 등딱지,,00 상위 방어구에 스킬 피해량 감소를 부여합니다.,EOL
 Rubber,고무,,,EOL
 Scrap Metal,고철,,,EOL
 Lighter,라이터,,,EOL
@@ -403,7 +405,7 @@ Electronic Parts,전자 부품,,SI 공격 속도를 부여합니다. (배터리 
 Blueprint,정교한 도면,,SI 생명력 흡수를 부여합니다.,EOL
 Iron Sheet,철판,,,EOL
 Gold,황금,,SI 비율 스킬 증폭을 부여합니다.,EOL
-Tree of Life,생명의 나무,생나,,EOL
+Tree of Life,생명의 나무,생나,"00 1일 밤 숲, 2일 낮 호텔, 2일 밤 묘지에서 획득 가능",EOL
 Moon Stone,문스톤,,,EOL
 Poison,독약,,SI 고정 스킬 증폭을 부여합니다. (재 상위),EOL
 Motor,모터,,SI 공격 속도를 부여합니다. (배터리 상위),EOL
