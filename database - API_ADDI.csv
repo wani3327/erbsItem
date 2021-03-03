@@ -334,6 +334,7 @@ Feather Boots,경량화 부츠,,,EOL
 Mithril Boots,미스릴 부츠,,,EOL
 Bucephalus,부케팔로스,,,EOL
 White Rhinos,클링온 부츠,,,EOL
+Tachyon Brace,타키온 브레이스,,,EOL
 EOD Boots,EOD 부츠,,,EOL
 Glacial Shoes,글레이셜 슈즈,,,EOL
 Boots of Hermes,헤르메스의 부츠,,,EOL
@@ -357,7 +358,7 @@ Quiver,화살통,,,EOL
 Feather Duster,먼지털이개,,,EOL
 Gilded Quill Fan,군선,,,EOL
 Shaman's Bronze,비파단도,,,EOL
-Decorative Flintlock,캐리비안 장식총,,,
+Decorative Flintlock,캐리비안 장식총,,,EOL
 White Crane Fan,백우선,,,EOL
 Powder of Life,생명의 가루,,,EOL
 Uchiwa,우치와,,,EOL
@@ -367,9 +368,10 @@ Revenge of Goujian,월왕구천,,,EOL
 Moonlight Pendant,달빛 펜던트,,,EOL
 Schrodinger's Box,슈뢰딩거의 상자,,,EOL
 Veritas Lux Mea,진리는 나의 빛,,,EOL
-Buccaneer Doubloon,해적의 증표,,,
+Buccaneer Doubloon,해적의 증표,,,EOL
 Glacial Ice,만년빙,,,EOL
 True Samadhi Fire,삼매진화,,,EOL
+Lunar Embrace,요명월,,,EOL
 Emerald Tablet,에메랄드 타블렛,,,EOL
 Stone,돌멩이,,,EOL
 Glass Bottle,유리병,,SI 치명타 확률을 부여합니다.,EOL
@@ -526,7 +528,7 @@ Dynamite,다이너마이트,,AP +220,EOL
 Bamboo Trap,대나무 트랩,,AP +30,EOL
 Booby Trap,부비트랩,,AP +30,EOL
 Clang Clatter,소란 발생기,,AP +40,EOL
-Telephoto Camera,망원 카메라,,,EOL
+Telephoto Camera,망원 카메라,망카,,EOL
 Jungle Guillotine,정글 기요틴,,AP +100,EOL
 Explosive Trap,폭발 트랩,,AP +180,EOL
 Mine,지뢰,,AP +80,EOL
