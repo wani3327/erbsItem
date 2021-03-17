@@ -480,6 +480,8 @@ function showMap(code)
 
     let show = false
 
+    if (!item[code][4]) return false;
+
     for (let spawn of item[code][4])
     {
         if (spawn[0] > 0)
