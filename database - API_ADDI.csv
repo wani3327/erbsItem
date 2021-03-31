@@ -59,10 +59,11 @@ Fedorova,페도로프 자동소총,,,EOL
 STG-44,STG-44,,,EOL
 AK-47,AK-47,,,EOL
 M16A1,M16A1,,,EOL
-Machine Gun,기관총,,,EOL
 Gatling Gun,개틀링건,,,EOL
 AK-12,AK-12,,,EOL
 XCR,XCR,,,EOL
+?95,95식 자동소총,,,EOL
+?Agni,아그니,,,EOL
 Long Rifle,화승총,,,EOL
 Springfield,스프링필드,,,EOL
 Harpoon Gun,하푼건,,,EOL
@@ -294,6 +295,7 @@ Imperial Crown,제국왕관,,AL +10%,EOL
 Imperial Burgonet,황실 부르고넷,,AL +10%,EOL
 Chinese Opera Mask,변검,,AL +10%,EOL
 Laurel Wreath,월계관,,AL +10%,EOL
+?Ring of Angel,천사의 고리,,AL +10%,EOL
 Watch,손목시계,,,EOL
 Bandage,붕대,,,EOL
 Deleted2,토시,,,EOL
@@ -541,7 +543,7 @@ Mithril String,미스릴 실,,AP +300,EOL
 Fire Trap,화염 트랩,,AP +280,EOL
 Hidden Maiden,히든 메이든,,AP +300,EOL
 C-4,C-4,,AP +340,EOL
-Double Guillotine,더블 기요틴,더블기모띠,AP +340,EOL
+Double Guillotine,더블 기요틴,더블기모띠,AP +280,EOL
 Claymore,크레모어,,AP +260,EOL
 Stingburst,폭뢰침,,AP +350,EOL
 Remote Mine,리모트 마인,,AP +450,EOL
