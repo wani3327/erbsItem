@@ -180,6 +180,7 @@ Golden-Ratio Bow,골든래쇼 보우,,,EOL
 Twinbow,트윈보우,,,EOL
 Elemental Bow,엘리멘탈보우,엘보,,EOL
 Failnaught,페일노트,,,EOL
+,아르기로톡소스,,,EOL
 Short Crossbow,석궁,,,EOL
 Long Crossbow,쇠뇌,,,EOL
 Crossbow,크로스보우,,,EOL
@@ -538,12 +539,14 @@ Clang Clatter,소란 발생기,,AP +40,EOL
 Telephoto Camera,망원 카메라,망카,,EOL
 Jungle Guillotine,정글 기요틴,,AP +100,EOL
 Explosive Trap,폭발 트랩,,AP +180,EOL
+,정찰 드론,,00 지속 시간 동안 효과 범위의 공중 시야를 밝혀줍니다. (투명 및 은신은 감지하지 않습니다.),EOL
 Mine,지뢰,,AP +80,EOL
 Pendulum Axe,펜듈럼 도끼,,AP +100,EOL
 RDX,RDX,,AP +250,EOL
 Mithril String,미스릴 실,,AP +300,EOL
 Fire Trap,화염 트랩,,AP +280,EOL
 Hidden Maiden,히든 메이든,,AP +300,EOL
+,EMP 드론,,"00 지속 시간 동안 효과 범위의 공중 시야를 밝혀줍니다. (투명 및 은신, 잠입은 감지하지 않습니다.) EMP 필드를 생성하여 지속 시간 동안 효과 범위 내의 모든 트랩/포탑을 무력화 합니다.",EOL
 C-4,C-4,,AP +340,EOL
 Double Guillotine,더블 기요틴,더블기모띠,AP +280,EOL
 Claymore,크레모어,,AP +260,EOL
